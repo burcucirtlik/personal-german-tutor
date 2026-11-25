@@ -108,6 +108,10 @@ def main():
         except (OSError, ValueError, KeyError):
             sv = ev = "?"
         print(f"Sürüm: {ev} → {sv}")
+        surum = lambda v: tuple(int(x) for x in re.findall(r"\d+", v)) if v != "?" else ()
+        if surum(sv) and surum(ev) and surum(sv) < surum(ev) and "--zorla" not in sys.argv:
+            sys.exit("Kaynak daha eski bir sürüm (GitHub arşivi birkaç dakika gecikebilir). Biraz sonra tekrar dene; "
+                     "bilerek eski sürüme dönmek için --zorla.")
         print(f"{len(eklenen)} yeni, {len(degisen)} değişen, {len(silinen)} kaldırılan motor dosyası")
         for baslik, liste in (("yeni", eklenen), ("değişen", degisen), ("kaldırılan", silinen)):
             for r in liste[:40]:
