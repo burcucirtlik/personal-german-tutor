@@ -17,6 +17,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import tempfile
 import urllib.request
@@ -37,8 +38,16 @@ def kaynak_hazirla(kaynak, gecici):
         s = json.load(open(os.path.join(KOK, "_sistem", "surum.json"), encoding="utf-8"))
         url = f"{s['depo'].rstrip('/')}/archive/refs/heads/{s.get('dal', 'main')}.zip"
         print("İndiriliyor:", url)
-        with urllib.request.urlopen(url, timeout=60) as r:
-            veri = r.read()
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                veri = r.read()
+        except OSError as hata:  # ör. macOS'ta python.org Python'unun sertifika paketi yok: curl dener
+            if not shutil.which("curl"):
+                sys.exit(f"İndirilemedi ({hata}). Zip'i GitHub'dan elle indirip --kaynak ile ver.")
+            r = subprocess.run(["curl", "-sSfL", "--max-time", "120", url], capture_output=True)
+            if r.returncode:
+                sys.exit(f"İndirilemedi: {r.stderr.decode(errors='ignore').strip()}. Zip'i GitHub'dan elle indirip --kaynak ile ver.")
+            veri = r.stdout
     with zipfile.ZipFile(io.BytesIO(veri)) as z:
         z.extractall(gecici)
     icerik = [os.path.join(gecici, d) for d in os.listdir(gecici)]
