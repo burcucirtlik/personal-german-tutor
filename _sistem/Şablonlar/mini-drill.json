@@ -1,0 +1,601 @@
+{
+ "baslik": "Mini drill · sein mi, haben mi?",
+ "etiket": "sein-konjugation",
+ "bolumler": [
+  "Ayırt et: sein mi, haben mi?",
+  "Üret: durum Türkçe verilir",
+  "Cümle: iki fiil bir arada"
+ ],
+ "tablo": {
+  "baslik": "Sıfat → sein · İsim → haben",
+  "sutunlar": [
+   "Ne söylüyor?",
+   "Örnekler"
+  ],
+  "satirlar": [
+   [
+    "sein + sıfat",
+    "nasıl olduğunu",
+    "ich bin müde · du bist krank · ihr seid nass"
+   ],
+   [
+    "haben + isim",
+    "neyi olduğunu",
+    "ich habe Hunger · du hast Fieber · ihr habt Zeit"
+   ]
+  ],
+  "notlar": [
+   "Türkçede *yorgunum, hastayım* fiilsizdir; Almancada **sein** şart: Ich **bin** müde.",
+   "*Açım* Almancada *açlığım var* olur: Ich **habe** Hunger (isim → haben).",
+   "**ihr** biçimleri karışıyor: ihr **seid** (sein) · ihr **habt** (haben). *sind* sadece wir ve sie/Sie."
+  ],
+  "vurgu_satir": {
+   "sein": 0,
+   "haben": 1
+  }
+ },
+ "hedef": {
+  "dogruluk": 90,
+  "sure_sn": null
+ },
+ "sonraki": null,
+ "kategoriler": {
+  "sein": "sein + sıfat",
+  "haben": "haben + isim",
+  "ihr": "ihr: seid / habt",
+  "soru": "Soru (fiil başta)",
+  "karisik": "İkisi bir arada"
+ },
+ "sorular": [
+  {
+   "no": 1,
+   "bolum": 1,
+   "metin": "Ich ___ müde.",
+   "ipucu": "sein / haben?",
+   "kategori": "sein",
+   "tr": "Yorgunum.",
+   "cevaplar": [
+    [
+     "bin"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "müde bir **sıfat** → ich **bin**. **sein** + sıfat: kişinin *nasıl* olduğunu söyler (yorgun, hasta, ıslak). Türkçede *yorgunum* fiilsizdir, Almancada **sein** şart."
+  },
+  {
+   "no": 2,
+   "bolum": 1,
+   "metin": "Ich ___ Hunger.",
+   "ipucu": "sein / haben?",
+   "kategori": "haben",
+   "tr": "Açım.",
+   "cevaplar": [
+    [
+     "habe"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Hunger bir **isim** (açlık) → ich **habe**. **haben** + isim: kişinin *neyi olduğunu* söyler (açlık, susuzluk, ateş, vakit, korku)."
+  },
+  {
+   "no": 3,
+   "bolum": 1,
+   "metin": "Kofi ___ nass.",
+   "ipucu": "sein / haben?",
+   "kategori": "sein",
+   "tr": "Kofi ıslak.",
+   "cevaplar": [
+    [
+     "ist"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "nass sıfat → er **ist**."
+  },
+  {
+   "no": 4,
+   "bolum": 1,
+   "metin": "Lena ___ Durst.",
+   "ipucu": "sein / haben?",
+   "kategori": "haben",
+   "tr": "Lena susamış.",
+   "cevaplar": [
+    [
+     "hat"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Durst isim (susuzluk) → sie **hat**."
+  },
+  {
+   "no": 5,
+   "bolum": 1,
+   "metin": "Wir ___ krank.",
+   "ipucu": "sein / haben?",
+   "kategori": "sein",
+   "tr": "Hastayız.",
+   "cevaplar": [
+    [
+     "sind"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "krank sıfat → wir **sind**."
+  },
+  {
+   "no": 6,
+   "bolum": 1,
+   "metin": "Ihr ___ Zeit.",
+   "ipucu": "sein / haben?",
+   "kategori": "ihr",
+   "tr": "Vaktiniz var.",
+   "cevaplar": [
+    [
+     "habt"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Zeit isim → ihr **habt**. ihr: sein → **seid**, haben → **habt**."
+  },
+  {
+   "no": 7,
+   "bolum": 1,
+   "metin": "Ihr ___ müde.",
+   "ipucu": "sein / haben?",
+   "kategori": "ihr",
+   "tr": "Yorgunsunuz.",
+   "cevaplar": [
+    [
+     "seid"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "müde sıfat → ihr **seid** (*sind* değil: sind = wir / sie)."
+  },
+  {
+   "no": 8,
+   "bolum": 1,
+   "metin": "Du ___ Angst.",
+   "ipucu": "sein / haben?",
+   "kategori": "haben",
+   "tr": "Korkuyorsun.",
+   "cevaplar": [
+    [
+     "hast"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Angst isim (korku) → du **hast**."
+  },
+  {
+   "no": 9,
+   "bolum": 1,
+   "metin": "Du ___ wach.",
+   "ipucu": "sein / haben?",
+   "kategori": "sein",
+   "tr": "Uyanıksın.",
+   "cevaplar": [
+    [
+     "bist"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "wach sıfat → du **bist**."
+  },
+  {
+   "no": 10,
+   "bolum": 1,
+   "metin": "Ingrid ___ Fieber.",
+   "ipucu": "sein / haben?",
+   "kategori": "haben",
+   "tr": "Ingrid'in ateşi var.",
+   "cevaplar": [
+    [
+     "hat"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Fieber isim (ateş) → sie **hat**."
+  },
+  {
+   "no": 11,
+   "bolum": 2,
+   "metin": "Pavel ___ heute sehr müde.",
+   "ipucu": "yorgun",
+   "kategori": "sein",
+   "tr": "Pavel bugün çok yorgun.",
+   "cevaplar": [
+    [
+     "ist"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "müde → **sein**: er **ist**."
+  },
+  {
+   "no": 12,
+   "bolum": 2,
+   "metin": "Wir ___ jetzt Hunger.",
+   "ipucu": "aç (açlık)",
+   "kategori": "haben",
+   "tr": "Şimdi açız.",
+   "cevaplar": [
+    [
+     "haben"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Hunger → **haben**: wir **haben**."
+  },
+  {
+   "no": 13,
+   "bolum": 2,
+   "metin": "___ ihr krank?",
+   "ipucu": "hasta",
+   "kategori": "soru",
+   "tr": "Hasta mısınız?",
+   "cevaplar": [
+    [
+     "Seid"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "Soruda fiil başta: **Seid** ihr krank? (ihr + sein = seid)"
+  },
+  {
+   "no": 14,
+   "bolum": 2,
+   "metin": "___ du Durst?",
+   "ipucu": "susamış (susuzluk)",
+   "kategori": "soru",
+   "tr": "Susadın mı?",
+   "cevaplar": [
+    [
+     "Hast"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Soruda fiil başta: **Hast** du Durst?"
+  },
+  {
+   "no": 15,
+   "bolum": 2,
+   "metin": "Amira und Yuki ___ nass.",
+   "ipucu": "ıslak",
+   "kategori": "sein",
+   "tr": "Amira ve Yuki ıslak.",
+   "cevaplar": [
+    [
+     "sind"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "İki kişi = sie (çoğul) → **sind**."
+  },
+  {
+   "no": 16,
+   "bolum": 2,
+   "metin": "Ihr ___ Angst.",
+   "ipucu": "korku",
+   "kategori": "ihr",
+   "tr": "Korkuyorsunuz.",
+   "cevaplar": [
+    [
+     "habt"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Angst isim → ihr **habt**."
+  },
+  {
+   "no": 17,
+   "bolum": 2,
+   "metin": "Ich ___ allein im Turm.",
+   "ipucu": "yalnız",
+   "kategori": "sein",
+   "tr": "Kulede yalnızım.",
+   "cevaplar": [
+    [
+     "bin"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "allein sıfat gibi çalışır → ich **bin**."
+  },
+  {
+   "no": 18,
+   "bolum": 2,
+   "metin": "Mehmet ___ Kopfschmerzen.",
+   "ipucu": "baş ağrısı",
+   "kategori": "haben",
+   "tr": "Mehmet'in başı ağrıyor.",
+   "cevaplar": [
+    [
+     "hat"
+    ]
+   ],
+   "cins": [
+    "haben"
+   ],
+   "aciklama": "Kopfschmerzen isim (baş ağrısı) → er **hat**."
+  },
+  {
+   "no": 19,
+   "bolum": 2,
+   "metin": "___ Sie müde, Ingrid?",
+   "ipucu": "yorgun",
+   "kategori": "soru",
+   "tr": "Yorgun musunuz, Ingrid?",
+   "cevaplar": [
+    [
+     "Sind"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "Sie (resmi siz) + sein → **Sind** Sie …?"
+  },
+  {
+   "no": 20,
+   "bolum": 2,
+   "metin": "___ du fertig?",
+   "ipucu": "hazır, bitmiş",
+   "kategori": "soru",
+   "tr": "Hazır mısın?",
+   "cevaplar": [
+    [
+     "Bist"
+    ]
+   ],
+   "cins": [
+    "sein"
+   ],
+   "aciklama": "fertig sıfat → **Bist** du fertig?"
+  },
+  {
+   "no": 21,
+   "bolum": 3,
+   "metin": "Ich ___ müde und ich ___ Hunger.",
+   "ipucu": "yorgun · aç",
+   "kategori": "karisik",
+   "tr": "Yorgunum ve açım.",
+   "cevaplar": [
+    [
+     "bin"
+    ],
+    [
+     "habe"
+    ]
+   ],
+   "cins": [
+    "sein",
+    "haben"
+   ],
+   "aciklama": "müde → **bin**, Hunger → **habe**. Sıfat → sein, isim → haben."
+  },
+  {
+   "no": 22,
+   "bolum": 3,
+   "metin": "Lena ___ krank. Sie ___ Fieber.",
+   "ipucu": "hasta · ateş",
+   "kategori": "karisik",
+   "tr": "Lena hasta. Ateşi var.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "hat"
+    ]
+   ],
+   "cins": [
+    "sein",
+    "haben"
+   ],
+   "aciklama": "krank sıfat → **ist**; Fieber isim → **hat**."
+  },
+  {
+   "no": 23,
+   "bolum": 3,
+   "metin": "___ ihr nass? ___ ihr Durst?",
+   "ipucu": "ıslak · susuzluk",
+   "kategori": "ihr",
+   "tr": "Islak mısınız? Susadınız mı?",
+   "cevaplar": [
+    [
+     "Seid"
+    ],
+    [
+     "Habt"
+    ]
+   ],
+   "cins": [
+    "sein",
+    "haben"
+   ],
+   "aciklama": "ihr: **seid** (sein) / **habt** (haben)."
+  },
+  {
+   "no": 24,
+   "bolum": 3,
+   "metin": "Wir ___ Zeit und wir ___ wach.",
+   "ipucu": "vakit · uyanık",
+   "kategori": "karisik",
+   "tr": "Vaktimiz var ve uyanığız.",
+   "cevaplar": [
+    [
+     "haben"
+    ],
+    [
+     "sind"
+    ]
+   ],
+   "cins": [
+    "haben",
+    "sein"
+   ],
+   "aciklama": "Zeit isim → **haben**; wach sıfat → **sind**."
+  },
+  {
+   "no": 25,
+   "bolum": 3,
+   "metin": "Kofi ___ Angst. Er ___ allein am Tor.",
+   "ipucu": "korku · yalnız",
+   "kategori": "karisik",
+   "tr": "Kofi korkuyor. Kapıda yalnız.",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "ist"
+    ]
+   ],
+   "cins": [
+    "haben",
+    "sein"
+   ],
+   "aciklama": "Angst → **hat**; allein → **ist**."
+  },
+  {
+   "no": 26,
+   "bolum": 3,
+   "metin": "Du ___ Hunger und du ___ müde.",
+   "ipucu": "aç · yorgun",
+   "kategori": "karisik",
+   "tr": "Açsın ve yorgunsun.",
+   "cevaplar": [
+    [
+     "hast"
+    ],
+    [
+     "bist"
+    ]
+   ],
+   "cins": [
+    "haben",
+    "sein"
+   ],
+   "aciklama": "Hunger → **hast**; müde → **bist**."
+  },
+  {
+   "no": 27,
+   "bolum": 3,
+   "metin": "Ihr ___ krank und ihr ___ Fieber.",
+   "ipucu": "hasta · ateş",
+   "kategori": "ihr",
+   "tr": "Hastasınız ve ateşiniz var.",
+   "cevaplar": [
+    [
+     "seid"
+    ],
+    [
+     "habt"
+    ]
+   ],
+   "cins": [
+    "sein",
+    "haben"
+   ],
+   "aciklama": "ihr: krank → **seid**, Fieber → **habt**."
+  },
+  {
+   "no": 28,
+   "bolum": 3,
+   "metin": "___ Sie Zeit? ___ Sie fertig?",
+   "ipucu": "vakit · hazır",
+   "kategori": "soru",
+   "tr": "Vaktiniz var mı? Hazır mısınız?",
+   "cevaplar": [
+    [
+     "Haben"
+    ],
+    [
+     "Sind"
+    ]
+   ],
+   "cins": [
+    "haben",
+    "sein"
+   ],
+   "aciklama": "Zeit → **Haben** Sie; fertig → **Sind** Sie."
+  },
+  {
+   "no": 29,
+   "bolum": 3,
+   "metin": "Pavel und Bernd ___ nass. Sie ___ Durst.",
+   "ipucu": "ıslak · susuzluk",
+   "kategori": "karisik",
+   "tr": "Pavel ve Bernd ıslak. Susamışlar.",
+   "cevaplar": [
+    [
+     "sind"
+    ],
+    [
+     "haben"
+    ]
+   ],
+   "cins": [
+    "sein",
+    "haben"
+   ],
+   "aciklama": "nass → **sind**; Durst → **haben** (sie çoğul)."
+  },
+  {
+   "no": 30,
+   "bolum": 3,
+   "metin": "Ich ___ Angst, ich ___ allein.",
+   "ipucu": "korku · yalnız",
+   "kategori": "karisik",
+   "tr": "Korkuyorum, yalnızım.",
+   "cevaplar": [
+    [
+     "habe"
+    ],
+    [
+     "bin"
+    ]
+   ],
+   "cins": [
+    "haben",
+    "sein"
+   ],
+   "aciklama": "Angst → **habe**; allein → **bin**."
+  }
+ ]
+}

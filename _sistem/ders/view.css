@@ -1,0 +1,14 @@
+.ds-root {
+  border: 1px solid rgba(34, 184, 207, 0.3);
+  background: rgba(34, 184, 207, 0.07);
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 6px 0 14px;
+}
+.ds-summary { cursor: pointer; font-weight: 800; color: rgb(34, 184, 207); list-style: none; }
+.ds-summary::-webkit-details-marker { display: none; }
+.ds-summary::before { content: "▸ "; display: inline-block; transition: transform 0.15s; }
+.ds-root[open] > .ds-summary::before { transform: rotate(90deg); }
+.ds-body { margin-top: 10px; }
+.ds-body table { width: 100%; }
+.ds-link { display: inline-block; margin-top: 8px; font-size: 0.85em; cursor: pointer; }

@@ -1,0 +1,9 @@
+{
+  "id": "almanca-yardimci",
+  "name": "Almanca Yardımcı",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Almanca Vault için: notları okuma modunda açar ve sayfadaki Almanca kelimelere tıklayınca Türkçesini gösterir.",
+  "author": "Almanca Vault",
+  "isDesktopOnly": false
+}

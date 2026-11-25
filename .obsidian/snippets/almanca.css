@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+/* Almanca Vault teması: yazı tipi, başlıklar, soru kartları, geri bildirim kutuları */
+
+body {
+  --font-text-theme: "Nunito", system-ui, sans-serif;
+  --font-interface-theme: "Nunito", system-ui, sans-serif;
+  --al-accent: 124, 92, 255;
+  --al-good: 47, 191, 113;
+  --al-bad: 255, 107, 107;
+  --al-mid: 245, 184, 61;
+  --al-info: 34, 184, 207;
+  --h1-weight: 800;
+  --h2-weight: 800;
+  --h3-weight: 700;
+  --bold-weight: 700;
+}
+
+/* başlıklar */
+.markdown-rendered h1, .HyperMD-header-1, .inline-title {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.markdown-rendered h2, .HyperMD-header-2 {
+  font-weight: 800;
+  color: rgb(var(--al-accent));
+}
+.markdown-rendered h2 {
+  padding: 6px 0 6px 14px;
+  border-left: 4px solid rgb(var(--al-accent));
+  border-radius: 0;
+  margin-top: 2em;
+}
+.markdown-rendered h2 a.internal-link, .HyperMD-header-2 .cm-hmd-internal-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* antrenman notları */
+.antrenman .metadata-container { display: none; }
+.antrenman strong { color: rgb(var(--al-accent)); }
+.antrenman .markdown-rendered p, .antrenman .cm-line { line-height: 1.75; }
+
+/* özel kutular (callout) */
+.callout {
+  border-radius: 14px;
+  border: 1px solid rgba(var(--callout-color), 0.25);
+  background: rgba(var(--callout-color), 0.08);
+  padding: 12px 16px;
+}
+.callout-title { font-weight: 800; }
+
+.callout[data-callout="soru"] { --callout-color: var(--al-accent); --callout-icon: lucide-pencil-line; }
+.callout[data-callout="ders"] { --callout-color: var(--al-info); --callout-icon: lucide-book-open; }
+.callout[data-callout="dogru"] { --callout-color: var(--al-good); --callout-icon: lucide-check-circle-2; }
+.callout[data-callout="yanlis"] { --callout-color: var(--al-bad); --callout-icon: lucide-x-circle; }
+.callout[data-callout="kismen"] { --callout-color: var(--al-mid); --callout-icon: lucide-circle-dot; }
+.callout[data-callout="sonuc"] { --callout-color: var(--al-accent); --callout-icon: lucide-trophy; }
+.callout[data-callout="dinle"] { --callout-color: var(--al-info); --callout-icon: lucide-headphones; }
+
+.callout[data-callout="soru"] .callout-content { font-size: 1.08em; font-weight: 600; }
+.callout[data-callout="dogru"], .callout[data-callout="yanlis"], .callout[data-callout="kismen"] { padding: 8px 14px; }
+
+/* tablolar */
+.markdown-rendered table { border-radius: 12px; overflow: hidden; border-collapse: separate; border-spacing: 0; }
+.markdown-rendered th { background: rgba(var(--al-accent), 0.12); font-weight: 800; }
+.markdown-rendered td, .markdown-rendered th { border-color: rgba(127, 127, 127, 0.18); }
+
+/* kod parçaları */
+.markdown-rendered code, .cm-inline-code {
+  border-radius: 6px;
+  color: rgb(var(--al-accent));
+}

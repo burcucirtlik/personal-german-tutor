@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "almanca",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-I", "_sistem/web/sunucu.py", "--acma", "--port=8765"],
+      "port": 8765
+    }
+  ]
+}

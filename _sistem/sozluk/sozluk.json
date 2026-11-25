@@ -1,0 +1,7274 @@
+{
+ "kelimeler": {
+  "ab": {
+   "tr": "…'den itibaren"
+  },
+  "abend": {
+   "tr": "akşam",
+   "kok": "der Abend",
+   "not": "am Abend = akşamleyin"
+  },
+  "aber": {
+   "tr": "ama"
+  },
+  "alle": {
+   "tr": "herkes, hepsi",
+   "kok": "alle"
+  },
+  "alt": {
+   "tr": "yaşlı, eski"
+  },
+  "alte": {
+   "tr": "eski",
+   "kok": "alt"
+  },
+  "alten": {
+   "tr": "eski",
+   "kok": "alt",
+   "not": "sıfat eki: einen alten Sender"
+  },
+  "am": {
+   "tr": "…'de (an dem)",
+   "kok": "an + dem",
+   "not": "günlerle: am Montag"
+  },
+  "an": {
+   "tr": "…'e, …'de; (ayrılabilen ek)",
+   "not": "anmachen, anfangen: fiilin ön eki sona gider"
+  },
+  "anfänger": {
+   "tr": "yeni başlayan",
+   "kok": "der Anfänger, -"
+  },
+  "angst": {
+   "tr": "korku",
+   "kok": "die Angst",
+   "not": "Angst haben = korkmak"
+  },
+  "arzt-sprechstunde": {
+   "tr": "doktor muayene saati",
+   "kok": "die Sprechstunde"
+  },
+  "arzt": {
+   "tr": "doktor",
+   "kok": "der Arzt, die Ärzte"
+  },
+  "auf": {
+   "tr": "üzerine, üstünde; (ayrılabilen ek)",
+   "not": "aufstehen: auf sona gider"
+  },
+  "aufräume": {
+   "tr": "topluyorum (odayı)",
+   "kok": "aufräumen",
+   "not": "ayrılabilen fiil: ich räume … auf"
+  },
+  "aus": {
+   "tr": "…'den (çıkış yeri)",
+   "not": "+ Dativ: aus der Türkei"
+  },
+  "auto": {
+   "tr": "araba",
+   "kok": "das Auto, -s"
+  },
+  "beginnt": {
+   "tr": "başlıyor",
+   "kok": "beginnen"
+  },
+  "bei": {
+   "tr": "…'in yanında, …'de",
+   "not": "+ Dativ: bei Oma Gerda"
+  },
+  "bewohner": {
+   "tr": "sakinler (erkek/genel)",
+   "kok": "der Bewohner, -"
+  },
+  "bewohnerinnen": {
+   "tr": "sakinler (kadın)",
+   "kok": "die Bewohnerin, -nen"
+  },
+  "bin": {
+   "tr": "(ben) …im",
+   "kok": "sein",
+   "not": "ich bin"
+  },
+  "bis": {
+   "tr": "…'e kadar"
+  },
+  "bisschen": {
+   "tr": "biraz",
+   "kok": "ein bisschen"
+  },
+  "bitte": {
+   "tr": "lütfen"
+  },
+  "blinkt": {
+   "tr": "yanıp sönüyor",
+   "kok": "blinken"
+  },
+  "bringen": {
+   "tr": "getirmek",
+   "kok": "bringen",
+   "not": "mitbringen = yanında getirmek"
+  },
+  "bruder": {
+   "tr": "erkek kardeş",
+   "kok": "der Bruder, die Brüder"
+  },
+  "buch": {
+   "tr": "kitap",
+   "kok": "das Buch, die Bücher"
+  },
+  "bäckerei": {
+   "tr": "fırın (dükkân)",
+   "kok": "die Bäckerei, -en"
+  },
+  "cds": {
+   "tr": "CD'ler",
+   "kok": "die CD, -s"
+  },
+  "da": {
+   "tr": "orada; o zaman",
+   "not": "Ist da jemand? = Orada kimse var mı?"
+  },
+  "dann": {
+   "tr": "sonra, o zaman"
+  },
+  "das": {
+   "tr": "(nötr artikel) the; bu, o",
+   "kok": "das",
+   "not": "das Buch; Das ist… = Bu…"
+  },
+  "dem": {
+   "tr": "(Dativ artikel)",
+   "kok": "der / das",
+   "not": "der/das → dem (Dativ)"
+  },
+  "den": {
+   "tr": "(Akkusativ eril artikel)",
+   "kok": "der",
+   "not": "der → den (Akkusativ); çoğul Dativ"
+  },
+  "der": {
+   "tr": "(eril artikel)",
+   "kok": "der",
+   "not": "dişil Dativ'de de der: aus der Türkei"
+  },
+  "deutsch": {
+   "tr": "Almanca; Alman"
+  },
+  "deutschkurs": {
+   "tr": "Almanca kursu",
+   "kok": "der Deutschkurs, -e"
+  },
+  "dicke": {
+   "tr": "kalın",
+   "kok": "dick",
+   "not": "sıfat eki: dicke Wände"
+  },
+  "die": {
+   "tr": "(dişil / çoğul artikel)",
+   "kok": "die"
+  },
+  "dr": {
+   "tr": "Dr. (doktor unvanı)"
+  },
+  "du": {
+   "tr": "sen"
+  },
+  "dönerladen": {
+   "tr": "döner dükkânı",
+   "kok": "der Dönerladen, -läden"
+  },
+  "ein": {
+   "tr": "bir (eril/nötr)",
+   "kok": "ein"
+  },
+  "eine": {
+   "tr": "bir (dişil)",
+   "kok": "ein"
+  },
+  "einen": {
+   "tr": "bir (eril, Akkusativ)",
+   "kok": "ein",
+   "not": "ein → einen (Akkusativ)"
+  },
+  "er": {
+   "tr": "o (erkek)"
+  },
+  "es": {
+   "tr": "o (nötr)",
+   "not": "es gibt = var"
+  },
+  "esse": {
+   "tr": "yiyorum",
+   "kok": "essen",
+   "not": "ich esse, du isst"
+  },
+  "essen": {
+   "tr": "yemek yemek",
+   "kok": "essen"
+  },
+  "etwas": {
+   "tr": "bir şey"
+  },
+  "euren": {
+   "tr": "sizin (eril, Akkusativ)",
+   "kok": "euer",
+   "not": "Trinkt euren Kaffee!"
+  },
+  "fahren": {
+   "tr": "(araçla) gitmek",
+   "kok": "fahren",
+   "not": "du fährst"
+  },
+  "fahrrad": {
+   "tr": "bisiklet",
+   "kok": "das Fahrrad, -räder"
+  },
+  "feld": {
+   "tr": "tarla, açık alan",
+   "kok": "das Feld, -er",
+   "not": "Tempelhofer Feld"
+  },
+  "flughafen": {
+   "tr": "havalimanı",
+   "kok": "der Flughafen, -häfen"
+  },
+  "frage": {
+   "tr": "soru",
+   "kok": "die Frage, -n"
+  },
+  "freitag": {
+   "tr": "cuma",
+   "kok": "der Freitag"
+  },
+  "freunde": {
+   "tr": "arkadaşlar",
+   "kok": "der Freund, -e"
+  },
+  "freundin": {
+   "tr": "kız arkadaş, arkadaş (kadın)",
+   "kok": "die Freundin, -nen"
+  },
+  "früher": {
+   "tr": "eskiden"
+  },
+  "fußball": {
+   "tr": "futbol",
+   "kok": "der Fußball"
+  },
+  "fährt": {
+   "tr": "gidiyor, çalışıyor (araç)",
+   "kok": "fahren",
+   "not": "er fährt (a → ä)"
+  },
+  "für": {
+   "tr": "için",
+   "not": "+ Akkusativ: für den Hund"
+  },
+  "garten": {
+   "tr": "bahçe",
+   "kok": "der Garten, die Gärten"
+  },
+  "gebe": {
+   "tr": "veriyorum",
+   "kok": "geben",
+   "not": "ich gebe, du gibst"
+  },
+  "gehe": {
+   "tr": "gidiyorum",
+   "kok": "gehen"
+  },
+  "gerda": {
+   "tr": "Gerda (isim)"
+  },
+  "gern": {
+   "tr": "severek, memnuniyetle",
+   "not": "Ich esse gern… = …yemeyi severim"
+  },
+  "geschlossen": {
+   "tr": "kapalı",
+   "kok": "schließen"
+  },
+  "gespielt": {
+   "tr": "oynadı(m)",
+   "kok": "spielen",
+   "not": "Partizip II: ge-spiel-t"
+  },
+  "gestern": {
+   "tr": "dün"
+  },
+  "ghana": {
+   "tr": "Gana"
+  },
+  "gibt": {
+   "tr": "var (es gibt)",
+   "kok": "geben",
+   "not": "es gibt + Akkusativ = …var"
+  },
+  "groß": {
+   "tr": "büyük"
+  },
+  "großen": {
+   "tr": "büyük",
+   "kok": "groß",
+   "not": "sıfat eki: einen großen Topf"
+  },
+  "grün": {
+   "tr": "yeşil"
+  },
+  "gut": {
+   "tr": "iyi"
+  },
+  "guten": {
+   "tr": "iyi",
+   "kok": "gut",
+   "not": "Guten Morgen = Günaydın"
+  },
+  "habe": {
+   "tr": "(benim) var; (Perfekt yardımcı fiili)",
+   "kok": "haben",
+   "not": "ich habe"
+  },
+  "haben": {
+   "tr": "sahip olmak"
+  },
+  "hallo": {
+   "tr": "merhaba"
+  },
+  "hamburg": {
+   "tr": "Hamburg"
+  },
+  "hangar": {
+   "tr": "hangar",
+   "kok": "der Hangar, -s"
+  },
+  "hast": {
+   "tr": "(senin) var",
+   "kok": "haben",
+   "not": "du hast"
+  },
+  "hat": {
+   "tr": "(onun) var",
+   "kok": "haben",
+   "not": "er/sie hat"
+  },
+  "hatte": {
+   "tr": "vardı",
+   "kok": "haben",
+   "not": "Präteritum: ich hatte"
+  },
+  "heiße": {
+   "tr": "adım …",
+   "kok": "heißen",
+   "not": "ich heiße"
+  },
+  "heißt": {
+   "tr": "adı …",
+   "kok": "heißen",
+   "not": "er heißt / du heißt"
+  },
+  "herein": {
+   "tr": "içeri",
+   "not": "Kommen Sie herein! = İçeri buyurun!"
+  },
+  "heute": {
+   "tr": "bugün"
+  },
+  "hier": {
+   "tr": "burada"
+  },
+  "hoffmann": {
+   "tr": "Hoffmann (soyadı)"
+  },
+  "hund": {
+   "tr": "köpek",
+   "kok": "der Hund, -e"
+  },
+  "höre": {
+   "tr": "duyuyorum, dinliyorum",
+   "kok": "hören"
+  },
+  "hört": {
+   "tr": "dinliyor; (ihr'e emir) dinleyin",
+   "kok": "hören"
+  },
+  "ich": {
+   "tr": "ben"
+  },
+  "ihr": {
+   "tr": "siz; onun (kadın)"
+  },
+  "ihre": {
+   "tr": "onun (kadın); sizin (Sie)",
+   "kok": "ihr / Ihr",
+   "not": "Ihre Medikamente = ilaçlarınız"
+  },
+  "im": {
+   "tr": "…'de, içinde (in dem)",
+   "kok": "in + dem"
+  },
+  "immer": {
+   "tr": "her zaman",
+   "not": "immer noch = hâlâ"
+  },
+  "in": {
+   "tr": "içinde, …'de"
+  },
+  "ingrid": {
+   "tr": "Ingrid (isim)"
+  },
+  "ist": {
+   "tr": "…dir, …dır",
+   "kok": "sein",
+   "not": "er/sie/es ist"
+  },
+  "ja": {
+   "tr": "evet"
+  },
+  "jahre": {
+   "tr": "yıllar, yaş",
+   "kok": "das Jahr, -e",
+   "not": "52 Jahre alt = 52 yaşında"
+  },
+  "japan": {
+   "tr": "Japonya"
+  },
+  "jeden": {
+   "tr": "her",
+   "kok": "jeder",
+   "not": "jeden Tag = her gün"
+  },
+  "jemand": {
+   "tr": "biri"
+  },
+  "jetzt": {
+   "tr": "şimdi"
+  },
+  "kaffee": {
+   "tr": "kahve",
+   "kok": "der Kaffee"
+  },
+  "kaputt": {
+   "tr": "bozuk"
+  },
+  "karotten": {
+   "tr": "havuçlar",
+   "kok": "die Karotte, -n"
+  },
+  "kartoffel": {
+   "tr": "patates (köpeğin adı!)",
+   "kok": "die Kartoffel, -n"
+  },
+  "kartoffeln": {
+   "tr": "patatesler",
+   "kok": "die Kartoffel, -n"
+  },
+  "kassetten": {
+   "tr": "kasetler",
+   "kok": "die Kassette, -n"
+  },
+  "kaufen": {
+   "tr": "satın almak"
+  },
+  "kein": {
+   "tr": "hiç … yok (eril/nötr)",
+   "kok": "kein"
+  },
+  "keine": {
+   "tr": "hiç … yok (dişil/çoğul)",
+   "kok": "kein",
+   "not": "keine Angst = korku yok"
+  },
+  "kenne": {
+   "tr": "tanıyorum",
+   "kok": "kennen"
+  },
+  "kennst": {
+   "tr": "tanıyor musun",
+   "kok": "kennen",
+   "not": "du kennst"
+  },
+  "kinder": {
+   "tr": "çocuklar",
+   "kok": "das Kind, -er"
+  },
+  "kinderspielzeit": {
+   "tr": "çocuk oyun saati",
+   "kok": "die Spielzeit"
+  },
+  "kiste": {
+   "tr": "sandık, kutu",
+   "kok": "die Kiste, -n"
+  },
+  "koche": {
+   "tr": "yemek pişiriyorum",
+   "kok": "kochen"
+  },
+  "kofi": {
+   "tr": "Kofi (isim)"
+  },
+  "komm": {
+   "tr": "gel! (du)",
+   "kok": "kommen",
+   "not": "Imperativ"
+  },
+  "komme": {
+   "tr": "geliyorum",
+   "kok": "kommen"
+  },
+  "kommen": {
+   "tr": "gelmek"
+  },
+  "kommst": {
+   "tr": "geliyorsun",
+   "kok": "kommen"
+  },
+  "kommt": {
+   "tr": "geliyor; gelin! (ihr)",
+   "kok": "kommen"
+  },
+  "kopfschmerzen": {
+   "tr": "baş ağrısı",
+   "kok": "die Kopfschmerzen (Pl.)"
+  },
+  "kurz": {
+   "tr": "kısa"
+  },
+  "küche": {
+   "tr": "mutfak",
+   "kok": "die Küche, -n"
+  },
+  "lang": {
+   "tr": "uzun"
+  },
+  "langsam": {
+   "tr": "yavaş"
+  },
+  "langsamen": {
+   "tr": "yavaşlar (zombiler)",
+   "kok": "langsam",
+   "not": "die Langsamen"
+  },
+  "lecker": {
+   "tr": "lezzetli"
+  },
+  "lehrerin": {
+   "tr": "öğretmen (kadın)",
+   "kok": "die Lehrerin, -nen"
+  },
+  "lena": {
+   "tr": "Lena (isim)"
+  },
+  "lernen": {
+   "tr": "öğrenmek"
+  },
+  "lese": {
+   "tr": "okuyorum",
+   "kok": "lesen",
+   "not": "ich lese, du liest"
+  },
+  "leute": {
+   "tr": "insanlar",
+   "kok": "die Leute (Pl.)"
+  },
+  "licht": {
+   "tr": "ışık",
+   "kok": "das Licht, -er"
+  },
+  "liebe": {
+   "tr": "sevgili; seviyorum",
+   "kok": "lieb / lieben",
+   "not": "Liebe Bewohner = Sevgili sakinler"
+  },
+  "lieben": {
+   "tr": "sevmek"
+  },
+  "läden": {
+   "tr": "dükkânlar",
+   "kok": "der Laden, die Läden"
+  },
+  "mache": {
+   "tr": "yapıyorum",
+   "kok": "machen",
+   "not": "mache … an = açıyorum (anmachen)"
+  },
+  "machen": {
+   "tr": "yapmak"
+  },
+  "macht": {
+   "tr": "yapıyor",
+   "kok": "machen",
+   "not": "Licht machen = ışık yakmak"
+  },
+  "mag": {
+   "tr": "seviyor, hoşlanıyor",
+   "kok": "mögen",
+   "not": "er mag"
+  },
+  "man": {
+   "tr": "insan (genel özne)",
+   "not": "Man soll… = …mak gerekir"
+  },
+  "markttag": {
+   "tr": "pazar günü (pazar kurulan gün)",
+   "kok": "der Markttag, -e"
+  },
+  "medikamente": {
+   "tr": "ilaçlar",
+   "kok": "das Medikament, -e"
+  },
+  "mehmet": {
+   "tr": "Mehmet (isim)"
+  },
+  "mehr": {
+   "tr": "daha fazla",
+   "not": "keine … mehr = artık … yok"
+  },
+  "mein": {
+   "tr": "benim"
+  },
+  "meine": {
+   "tr": "benim (dişil/çoğul)",
+   "kok": "mein"
+  },
+  "menschen": {
+   "tr": "insanlar",
+   "kok": "der Mensch, -en"
+  },
+  "messer": {
+   "tr": "bıçak",
+   "kok": "das Messer, -"
+  },
+  "mich": {
+   "tr": "beni",
+   "kok": "ich",
+   "not": "Akkusativ"
+  },
+  "mikrofone": {
+   "tr": "mikrofonlar",
+   "kok": "das Mikrofon, -e"
+  },
+  "mir": {
+   "tr": "bana",
+   "kok": "ich",
+   "not": "Dativ"
+  },
+  "mit": {
+   "tr": "ile",
+   "not": "+ Dativ: mit dem Bus"
+  },
+  "mitbringen": {
+   "tr": "yanında getirmek",
+   "not": "ayrılabilen fiil"
+  },
+  "mittwoch": {
+   "tr": "çarşamba",
+   "kok": "der Mittwoch"
+  },
+  "montag": {
+   "tr": "pazartesi",
+   "kok": "der Montag"
+  },
+  "morgen": {
+   "tr": "yarın; sabah",
+   "kok": "der Morgen",
+   "not": "Guten Morgen = günaydın"
+  },
+  "musik": {
+   "tr": "müzik",
+   "kok": "die Musik"
+  },
+  "möchten": {
+   "tr": "istemek (kibar)",
+   "kok": "möchten"
+  },
+  "na": {
+   "tr": "eh, şey",
+   "not": "na ja = şey yani; na gut = peki"
+  },
+  "neben": {
+   "tr": "yanında"
+  },
+  "nennen": {
+   "tr": "adlandırmak, demek"
+  },
+  "neukölln": {
+   "tr": "Neukölln (Berlin'de bir semt)"
+  },
+  "nicht": {
+   "tr": "değil"
+  },
+  "noch": {
+   "tr": "hâlâ, daha",
+   "not": "immer noch = hâlâ"
+  },
+  "norden": {
+   "tr": "kuzey",
+   "kok": "der Norden"
+  },
+  "nur": {
+   "tr": "sadece"
+  },
+  "oben": {
+   "tr": "yukarıda"
+  },
+  "oder": {
+   "tr": "veya"
+  },
+  "offen": {
+   "tr": "açık"
+  },
+  "oma": {
+   "tr": "büyükanne",
+   "kok": "die Oma, -s"
+  },
+  "paar": {
+   "tr": "çift",
+   "kok": "das Paar, -e",
+   "not": "zwei Paar Socken = iki çift çorap"
+  },
+  "pavel": {
+   "tr": "Pavel (isim)"
+  },
+  "praxis": {
+   "tr": "muayenehane",
+   "kok": "die Praxis, Praxen"
+  },
+  "pullover": {
+   "tr": "kazak",
+   "kok": "der Pullover, -"
+  },
+  "radio": {
+   "tr": "radyo",
+   "kok": "das Radio, -s"
+  },
+  "repariert": {
+   "tr": "tamir ediyor",
+   "kok": "reparieren"
+  },
+  "republik": {
+   "tr": "cumhuriyet",
+   "kok": "die Republik, -en"
+  },
+  "sage": {
+   "tr": "söylüyorum",
+   "kok": "sagen"
+  },
+  "sagt": {
+   "tr": "söylüyor",
+   "kok": "sagen"
+  },
+  "salz": {
+   "tr": "tuz",
+   "kok": "das Salz"
+  },
+  "samstag": {
+   "tr": "cumartesi",
+   "kok": "der Samstag"
+  },
+  "schlager": {
+   "tr": "Alman pop şarkısı",
+   "kok": "der Schlager, -"
+  },
+  "schule": {
+   "tr": "okul",
+   "kok": "die Schule, -n"
+  },
+  "sechs": {
+   "tr": "altı"
+  },
+  "sehen": {
+   "tr": "görmek",
+   "not": "wir sehen"
+  },
+  "sehr": {
+   "tr": "çok"
+  },
+  "sender": {
+   "tr": "verici (radyo)",
+   "kok": "der Sender, -"
+  },
+  "sie": {
+   "tr": "o (kadın); onlar; Siz"
+  },
+  "sieht": {
+   "tr": "görüyor",
+   "kok": "sehen",
+   "not": "er sieht (e → ie)"
+  },
+  "sind": {
+   "tr": "(biz/onlar) …iz",
+   "kok": "sein",
+   "not": "wir sind"
+  },
+  "so": {
+   "tr": "böyle, öyle"
+  },
+  "socken": {
+   "tr": "çoraplar",
+   "kok": "die Socke, -n"
+  },
+  "soll": {
+   "tr": "…malı",
+   "kok": "sollen",
+   "not": "Man soll… = …mak gerekir"
+  },
+  "sonntag": {
+   "tr": "pazar (gün)",
+   "kok": "der Sonntag"
+  },
+  "sprache": {
+   "tr": "dil",
+   "kok": "die Sprache, -n"
+  },
+  "sprachen": {
+   "tr": "diller",
+   "kok": "die Sprache, -n"
+  },
+  "sprechen": {
+   "tr": "konuşmak"
+  },
+  "sprechstunde": {
+   "tr": "muayene saati",
+   "kok": "die Sprechstunde, -n"
+  },
+  "stehe": {
+   "tr": "kalkıyorum / duruyorum",
+   "kok": "stehen / aufstehen",
+   "not": "stehe … auf = kalkıyorum"
+  },
+  "steht": {
+   "tr": "kalkın! (ihr) / duruyor",
+   "kok": "stehen / aufstehen",
+   "not": "Steht auf! = Kalkın!"
+  },
+  "stimme": {
+   "tr": "ses (insan sesi)",
+   "kok": "die Stimme, -n"
+  },
+  "strickt": {
+   "tr": "örüyor",
+   "kok": "stricken"
+  },
+  "studio": {
+   "tr": "stüdyo",
+   "kok": "das Studio, -s"
+  },
+  "suche": {
+   "tr": "arıyorum",
+   "kok": "suchen"
+  },
+  "sucht": {
+   "tr": "arıyor",
+   "kok": "suchen"
+  },
+  "suppe": {
+   "tr": "çorba",
+   "kok": "die Suppe, -n"
+  },
+  "syrien": {
+   "tr": "Suriye"
+  },
+  "tag": {
+   "tr": "gün",
+   "kok": "der Tag, -e"
+  },
+  "tagebuch": {
+   "tr": "günlük (defter)",
+   "kok": "das Tagebuch, -bücher"
+  },
+  "tempelhof": {
+   "tr": "Tempelhof (Berlin'de eski havalimanı)"
+  },
+  "terminal": {
+   "tr": "terminal",
+   "kok": "das Terminal, -s"
+  },
+  "toll": {
+   "tr": "harika"
+  },
+  "topf": {
+   "tr": "tencere",
+   "kok": "der Topf, die Töpfe"
+  },
+  "trinke": {
+   "tr": "içiyorum",
+   "kok": "trinken"
+  },
+  "trinken": {
+   "tr": "içmek"
+  },
+  "trinkt": {
+   "tr": "içiyor; için! (ihr)",
+   "kok": "trinken"
+  },
+  "turm": {
+   "tr": "kule",
+   "kok": "der Turm, die Türme"
+  },
+  "türkei": {
+   "tr": "Türkiye",
+   "kok": "die Türkei",
+   "not": "artikelli: aus der Türkei"
+  },
+  "uhr": {
+   "tr": "saat",
+   "kok": "die Uhr, -en",
+   "not": "um 6 Uhr = saat 6'da"
+  },
+  "um": {
+   "tr": "saat …'de; etrafında",
+   "not": "um sechs Uhr"
+  },
+  "und": {
+   "tr": "ve"
+  },
+  "unserem": {
+   "tr": "bizim (Dativ)",
+   "kok": "unser",
+   "not": "aus unserem Garten"
+  },
+  "verkauft": {
+   "tr": "satıyor",
+   "kok": "verkaufen"
+  },
+  "viele": {
+   "tr": "birçok",
+   "kok": "viel"
+  },
+  "vier": {
+   "tr": "dört"
+  },
+  "von": {
+   "tr": "…'den; …'in",
+   "not": "+ Dativ"
+  },
+  "vor": {
+   "tr": "önünde; önce",
+   "not": "vor dem Terminal = terminalin önünde"
+  },
+  "wasser": {
+   "tr": "su",
+   "kok": "das Wasser"
+  },
+  "wer": {
+   "tr": "kim"
+  },
+  "wir": {
+   "tr": "biz"
+  },
+  "wochenende": {
+   "tr": "hafta sonu",
+   "kok": "das Wochenende, -n",
+   "not": "am Wochenende"
+  },
+  "woher": {
+   "tr": "nereden"
+  },
+  "wohne": {
+   "tr": "oturuyorum",
+   "kok": "wohnen"
+  },
+  "wohnen": {
+   "tr": "oturmak, yaşamak"
+  },
+  "wände": {
+   "tr": "duvarlar",
+   "kok": "die Wand, die Wände"
+  },
+  "wörter": {
+   "tr": "kelimeler",
+   "kok": "das Wort, die Wörter"
+  },
+  "zimmer": {
+   "tr": "oda",
+   "kok": "das Zimmer, -"
+  },
+  "zombies": {
+   "tr": "zombiler",
+   "kok": "der Zombie, -s"
+  },
+  "zufall": {
+   "tr": "tesadüf",
+   "kok": "der Zufall, -fälle"
+  },
+  "zusammen": {
+   "tr": "birlikte"
+  },
+  "zwei": {
+   "tr": "iki"
+  },
+  "abfährt": {
+   "tr": "kalkıyor (tren, otobüs)",
+   "kok": "abfahren",
+   "not": "yan cümlede ayrılabilen fiil birleşik kalır"
+  },
+  "absagen": {
+   "tr": "iptal etmek"
+  },
+  "acht": {
+   "tr": "sekiz"
+  },
+  "akkusativ": {
+   "tr": "belirtme hâli (nesne)"
+  },
+  "anfangen": {
+   "tr": "başlamak",
+   "not": "ayrılabilen fiil: es fängt … an"
+  },
+  "anmachen": {
+   "tr": "açmak (cihaz)",
+   "not": "ayrılabilen fiil"
+  },
+  "anrufen": {
+   "tr": "telefon etmek, aramak",
+   "not": "ayrılabilen fiil: ich rufe dich an"
+  },
+  "anstrengend": {
+   "tr": "yorucu"
+  },
+  "arbeiten": {
+   "tr": "çalışmak"
+  },
+  "artikel": {
+   "tr": "artikel",
+   "kok": "der Artikel, -"
+  },
+  "aufstehe": {
+   "tr": "kalkıyorum",
+   "kok": "aufstehen",
+   "not": "doğrusu: ich stehe … auf"
+  },
+  "aufstehen": {
+   "tr": "kalkmak (yataktan)",
+   "not": "ayrılabilen fiil"
+  },
+  "ausbildung": {
+   "tr": "meslek eğitimi",
+   "kok": "die Ausbildung, -en"
+  },
+  "ausfüllen": {
+   "tr": "doldurmak (form)",
+   "not": "ayrılabilen fiil"
+  },
+  "außerdem": {
+   "tr": "ayrıca"
+  },
+  "beantragen": {
+   "tr": "resmi başvuruda bulunmak"
+  },
+  "beim": {
+   "tr": "…'de, …'in yanında (bei dem)",
+   "kok": "bei + dem",
+   "not": "beim Arzt = doktorda"
+  },
+  "beruf": {
+   "tr": "meslek",
+   "kok": "der Beruf, -e"
+  },
+  "bescheid": {
+   "tr": "haber, bildirim",
+   "kok": "der Bescheid",
+   "not": "Bescheid sagen = haber vermek"
+  },
+  "beschweren": {
+   "tr": "şikâyet etmek",
+   "kok": "sich beschweren über"
+  },
+  "besuch": {
+   "tr": "ziyaret",
+   "kok": "der Besuch, -e"
+  },
+  "besuchst": {
+   "tr": "ziyaret ediyorsun",
+   "kok": "besuchen"
+  },
+  "bewerben": {
+   "tr": "başvurmak (işe)",
+   "kok": "sich bewerben um"
+  },
+  "bewerbung": {
+   "tr": "iş başvurusu",
+   "kok": "die Bewerbung, -en"
+  },
+  "bist": {
+   "tr": "(sen) …sin",
+   "kok": "sein",
+   "not": "du bist"
+  },
+  "brauchen": {
+   "tr": "ihtiyacı olmak",
+   "not": "+ Akkusativ"
+  },
+  "bring": {
+   "tr": "getir! (du)",
+   "kok": "bringen",
+   "not": "Bring … mit! = yanında getir"
+  },
+  "bringe": {
+   "tr": "götürüyorum, getiriyorum",
+   "kok": "bringen"
+  },
+  "brot": {
+   "tr": "ekmek",
+   "kok": "das Brot, -e"
+  },
+  "bus": {
+   "tr": "otobüs",
+   "kok": "der Bus, -se"
+  },
+  "dativ": {
+   "tr": "yönelme hâli"
+  },
+  "deinen": {
+   "tr": "senin (eril, Akkusativ)",
+   "kok": "dein",
+   "not": "dein → deinen"
+  },
+  "denn": {
+   "tr": "çünkü",
+   "not": "fiilin yerini değiştirmez"
+  },
+  "deshalb": {
+   "tr": "bu yüzden",
+   "not": "sonra fiil gelir: deshalb bin ich…"
+  },
+  "dich": {
+   "tr": "seni",
+   "kok": "du",
+   "not": "Akkusativ"
+  },
+  "dick": {
+   "tr": "kalın; şişman"
+  },
+  "dieser": {
+   "tr": "bu (eril / dişil Dativ)",
+   "kok": "dieser",
+   "not": "in dieser Wohnung"
+  },
+  "dieses": {
+   "tr": "bu (nötr)",
+   "kok": "dieser",
+   "not": "dieses Formular"
+  },
+  "dir": {
+   "tr": "sana",
+   "kok": "du",
+   "not": "Dativ"
+  },
+  "draußen": {
+   "tr": "dışarıda"
+  },
+  "drei": {
+   "tr": "üç"
+  },
+  "einem": {
+   "tr": "bir (eril/nötr, Dativ)",
+   "kok": "ein"
+  },
+  "einer": {
+   "tr": "bir (dişil, Dativ)",
+   "kok": "ein"
+  },
+  "einkaufen": {
+   "tr": "alışveriş yapmak",
+   "not": "ayrılabilen fiil: wir kaufen ein"
+  },
+  "erfahrung": {
+   "tr": "deneyim",
+   "kok": "die Erfahrung, -en"
+  },
+  "erinnern": {
+   "tr": "hatırlamak",
+   "kok": "sich erinnern an"
+  },
+  "euch": {
+   "tr": "sizi, size",
+   "kok": "ihr"
+  },
+  "fahr": {
+   "tr": "git! sür! (du)",
+   "kok": "fahren",
+   "not": "Imperativ: a → ä düşer"
+  },
+  "fahre": {
+   "tr": "(araçla) gidiyorum",
+   "kok": "fahren"
+  },
+  "familienname": {
+   "tr": "soyadı",
+   "kok": "der Familienname, -n"
+  },
+  "film": {
+   "tr": "film",
+   "kok": "der Film, -e"
+  },
+  "fliegen": {
+   "tr": "uçmak",
+   "not": "Perfekt: ist geflogen"
+  },
+  "formular": {
+   "tr": "form",
+   "kok": "das Formular, -e"
+  },
+  "freue": {
+   "tr": "seviniyorum",
+   "kok": "sich freuen",
+   "not": "Ich freue mich auf … = …i dört gözle bekliyorum"
+  },
+  "freuen": {
+   "tr": "sevinmek",
+   "kok": "sich freuen"
+  },
+  "freut": {
+   "tr": "seviniyor",
+   "kok": "sich freuen",
+   "not": "Freut mich! = Memnun oldum!"
+  },
+  "früh": {
+   "tr": "erken"
+  },
+  "fängt": {
+   "tr": "başlıyor",
+   "kok": "anfangen",
+   "not": "es fängt … an (a → ä)"
+  },
+  "geantwortet": {
+   "tr": "cevap verdi(m)",
+   "kok": "antworten",
+   "not": "Partizip II"
+  },
+  "geben": {
+   "tr": "vermek",
+   "not": "du gibst, er gibt"
+  },
+  "geburtstag": {
+   "tr": "doğum günü",
+   "kok": "der Geburtstag, -e"
+  },
+  "gefahren": {
+   "tr": "gitti(k) (araçla)",
+   "kok": "fahren",
+   "not": "Partizip II, sein ile: wir sind gefahren"
+  },
+  "gegessen": {
+   "tr": "yedi(m)",
+   "kok": "essen",
+   "not": "Partizip II"
+  },
+  "gehen": {
+   "tr": "gitmek (yürüyerek)"
+  },
+  "geht": {
+   "tr": "gidiyor; oluyor",
+   "kok": "gehen",
+   "not": "Wie geht's? = Nasılsın? · Geht es…? = …olur mu?"
+  },
+  "gehört": {
+   "tr": "dinledi; ait",
+   "kok": "hören / gehören",
+   "not": "Partizip II"
+  },
+  "gekauft": {
+   "tr": "satın aldı(m)",
+   "kok": "kaufen",
+   "not": "Partizip II"
+  },
+  "gekommen": {
+   "tr": "geldi(m)",
+   "kok": "kommen",
+   "not": "Partizip II, sein ile"
+  },
+  "gelernt": {
+   "tr": "öğrendi(m)",
+   "kok": "lernen",
+   "not": "Partizip II"
+  },
+  "gelesen": {
+   "tr": "okudu(m)",
+   "kok": "lesen",
+   "not": "Partizip II"
+  },
+  "gemacht": {
+   "tr": "yaptı(m)",
+   "kok": "machen",
+   "not": "Partizip II"
+  },
+  "gemütlich": {
+   "tr": "rahat, keyifli"
+  },
+  "geschenk": {
+   "tr": "hediye",
+   "kok": "das Geschenk, -e"
+  },
+  "geschickt": {
+   "tr": "gönderdi(m)",
+   "kok": "schicken",
+   "not": "Partizip II"
+  },
+  "geschrieben": {
+   "tr": "yazdı(m)",
+   "kok": "schreiben",
+   "not": "Partizip II"
+  },
+  "gesehen": {
+   "tr": "gördü(m)",
+   "kok": "sehen",
+   "not": "Partizip II"
+  },
+  "getrunken": {
+   "tr": "içti(m)",
+   "kok": "trinken",
+   "not": "Partizip II"
+  },
+  "halb": {
+   "tr": "yarım, buçuk",
+   "not": "halb neun = sekiz buçuk!"
+  },
+  "heißen": {
+   "tr": "adı olmak"
+  },
+  "helfen": {
+   "tr": "yardım etmek",
+   "not": "+ Dativ: Kannst du mir helfen?"
+  },
+  "helft": {
+   "tr": "yardım edin! (ihr)",
+   "kok": "helfen"
+  },
+  "hilf": {
+   "tr": "yardım et! (du)",
+   "kok": "helfen",
+   "not": "Imperativ: e → i korunur"
+  },
+  "hilft": {
+   "tr": "yardım ediyor",
+   "kok": "helfen",
+   "not": "er hilft"
+  },
+  "hoch": {
+   "tr": "yüksek"
+  },
+  "hören": {
+   "tr": "duymak, dinlemek"
+  },
+  "ihn": {
+   "tr": "onu (erkek / eril)",
+   "kok": "er",
+   "not": "Akkusativ"
+  },
+  "ihrer": {
+   "tr": "onun (kadın) / Dativ",
+   "kok": "ihr",
+   "not": "bei ihrer Mutter"
+  },
+  "ins": {
+   "tr": "…'e, içine (in das)",
+   "kok": "in + das",
+   "not": "ins Kino = sinemaya"
+  },
+  "iss": {
+   "tr": "ye! (du)",
+   "kok": "essen",
+   "not": "Imperativ"
+  },
+  "jacke": {
+   "tr": "ceket, mont",
+   "kok": "die Jacke, -n"
+  },
+  "jahren": {
+   "tr": "yıl (Dativ çoğul)",
+   "kok": "das Jahr, -e",
+   "not": "seit zwei Jahren = iki yıldır"
+  },
+  "kalt": {
+   "tr": "soğuk"
+  },
+  "kann": {
+   "tr": "…ebilirim / …ebilir",
+   "kok": "können",
+   "not": "ich kann, er kann"
+  },
+  "kannst": {
+   "tr": "…ebilirsin",
+   "kok": "können",
+   "not": "du kannst"
+  },
+  "keinen": {
+   "tr": "hiç … (eril, Akkusativ)",
+   "kok": "kein"
+  },
+  "kino": {
+   "tr": "sinema",
+   "kok": "das Kino, -s"
+  },
+  "kollege": {
+   "tr": "iş arkadaşı (erkek)",
+   "kok": "der Kollege, -n",
+   "not": "n-Deklination: den Kollegen"
+  },
+  "konten": {
+   "tr": "hesaplar",
+   "kok": "das Konto, die Konten"
+  },
+  "konto": {
+   "tr": "banka hesabı",
+   "kok": "das Konto, die Konten"
+  },
+  "krankgeschrieben": {
+   "tr": "rapor verdi",
+   "kok": "krankschreiben",
+   "not": "Partizip II"
+  },
+  "krankschreiben": {
+   "tr": "rapor vermek (doktor)"
+  },
+  "kurs": {
+   "tr": "kurs",
+   "kok": "der Kurs, -e"
+  },
+  "kühlschrank": {
+   "tr": "buzdolabı",
+   "kok": "der Kühlschrank, -schränke"
+  },
+  "kümmern": {
+   "tr": "ilgilenmek",
+   "kok": "sich kümmern um"
+  },
+  "kündigen": {
+   "tr": "feshetmek, istifa etmek"
+  },
+  "laden": {
+   "tr": "dükkân",
+   "kok": "der Laden, die Läden"
+  },
+  "lampe": {
+   "tr": "lamba",
+   "kok": "die Lampe, -n"
+  },
+  "land": {
+   "tr": "ülke",
+   "kok": "das Land, die Länder"
+  },
+  "länder": {
+   "tr": "ülkeler",
+   "kok": "das Land, die Länder"
+  },
+  "lange": {
+   "tr": "uzun süre",
+   "not": "lange nicht gesehen = uzun zamandır görmedim"
+  },
+  "lebenslauf": {
+   "tr": "özgeçmiş (CV)",
+   "kok": "der Lebenslauf, -läufe"
+  },
+  "ledig": {
+   "tr": "bekâr"
+  },
+  "leider": {
+   "tr": "maalesef"
+  },
+  "lies": {
+   "tr": "oku! (du)",
+   "kok": "lesen",
+   "not": "Imperativ: e → ie korunur"
+  },
+  "länger": {
+   "tr": "daha uzun",
+   "kok": "lang",
+   "not": "Komparativ"
+  },
+  "meinem": {
+   "tr": "benim (eril/nötr, Dativ)",
+   "kok": "mein",
+   "not": "von meinem Vater"
+  },
+  "meinen": {
+   "tr": "benim (eril, Akkusativ)",
+   "kok": "mein"
+  },
+  "meiner": {
+   "tr": "benim (dişil, Dativ)",
+   "kok": "mein",
+   "not": "bei meiner Freundin"
+  },
+  "miete": {
+   "tr": "kira",
+   "kok": "die Miete, -n"
+  },
+  "milch": {
+   "tr": "süt",
+   "kok": "die Milch"
+  },
+  "mitkommen": {
+   "tr": "birlikte gelmek",
+   "not": "ayrılabilen fiil: Kommst du mit?"
+  },
+  "moment": {
+   "tr": "an",
+   "kok": "der Moment, -e",
+   "not": "einen Moment = bir dakika"
+  },
+  "muss": {
+   "tr": "…malıyım / …malı",
+   "kok": "müssen",
+   "not": "ich muss, er muss"
+  },
+  "mutter": {
+   "tr": "anne",
+   "kok": "die Mutter, die Mütter"
+  },
+  "nach": {
+   "tr": "…'e (şehir, ülke); …'den sonra",
+   "not": "nach Berlin, nach Hause; nach dem Essen"
+  },
+  "nachricht": {
+   "tr": "mesaj, haber",
+   "kok": "die Nachricht, -en"
+  },
+  "name": {
+   "tr": "isim",
+   "kok": "der Name, -n"
+  },
+  "nebenkosten": {
+   "tr": "yan giderler (ısınma, su…)",
+   "kok": "die Nebenkosten (Pl.)"
+  },
+  "neuen": {
+   "tr": "yeni",
+   "kok": "neu",
+   "not": "sıfat eki: einen neuen Kühlschrank"
+  },
+  "neun": {
+   "tr": "dokuz"
+  },
+  "nominativ": {
+   "tr": "yalın hâl (özne)"
+  },
+  "nächste": {
+   "tr": "gelecek, sonraki",
+   "kok": "nächst-",
+   "not": "nächste Woche = gelecek hafta"
+  },
+  "ohne": {
+   "tr": "…sız, …madan",
+   "not": "+ Akkusativ: ohne Zucker"
+  },
+  "partizip": {
+   "tr": "ortaç (Partizip II)"
+  },
+  "pizza": {
+   "tr": "pizza",
+   "kok": "die Pizza, -s"
+  },
+  "rechnung": {
+   "tr": "fatura, hesap",
+   "kok": "die Rechnung, -en"
+  },
+  "rezept": {
+   "tr": "reçete; yemek tarifi",
+   "kok": "das Rezept, -e"
+  },
+  "rufe": {
+   "tr": "arıyorum, çağırıyorum",
+   "kok": "rufen / anrufen",
+   "not": "ich rufe dich an = seni ararım"
+  },
+  "sagen": {
+   "tr": "söylemek"
+  },
+  "schlägt": {
+   "tr": "vuruyor; (kalp) atıyor",
+   "kok": "schlagen",
+   "not": "mein Herz schlägt = kalbim atıyor · schlägt … vor = öneriyor"
+  },
+  "schlüssel": {
+   "tr": "anahtar",
+   "kok": "der Schlüssel, -"
+  },
+  "schon": {
+   "tr": "zaten, şimdiden, çoktan"
+  },
+  "schwester": {
+   "tr": "kız kardeş",
+   "kok": "die Schwester, -n"
+  },
+  "schön": {
+   "tr": "güzel"
+  },
+  "seit": {
+   "tr": "…'den beri",
+   "not": "+ Dativ: seit zwei Jahren"
+  },
+  "sich": {
+   "tr": "kendini, kendine",
+   "not": "dönüşlü zamir"
+  },
+  "socke": {
+   "tr": "çorap",
+   "kok": "die Socke, -n"
+  },
+  "spanien": {
+   "tr": "İspanya"
+  },
+  "spiele": {
+   "tr": "oynuyorum",
+   "kok": "spielen"
+  },
+  "spielen": {
+   "tr": "oynamak"
+  },
+  "spricht": {
+   "tr": "konuşuyor",
+   "kok": "sprechen",
+   "not": "er spricht (e → i)"
+  },
+  "spät": {
+   "tr": "geç",
+   "not": "zu spät = çok geç"
+  },
+  "supermarkt": {
+   "tr": "süpermarket",
+   "kok": "der Supermarkt, -märkte"
+  },
+  "tage": {
+   "tr": "günler",
+   "kok": "der Tag, -e"
+  },
+  "termin": {
+   "tr": "randevu",
+   "kok": "der Termin, -e"
+  },
+  "text": {
+   "tr": "metin",
+   "kok": "der Text, -e"
+  },
+  "tisch": {
+   "tr": "masa",
+   "kok": "der Tisch, -e"
+  },
+  "trotzdem": {
+   "tr": "yine de",
+   "not": "sonra fiil gelir"
+  },
+  "tschüss": {
+   "tr": "hoşça kal (samimi)"
+  },
+  "töpfe": {
+   "tr": "tencereler",
+   "kok": "der Topf, die Töpfe"
+  },
+  "türme": {
+   "tr": "kuleler",
+   "kok": "der Turm, die Türme"
+  },
+  "umgestiegen": {
+   "tr": "aktarma yaptı",
+   "kok": "umsteigen",
+   "not": "Partizip II, sein ile"
+  },
+  "umgezogen": {
+   "tr": "taşındı",
+   "kok": "umziehen",
+   "not": "Partizip II, sein ile"
+  },
+  "umsteigen": {
+   "tr": "aktarma yapmak"
+  },
+  "umziehen": {
+   "tr": "taşınmak"
+  },
+  "umzug": {
+   "tr": "taşınma",
+   "kok": "der Umzug, die Umzüge"
+  },
+  "umzüge": {
+   "tr": "taşınmalar",
+   "kok": "der Umzug, die Umzüge"
+  },
+  "unbedingt": {
+   "tr": "mutlaka"
+  },
+  "uns": {
+   "tr": "bizi, bize",
+   "kok": "wir"
+  },
+  "unterschrift": {
+   "tr": "imza",
+   "kok": "die Unterschrift, -en"
+  },
+  "vater": {
+   "tr": "baba",
+   "kok": "der Vater, die Väter"
+  },
+  "vereinbaren": {
+   "tr": "kararlaştırmak, ayarlamak",
+   "not": "einen Termin vereinbaren = randevu almak"
+  },
+  "verheiratet": {
+   "tr": "evli"
+  },
+  "verkaufen": {
+   "tr": "satmak"
+  },
+  "vermieter": {
+   "tr": "ev sahibi (kiraya veren)",
+   "kok": "der Vermieter, -"
+  },
+  "verpassen": {
+   "tr": "kaçırmak"
+  },
+  "verpasst": {
+   "tr": "kaçırdı(m)",
+   "kok": "verpassen",
+   "not": "Partizip II (ge- yok)"
+  },
+  "verschieben": {
+   "tr": "ertelemek"
+  },
+  "verschoben": {
+   "tr": "erteledi",
+   "kok": "verschieben",
+   "not": "Partizip II"
+  },
+  "versicherung": {
+   "tr": "sigorta",
+   "kok": "die Versicherung, -en"
+  },
+  "verspätung": {
+   "tr": "gecikme, rötar",
+   "kok": "die Verspätung, -en"
+  },
+  "verstehe": {
+   "tr": "anlıyorum",
+   "kok": "verstehen"
+  },
+  "vielleicht": {
+   "tr": "belki"
+  },
+  "vom": {
+   "tr": "…'den (von dem)",
+   "kok": "von + dem"
+  },
+  "vorname": {
+   "tr": "ad (ön isim)",
+   "kok": "der Vorname, -n"
+  },
+  "vorschlagen": {
+   "tr": "önermek",
+   "not": "ayrılabilen fiil"
+  },
+  "wand": {
+   "tr": "duvar",
+   "kok": "die Wand, die Wände"
+  },
+  "wann": {
+   "tr": "ne zaman"
+  },
+  "warme": {
+   "tr": "sıcak, kalın (giysi)",
+   "kok": "warm",
+   "not": "sıfat eki: eine warme Jacke"
+  },
+  "warte": {
+   "tr": "bekle! (du)",
+   "kok": "warten"
+  },
+  "warten": {
+   "tr": "beklemek",
+   "not": "warten auf + Akk."
+  },
+  "wartet": {
+   "tr": "bekliyor; bekleyin! (ihr)",
+   "kok": "warten"
+  },
+  "was": {
+   "tr": "ne"
+  },
+  "weil": {
+   "tr": "çünkü",
+   "not": "yan cümle: fiil sona gider"
+  },
+  "wenn": {
+   "tr": "eğer; …dığında",
+   "not": "yan cümle: fiil sona gider"
+  },
+  "wie": {
+   "tr": "nasıl; gibi"
+  },
+  "wiedersehen": {
+   "tr": "tekrar görüşme",
+   "not": "Auf Wiedersehen! = Görüşmek üzere!"
+  },
+  "woche": {
+   "tr": "hafta",
+   "kok": "die Woche, -n"
+  },
+  "wohnt": {
+   "tr": "oturuyor",
+   "kok": "wohnen"
+  },
+  "wohnung": {
+   "tr": "daire, ev",
+   "kok": "die Wohnung, -en"
+  },
+  "wäre": {
+   "tr": "olurdu",
+   "kok": "sein",
+   "not": "Konjunktiv II: Wie wäre es…? = …sak nasıl olur?"
+  },
+  "würde": {
+   "tr": "…erdim",
+   "kok": "werden",
+   "not": "Konjunktiv II: Ich würde gern… = …mak isterdim"
+  },
+  "zeit": {
+   "tr": "zaman, vakit",
+   "kok": "die Zeit, -en"
+  },
+  "zieh": {
+   "tr": "giy! (du, anziehen ile)",
+   "kok": "anziehen",
+   "not": "Zieh dir … an!"
+  },
+  "zu": {
+   "tr": "…'e (kişi, yer); çok (fazla)",
+   "not": "+ Dativ: zu Mehmet · zu hoch = çok yüksek"
+  },
+  "zucker": {
+   "tr": "şeker",
+   "kok": "der Zucker"
+  },
+  "zug": {
+   "tr": "tren",
+   "kok": "der Zug, die Züge"
+  },
+  "zum": {
+   "tr": "…'e (zu dem)",
+   "kok": "zu + dem",
+   "not": "zum Arzt"
+  },
+  "zur": {
+   "tr": "…'e (zu der)",
+   "kok": "zu + der",
+   "not": "zur Schule"
+  },
+  "zuverlässig": {
+   "tr": "güvenilir"
+  },
+  "zwölf": {
+   "tr": "on iki"
+  },
+  "über": {
+   "tr": "üzerinde; hakkında"
+  },
+  "überweisen": {
+   "tr": "havale etmek"
+  },
+  "überwiesen": {
+   "tr": "havale etti",
+   "kok": "überweisen",
+   "not": "Partizip II"
+  },
+  "könnten": {
+   "tr": "…ebilir miydiniz (kibar)",
+   "kok": "können",
+   "not": "Konjunktiv II: Könnten Sie…?"
+  },
+  "gegangen": {
+   "tr": "gitti",
+   "kok": "gehen",
+   "not": "Partizip II, sein ile"
+  },
+  "geflogen": {
+   "tr": "uçtu",
+   "kok": "fliegen",
+   "not": "Partizip II, sein ile"
+  },
+  "accra": {
+   "tr": "Accra (Gana'nın başkenti)"
+  },
+  "antworte": {
+   "tr": "cevap veriyorum",
+   "kok": "antworten"
+  },
+  "antworten": {
+   "tr": "cevap vermek"
+  },
+  "apfel": {
+   "tr": "elma",
+   "kok": "der Apfel, die Äpfel"
+  },
+  "aufgestanden": {
+   "tr": "kalktı",
+   "kok": "aufstehen",
+   "not": "Partizip II, sein ile: ist aufgestanden"
+  },
+  "berlin": {
+   "tr": "Berlin"
+  },
+  "bewohnerin": {
+   "tr": "sakin (kadın)",
+   "kok": "die Bewohnerin, -nen"
+  },
+  "bleiben": {
+   "tr": "kalmak",
+   "not": "Perfekt: ist geblieben"
+  },
+  "brauche": {
+   "tr": "ihtiyacım var",
+   "kok": "brauchen",
+   "not": "+ Akkusativ: ich brauche dich"
+  },
+  "braucht": {
+   "tr": "ihtiyacı var",
+   "kok": "brauchen"
+  },
+  "brief": {
+   "tr": "mektup",
+   "kok": "der Brief, -e"
+  },
+  "briefe": {
+   "tr": "mektuplar",
+   "kok": "der Brief, -e"
+  },
+  "brücke": {
+   "tr": "köprü",
+   "kok": "die Brücke, -n"
+  },
+  "durch": {
+   "tr": "…'in içinden, boyunca",
+   "kok": "durch",
+   "not": "+ Akkusativ: durch den Park"
+  },
+  "eltern": {
+   "tr": "anne baba",
+   "kok": "die Eltern (Pl.)"
+  },
+  "fenster": {
+   "tr": "pencere",
+   "kok": "das Fenster, -"
+  },
+  "flasche": {
+   "tr": "şişe",
+   "kok": "die Flasche, -n",
+   "not": "eine Flasche Wasser = bir şişe su"
+  },
+  "frau": {
+   "tr": "kadın; hanım",
+   "kok": "die Frau, -en",
+   "not": "Frau Hoffmann = Bayan Hoffmann"
+  },
+  "funkgerät": {
+   "tr": "telsiz",
+   "kok": "das Funkgerät, -e"
+  },
+  "geblieben": {
+   "tr": "kaldı",
+   "kok": "bleiben",
+   "not": "Partizip II, sein ile"
+  },
+  "gelaufen": {
+   "tr": "koştu",
+   "kok": "laufen",
+   "not": "Partizip II, sein ile: bin gelaufen"
+  },
+  "gewesen": {
+   "tr": "oldu, idi",
+   "kok": "sein",
+   "not": "Partizip II: ist gewesen"
+  },
+  "habt": {
+   "tr": "(sizin) var",
+   "kok": "haben",
+   "not": "ihr habt"
+  },
+  "hand": {
+   "tr": "el",
+   "kok": "die Hand, die Hände",
+   "not": "in der Hand = elinde"
+  },
+  "herz": {
+   "tr": "kalp",
+   "kok": "das Herz, -en"
+  },
+  "hunger": {
+   "tr": "açlık",
+   "kok": "der Hunger",
+   "not": "Ich habe Hunger = açım"
+  },
+  "karte": {
+   "tr": "harita; kart",
+   "kok": "die Karte, -n"
+  },
+  "kauft": {
+   "tr": "satın alıyor",
+   "kok": "kaufen"
+  },
+  "koch": {
+   "tr": "aşçı",
+   "kok": "der Koch, die Köche"
+  },
+  "kreuzberg": {
+   "tr": "Kreuzberg (Berlin'de bir semt)"
+  },
+  "laufe": {
+   "tr": "koşuyorum",
+   "kok": "laufen",
+   "not": "laufe … zurück = geri koşuyorum"
+  },
+  "laufen": {
+   "tr": "koşmak; yürümek",
+   "not": "er läuft · Perfekt: ist gelaufen"
+  },
+  "läuft": {
+   "tr": "koşuyor",
+   "kok": "laufen",
+   "not": "er läuft (a → ä)"
+  },
+  "marathon": {
+   "tr": "maraton",
+   "kok": "der Marathon, -s"
+  },
+  "müde": {
+   "tr": "yorgun"
+  },
+  "müssen": {
+   "tr": "…malı, zorunda olmak",
+   "not": "ich muss, wir müssen"
+  },
+  "nett": {
+   "tr": "nazik, hoş"
+  },
+  "notiz": {
+   "tr": "not",
+   "kok": "die Notiz, -en"
+  },
+  "packe": {
+   "tr": "hazırlıyorum (çanta)",
+   "kok": "packen"
+  },
+  "packen": {
+   "tr": "(çanta, bavul) hazırlamak"
+  },
+  "park": {
+   "tr": "park",
+   "kok": "der Park, -s"
+  },
+  "rucksack": {
+   "tr": "sırt çantası",
+   "kok": "der Rucksack, -säcke"
+  },
+  "ruft": {
+   "tr": "arıyor, sesleniyor",
+   "kok": "rufen / anrufen",
+   "not": "ruft … an = telefonla arıyor"
+  },
+  "räume": {
+   "tr": "topluyorum",
+   "kok": "aufräumen",
+   "not": "räume … auf"
+  },
+  "schnell": {
+   "tr": "hızlı"
+  },
+  "sehe": {
+   "tr": "görüyorum",
+   "kok": "sehen"
+  },
+  "seid": {
+   "tr": "(siz) …siniz",
+   "kok": "sein",
+   "not": "ihr seid"
+  },
+  "sein": {
+   "tr": "olmak; onun (erkek)",
+   "not": "fiil: ich bin, du bist… · iyelik: sein Bruder"
+  },
+  "stunden": {
+   "tr": "saatler",
+   "kok": "die Stunde, -n",
+   "not": "nach zwei Stunden = iki saat sonra"
+  },
+  "weiter": {
+   "tr": "devam, daha ileri"
+  },
+  "weiß": {
+   "tr": "biliyor; beyaz",
+   "kok": "wissen / weiß",
+   "not": "ich weiß = biliyorum"
+  },
+  "winken": {
+   "tr": "el sallamak"
+  },
+  "winkt": {
+   "tr": "el sallıyor",
+   "kok": "winken"
+  },
+  "wissen": {
+   "tr": "bilmek",
+   "not": "ich weiß, du weißt, er weiß"
+  },
+  "zurück": {
+   "tr": "geri",
+   "not": "zurücklaufen, zurückkommen"
+  },
+  "zurückgelaufen": {
+   "tr": "geri koştu",
+   "kok": "zurücklaufen",
+   "not": "Partizip II, sein ile"
+  },
+  "zurücklaufen": {
+   "tr": "geri koşmak",
+   "not": "ayrılabilen fiil: ich laufe zurück"
+  },
+  "abfahren": {
+   "tr": "kalkmak (tren, otobüs)",
+   "not": "ayrılabilen: der Zug fährt ab"
+  },
+  "allein": {
+   "tr": "yalnız"
+  },
+  "allen": {
+   "tr": "herkese",
+   "kok": "alle",
+   "not": "zu allen = herkese"
+  },
+  "alles": {
+   "tr": "her şey"
+  },
+  "amira": {
+   "tr": "Amira (isim)"
+  },
+  "antalya": {
+   "tr": "Antalya"
+  },
+  "aspirin": {
+   "tr": "aspirin",
+   "kok": "das Aspirin"
+  },
+  "auch": {
+   "tr": "de, da; ayrıca"
+  },
+  "aufräumen": {
+   "tr": "toplamak (oda)",
+   "not": "ayrılabilen: ich räume auf"
+  },
+  "aufsteht": {
+   "tr": "kalkıyor",
+   "kok": "aufstehen",
+   "not": "doğrusu: er steht … auf"
+  },
+  "bernd": {
+   "tr": "Bernd (isim)"
+  },
+  "danke": {
+   "tr": "teşekkürler"
+  },
+  "dein": {
+   "tr": "senin"
+  },
+  "deine": {
+   "tr": "senin (dişil/çoğul)",
+   "kok": "dein"
+  },
+  "drittens": {
+   "tr": "üçüncüsü"
+  },
+  "durst": {
+   "tr": "susuzluk",
+   "kok": "der Durst",
+   "not": "Durst haben = susamak"
+  },
+  "eigentlich": {
+   "tr": "aslında"
+  },
+  "erstens": {
+   "tr": "birincisi"
+  },
+  "erzählen": {
+   "tr": "anlatmak",
+   "not": "Perfekt: hat erzählt (ge- yok)"
+  },
+  "erzählt": {
+   "tr": "anlattı; anlatıyor",
+   "kok": "erzählen",
+   "not": "Partizip II: erzählt"
+  },
+  "falle": {
+   "tr": "tuzak",
+   "kok": "die Falle, -n"
+  },
+  "fragen": {
+   "tr": "sormak",
+   "not": "+ Akkusativ: ich frage den Lehrer"
+  },
+  "garage": {
+   "tr": "garaj",
+   "kok": "die Garage, -n"
+  },
+  "geholt": {
+   "tr": "getirdi",
+   "kok": "holen",
+   "not": "Partizip II: hat geholt"
+  },
+  "grüne": {
+   "tr": "yeşil",
+   "kok": "grün",
+   "not": "sıfat eki: das grüne Licht"
+  },
+  "hate": {
+   "tr": "(yanlış yazım) → hatte",
+   "kok": "haben"
+  },
+  "hatten": {
+   "tr": "vardı (biz/onlar)",
+   "kok": "haben",
+   "not": "Präteritum: wir hatten"
+  },
+  "hattest": {
+   "tr": "vardı (sen)",
+   "kok": "haben",
+   "not": "du hattest"
+  },
+  "hattet": {
+   "tr": "vardı (siz)",
+   "kok": "haben",
+   "not": "ihr hattet"
+  },
+  "hause": {
+   "tr": "ev",
+   "kok": "das Haus",
+   "not": "zu Hause = evde · nach Hause = eve"
+  },
+  "hilfe": {
+   "tr": "yardım",
+   "kok": "die Hilfe"
+  },
+  "holen": {
+   "tr": "gidip getirmek"
+  },
+  "juli": {
+   "tr": "temmuz",
+   "kok": "der Juli",
+   "not": "im Juli"
+  },
+  "kaufe": {
+   "tr": "satın alıyorum",
+   "kok": "kaufen"
+  },
+  "krank": {
+   "tr": "hasta"
+  },
+  "kuchen": {
+   "tr": "pasta, kek",
+   "kok": "der Kuchen, -"
+  },
+  "langer": {
+   "tr": "uzun",
+   "kok": "lang",
+   "not": "ein langer Tag"
+  },
+  "liste": {
+   "tr": "liste",
+   "kok": "die Liste, -n"
+  },
+  "läufer": {
+   "tr": "koşucu(lar)",
+   "kok": "der Läufer, -"
+  },
+  "mai": {
+   "tr": "mayıs",
+   "kok": "der Mai",
+   "not": "im Mai"
+  },
+  "motor": {
+   "tr": "motor",
+   "kok": "der Motor, -en"
+  },
+  "nachmittag": {
+   "tr": "öğleden sonra",
+   "kok": "der Nachmittag",
+   "not": "am Nachmittag"
+  },
+  "nacht": {
+   "tr": "gece",
+   "kok": "die Nacht, die Nächte",
+   "not": "in der Nacht"
+  },
+  "neu": {
+   "tr": "yeni"
+  },
+  "problem": {
+   "tr": "sorun",
+   "kok": "das Problem, -e"
+  },
+  "präteritum": {
+   "tr": "geçmiş zaman (Präteritum)"
+  },
+  "ruhig": {
+   "tr": "sakin"
+  },
+  "schlagen": {
+   "tr": "vurmak; (kalp) atmak",
+   "not": "es schlägt"
+  },
+  "sommer": {
+   "tr": "yaz",
+   "kok": "der Sommer",
+   "not": "im Sommer"
+  },
+  "sondern": {
+   "tr": "bilakis, -dir",
+   "not": "nicht …, sondern … = … değil, …"
+  },
+  "sonnig": {
+   "tr": "güneşli"
+  },
+  "spaß": {
+   "tr": "eğlence",
+   "kok": "der Spaß",
+   "not": "Viel Spaß! = İyi eğlenceler!"
+  },
+  "stehen": {
+   "tr": "durmak, ayakta durmak",
+   "not": "aufstehen = kalkmak"
+  },
+  "suchen": {
+   "tr": "aramak"
+  },
+  "tasche": {
+   "tr": "çanta",
+   "kok": "die Tasche, -n"
+  },
+  "tierärztin": {
+   "tr": "veteriner (kadın)",
+   "kok": "die Tierärztin, -nen"
+  },
+  "treffen": {
+   "tr": "buluşmak",
+   "not": "wir treffen uns = buluşuyoruz"
+  },
+  "tür": {
+   "tr": "kapı",
+   "kok": "die Tür, -en"
+  },
+  "versammlung": {
+   "tr": "toplantı, meclis",
+   "kok": "die Versammlung, -en"
+  },
+  "viel": {
+   "tr": "çok"
+  },
+  "war": {
+   "tr": "idi, -di (sein'ın geçmişi)",
+   "kok": "sein",
+   "not": "ich war, er war"
+  },
+  "ware": {
+   "tr": "(yanlış yazım) → war",
+   "kok": "sein"
+  },
+  "waren": {
+   "tr": "idiler, idik",
+   "kok": "sein",
+   "not": "wir waren, sie waren"
+  },
+  "warst": {
+   "tr": "idin (sen)",
+   "kok": "sein",
+   "not": "du warst"
+  },
+  "wart": {
+   "tr": "idiniz",
+   "kok": "sein",
+   "not": "ihr wart"
+  },
+  "wenig": {
+   "tr": "az",
+   "not": "nur noch wenig = sadece biraz kaldı"
+  },
+  "werkzeug": {
+   "tr": "alet, takım",
+   "kok": "das Werkzeug, -e"
+  },
+  "wetter": {
+   "tr": "hava (durumu)",
+   "kok": "das Wetter"
+  },
+  "wichtig": {
+   "tr": "önemli"
+  },
+  "winter": {
+   "tr": "kış",
+   "kok": "der Winter",
+   "not": "im Winter"
+  },
+  "zehn": {
+   "tr": "on"
+  },
+  "zweitens": {
+   "tr": "ikincisi"
+  },
+  "zählen": {
+   "tr": "saymak"
+  },
+  "ärztin": {
+   "tr": "doktor (kadın)",
+   "kok": "die Ärztin, -nen"
+  },
+  "abgestimmt": {
+   "tr": "oyladı(k)",
+   "kok": "abstimmen",
+   "not": "Partizip II: ab·ge·stimmt"
+  },
+  "als": {
+   "tr": "-den (daha); olarak",
+   "kok": "als",
+   "not": "Komparativ: größer als ich"
+  },
+  "amiras": {
+   "tr": "Amira'nın",
+   "kok": "Amira",
+   "not": "isim + s = iyelik"
+  },
+  "arbeit": {
+   "tr": "(yanlış çekim)",
+   "kok": "arbeiten",
+   "not": "doğrusu: er arbeitet"
+  },
+  "arbeite": {
+   "tr": "çalışıyorum",
+   "kok": "arbeiten"
+  },
+  "arbeitest": {
+   "tr": "çalışıyorsun",
+   "kok": "arbeiten",
+   "not": "t ile biten kökte araya e girer"
+  },
+  "arbeitet": {
+   "tr": "çalışıyor / çalışıyorsunuz",
+   "kok": "arbeiten"
+  },
+  "aufmachen": {
+   "tr": "açmak",
+   "kok": "aufmachen",
+   "not": "ayrılabilen: Mach … auf!"
+  },
+  "beobachtet": {
+   "tr": "gözlemledi(m)",
+   "kok": "beobachten",
+   "not": "Partizip II"
+  },
+  "beobachten": {
+   "tr": "gözlemlemek",
+   "kok": "beobachten"
+  },
+  "besser": {
+   "tr": "daha iyi",
+   "kok": "gut",
+   "not": "Komparativ (düzensiz)"
+  },
+  "besten": {
+   "tr": "en iyi",
+   "kok": "gut",
+   "not": "am besten"
+  },
+  "bringt": {
+   "tr": "getiriyor; getirin! (ihr)",
+   "kok": "bringen"
+  },
+  "cousin": {
+   "tr": "kuzen (erkek)",
+   "kok": "der Cousin, -s"
+  },
+  "cousins": {
+   "tr": "kuzenler",
+   "kok": "der Cousin, -s"
+  },
+  "cousine": {
+   "tr": "kuzen (kız)",
+   "kok": "die Cousine, -n"
+  },
+  "cousinen": {
+   "tr": "kuzenler (kız)",
+   "kok": "die Cousine, -n"
+  },
+  "elektriker": {
+   "tr": "elektrikçi",
+   "kok": "der Elektriker, -"
+  },
+  "enkel": {
+   "tr": "torun(lar)",
+   "kok": "der Enkel, -"
+  },
+  "enkelin": {
+   "tr": "kız torun",
+   "kok": "die Enkelin, -nen"
+  },
+  "enkelinnen": {
+   "tr": "kız torunlar",
+   "kok": "die Enkelin, -nen"
+  },
+  "euer": {
+   "tr": "sizin",
+   "kok": "euer",
+   "not": "Possessiv (ihr)"
+  },
+  "eure": {
+   "tr": "sizin",
+   "kok": "euer",
+   "not": "dişil/çoğul: eure"
+  },
+  "familie": {
+   "tr": "aile",
+   "kok": "die Familie, -n"
+  },
+  "fluglotse": {
+   "tr": "hava trafik kontrolörü",
+   "kok": "der Fluglotse, -n"
+  },
+  "flugzeuge": {
+   "tr": "uçaklar",
+   "kok": "das Flugzeug, -e"
+  },
+  "fünf": {
+   "tr": "beş"
+  },
+  "gesagt": {
+   "tr": "söyledi(m)",
+   "kok": "sagen",
+   "not": "Partizip II"
+  },
+  "geschwister": {
+   "tr": "kardeşler",
+   "kok": "die Geschwister (Pl.)"
+  },
+  "gesprochen": {
+   "tr": "konuştu(m)",
+   "kok": "sprechen",
+   "not": "Partizip II (düzensiz)"
+  },
+  "gib": {
+   "tr": "ver!",
+   "kok": "geben",
+   "not": "du'ya emir (e → i)"
+  },
+  "glück": {
+   "tr": "şans",
+   "kok": "das Glück",
+   "not": "Glück haben = şanslı olmak"
+  },
+  "größer": {
+   "tr": "daha büyük",
+   "kok": "groß",
+   "not": "Komparativ"
+  },
+  "größten": {
+   "tr": "en büyük",
+   "kok": "groß",
+   "not": "am größten"
+  },
+  "haus": {
+   "tr": "ev",
+   "kok": "das Haus, die Häuser"
+  },
+  "himmel": {
+   "tr": "gökyüzü",
+   "kok": "der Himmel"
+  },
+  "ihren": {
+   "tr": "onun (kadının) / onların",
+   "kok": "ihr",
+   "not": "Akkusativ eril: ihren Hund"
+  },
+  "jede": {
+   "tr": "her",
+   "kok": "jeder / jede / jedes",
+   "not": "jede Nacht = her gece"
+  },
+  "karten": {
+   "tr": "kartlar; iskambil",
+   "kok": "die Karte, -n"
+  },
+  "kaufst": {
+   "tr": "satın alıyorsun",
+   "kok": "kaufen"
+  },
+  "kennt": {
+   "tr": "tanıyor, biliyor",
+   "kok": "kennen"
+  },
+  "kind": {
+   "tr": "çocuk",
+   "kok": "das Kind, -er"
+  },
+  "klein": {
+   "tr": "küçük"
+  },
+  "kleiner": {
+   "tr": "daha küçük",
+   "kok": "klein",
+   "not": "Komparativ"
+  },
+  "kleinsten": {
+   "tr": "en küçük",
+   "kok": "klein",
+   "not": "am kleinsten"
+  },
+  "komparativ": {
+   "tr": "karşılaştırma derecesi (daha …)"
+  },
+  "superlativ": {
+   "tr": "üstünlük derecesi (en …)"
+  },
+  "laut": {
+   "tr": "yüksek sesle; gürültülü"
+  },
+  "lehrer": {
+   "tr": "öğretmen",
+   "kok": "der Lehrer, -"
+  },
+  "lerne": {
+   "tr": "öğreniyorum",
+   "kok": "lernen"
+  },
+  "lernst": {
+   "tr": "öğreniyorsun",
+   "kok": "lernen"
+  },
+  "lernt": {
+   "tr": "öğreniyor / öğreniyorsunuz",
+   "kok": "lernen"
+  },
+  "lesen": {
+   "tr": "okumak",
+   "kok": "lesen (er liest, hat gelesen)"
+  },
+  "lieber": {
+   "tr": "daha çok (severek)",
+   "kok": "gern",
+   "not": "Komparativ: gern → lieber"
+  },
+  "liebsten": {
+   "tr": "en çok (severek)",
+   "kok": "gern",
+   "not": "am liebsten"
+  },
+  "liebt": {
+   "tr": "seviyor",
+   "kok": "lieben"
+  },
+  "mach": {
+   "tr": "yap!",
+   "kok": "machen",
+   "not": "du'ya emir"
+  },
+  "marta": {
+   "tr": "Marta (isim)"
+  },
+  "mehmets": {
+   "tr": "Mehmet'in",
+   "kok": "Mehmet",
+   "not": "isim + s = iyelik"
+  },
+  "meisten": {
+   "tr": "en çok",
+   "kok": "viel",
+   "not": "am meisten"
+  },
+  "nehmen": {
+   "tr": "almak",
+   "kok": "nehmen (er nimmt, hat genommen)"
+  },
+  "nervös": {
+   "tr": "gergin, sinirli"
+  },
+  "neue": {
+   "tr": "yeni",
+   "kok": "neu"
+  },
+  "novák": {
+   "tr": "Novák (soyadı)"
+  },
+  "onkel": {
+   "tr": "amca, dayı",
+   "kok": "der Onkel, -"
+  },
+  "personen": {
+   "tr": "kişiler",
+   "kok": "die Person, -en"
+  },
+  "peter": {
+   "tr": "Peter (isim)"
+  },
+  "thomas": {
+   "tr": "Thomas (isim)"
+  },
+  "platz": {
+   "tr": "yer; meydan",
+   "kok": "der Platz, die Plätze",
+   "not": "Nehmen Sie Platz! = Buyurun oturun!"
+  },
+  "rufen": {
+   "tr": "seslenmek; çağırmak",
+   "kok": "rufen"
+  },
+  "rufst": {
+   "tr": "arıyorsun / seslenirsin",
+   "kok": "rufen",
+   "not": "du rufst … an"
+  },
+  "ruhiger": {
+   "tr": "daha sakin",
+   "kok": "ruhig",
+   "not": "Komparativ"
+  },
+  "schneller": {
+   "tr": "daha hızlı",
+   "kok": "schnell",
+   "not": "Komparativ"
+  },
+  "schnellsten": {
+   "tr": "en hızlı",
+   "kok": "schnell",
+   "not": "am schnellsten"
+  },
+  "schreiben": {
+   "tr": "yazmak",
+   "kok": "schreiben (hat geschrieben)"
+  },
+  "seine": {
+   "tr": "onun (erkeğin)",
+   "kok": "sein",
+   "not": "dişil/çoğul: seine"
+  },
+  "seinen": {
+   "tr": "onun (erkeğin)",
+   "kok": "sein",
+   "not": "Akkusativ eril: seinen"
+  },
+  "sitze": {
+   "tr": "oturuyorum",
+   "kok": "sitzen"
+  },
+  "sofort": {
+   "tr": "hemen"
+  },
+  "sohn": {
+   "tr": "oğul",
+   "kok": "der Sohn, die Söhne"
+  },
+  "söhne": {
+   "tr": "oğullar",
+   "kok": "der Sohn, die Söhne"
+  },
+  "solarpanel": {
+   "tr": "güneş paneli",
+   "kok": "das Solarpanel, -e"
+  },
+  "spielt": {
+   "tr": "oynuyor / oynuyorsunuz",
+   "kok": "spielen"
+  },
+  "stern": {
+   "tr": "yıldız",
+   "kok": "der Stern, -e"
+  },
+  "sterne": {
+   "tr": "yıldızlar",
+   "kok": "der Stern, -e"
+  },
+  "stricke": {
+   "tr": "örüyorum (örgü)",
+   "kok": "stricken"
+  },
+  "tee": {
+   "tr": "çay",
+   "kok": "der Tee"
+  },
+  "teuer": {
+   "tr": "pahalı"
+  },
+  "teurer": {
+   "tr": "daha pahalı",
+   "kok": "teuer",
+   "not": "Komparativ: e düşer"
+  },
+  "teuersten": {
+   "tr": "en pahalı",
+   "kok": "teuer",
+   "not": "am teuersten"
+  },
+  "tochter": {
+   "tr": "kız (evlat)",
+   "kok": "die Tochter, die Töchter"
+  },
+  "töchter": {
+   "tr": "kızlar (evlat)",
+   "kok": "die Tochter, die Töchter"
+  },
+  "unser": {
+   "tr": "bizim",
+   "kok": "unser"
+  },
+  "unsere": {
+   "tr": "bizim",
+   "kok": "unser",
+   "not": "dişil/çoğul"
+  },
+  "unseren": {
+   "tr": "bizim",
+   "kok": "unser",
+   "not": "Akkusativ eril"
+  },
+  "unten": {
+   "tr": "aşağıda"
+  },
+  "vierundachtzig": {
+   "tr": "seksen dört"
+  },
+  "warum": {
+   "tr": "neden"
+  },
+  "wieder": {
+   "tr": "yine, tekrar"
+  },
+  "wo": {
+   "tr": "nerede"
+  },
+  "wohnst": {
+   "tr": "oturuyorsun",
+   "kok": "wohnen"
+  },
+  "zuerst": {
+   "tr": "önce, ilk olarak"
+  },
+  "älter": {
+   "tr": "daha yaşlı, daha büyük",
+   "kok": "alt",
+   "not": "Komparativ: a → ä"
+  },
+  "ältesten": {
+   "tr": "en yaşlı",
+   "kok": "alt",
+   "not": "am ältesten"
+  },
+  "mütter": {
+   "tr": "anneler",
+   "kok": "die Mutter, die Mütter"
+  },
+  "väter": {
+   "tr": "babalar",
+   "kok": "der Vater, die Väter"
+  },
+  "brüder": {
+   "tr": "erkek kardeşler",
+   "kok": "der Bruder, die Brüder"
+  },
+  "schwestern": {
+   "tr": "kız kardeşler",
+   "kok": "die Schwester, -n"
+  },
+  "großeltern": {
+   "tr": "büyükanne ve büyükbaba",
+   "kok": "die Großeltern (Pl.)"
+  },
+  "omas": {
+   "tr": "nineler",
+   "kok": "die Oma, -s"
+  },
+  "opa": {
+   "tr": "dede",
+   "kok": "der Opa, -s"
+  },
+  "opas": {
+   "tr": "dedeler",
+   "kok": "der Opa, -s"
+  },
+  "tante": {
+   "tr": "hala, teyze",
+   "kok": "die Tante, -n"
+  },
+  "tanten": {
+   "tr": "halalar, teyzeler",
+   "kok": "die Tante, -n"
+  },
+  "abstimmen": {
+   "tr": "oylamak",
+   "kok": "abstimmen (hat abgestimmt)"
+  },
+  "mitgebracht": {
+   "tr": "yanında getirdi",
+   "kok": "mitbringen",
+   "not": "Partizip II"
+  },
+  "zumachen": {
+   "tr": "kapatmak",
+   "kok": "zumachen (hat zugemacht)"
+  },
+  "zugemacht": {
+   "tr": "kapattı",
+   "kok": "zumachen",
+   "not": "Partizip II"
+  },
+  "gehabt": {
+   "tr": "sahip oldu",
+   "kok": "haben",
+   "not": "Partizip II"
+  },
+  "gewohnt": {
+   "tr": "oturmak (Partizip II)",
+   "kok": "wohnen",
+   "not": "Perfekt: hat/ist … gewohnt"
+  },
+  "gearbeitet": {
+   "tr": "çalışmak (Partizip II)",
+   "kok": "arbeiten",
+   "not": "Perfekt: hat/ist … gearbeitet"
+  },
+  "kochen": {
+   "tr": "yemek pişirmek",
+   "kok": "kochen"
+  },
+  "gekocht": {
+   "tr": "yemek pişirmek (Partizip II)",
+   "kok": "kochen",
+   "not": "Perfekt: hat/ist … gekocht"
+  },
+  "gefragt": {
+   "tr": "sormak (Partizip II)",
+   "kok": "fragen",
+   "not": "Perfekt: hat/ist … gefragt"
+  },
+  "gesucht": {
+   "tr": "aramak (Partizip II)",
+   "kok": "suchen",
+   "not": "Perfekt: hat/ist … gesucht"
+  },
+  "gebraucht": {
+   "tr": "ihtiyaç duymak (Partizip II)",
+   "kok": "brauchen",
+   "not": "Perfekt: hat/ist … gebraucht"
+  },
+  "gewartet": {
+   "tr": "beklemek (Partizip II)",
+   "kok": "warten",
+   "not": "Perfekt: hat/ist … gewartet"
+  },
+  "zeigen": {
+   "tr": "göstermek",
+   "kok": "zeigen"
+  },
+  "gezeigt": {
+   "tr": "göstermek (Partizip II)",
+   "kok": "zeigen",
+   "not": "Perfekt: hat/ist … gezeigt"
+  },
+  "putzen": {
+   "tr": "temizlemek",
+   "kok": "putzen"
+  },
+  "geputzt": {
+   "tr": "temizlemek (Partizip II)",
+   "kok": "putzen",
+   "not": "Perfekt: hat/ist … geputzt"
+  },
+  "tanzen": {
+   "tr": "dans etmek",
+   "kok": "tanzen"
+  },
+  "getanzt": {
+   "tr": "dans etmek (Partizip II)",
+   "kok": "tanzen",
+   "not": "Perfekt: hat/ist … getanzt"
+  },
+  "lachen": {
+   "tr": "gülmek",
+   "kok": "lachen"
+  },
+  "gelacht": {
+   "tr": "gülmek (Partizip II)",
+   "kok": "lachen",
+   "not": "Perfekt: hat/ist … gelacht"
+  },
+  "kosten": {
+   "tr": "tutmak (fiyat)",
+   "kok": "kosten"
+  },
+  "gekostet": {
+   "tr": "tutmak (fiyat) (Partizip II)",
+   "kok": "kosten",
+   "not": "Perfekt: hat/ist … gekostet"
+  },
+  "studieren": {
+   "tr": "üniversitede okumak",
+   "kok": "studieren"
+  },
+  "studiert": {
+   "tr": "üniversitede okumak (Partizip II)",
+   "kok": "studieren",
+   "not": "Perfekt: hat/ist … studiert"
+  },
+  "telefonieren": {
+   "tr": "telefonla konuşmak",
+   "kok": "telefonieren"
+  },
+  "telefoniert": {
+   "tr": "telefonla konuşmak (Partizip II)",
+   "kok": "telefonieren",
+   "not": "Perfekt: hat/ist … telefoniert"
+  },
+  "reparieren": {
+   "tr": "tamir etmek",
+   "kok": "reparieren"
+  },
+  "fotografieren": {
+   "tr": "fotoğrafını çekmek",
+   "kok": "fotografieren"
+  },
+  "fotografiert": {
+   "tr": "fotoğrafını çekmek (Partizip II)",
+   "kok": "fotografieren",
+   "not": "Perfekt: hat/ist … fotografiert"
+  },
+  "funktionieren": {
+   "tr": "çalışmak (makine)",
+   "kok": "funktionieren"
+  },
+  "funktioniert": {
+   "tr": "çalışmak (makine) (Partizip II)",
+   "kok": "funktionieren",
+   "not": "Perfekt: hat/ist … funktioniert"
+  },
+  "besuchen": {
+   "tr": "ziyaret etmek",
+   "kok": "besuchen"
+  },
+  "besucht": {
+   "tr": "ziyaret etmek (Partizip II)",
+   "kok": "besuchen",
+   "not": "Perfekt: hat/ist … besucht"
+  },
+  "bezahlen": {
+   "tr": "ödemek",
+   "kok": "bezahlen"
+  },
+  "bezahlt": {
+   "tr": "ödemek (Partizip II)",
+   "kok": "bezahlen",
+   "not": "Perfekt: hat/ist … bezahlt"
+  },
+  "erklären": {
+   "tr": "açıklamak",
+   "kok": "erklären"
+  },
+  "erklärt": {
+   "tr": "açıklamak (Partizip II)",
+   "kok": "erklären",
+   "not": "Perfekt: hat/ist … erklärt"
+  },
+  "bestellen": {
+   "tr": "sipariş etmek",
+   "kok": "bestellen"
+  },
+  "bestellt": {
+   "tr": "sipariş etmek (Partizip II)",
+   "kok": "bestellen",
+   "not": "Perfekt: hat/ist … bestellt"
+  },
+  "vergessen": {
+   "tr": "unutmak",
+   "kok": "vergessen"
+  },
+  "verstehen": {
+   "tr": "anlamak",
+   "kok": "verstehen"
+  },
+  "verstanden": {
+   "tr": "anlamak (Partizip II)",
+   "kok": "verstehen",
+   "not": "Perfekt: hat/ist … verstanden"
+  },
+  "bekommen": {
+   "tr": "almak (kendisine verilen)",
+   "kok": "bekommen"
+  },
+  "aufgemacht": {
+   "tr": "açmak (Partizip II)",
+   "kok": "aufmachen",
+   "not": "Perfekt: hat/ist … aufgemacht"
+  },
+  "eingekauft": {
+   "tr": "alışveriş yapmak (Partizip II)",
+   "kok": "einkaufen",
+   "not": "Perfekt: hat/ist … eingekauft"
+  },
+  "aufgeräumt": {
+   "tr": "toplamak (Partizip II)",
+   "kok": "aufräumen",
+   "not": "Perfekt: hat/ist … aufgeräumt"
+  },
+  "abholen": {
+   "tr": "(birini/bir şeyi) gidip almak",
+   "kok": "abholen"
+  },
+  "abgeholt": {
+   "tr": "(birini/bir şeyi) gidip almak (Partizip II)",
+   "kok": "abholen",
+   "not": "Perfekt: hat/ist … abgeholt"
+  },
+  "angerufen": {
+   "tr": "telefonla aramak (Partizip II)",
+   "kok": "anrufen",
+   "not": "Perfekt: hat/ist … angerufen"
+  },
+  "einladen": {
+   "tr": "davet etmek",
+   "kok": "einladen"
+  },
+  "eingeladen": {
+   "tr": "davet etmek (Partizip II)",
+   "kok": "einladen",
+   "not": "Perfekt: hat/ist … eingeladen"
+  },
+  "ankommen": {
+   "tr": "varmak",
+   "kok": "ankommen"
+  },
+  "angekommen": {
+   "tr": "varmak (Partizip II)",
+   "kok": "ankommen",
+   "not": "Perfekt: hat/ist … angekommen"
+  },
+  "abgefahren": {
+   "tr": "(araç) kalkmak (Partizip II)",
+   "kok": "abfahren",
+   "not": "Perfekt: hat/ist … abgefahren"
+  },
+  "fernsehen": {
+   "tr": "televizyon izlemek",
+   "kok": "fernsehen"
+  },
+  "ferngesehen": {
+   "tr": "televizyon izlemek (Partizip II)",
+   "kok": "fernsehen",
+   "not": "Perfekt: hat/ist … ferngesehen"
+  },
+  "angefangen": {
+   "tr": "başlamak (Partizip II)",
+   "kok": "anfangen",
+   "not": "Perfekt: hat/ist … angefangen"
+  },
+  "aussteigen": {
+   "tr": "(araçtan) inmek",
+   "kok": "aussteigen"
+  },
+  "ausgestiegen": {
+   "tr": "(araçtan) inmek (Partizip II)",
+   "kok": "aussteigen",
+   "not": "Perfekt: hat/ist … ausgestiegen"
+  },
+  "einsteigen": {
+   "tr": "(araca) binmek",
+   "kok": "einsteigen"
+  },
+  "eingestiegen": {
+   "tr": "(araca) binmek (Partizip II)",
+   "kok": "einsteigen",
+   "not": "Perfekt: hat/ist … eingestiegen"
+  },
+  "aufhören": {
+   "tr": "durmak, bitmek",
+   "kok": "aufhören"
+  },
+  "aufgehört": {
+   "tr": "durmak (Partizip II)",
+   "kok": "aufhören",
+   "not": "Perfekt: hat/ist … aufgehört"
+  },
+  "ausmachen": {
+   "tr": "kapatmak (ışık, cihaz)",
+   "kok": "ausmachen"
+  },
+  "ausgemacht": {
+   "tr": "kapatmak (ışık (Partizip II)",
+   "kok": "ausmachen",
+   "not": "Perfekt: hat/ist … ausgemacht"
+  },
+  "angemacht": {
+   "tr": "açmak (Partizip II)",
+   "kok": "anmachen",
+   "not": "Perfekt: hat/ist … angemacht"
+  },
+  "mitgekommen": {
+   "tr": "birlikte gelmek (Partizip II)",
+   "kok": "mitkommen",
+   "not": "Perfekt: hat/ist … mitgekommen"
+  },
+  "zurückkommen": {
+   "tr": "geri dönmek",
+   "kok": "zurückkommen"
+  },
+  "zurückgekommen": {
+   "tr": "geri dönmek (Partizip II)",
+   "kok": "zurückkommen",
+   "not": "Perfekt: hat/ist … zurückgekommen"
+  },
+  "anziehen": {
+   "tr": "giymek",
+   "kok": "anziehen"
+  },
+  "angezogen": {
+   "tr": "giymek (Partizip II)",
+   "kok": "anziehen",
+   "not": "Perfekt: hat/ist … angezogen"
+  },
+  "aufschreiben": {
+   "tr": "not almak, yazmak",
+   "kok": "aufschreiben"
+  },
+  "aufgeschrieben": {
+   "tr": "not almak (Partizip II)",
+   "kok": "aufschreiben",
+   "not": "Perfekt: hat/ist … aufgeschrieben"
+  },
+  "einschlafen": {
+   "tr": "uykuya dalmak",
+   "kok": "einschlafen"
+  },
+  "eingeschlafen": {
+   "tr": "uykuya dalmak (Partizip II)",
+   "kok": "einschlafen",
+   "not": "Perfekt: hat/ist … eingeschlafen"
+  },
+  "schlafen": {
+   "tr": "uyumak",
+   "kok": "schlafen"
+  },
+  "geschlafen": {
+   "tr": "uyumak (Partizip II)",
+   "kok": "schlafen",
+   "not": "Perfekt: hat/ist … geschlafen"
+  },
+  "gegeben": {
+   "tr": "vermek (Partizip II)",
+   "kok": "geben",
+   "not": "Perfekt: hat/ist … gegeben"
+  },
+  "tragen": {
+   "tr": "taşımak; giymek",
+   "kok": "tragen"
+  },
+  "getragen": {
+   "tr": "taşımak (Partizip II)",
+   "kok": "tragen",
+   "not": "Perfekt: hat/ist … getragen"
+  },
+  "waschen": {
+   "tr": "yıkamak",
+   "kok": "waschen"
+  },
+  "gewaschen": {
+   "tr": "yıkamak (Partizip II)",
+   "kok": "waschen",
+   "not": "Perfekt: hat/ist … gewaschen"
+  },
+  "fallen": {
+   "tr": "düşmek",
+   "kok": "fallen"
+  },
+  "gefallen": {
+   "tr": "düşmek (Partizip II)",
+   "kok": "fallen",
+   "not": "Perfekt: hat/ist … gefallen"
+  },
+  "halten": {
+   "tr": "durmak (araç); tutmak",
+   "kok": "halten"
+  },
+  "gehalten": {
+   "tr": "durmak (araç) (Partizip II)",
+   "kok": "halten",
+   "not": "Perfekt: hat/ist … gehalten"
+  },
+  "gerufen": {
+   "tr": "seslenmek (Partizip II)",
+   "kok": "rufen",
+   "not": "Perfekt: hat/ist … gerufen"
+  },
+  "backen": {
+   "tr": "(fırında) pişirmek",
+   "kok": "backen"
+  },
+  "gebacken": {
+   "tr": "(fırında) pişirmek (Partizip II)",
+   "kok": "backen",
+   "not": "Perfekt: hat/ist … gebacken"
+  },
+  "lassen": {
+   "tr": "bırakmak",
+   "kok": "lassen"
+  },
+  "gelassen": {
+   "tr": "bırakmak (Partizip II)",
+   "kok": "lassen",
+   "not": "Perfekt: hat/ist … gelassen"
+  },
+  "steigen": {
+   "tr": "tırmanmak; binmek",
+   "kok": "steigen"
+  },
+  "gestiegen": {
+   "tr": "tırmanmak (Partizip II)",
+   "kok": "steigen",
+   "not": "Perfekt: hat/ist … gestiegen"
+  },
+  "leihen": {
+   "tr": "ödünç vermek/almak",
+   "kok": "leihen"
+  },
+  "geliehen": {
+   "tr": "ödünç vermek/almak (Partizip II)",
+   "kok": "leihen",
+   "not": "Perfekt: hat/ist … geliehen"
+  },
+  "scheinen": {
+   "tr": "parlamak (güneş)",
+   "kok": "scheinen"
+  },
+  "geschienen": {
+   "tr": "parlamak (güneş) (Partizip II)",
+   "kok": "scheinen",
+   "not": "Perfekt: hat/ist … geschienen"
+  },
+  "schreien": {
+   "tr": "bağırmak",
+   "kok": "schreien"
+  },
+  "geschrien": {
+   "tr": "bağırmak (Partizip II)",
+   "kok": "schreien",
+   "not": "Perfekt: hat/ist … geschrien"
+  },
+  "schweigen": {
+   "tr": "susmak",
+   "kok": "schweigen"
+  },
+  "geschwiegen": {
+   "tr": "susmak (Partizip II)",
+   "kok": "schweigen",
+   "not": "Perfekt: hat/ist … geschwiegen"
+  },
+  "schneiden": {
+   "tr": "kesmek",
+   "kok": "schneiden"
+  },
+  "geschnitten": {
+   "tr": "kesmek (Partizip II)",
+   "kok": "schneiden",
+   "not": "Perfekt: hat/ist … geschnitten"
+  },
+  "streiten": {
+   "tr": "tartışmak, kavga etmek",
+   "kok": "streiten"
+  },
+  "gestritten": {
+   "tr": "tartışmak (Partizip II)",
+   "kok": "streiten",
+   "not": "Perfekt: hat/ist … gestritten"
+  },
+  "finden": {
+   "tr": "bulmak",
+   "kok": "finden"
+  },
+  "gefunden": {
+   "tr": "bulmak (Partizip II)",
+   "kok": "finden",
+   "not": "Perfekt: hat/ist … gefunden"
+  },
+  "singen": {
+   "tr": "şarkı söylemek",
+   "kok": "singen"
+  },
+  "gesungen": {
+   "tr": "şarkı söylemek (Partizip II)",
+   "kok": "singen",
+   "not": "Perfekt: hat/ist … gesungen"
+  },
+  "springen": {
+   "tr": "atlamak",
+   "kok": "springen"
+  },
+  "gesprungen": {
+   "tr": "atlamak (Partizip II)",
+   "kok": "springen",
+   "not": "Perfekt: hat/ist … gesprungen"
+  },
+  "verschwinden": {
+   "tr": "kaybolmak",
+   "kok": "verschwinden"
+  },
+  "verschwunden": {
+   "tr": "kaybolmak (Partizip II)",
+   "kok": "verschwinden",
+   "not": "Perfekt: hat/ist … verschwunden"
+  },
+  "binden": {
+   "tr": "bağlamak",
+   "kok": "binden"
+  },
+  "gebunden": {
+   "tr": "bağlamak (Partizip II)",
+   "kok": "binden",
+   "not": "Perfekt: hat/ist … gebunden"
+  },
+  "sinken": {
+   "tr": "düşmek, alçalmak",
+   "kok": "sinken"
+  },
+  "gesunken": {
+   "tr": "düşmek (Partizip II)",
+   "kok": "sinken",
+   "not": "Perfekt: hat/ist … gesunken"
+  },
+  "genommen": {
+   "tr": "almak (Partizip II)",
+   "kok": "nehmen",
+   "not": "Perfekt: hat/ist … genommen"
+  },
+  "geholfen": {
+   "tr": "yardım etmek (Partizip II)",
+   "kok": "helfen",
+   "not": "Perfekt: hat/ist … geholfen"
+  },
+  "getroffen": {
+   "tr": "buluşmak (Partizip II)",
+   "kok": "treffen",
+   "not": "Perfekt: hat/ist … getroffen"
+  },
+  "werfen": {
+   "tr": "atmak, fırlatmak",
+   "kok": "werfen"
+  },
+  "geworfen": {
+   "tr": "atmak (Partizip II)",
+   "kok": "werfen",
+   "not": "Perfekt: hat/ist … geworfen"
+  },
+  "schwimmen": {
+   "tr": "yüzmek",
+   "kok": "schwimmen"
+  },
+  "geschwommen": {
+   "tr": "yüzmek (Partizip II)",
+   "kok": "schwimmen",
+   "not": "Perfekt: hat/ist … geschwommen"
+  },
+  "beginnen": {
+   "tr": "başlamak",
+   "kok": "beginnen"
+  },
+  "begonnen": {
+   "tr": "başlamak (Partizip II)",
+   "kok": "beginnen",
+   "not": "Perfekt: hat/ist … begonnen"
+  },
+  "ziehen": {
+   "tr": "çekmek",
+   "kok": "ziehen"
+  },
+  "gezogen": {
+   "tr": "çekmek (Partizip II)",
+   "kok": "ziehen",
+   "not": "Perfekt: hat/ist … gezogen"
+  },
+  "verlieren": {
+   "tr": "kaybetmek",
+   "kok": "verlieren"
+  },
+  "verloren": {
+   "tr": "kaybetmek (Partizip II)",
+   "kok": "verlieren",
+   "not": "Perfekt: hat/ist … verloren"
+  },
+  "schließen": {
+   "tr": "kapatmak",
+   "kok": "schließen"
+  },
+  "brechen": {
+   "tr": "kırmak",
+   "kok": "brechen"
+  },
+  "gebrochen": {
+   "tr": "kırmak (Partizip II)",
+   "kok": "brechen",
+   "not": "Perfekt: hat/ist … gebrochen"
+  },
+  "frieren": {
+   "tr": "üşümek; donmak",
+   "kok": "frieren"
+  },
+  "gefroren": {
+   "tr": "üşümek (Partizip II)",
+   "kok": "frieren",
+   "not": "Perfekt: hat/ist … gefroren"
+  },
+  "empfehlen": {
+   "tr": "tavsiye etmek",
+   "kok": "empfehlen"
+  },
+  "empfohlen": {
+   "tr": "tavsiye etmek (Partizip II)",
+   "kok": "empfehlen",
+   "not": "Perfekt: hat/ist … empfohlen"
+  },
+  "anbieten": {
+   "tr": "ikram etmek, teklif etmek",
+   "kok": "anbieten"
+  },
+  "angeboten": {
+   "tr": "ikram etmek (Partizip II)",
+   "kok": "anbieten",
+   "not": "Perfekt: hat/ist … angeboten"
+  },
+  "gestanden": {
+   "tr": "ayakta durmak (Partizip II)",
+   "kok": "stehen",
+   "not": "Perfekt: hat/ist … gestanden"
+  },
+  "sitzen": {
+   "tr": "oturmak",
+   "kok": "sitzen"
+  },
+  "gesessen": {
+   "tr": "oturmak (Partizip II)",
+   "kok": "sitzen",
+   "not": "Perfekt: hat/ist … gesessen"
+  },
+  "liegen": {
+   "tr": "yatmak, (bir yerde) durmak",
+   "kok": "liegen"
+  },
+  "gelegen": {
+   "tr": "yatmak (Partizip II)",
+   "kok": "liegen",
+   "not": "Perfekt: hat/ist … gelegen"
+  },
+  "werden": {
+   "tr": "olmak (dönüşmek)",
+   "kok": "werden"
+  },
+  "geworden": {
+   "tr": "olmak (dönüşmek) (Partizip II)",
+   "kok": "werden",
+   "not": "Perfekt: hat/ist … geworden"
+  },
+  "gebracht": {
+   "tr": "getirmek (Partizip II)",
+   "kok": "bringen",
+   "not": "Perfekt: hat/ist … gebracht"
+  },
+  "denken": {
+   "tr": "düşünmek",
+   "kok": "denken"
+  },
+  "gedacht": {
+   "tr": "düşünmek (Partizip II)",
+   "kok": "denken",
+   "not": "Perfekt: hat/ist … gedacht"
+  },
+  "gewusst": {
+   "tr": "bilmek (Partizip II)",
+   "kok": "wissen",
+   "not": "Perfekt: hat/ist … gewusst"
+  },
+  "kennen": {
+   "tr": "tanımak",
+   "kok": "kennen"
+  },
+  "gekannt": {
+   "tr": "tanımak (Partizip II)",
+   "kok": "kennen",
+   "not": "Perfekt: hat/ist … gekannt"
+  },
+  "tun": {
+   "tr": "yapmak",
+   "kok": "tun"
+  },
+  "getan": {
+   "tr": "yapmak (Partizip II)",
+   "kok": "tun",
+   "not": "Perfekt: hat/ist … getan"
+  },
+  "bitten": {
+   "tr": "rica etmek, istemek",
+   "kok": "bitten"
+  },
+  "gebeten": {
+   "tr": "rica etmek (Partizip II)",
+   "kok": "bitten",
+   "not": "Perfekt: hat/ist … gebeten"
+  },
+  "rennen": {
+   "tr": "koşmak",
+   "kok": "rennen"
+  },
+  "gerannt": {
+   "tr": "koşmak (Partizip II)",
+   "kok": "rennen",
+   "not": "Perfekt: hat/ist … gerannt"
+  },
+  "genannt": {
+   "tr": "adlandırmak (Partizip II)",
+   "kok": "nennen",
+   "not": "Perfekt: hat/ist … genannt"
+  },
+  "reisen": {
+   "tr": "seyahat etmek",
+   "kok": "reisen"
+  },
+  "gereist": {
+   "tr": "seyahat etmek (Partizip II)",
+   "kok": "reisen",
+   "not": "Perfekt: hat/ist … gereist"
+  },
+  "wandern": {
+   "tr": "doğa yürüyüşü yapmak",
+   "kok": "wandern"
+  },
+  "gewandert": {
+   "tr": "doğa yürüyüşü yapmak (Partizip II)",
+   "kok": "wandern",
+   "not": "Perfekt: hat/ist … gewandert"
+  },
+  "passieren": {
+   "tr": "olmak, meydana gelmek",
+   "kok": "passieren"
+  },
+  "passiert": {
+   "tr": "olmak (Partizip II)",
+   "kok": "passieren",
+   "not": "Perfekt: hat/ist … passiert"
+  },
+  "sterben": {
+   "tr": "ölmek",
+   "kok": "sterben"
+  },
+  "gestorben": {
+   "tr": "ölmek (Partizip II)",
+   "kok": "sterben",
+   "not": "Perfekt: hat/ist … gestorben"
+  },
+  "altes": {
+   "tr": "eski",
+   "kok": "alt"
+  },
+  "baby": {
+   "tr": "bebek",
+   "kok": "das Baby, -s"
+  },
+  "bahnhof": {
+   "tr": "tren istasyonu",
+   "kok": "der Bahnhof, die Bahnhöfe"
+  },
+  "ball": {
+   "tr": "top",
+   "kok": "der Ball, die Bälle"
+  },
+  "bein": {
+   "tr": "bacak",
+   "kok": "das Bein, -e"
+  },
+  "bergen": {
+   "tr": "dağlarda (in den Bergen)",
+   "kok": "der Berg, -e"
+  },
+  "bett": {
+   "tr": "yatak",
+   "kok": "das Bett, -en"
+  },
+  "blumen": {
+   "tr": "çiçekler",
+   "kok": "die Blume, -n"
+  },
+  "boden": {
+   "tr": "yer, zemin",
+   "kok": "der Boden"
+  },
+  "brille": {
+   "tr": "gözlük",
+   "kok": "die Brille, -n"
+  },
+  "café": {
+   "tr": "kafe",
+   "kok": "das Café, -s"
+  },
+  "deiner": {
+   "tr": "senin",
+   "kok": "dein",
+   "not": "Dativ: mit deiner Mutter"
+  },
+  "e": {
+   "tr": "e- (E-Mail)"
+  },
+  "mail": {
+   "tr": "e-posta (E-Mail)",
+   "kok": "die E-Mail, -s"
+  },
+  "endlich": {
+   "tr": "nihayet, sonunda"
+  },
+  "euro": {
+   "tr": "euro",
+   "kok": "der Euro, -s"
+  },
+  "frühstück": {
+   "tr": "kahvaltı",
+   "kok": "das Frühstück"
+  },
+  "fuß": {
+   "tr": "ayak",
+   "kok": "der Fuß, die Füße",
+   "not": "zu Fuß = yürüyerek"
+  },
+  "ganze": {
+   "tr": "bütün",
+   "kok": "ganz",
+   "not": "die ganze Nacht = bütün gece"
+  },
+  "ganzen": {
+   "tr": "bütün",
+   "kok": "ganz",
+   "not": "den ganzen Tag = bütün gün"
+  },
+  "gemüse": {
+   "tr": "sebze",
+   "kok": "das Gemüse"
+  },
+  "genug": {
+   "tr": "yeterince"
+  },
+  "glas": {
+   "tr": "bardak; cam",
+   "kok": "das Glas, die Gläser"
+  },
+  "handy": {
+   "tr": "cep telefonu",
+   "kok": "das Handy, -s"
+  },
+  "hausaufgaben": {
+   "tr": "ödevler",
+   "kok": "die Hausaufgabe, -n"
+  },
+  "hände": {
+   "tr": "eller",
+   "kok": "die Hand, die Hände"
+  },
+  "ihm": {
+   "tr": "ona (erkek)",
+   "kok": "er",
+   "not": "Dativ"
+  },
+  "istanbul": {
+   "tr": "İstanbul"
+  },
+  "italien": {
+   "tr": "İtalya"
+  },
+  "katze": {
+   "tr": "kedi",
+   "kok": "die Katze, -n"
+  },
+  "kilometer": {
+   "tr": "kilometre",
+   "kok": "der Kilometer, -"
+  },
+  "kleid": {
+   "tr": "elbise",
+   "kok": "das Kleid, -er"
+  },
+  "lied": {
+   "tr": "şarkı",
+   "kok": "das Lied, -er"
+  },
+  "museum": {
+   "tr": "müze",
+   "kok": "das Museum, die Museen"
+  },
+  "namen": {
+   "tr": "adı, ismi",
+   "kok": "der Name, -n",
+   "not": "Akkusativ: den Namen"
+  },
+  "neues": {
+   "tr": "yeni",
+   "kok": "neu",
+   "not": "ein neues Radio"
+  },
+  "nichts": {
+   "tr": "hiçbir şey"
+  },
+  "nie": {
+   "tr": "hiç, asla",
+   "kok": "nie",
+   "not": "noch nie = hiç (şimdiye kadar)"
+  },
+  "pflanzen": {
+   "tr": "bitkiler",
+   "kok": "die Pflanze, -n"
+  },
+  "regel": {
+   "tr": "kural",
+   "kok": "die Regel, -n"
+  },
+  "regen": {
+   "tr": "yağmur",
+   "kok": "der Regen"
+  },
+  "rotes": {
+   "tr": "kırmızı",
+   "kok": "rot",
+   "not": "ein rotes Kleid"
+  },
+  "schlecht": {
+   "tr": "kötü"
+  },
+  "see": {
+   "tr": "göl",
+   "kok": "der See, -n"
+  },
+  "seil": {
+   "tr": "ip",
+   "kok": "das Seil, -e"
+  },
+  "sonne": {
+   "tr": "güneş",
+   "kok": "die Sonne"
+  },
+  "stunde": {
+   "tr": "saat (süre)",
+   "kok": "die Stunde, -n"
+  },
+  "temperatur": {
+   "tr": "sıcaklık",
+   "kok": "die Temperatur, -en"
+  },
+  "tomaten": {
+   "tr": "domatesler",
+   "kok": "die Tomate, -n"
+  },
+  "wohin": {
+   "tr": "nereye"
+  },
+  "wäsche": {
+   "tr": "çamaşır",
+   "kok": "die Wäsche"
+  },
+  "yuki": {
+   "tr": "Yuki (isim)"
+  },
+  "zaun": {
+   "tr": "çit",
+   "kok": "der Zaun, die Zäune"
+  },
+  "zeitung": {
+   "tr": "gazete",
+   "kok": "die Zeitung, -en"
+  },
+  "abends": {
+   "tr": "akşamları"
+  },
+  "damaskus": {
+   "tr": "Şam (Damaskus)"
+  },
+  "dank": {
+   "tr": "teşekkür",
+   "kok": "der Dank",
+   "not": "Vielen Dank! = Çok teşekkürler!"
+  },
+  "darf": {
+   "tr": "-ebilir (izinli)",
+   "kok": "dürfen",
+   "not": "ich darf, er darf"
+  },
+  "daten": {
+   "tr": "tarihler; veriler",
+   "kok": "das Datum"
+  },
+  "datum": {
+   "tr": "tarih",
+   "kok": "das Datum, die Daten"
+  },
+  "dreißig": {
+   "tr": "otuz"
+  },
+  "durfte": {
+   "tr": "izni vardı",
+   "kok": "dürfen",
+   "not": "Präteritum"
+  },
+  "entschuldigen": {
+   "tr": "özür dilemek",
+   "kok": "sich entschuldigen"
+  },
+  "ersten": {
+   "tr": "birinci (am ersten Mai = 1 Mayıs'ta)",
+   "kok": "erste"
+  },
+  "fisch": {
+   "tr": "balık",
+   "kok": "der Fisch, -e"
+  },
+  "fliegt": {
+   "tr": "uçuyor",
+   "kok": "fliegen"
+  },
+  "flugzeug": {
+   "tr": "uçak",
+   "kok": "das Flugzeug, -e"
+  },
+  "funken": {
+   "tr": "telsizle haber vermek",
+   "kok": "funken (hat gefunkt)"
+  },
+  "gefunkt": {
+   "tr": "telsizle haber verdi",
+   "kok": "funken",
+   "not": "Partizip II"
+  },
+  "geburt": {
+   "tr": "doğum",
+   "kok": "die Geburt, -en"
+  },
+  "geehrte": {
+   "tr": "sayın",
+   "kok": "geehrt",
+   "not": "Sehr geehrte Frau … = Sayın … Hanım"
+  },
+  "gehst": {
+   "tr": "gidiyorsun",
+   "kok": "gehen"
+  },
+  "gesehnt": {
+   "tr": "özledi (sehnen); burada yanlış seçenek",
+   "kok": "sich sehnen",
+   "not": "doğrusu: gesehen"
+  },
+  "glücklich": {
+   "tr": "mutlu"
+  },
+  "grüße": {
+   "tr": "selamlar",
+   "kok": "der Gruß, die Grüße",
+   "not": "Viele Grüße = Selamlar"
+  },
+  "haddad": {
+   "tr": "Haddad (soyadı)"
+  },
+  "ingenieurin": {
+   "tr": "mühendis (kadın)",
+   "kok": "die Ingenieurin, -nen"
+  },
+  "jahr": {
+   "tr": "yıl",
+   "kok": "das Jahr, -e"
+  },
+  "konnte": {
+   "tr": "-ebildi, -abildi",
+   "kok": "können",
+   "not": "Präteritum: ich/er konnte"
+  },
+  "kästen": {
+   "tr": "kutular",
+   "kok": "der Kasten, die Kästen"
+  },
+  "können": {
+   "tr": "-ebilmek",
+   "kok": "können (ich kann)"
+  },
+  "langsamer": {
+   "tr": "daha yavaş",
+   "kok": "langsam",
+   "not": "Komparativ"
+  },
+  "machst": {
+   "tr": "yapıyorsun",
+   "kok": "machen"
+  },
+  "minute": {
+   "tr": "dakika",
+   "kok": "die Minute, -n"
+  },
+  "minuten": {
+   "tr": "dakikalar",
+   "kok": "die Minute, -n"
+  },
+  "mochte": {
+   "tr": "severdi, hoşlanırdı",
+   "kok": "mögen",
+   "not": "Präteritum! möchte (isterim) ile karıştırma"
+  },
+  "monat": {
+   "tr": "ay",
+   "kok": "der Monat, -e"
+  },
+  "monate": {
+   "tr": "aylar",
+   "kok": "der Monat, -e"
+  },
+  "morgens": {
+   "tr": "sabahları"
+  },
+  "musste": {
+   "tr": "zorunda kaldı",
+   "kok": "müssen",
+   "not": "Präteritum: ich/er musste"
+  },
+  "mussten": {
+   "tr": "zorunda kaldık / kaldılar",
+   "kok": "müssen",
+   "not": "Präteritum"
+  },
+  "musstest": {
+   "tr": "zorunda kaldın",
+   "kok": "müssen",
+   "not": "Präteritum"
+  },
+  "möchte": {
+   "tr": "isterim, isterdim",
+   "kok": "mögen",
+   "not": "kibar istek: Ich möchte einen Tee."
+  },
+  "nehme": {
+   "tr": "alıyorum",
+   "kok": "nehmen"
+  },
+  "nimmt": {
+   "tr": "alıyor",
+   "kok": "nehmen",
+   "not": "e → i"
+  },
+  "oft": {
+   "tr": "sık sık"
+  },
+  "oktober": {
+   "tr": "ekim",
+   "kok": "der Oktober"
+  },
+  "packt": {
+   "tr": "(çanta) hazırlıyor",
+   "kok": "packen"
+  },
+  "sami": {
+   "tr": "Sami (isim)"
+  },
+  "schlafe": {
+   "tr": "uyuyorum",
+   "kok": "schlafen"
+  },
+  "sechzig": {
+   "tr": "altmış"
+  },
+  "sitzt": {
+   "tr": "oturuyor",
+   "kok": "sitzen"
+  },
+  "sollte": {
+   "tr": "-meliydi, -mesi gerekiyordu",
+   "kok": "sollen",
+   "not": "Präteritum"
+  },
+  "urlaub": {
+   "tr": "tatil, izin",
+   "kok": "der Urlaub"
+  },
+  "vermieten": {
+   "tr": "kiraya vermek",
+   "kok": "vermieten"
+  },
+  "vielen": {
+   "tr": "çok (Vielen Dank!)",
+   "kok": "viel"
+  },
+  "viertel": {
+   "tr": "çeyrek",
+   "kok": "das Viertel, -"
+  },
+  "wartest": {
+   "tr": "bekliyorsun",
+   "kok": "warten"
+  },
+  "welches": {
+   "tr": "hangi (nötr)",
+   "kok": "welcher / welche / welches"
+  },
+  "werkzeugkasten": {
+   "tr": "alet çantası",
+   "kok": "der Werkzeugkasten, -kästen"
+  },
+  "will": {
+   "tr": "istiyor(um)",
+   "kok": "wollen",
+   "not": "ich will, er will"
+  },
+  "wollt": {
+   "tr": "istiyorsunuz (ihr)",
+   "kok": "wollen",
+   "not": "geçmiş değil!"
+  },
+  "wollte": {
+   "tr": "istedi",
+   "kok": "wollen",
+   "not": "Präteritum: ich/er wollte"
+  },
+  "dienstag": {
+   "tr": "salı",
+   "kok": "der Dienstag"
+  },
+  "entschuldigung": {
+   "tr": "özür dilerim; pardon",
+   "kok": "die Entschuldigung, -en"
+  },
+  "fieber": {
+   "tr": "ateş (hastalık)",
+   "kok": "das Fieber",
+   "not": "Ich habe Fieber. = Ateşim var."
+  },
+  "freundlichen": {
+   "tr": "dostça, saygılı",
+   "kok": "freundlich",
+   "not": "Mit freundlichen Grüßen = Saygılarımla (resmi selam)"
+  },
+  "geh": {
+   "tr": "git! (du'ya emir)",
+   "kok": "gehen",
+   "not": "du gehst → Geh!"
+  },
+  "grüßen": {
+   "tr": "selamlar(la)",
+   "kok": "der Gruß, die Grüße",
+   "not": "Mit freundlichen Grüßen · Viele Grüße"
+  },
+  "also": {
+   "tr": "yani, demek ki",
+   "kok": "also",
+   "not": "İngilizce \"also\" (da) değil"
+  },
+  "batterie": {
+   "tr": "pil",
+   "kok": "die Batterie, -n"
+  },
+  "batterien": {
+   "tr": "piller",
+   "kok": "die Batterie, -n"
+  },
+  "baut": {
+   "tr": "inşa ediyor",
+   "kok": "bauen"
+  },
+  "bild": {
+   "tr": "resim",
+   "kok": "das Bild, -er"
+  },
+  "bleibe": {
+   "tr": "kalıyorum",
+   "kok": "bleiben"
+  },
+  "bleibt": {
+   "tr": "kalıyor",
+   "kok": "bleiben"
+  },
+  "busfahrer": {
+   "tr": "otobüs şoförü",
+   "kok": "der Busfahrer, -"
+  },
+  "danach": {
+   "tr": "ondan sonra",
+   "kok": "danach"
+  },
+  "dezember": {
+   "tr": "aralık (ay)",
+   "kok": "der Dezember"
+  },
+  "dort": {
+   "tr": "orada",
+   "kok": "dort"
+  },
+  "elf": {
+   "tr": "on bir",
+   "kok": "elf"
+  },
+  "frisches": {
+   "tr": "taze",
+   "kok": "frisch"
+  },
+  "gelb": {
+   "tr": "sarı",
+   "kok": "gelb"
+  },
+  "gelbe": {
+   "tr": "sarı",
+   "kok": "gelb",
+   "not": "Der Gelbe = \"Sarı\" (Bernd'in otobüsü)"
+  },
+  "gelegt": {
+   "tr": "koydu (yatık)",
+   "kok": "legen",
+   "not": "Perfekt: hat gelegt"
+  },
+  "gestellt": {
+   "tr": "koydu (dik)",
+   "kok": "stellen",
+   "not": "Perfekt: hat gestellt"
+  },
+  "gibst": {
+   "tr": "veriyorsun",
+   "kok": "geben",
+   "not": "du gibst (e → i)"
+  },
+  "gärten": {
+   "tr": "bahçeler",
+   "kok": "der Garten, die Gärten"
+  },
+  "hängt": {
+   "tr": "asılı duruyor; asıyor",
+   "kok": "hängen"
+  },
+  "januar": {
+   "tr": "ocak (ay)",
+   "kok": "der Januar"
+  },
+  "kilo": {
+   "tr": "kilo",
+   "kok": "das Kilo"
+  },
+  "konnten": {
+   "tr": "yapabildik / yapabildiler",
+   "kok": "können",
+   "not": "Präteritum: wir/sie konnten"
+  },
+  "lampen": {
+   "tr": "lambalar",
+   "kok": "die Lampe, -n"
+  },
+  "lege": {
+   "tr": "(yatık) koyuyorum",
+   "kok": "legen"
+  },
+  "legen": {
+   "tr": "(yatık) koymak",
+   "kok": "legen",
+   "not": "Wohin? → Akkusativ"
+  },
+  "liegt": {
+   "tr": "(yatık) duruyor",
+   "kok": "liegen",
+   "not": "Wo? → Dativ"
+  },
+  "liest": {
+   "tr": "okuyor",
+   "kok": "lesen",
+   "not": "e → ie: du liest, er liest"
+  },
+  "linie": {
+   "tr": "hat (otobüs, metro)",
+   "kok": "die Linie, -n"
+  },
+  "läufst": {
+   "tr": "koşuyorsun",
+   "kok": "laufen",
+   "not": "du läufst (a → ä)"
+  },
+  "mann": {
+   "tr": "adam; koca",
+   "kok": "der Mann, die Männer"
+  },
+  "markt": {
+   "tr": "pazar",
+   "kok": "der Markt, die Märkte"
+  },
+  "mitgenommen": {
+   "tr": "yanına aldı",
+   "kok": "mitnehmen",
+   "not": "Perfekt: hat mitgenommen"
+  },
+  "mitnehmen": {
+   "tr": "yanına almak",
+   "kok": "mitnehmen",
+   "not": "nimmt … mit"
+  },
+  "möchtest": {
+   "tr": "istersin, ister misin",
+   "kok": "möchten"
+  },
+  "müsst": {
+   "tr": "zorundasınız (ihr)",
+   "kok": "müssen"
+  },
+  "nachrichten": {
+   "tr": "haberler",
+   "kok": "die Nachricht, -en"
+  },
+  "nehmt": {
+   "tr": "alıyorsunuz (ihr)",
+   "kok": "nehmen"
+  },
+  "neuer": {
+   "tr": "yeni",
+   "kok": "neu"
+  },
+  "nimm": {
+   "tr": "al! (du'ya emir)",
+   "kok": "nehmen",
+   "not": "du nimmst → Nimm!"
+  },
+  "pflanzt": {
+   "tr": "(bitki) ekiyor",
+   "kok": "pflanzen"
+  },
+  "radios": {
+   "tr": "radyolar",
+   "kok": "das Radio, -s"
+  },
+  "recht": {
+   "tr": "haklı (recht haben)",
+   "kok": "recht haben",
+   "not": "Sie hat recht. = O haklı."
+  },
+  "ruf": {
+   "tr": "ara! seslen! (du'ya emir)",
+   "kok": "rufen / anrufen",
+   "not": "Ruf mich an! = Beni ara!"
+  },
+  "salat": {
+   "tr": "salata; marul",
+   "kok": "der Salat, -e"
+  },
+  "sendet": {
+   "tr": "yayın yapıyor",
+   "kok": "senden"
+  },
+  "sieben": {
+   "tr": "yedi",
+   "kok": "sieben"
+  },
+  "sollen": {
+   "tr": "-meli, -malı",
+   "kok": "sollen"
+  },
+  "stelle": {
+   "tr": "(dik) koyuyorum",
+   "kok": "stellen"
+  },
+  "stellen": {
+   "tr": "(dik) koymak",
+   "kok": "stellen",
+   "not": "Wohin? → Akkusativ"
+  },
+  "tasse": {
+   "tr": "fincan",
+   "kok": "die Tasse, -n"
+  },
+  "tor": {
+   "tr": "büyük kapı, giriş",
+   "kok": "das Tor, -e"
+  },
+  "trifft": {
+   "tr": "buluşuyor",
+   "kok": "treffen",
+   "not": "e → i: er trifft"
+  },
+  "vierundzwanzig": {
+   "tr": "yirmi dört",
+   "kok": "vierundzwanzig",
+   "not": "vier + und + zwanzig"
+  },
+  "wachsen": {
+   "tr": "büyümek, yetişmek",
+   "kok": "wachsen"
+  },
+  "willkommen": {
+   "tr": "hoş geldiniz; memnuniyetle karşılanır",
+   "kok": "willkommen"
+  },
+  "zwiebel": {
+   "tr": "soğan",
+   "kok": "die Zwiebel, -n"
+  },
+  "zwiebeln": {
+   "tr": "soğanlar",
+   "kok": "die Zwiebel, -n"
+  },
+  "dürfen": {
+   "tr": "izni olmak",
+   "kok": "dürfen",
+   "not": "ich darf, du darfst, er darf"
+  },
+  "dürft": {
+   "tr": "izniniz var (ihr)",
+   "kok": "dürfen"
+  },
+  "könnt": {
+   "tr": "yapabilirsiniz (ihr)",
+   "kok": "können"
+  },
+  "möchtet": {
+   "tr": "istersiniz (ihr)",
+   "kok": "möchten"
+  },
+  "rauchen": {
+   "tr": "sigara içmek",
+   "kok": "rauchen"
+  },
+  "willst": {
+   "tr": "istiyorsun",
+   "kok": "wollen",
+   "not": "du willst (o → i)"
+  },
+  "wollen": {
+   "tr": "istemek",
+   "kok": "wollen",
+   "not": "ich will, du willst, er will"
+  },
+  "findet": {
+   "tr": "buluyor",
+   "kok": "finden"
+  },
+  "interesse": {
+   "tr": "ilgi",
+   "kok": "das Interesse",
+   "not": "Interesse? = İlgileniyor musun?"
+  },
+  "leer": {
+   "tr": "boş",
+   "kok": "leer"
+  },
+  "person": {
+   "tr": "kişi",
+   "kok": "die Person, -en"
+  },
+  "verliere": {
+   "tr": "kaybediyorum",
+   "kok": "verlieren"
+  },
+  "vermiete": {
+   "tr": "kiraya veriyorum",
+   "kok": "vermieten",
+   "not": "Miete → vermieten"
+  },
+  "verschiebe": {
+   "tr": "erteliyorum",
+   "kok": "verschieben"
+  },
+  "adresse": {
+   "tr": "adres",
+   "kok": "die Adresse"
+  },
+  "amt": {
+   "tr": "resmi daire",
+   "kok": "das Amt"
+  },
+  "anfang": {
+   "tr": "başlangıç",
+   "kok": "der Anfang"
+  },
+  "angebot": {
+   "tr": "teklif; indirim",
+   "kok": "das Angebot"
+  },
+  "ankara": {
+   "tr": "Ankara",
+   "kok": "Ankara"
+  },
+  "antwortet": {
+   "tr": "cevap veriyor",
+   "kok": "antworten"
+  },
+  "apotheke": {
+   "tr": "eczane",
+   "kok": "die Apotheke"
+  },
+  "auge": {
+   "tr": "göz",
+   "kok": "das Auge"
+  },
+  "ausweis": {
+   "tr": "kimlik kartı",
+   "kok": "der Ausweis"
+  },
+  "bad": {
+   "tr": "banyo",
+   "kok": "das Bad"
+  },
+  "bank": {
+   "tr": "banka; bank",
+   "kok": "die Bank"
+  },
+  "bar": {
+   "tr": "nakit (bar bezahlen)",
+   "kok": "bar"
+  },
+  "bekannt": {
+   "tr": "tanınmış, ünlü",
+   "kok": "bekannt"
+  },
+  "bekomme": {
+   "tr": "alıyorum",
+   "kok": "bekommen"
+  },
+  "beliebt": {
+   "tr": "sevilen, popüler",
+   "kok": "beliebt"
+  },
+  "benutze": {
+   "tr": "kullanıyorum",
+   "kok": "benutzen"
+  },
+  "benutzen": {
+   "tr": "kullanmak",
+   "kok": "benutzen"
+  },
+  "bequem": {
+   "tr": "rahat",
+   "kok": "bequem"
+  },
+  "bestelle": {
+   "tr": "sipariş ediyorum",
+   "kok": "bestellen"
+  },
+  "besuche": {
+   "tr": "ziyaret ediyorum",
+   "kok": "besuchen"
+  },
+  "bezahle": {
+   "tr": "ödüyorum",
+   "kok": "bezahlen"
+  },
+  "billig": {
+   "tr": "ucuz",
+   "kok": "billig"
+  },
+  "büro": {
+   "tr": "ofis, büro",
+   "kok": "das Büro"
+  },
+  "chef": {
+   "tr": "patron, şef",
+   "kok": "der Chef"
+  },
+  "computer": {
+   "tr": "bilgisayar",
+   "kok": "der Computer"
+  },
+  "dauern": {
+   "tr": "sürmek (zaman)",
+   "kok": "dauern"
+  },
+  "dauert": {
+   "tr": "sürüyor",
+   "kok": "dauern"
+  },
+  "denke": {
+   "tr": "düşünüyorum",
+   "kok": "denken"
+  },
+  "deutschland": {
+   "tr": "Almanya",
+   "kok": "Deutschland"
+  },
+  "dunkel": {
+   "tr": "karanlık; koyu",
+   "kok": "dunkel"
+  },
+  "ehrlich": {
+   "tr": "dürüst",
+   "kok": "ehrlich"
+  },
+  "ei": {
+   "tr": "yumurta",
+   "kok": "das Ei"
+  },
+  "einfach": {
+   "tr": "basit, kolay",
+   "kok": "einfach"
+  },
+  "ende": {
+   "tr": "son",
+   "kok": "das Ende"
+  },
+  "entscheiden": {
+   "tr": "karar vermek",
+   "kok": "entscheiden"
+  },
+  "entscheidest": {
+   "tr": "karar veriyorsun",
+   "kok": "entscheiden"
+  },
+  "erkläre": {
+   "tr": "açıklıyorum",
+   "kok": "erklären"
+  },
+  "erkältung": {
+   "tr": "soğuk algınlığı",
+   "kok": "die Erkältung"
+  },
+  "fahrkarte": {
+   "tr": "bilet (ulaşım)",
+   "kok": "die Fahrkarte"
+  },
+  "falsch": {
+   "tr": "yanlış",
+   "kok": "falsch"
+  },
+  "feiern": {
+   "tr": "kutlamak",
+   "kok": "feiern"
+  },
+  "fertig": {
+   "tr": "hazır; bitmiş",
+   "kok": "fertig"
+  },
+  "finde": {
+   "tr": "buluyorum; bence",
+   "kok": "finden"
+  },
+  "firma": {
+   "tr": "şirket",
+   "kok": "die Firma"
+  },
+  "fleisch": {
+   "tr": "et",
+   "kok": "das Fleisch"
+  },
+  "fliege": {
+   "tr": "uçuyorum",
+   "kok": "fliegen"
+  },
+  "frei": {
+   "tr": "boş, serbest",
+   "kok": "frei"
+  },
+  "freund": {
+   "tr": "arkadaş (erkek); erkek arkadaş",
+   "kok": "der Freund"
+  },
+  "freundlich": {
+   "tr": "güler yüzlü, nazik",
+   "kok": "freundlich"
+  },
+  "frisch": {
+   "tr": "taze",
+   "kok": "frisch"
+  },
+  "fühle": {
+   "tr": "hissediyorum",
+   "kok": "fühlen",
+   "not": "Ich fühle mich gut."
+  },
+  "fühlen": {
+   "tr": "hissetmek",
+   "kok": "fühlen"
+  },
+  "fülle": {
+   "tr": "dolduruyorum",
+   "kok": "ausfüllen",
+   "not": "fülle … aus"
+  },
+  "gefährlich": {
+   "tr": "tehlikeli",
+   "kok": "gefährlich"
+  },
+  "gefällt": {
+   "tr": "hoşuna gidiyor",
+   "kok": "gefallen",
+   "not": "Das gefällt mir."
+  },
+  "gehören": {
+   "tr": "ait olmak",
+   "kok": "gehören"
+  },
+  "geld": {
+   "tr": "para",
+   "kok": "das Geld"
+  },
+  "geschichte": {
+   "tr": "hikâye; tarih",
+   "kok": "die Geschichte"
+  },
+  "gesund": {
+   "tr": "sağlıklı",
+   "kok": "gesund"
+  },
+  "gewinnen": {
+   "tr": "kazanmak (oyun)",
+   "kok": "gewinnen"
+  },
+  "gewinnt": {
+   "tr": "kazanıyor",
+   "kok": "gewinnen"
+  },
+  "glaube": {
+   "tr": "inanıyorum, sanıyorum",
+   "kok": "glauben"
+  },
+  "glauben": {
+   "tr": "inanmak; sanmak",
+   "kok": "glauben"
+  },
+  "grund": {
+   "tr": "sebep",
+   "kok": "der Grund"
+  },
+  "gute": {
+   "tr": "iyi",
+   "kok": "gut",
+   "not": "alles Gute = her şeyin iyisi"
+  },
+  "günstig": {
+   "tr": "uygun (fiyat)",
+   "kok": "günstig"
+  },
+  "haltestelle": {
+   "tr": "durak",
+   "kok": "die Haltestelle"
+  },
+  "heiß": {
+   "tr": "sıcak (çok)",
+   "kok": "heiß"
+  },
+  "helfe": {
+   "tr": "yardım ediyorum",
+   "kok": "helfen"
+  },
+  "hell": {
+   "tr": "aydınlık; açık (renk)",
+   "kok": "hell"
+  },
+  "hoffe": {
+   "tr": "umuyorum",
+   "kok": "hoffen"
+  },
+  "hoffen": {
+   "tr": "ummak",
+   "kok": "hoffen"
+  },
+  "hole": {
+   "tr": "getiriyorum; alıyorum",
+   "kok": "holen / abholen"
+  },
+  "hotel": {
+   "tr": "otel",
+   "kok": "das Hotel"
+  },
+  "höflich": {
+   "tr": "kibar",
+   "kok": "höflich"
+  },
+  "idee": {
+   "tr": "fikir",
+   "kok": "die Idee"
+  },
+  "interessant": {
+   "tr": "ilginç",
+   "kok": "interessant"
+  },
+  "jung": {
+   "tr": "genç",
+   "kok": "jung"
+  },
+  "kasse": {
+   "tr": "kasa",
+   "kok": "die Kasse"
+  },
+  "kellner": {
+   "tr": "garson",
+   "kok": "der Kellner"
+  },
+  "klingelt": {
+   "tr": "çalıyor (zil, telefon)",
+   "kok": "klingeln"
+  },
+  "kocht": {
+   "tr": "yemek yapıyor",
+   "kok": "kochen"
+  },
+  "koffer": {
+   "tr": "bavul",
+   "kok": "der Koffer"
+  },
+  "kopf": {
+   "tr": "baş, kafa",
+   "kok": "der Kopf"
+  },
+  "kostet": {
+   "tr": "tutuyor (fiyat)",
+   "kok": "kosten"
+  },
+  "krankenhaus": {
+   "tr": "hastane",
+   "kok": "das Krankenhaus"
+  },
+  "käse": {
+   "tr": "peynir",
+   "kok": "der Käse"
+  },
+  "lade": {
+   "tr": "davet ediyorum",
+   "kok": "einladen",
+   "not": "lade … ein"
+  },
+  "langweilig": {
+   "tr": "sıkıcı",
+   "kok": "langweilig"
+  },
+  "lebe": {
+   "tr": "yaşıyorum",
+   "kok": "leben"
+  },
+  "leben": {
+   "tr": "yaşamak",
+   "kok": "leben"
+  },
+  "leicht": {
+   "tr": "kolay; hafif",
+   "kok": "leicht"
+  },
+  "leise": {
+   "tr": "sessiz, alçak sesli",
+   "kok": "leise"
+  },
+  "medikament": {
+   "tr": "ilaç",
+   "kok": "das Medikament"
+  },
+  "mensch": {
+   "tr": "insan",
+   "kok": "der Mensch"
+  },
+  "mieten": {
+   "tr": "kiralamak",
+   "kok": "mieten"
+  },
+  "möglich": {
+   "tr": "mümkün",
+   "kok": "möglich"
+  },
+  "nachbar": {
+   "tr": "komşu",
+   "kok": "der Nachbar"
+  },
+  "nachbarin": {
+   "tr": "komşu (kadın)",
+   "kok": "die Nachbarin"
+  },
+  "nah": {
+   "tr": "yakın",
+   "kok": "nah",
+   "not": "nah ↔ weit"
+  },
+  "nummer": {
+   "tr": "numara",
+   "kok": "die Nummer"
+  },
+  "nötig": {
+   "tr": "gerekli",
+   "kok": "nötig"
+  },
+  "obst": {
+   "tr": "meyve",
+   "kok": "das Obst"
+  },
+  "paket": {
+   "tr": "paket, koli",
+   "kok": "das Paket"
+  },
+  "party": {
+   "tr": "parti",
+   "kok": "die Party"
+  },
+  "pause": {
+   "tr": "mola, ara",
+   "kok": "die Pause"
+  },
+  "plan": {
+   "tr": "plan",
+   "kok": "der Plan"
+  },
+  "planen": {
+   "tr": "planlamak",
+   "kok": "planen"
+  },
+  "polizei": {
+   "tr": "polis",
+   "kok": "die Polizei"
+  },
+  "post": {
+   "tr": "postane; posta",
+   "kok": "die Post"
+  },
+  "preis": {
+   "tr": "fiyat; ödül",
+   "kok": "der Preis"
+  },
+  "prüfung": {
+   "tr": "sınav",
+   "kok": "die Prüfung"
+  },
+  "putze": {
+   "tr": "temizliyorum",
+   "kok": "putzen"
+  },
+  "pünktlich": {
+   "tr": "dakik, zamanında",
+   "kok": "pünktlich"
+  },
+  "reise": {
+   "tr": "seyahat",
+   "kok": "die Reise"
+  },
+  "restaurant": {
+   "tr": "restoran",
+   "kok": "das Restaurant"
+  },
+  "richtig": {
+   "tr": "doğru",
+   "kok": "richtig"
+  },
+  "rot": {
+   "tr": "kırmızı",
+   "kok": "rot"
+  },
+  "sagst": {
+   "tr": "diyorsun",
+   "kok": "sagen"
+  },
+  "sauber": {
+   "tr": "temiz",
+   "kok": "sauber"
+  },
+  "scheint": {
+   "tr": "parlıyor",
+   "kok": "scheinen"
+  },
+  "schicke": {
+   "tr": "gönderiyorum",
+   "kok": "schicken"
+  },
+  "schicken": {
+   "tr": "göndermek",
+   "kok": "schicken"
+  },
+  "schließe": {
+   "tr": "kapatıyorum",
+   "kok": "schließen"
+  },
+  "schlimm": {
+   "tr": "kötü, ağır",
+   "kok": "schlimm"
+  },
+  "schläft": {
+   "tr": "uyuyor",
+   "kok": "schlafen",
+   "not": "a → ä: er schläft"
+  },
+  "schmecken": {
+   "tr": "tadı … olmak",
+   "kok": "schmecken"
+  },
+  "schmeckt": {
+   "tr": "tadı … (güzel vb.)",
+   "kok": "schmecken"
+  },
+  "schmerz": {
+   "tr": "ağrı",
+   "kok": "der Schmerz"
+  },
+  "schmutzig": {
+   "tr": "kirli",
+   "kok": "schmutzig"
+  },
+  "schreibe": {
+   "tr": "yazıyorum",
+   "kok": "schreiben"
+  },
+  "schwer": {
+   "tr": "zor; ağır",
+   "kok": "schwer"
+  },
+  "schwimme": {
+   "tr": "yüzüyorum",
+   "kok": "schwimmen"
+  },
+  "sicher": {
+   "tr": "güvenli; emin",
+   "kok": "sicher"
+  },
+  "spare": {
+   "tr": "biriktiriyorum",
+   "kok": "sparen"
+  },
+  "sparen": {
+   "tr": "biriktirmek, tasarruf etmek",
+   "kok": "sparen"
+  },
+  "spreche": {
+   "tr": "konuşuyorum",
+   "kok": "sprechen"
+  },
+  "stadt": {
+   "tr": "şehir",
+   "kok": "die Stadt"
+  },
+  "stark": {
+   "tr": "güçlü; şiddetli",
+   "kok": "stark"
+  },
+  "straße": {
+   "tr": "cadde, sokak",
+   "kok": "die Straße"
+  },
+  "streng": {
+   "tr": "sert, katı",
+   "kok": "streng"
+  },
+  "stuhl": {
+   "tr": "sandalye",
+   "kok": "der Stuhl"
+  },
+  "team": {
+   "tr": "takım",
+   "kok": "das Team"
+  },
+  "telefon": {
+   "tr": "telefon",
+   "kok": "das Telefon"
+  },
+  "trage": {
+   "tr": "giyiyorum; taşıyorum",
+   "kok": "tragen"
+  },
+  "traurig": {
+   "tr": "üzgün",
+   "kok": "traurig"
+  },
+  "treffe": {
+   "tr": "buluşuyorum",
+   "kok": "treffen"
+  },
+  "tut": {
+   "tr": "yapıyor (… tut weh = ağrıyor)",
+   "kok": "tun",
+   "not": "Mein Kopf tut weh."
+  },
+  "türkisch": {
+   "tr": "Türkçe; Türk",
+   "kok": "Türkisch"
+  },
+  "unfall": {
+   "tr": "kaza",
+   "kok": "der Unfall"
+  },
+  "unterschreiben": {
+   "tr": "imzalamak",
+   "kok": "unterschreiben"
+  },
+  "verdienen": {
+   "tr": "(para) kazanmak",
+   "kok": "verdienen"
+  },
+  "verdient": {
+   "tr": "kazanıyor (para)",
+   "kok": "verdienen"
+  },
+  "vergesse": {
+   "tr": "unutuyorum",
+   "kok": "vergessen"
+  },
+  "versuche": {
+   "tr": "deniyorum",
+   "kok": "versuchen"
+  },
+  "versuchen": {
+   "tr": "denemek",
+   "kok": "versuchen"
+  },
+  "vertrag": {
+   "tr": "sözleşme",
+   "kok": "der Vertrag"
+  },
+  "voll": {
+   "tr": "dolu",
+   "kok": "voll"
+  },
+  "warm": {
+   "tr": "ılık, sıcak",
+   "kok": "warm"
+  },
+  "wasche": {
+   "tr": "yıkıyorum",
+   "kok": "waschen"
+  },
+  "weg": {
+   "tr": "yol",
+   "kok": "der Weg"
+  },
+  "weh": {
+   "tr": "acı (weh tun = ağrımak)",
+   "kok": "weh tun"
+  },
+  "weit": {
+   "tr": "uzak; geniş",
+   "kok": "weit"
+  },
+  "wird": {
+   "tr": "oluyor",
+   "kok": "werden",
+   "not": "es wird kalt = soğuyor"
+  },
+  "wort": {
+   "tr": "kelime",
+   "kok": "das Wort"
+  },
+  "wünsche": {
+   "tr": "diliyorum",
+   "kok": "wünschen"
+  },
+  "wünschen": {
+   "tr": "dilemek",
+   "kok": "wünschen"
+  },
+  "zeige": {
+   "tr": "gösteriyorum",
+   "kok": "zeigen"
+  },
+  "ziel": {
+   "tr": "hedef",
+   "kok": "das Ziel"
+  },
+  "zufrieden": {
+   "tr": "memnun",
+   "kok": "zufrieden"
+  },
+  "ändere": {
+   "tr": "değiştiriyorum",
+   "kok": "ändern"
+  },
+  "ändern": {
+   "tr": "değiştirmek",
+   "kok": "ändern"
+  },
+  "öffne": {
+   "tr": "açıyorum",
+   "kok": "öffnen"
+  },
+  "öffnen": {
+   "tr": "açmak",
+   "kok": "öffnen"
+  },
+  "scharf": {
+   "tr": "keskin; acı (yemek)",
+   "kok": "scharf"
+  },
+  "anna": {
+   "tr": "Anna (isim)",
+   "kok": "Anna"
+  },
+  "tanaka": {
+   "tr": "Tanaka (soyadı)",
+   "kok": "Tanaka"
+  },
+  "weber": {
+   "tr": "Weber (soyadı)",
+   "kok": "Weber"
+  },
+  "architektin": {
+   "tr": "mimar (kadın)",
+   "kok": "die Architektin, -nen",
+   "not": "erkek: der Architekt"
+  },
+  "bücher": {
+   "tr": "kitaplar",
+   "kok": "das Buch, die Bücher",
+   "not": "çoğul: die Bücher"
+  },
+  "glashaus": {
+   "tr": "sera, cam ev",
+   "kok": "das Glashaus, -häuser",
+   "not": "das Glas (cam) + das Haus (ev)"
+  },
+  "hundehütte": {
+   "tr": "köpek kulübesi",
+   "kok": "die Hundehütte, -n",
+   "not": "der Hund + die Hütte → son kelime artikeli belirler: die"
+  },
+  "information": {
+   "tr": "bilgi",
+   "kok": "die Information, -en",
+   "not": "-ion → die"
+  },
+  "lacht": {
+   "tr": "gülüyor",
+   "kok": "lachen",
+   "not": "er/sie lacht"
+  },
+  "mädchen": {
+   "tr": "kız (çocuk)",
+   "kok": "das Mädchen, -",
+   "not": "-chen → das (anlam dişi olsa da)"
+  },
+  "still": {
+   "tr": "sessiz",
+   "kok": "still"
+  },
+  "vierzig": {
+   "tr": "kırk",
+   "kok": "vierzig"
+  },
+  "wochen": {
+   "tr": "haftalar",
+   "kok": "die Woche, -n",
+   "not": "çoğul"
+  },
+  "überschriften": {
+   "tr": "başlıklar",
+   "kok": "die Überschrift, -en",
+   "not": "çoğul"
+  },
+  "blass": {
+   "tr": "solgun",
+   "kok": "blass"
+  },
+  "brötchen": {
+   "tr": "küçük ekmek",
+   "kok": "das Brötchen, -",
+   "not": "-chen → das"
+  },
+  "fremder": {
+   "tr": "yabancı (tanınmayan biri)",
+   "kok": "der Fremde",
+   "not": "ein Fremder"
+  },
+  "ganz": {
+   "tr": "tamamen, bütün",
+   "kok": "ganz",
+   "not": "ganz still = bomboş sessiz"
+  },
+  "gruppe": {
+   "tr": "grup",
+   "kok": "die Gruppe, -n"
+  },
+  "isst": {
+   "tr": "yiyor / yiyorsun",
+   "kok": "essen",
+   "not": "du isst, er isst (e → i)"
+  },
+  "krrr": {
+   "tr": "(telsiz hışırtısı)",
+   "kok": "krrr"
+  },
+  "lache": {
+   "tr": "gülüyorum",
+   "kok": "lachen",
+   "not": "ich lache"
+  },
+  "löffel": {
+   "tr": "kaşık",
+   "kok": "der Löffel, -"
+  },
+  "nein": {
+   "tr": "hayır",
+   "kok": "nein"
+  },
+  "regnet": {
+   "tr": "yağmur yağıyor",
+   "kok": "regnen",
+   "not": "Es regnet."
+  },
+  "stühle": {
+   "tr": "sandalyeler",
+   "kok": "der Stuhl, die Stühle",
+   "not": "çoğul"
+  },
+  "süß": {
+   "tr": "tatlı",
+   "kok": "süß"
+  },
+  "taschenlampe": {
+   "tr": "el feneri",
+   "kok": "die Taschenlampe, -n",
+   "not": "die Tasche (cep) + die Lampe → die"
+  },
+  "tief": {
+   "tr": "derin, kalın (ses)",
+   "kok": "tief"
+  },
+  "zweihundert": {
+   "tr": "iki yüz",
+   "kok": "zweihundert"
+  },
+  "äpfel": {
+   "tr": "elmalar",
+   "kok": "der Apfel, die Äpfel",
+   "not": "çoğul"
+  },
+  "november": {
+   "tr": "kasım",
+   "kok": "der November"
+  },
+  "atmen": {
+   "tr": "nefes alma",
+   "kok": "das Atmen",
+   "not": "atmen = nefes almak"
+  },
+  "augen": {
+   "tr": "gözler",
+   "kok": "das Auge, -n",
+   "not": "çoğul"
+  },
+  "brauchst": {
+   "tr": "ihtiyacın var",
+   "kok": "brauchen",
+   "not": "du brauchst"
+  },
+  "hähnchen": {
+   "tr": "tavuk (yemek)",
+   "kok": "das Hähnchen, -",
+   "not": "-chen → das"
+  },
+  "häuschen": {
+   "tr": "küçük ev",
+   "kok": "das Häuschen, -",
+   "not": "das Haus + -chen → das"
+  },
+  "kisten": {
+   "tr": "sandıklar, kutular",
+   "kok": "die Kiste, -n",
+   "not": "çoğul"
+  },
+  "kochst": {
+   "tr": "pişiriyorsun",
+   "kok": "kochen",
+   "not": "du kochst"
+  },
+  "kätzchen": {
+   "tr": "yavru kedi",
+   "kok": "das Kätzchen, -",
+   "not": "die Katze + -chen → das"
+  },
+  "mantel": {
+   "tr": "palto",
+   "kok": "der Mantel, die Mäntel"
+  },
+  "nass": {
+   "tr": "ıslak",
+   "kok": "nass"
+  },
+  "reden": {
+   "tr": "konuşmak, laflamak",
+   "kok": "reden",
+   "not": "ihr redet (-d → araya e)"
+  },
+  "sechzehn": {
+   "tr": "on altı",
+   "kok": "sechzehn"
+  },
+  "später": {
+   "tr": "sonra",
+   "kok": "später",
+   "not": "Bis später! = Sonra görüşürüz!"
+  },
+  "suchst": {
+   "tr": "arıyorsun",
+   "kok": "suchen",
+   "not": "du suchst"
+  },
+  "trinkst": {
+   "tr": "içiyorsun",
+   "kok": "trinken",
+   "not": "du trinkst"
+  },
+  "umarmt": {
+   "tr": "sarılıyor",
+   "kok": "umarmen",
+   "not": "er umarmt"
+  },
+  "öffnet": {
+   "tr": "açıyor",
+   "kok": "öffnen",
+   "not": "er öffnet (öffn- → araya e)"
+  },
+  "mutlu": {
+   "tr": "(Türkçe) mutlu → Almanca: glücklich",
+   "kok": "glücklich"
+  },
+  "bald": {
+   "tr": "yakında",
+   "kok": "bald"
+  },
+  "siebzehn": {
+   "tr": "on yedi",
+   "kok": "siebzehn"
+  },
+  "dokument": {
+   "tr": "belge",
+   "kok": "das Dokument, -e",
+   "not": "-ment → das"
+  },
+  "donnerstag": {
+   "tr": "perşembe",
+   "kok": "der Donnerstag, -e"
+  },
+  "erst": {
+   "tr": "önce, ilk önce; ancak",
+   "kok": "erst",
+   "not": "erst … dann = önce … sonra"
+  },
+  "erzähle": {
+   "tr": "anlatıyorum",
+   "kok": "erzählen"
+  },
+  "fragt": {
+   "tr": "soruyor",
+   "kok": "fragen"
+  },
+  "fremd": {
+   "tr": "yabancı, tanımadık",
+   "kok": "fremd",
+   "not": "der Fremde = yabancı (kişi)"
+  },
+  "gras": {
+   "tr": "çimen, ot",
+   "kok": "das Gras, die Gräser"
+  },
+  "herr": {
+   "tr": "Bay (hitap)",
+   "kok": "der Herr, -en",
+   "not": "Herr Mensah = Bay Mensah"
+  },
+  "hustet": {
+   "tr": "öksürüyor",
+   "kok": "husten",
+   "not": "kök hust- → araya e: hustet"
+  },
+  "instrument": {
+   "tr": "çalgı, alet",
+   "kok": "das Instrument, -e",
+   "not": "-ment → das"
+  },
+  "kartoffelsuppe": {
+   "tr": "patates çorbası",
+   "kok": "die Kartoffelsuppe, -n",
+   "not": "bileşik isimde artikel son kelimeden: die Suppe"
+  },
+  "klar": {
+   "tr": "açık, belli",
+   "kok": "klar"
+  },
+  "los": {
+   "tr": "(kalıp) Was ist los? = Ne oldu?",
+   "kok": "los"
+  },
+  "lüge": {
+   "tr": "yalan",
+   "kok": "die Lüge, -n"
+  },
+  "mensah": {
+   "tr": "Mensah (Kofi'nin soyadı)",
+   "kok": "Mensah"
+  },
+  "märchen": {
+   "tr": "masal",
+   "kok": "das Märchen, -",
+   "not": "-chen → das"
+  },
+  "rede": {
+   "tr": "konuşuyorum",
+   "kok": "reden"
+  },
+  "regent": {
+   "tr": "(yanlış yazım) → regnet",
+   "kok": "regnen",
+   "not": "doğrusu: es regnet"
+  },
+  "richtung": {
+   "tr": "yön",
+   "kok": "die Richtung, -en",
+   "not": "-ung → die"
+  },
+  "schaue": {
+   "tr": "bakıyorum",
+   "kok": "schauen"
+  },
+  "spuren": {
+   "tr": "izler",
+   "kok": "die Spur, -en"
+  },
+  "unruhig": {
+   "tr": "huzursuz",
+   "kok": "unruhig",
+   "not": "un- + ruhig (sakin)"
+  },
+  "vorne": {
+   "tr": "önde",
+   "kok": "vorne"
+  },
+  "wind": {
+   "tr": "rüzgâr",
+   "kok": "der Wind, -e"
+  },
+  "würstchen": {
+   "tr": "sosis",
+   "kok": "das Würstchen, -",
+   "not": "-chen → das"
+  },
+  "zählt": {
+   "tr": "sayıyor",
+   "kok": "zählen"
+  },
+  "antwort": {
+   "tr": "cevap",
+   "kok": "die Antwort, -en"
+  },
+  "apartment": {
+   "tr": "daire (apartman dairesi)",
+   "kok": "das Apartment, -s",
+   "not": "-ment → das"
+  },
+  "atmet": {
+   "tr": "nefes alıyor",
+   "kok": "atmen",
+   "not": "kök atm- → araya e: er atmet"
+  },
+  "bäder": {
+   "tr": "banyolar",
+   "kok": "das Bad, die Bäder"
+  },
+  "fahrer": {
+   "tr": "şoför",
+   "kok": "der Fahrer, -",
+   "not": "-er ile biten erkek kişi → der"
+  },
+  "foto": {
+   "tr": "fotoğraf",
+   "kok": "das Foto, -s",
+   "not": "-o → das"
+  },
+  "hinten": {
+   "tr": "arkada"
+  },
+  "kompliment": {
+   "tr": "iltifat",
+   "kok": "das Kompliment, -e",
+   "not": "-ment → das"
+  },
+  "lügen": {
+   "tr": "yalan söylemek",
+   "kok": "lügen"
+  },
+  "lügt": {
+   "tr": "yalan söylüyor",
+   "kok": "lügen"
+  },
+  "normal": {
+   "tr": "normal"
+  },
+  "ordentlich": {
+   "tr": "düzgün, derli toplu"
+  },
+  "packung": {
+   "tr": "paket, kutu",
+   "kok": "die Packung, -en",
+   "not": "-ung → die"
+  },
+  "papier": {
+   "tr": "kâğıt",
+   "kok": "das Papier, -e"
+  },
+  "pfote": {
+   "tr": "pati",
+   "kok": "die Pfote, -n"
+  },
+  "pfoten": {
+   "tr": "patiler",
+   "kok": "die Pfote, -n"
+  },
+  "redet": {
+   "tr": "konuşuyor",
+   "kok": "reden",
+   "not": "kök red- → araya e: er redet"
+  },
+  "schloss": {
+   "tr": "kilit; şato",
+   "kok": "das Schloss, die Schlösser"
+  },
+  "schrank": {
+   "tr": "dolap",
+   "kok": "der Schrank, die Schränke"
+  },
+  "schränke": {
+   "tr": "dolaplar",
+   "kok": "der Schrank, die Schränke"
+  },
+  "schrift": {
+   "tr": "yazı, el yazısı",
+   "kok": "die Schrift, -en"
+  },
+  "schwach": {
+   "tr": "zayıf, sönük"
+  },
+  "sofa": {
+   "tr": "kanepe",
+   "kok": "das Sofa, -s"
+  },
+  "sprichst": {
+   "tr": "konuşuyorsun",
+   "kok": "sprechen",
+   "not": "du sprichst (e → i)"
+  },
+  "zähle": {
+   "tr": "sayıyorum",
+   "kok": "zählen"
+  },
+  "regnen": {
+   "tr": "yağmur yağmak",
+   "kok": "regnen",
+   "not": "es regnet"
+  },
+  "schauen": {
+   "tr": "bakmak",
+   "kok": "schauen"
+  },
+  "husten": {
+   "tr": "öksürmek",
+   "kok": "husten",
+   "not": "er hustet"
+  },
+  "spur": {
+   "tr": "iz",
+   "kok": "die Spur, -en"
+  },
+  "atme": {
+   "tr": "nefes alıyorum",
+   "kok": "atmen",
+   "not": "ich atme, er atmet"
+  },
+  "daneben": {
+   "tr": "yanında"
+  },
+  "decke": {
+   "tr": "battaniye; tavan",
+   "kok": "die Decke, -n"
+  },
+  "hörst": {
+   "tr": "duyuyorsun",
+   "kok": "hören"
+  },
+  "rauschen": {
+   "tr": "hışırdamak, cızırdamak"
+  },
+  "rauscht": {
+   "tr": "hışırdıyor",
+   "kok": "rauschen"
+  },
+  "sekunde": {
+   "tr": "saniye",
+   "kok": "die Sekunde, -n"
+  },
+  "sekunden": {
+   "tr": "saniyeler",
+   "kok": "die Sekunde, -n"
+  },
+  "turmwächter": {
+   "tr": "kule gözcüsü",
+   "kok": "der Turmwächter, -"
+  },
+  "zahl": {
+   "tr": "sayı",
+   "kok": "die Zahl, -en"
+  },
+  "zeichne": {
+   "tr": "çiziyorum",
+   "kok": "zeichnen",
+   "not": "er zeichnet (araya e)"
+  },
+  "zeichnet": {
+   "tr": "çiziyor",
+   "kok": "zeichnen",
+   "not": "kök zeichn- → araya e"
+  },
+  "zwanzig": {
+   "tr": "yirmi"
+  },
+  "zweihundertvierzehn": {
+   "tr": "iki yüz on dört (214)"
+  },
+  "schläfst": {
+   "tr": "uyuyorsun",
+   "kok": "schlafen",
+   "not": "du schläfst (a → ä)"
+  },
+  "siehst": {
+   "tr": "görüyorsun",
+   "kok": "sehen",
+   "not": "du siehst (e → ie)"
+  },
+  "anders": {
+   "tr": "farklı, başka türlü"
+  },
+  "betten": {
+   "tr": "yataklar",
+   "kok": "das Bett, -en"
+  },
+  "dusche": {
+   "tr": "duş",
+   "kok": "die Dusche, -n"
+  },
+  "dünn": {
+   "tr": "zayıf, ince"
+  },
+  "felix": {
+   "tr": "Felix (isim)"
+  },
+  "frequenz": {
+   "tr": "frekans",
+   "kok": "die Frequenz, -en"
+  },
+  "heben": {
+   "tr": "kaldırmak"
+  },
+  "hebt": {
+   "tr": "kaldırıyor",
+   "kok": "heben"
+  },
+  "hilfst": {
+   "tr": "yardım ediyorsun",
+   "kok": "helfen",
+   "not": "du hilfst (e → i)"
+  },
+  "klopfen": {
+   "tr": "kapıyı çalmak, vurmak"
+  },
+  "klopft": {
+   "tr": "kapıyı çalıyor",
+   "kok": "klopfen"
+  },
+  "lager": {
+   "tr": "kamp; depo",
+   "kok": "das Lager, -"
+  },
+  "nachtwache": {
+   "tr": "gece nöbeti",
+   "kok": "die Nachtwache, -n"
+  },
+  "rechne": {
+   "tr": "hesaplıyorum",
+   "kok": "rechnen",
+   "not": "du rechnest, er rechnet"
+  },
+  "rechnest": {
+   "tr": "hesaplıyorsun",
+   "kok": "rechnen",
+   "not": "kök rechn- → araya e"
+  },
+  "rechnet": {
+   "tr": "hesaplıyor",
+   "kok": "rechnen",
+   "not": "kök rechn- → araya e"
+  },
+  "repariere": {
+   "tr": "tamir ediyorum",
+   "kok": "reparieren"
+  },
+  "runde": {
+   "tr": "tur",
+   "kok": "die Runde, -n",
+   "not": "eine Runde machen = tur atmak"
+  },
+  "strom": {
+   "tr": "elektrik (akımı)",
+   "kok": "der Strom"
+  },
+  "technik": {
+   "tr": "teknik, teknoloji",
+   "kok": "die Technik"
+  },
+  "thema": {
+   "tr": "konu",
+   "kok": "das Thema, die Themen"
+  },
+  "wach": {
+   "tr": "uyanık"
+  },
+  "wache": {
+   "tr": "nöbet, nöbetçi",
+   "kok": "die Wache, -n"
+  },
+  "zittern": {
+   "tr": "titremek"
+  },
+  "zittert": {
+   "tr": "titriyor",
+   "kok": "zittern"
+  },
+  "ändert": {
+   "tr": "değiştiriyor",
+   "kok": "ändern"
+  },
+  "atmest": {
+   "tr": "nefes alıyorsun",
+   "kok": "atmen",
+   "not": "kök atm- → araya e"
+  },
+  "bleibst": {
+   "tr": "kalıyorsun",
+   "kok": "bleiben"
+  },
+  "linsensuppe": {
+   "tr": "mercimek çorbası",
+   "kok": "die Linsensuppe"
+  },
+  "trocken": {
+   "tr": "kuru"
+  },
+  "beginne": {
+   "tr": "başlıyorum",
+   "kok": "beginnen"
+  },
+  "beginnst": {
+   "tr": "başlıyorsun",
+   "kok": "beginnen",
+   "not": "beginn- → e girmez"
+  },
+  "braun": {
+   "tr": "kahverengi"
+  },
+  "drinnen": {
+   "tr": "içeride"
+  },
+  "erzählst": {
+   "tr": "anlatıyorsun",
+   "kok": "erzählen"
+  },
+  "gesicht": {
+   "tr": "yüz",
+   "kok": "das Gesicht, -er"
+  },
+  "gießen": {
+   "tr": "(bitki) sulamak"
+  },
+  "gießt": {
+   "tr": "suluyor",
+   "kok": "gießen"
+  },
+  "he": {
+   "tr": "hey!"
+  },
+  "hebe": {
+   "tr": "kaldırıyorum",
+   "kok": "heben"
+  },
+  "kabel": {
+   "tr": "kablo(lar)",
+   "kok": "das Kabel, -"
+  },
+  "kapuze": {
+   "tr": "kapüşon",
+   "kok": "die Kapuze, -n"
+  },
+  "schritt": {
+   "tr": "adım",
+   "kok": "der Schritt, -e"
+  },
+  "schritte": {
+   "tr": "adımlar",
+   "kok": "der Schritt, -e"
+  },
+  "schwarz": {
+   "tr": "siyah"
+  },
+  "wedeln": {
+   "tr": "kuyruk sallamak"
+  },
+  "wedelt": {
+   "tr": "kuyruk sallıyor",
+   "kok": "wedeln"
+  },
+  "weinen": {
+   "tr": "ağlamak"
+  },
+  "weint": {
+   "tr": "ağlıyor",
+   "kok": "weinen"
+  },
+  "zeichnen": {
+   "tr": "çizmek"
+  },
+  "zeichnest": {
+   "tr": "çiziyorsun",
+   "kok": "zeichnen",
+   "not": "kök zeichn- → araya e"
+  },
+  "zweimal": {
+   "tr": "iki kez"
+  },
+  "geschäft": {
+   "tr": "dükkân; iş",
+   "kok": "das Geschäft, -e"
+  },
+  "märkte": {
+   "tr": "pazarlar",
+   "kok": "der Markt, die Märkte"
+  },
+  "arm": {
+   "tr": "kol",
+   "kok": "der Arm, -e",
+   "not": "am Arm = kolda"
+  },
+  "code": {
+   "tr": "kod, şifre",
+   "kok": "der Code, -s"
+  },
+  "diebin": {
+   "tr": "kadın hırsız",
+   "kok": "die Diebin, -nen",
+   "not": "der Dieb = hırsız"
+  },
+  "erde": {
+   "tr": "toprak",
+   "kok": "die Erde"
+  },
+  "ernst": {
+   "tr": "ciddi"
+  },
+  "familiencode": {
+   "tr": "aile şifresi",
+   "kok": "der Familiencode"
+  },
+  "gieße": {
+   "tr": "suluyorum",
+   "kok": "gießen"
+  },
+  "hält": {
+   "tr": "tutuyor",
+   "kok": "halten",
+   "not": "er hält (a → ä)"
+  },
+  "jonas": {
+   "tr": "Jonas (isim)"
+  },
+  "papa": {
+   "tr": "baba"
+  },
+  "pflanze": {
+   "tr": "bitki",
+   "kok": "die Pflanze, -n"
+  },
+  "ruhe": {
+   "tr": "sükûnet, huzur",
+   "kok": "die Ruhe"
+  },
+  "schuh": {
+   "tr": "ayakkabı",
+   "kok": "der Schuh, -e"
+  },
+  "schuhe": {
+   "tr": "ayakkabılar",
+   "kok": "der Schuh, -e"
+  },
+  "tassen": {
+   "tr": "fincanlar",
+   "kok": "die Tasse, -n"
+  },
+  "versteht": {
+   "tr": "anlıyor",
+   "kok": "verstehen"
+  },
+  "vogel": {
+   "tr": "Vogel (soyadı); kuş",
+   "kok": "der Vogel, die Vögel"
+  },
+  "wunde": {
+   "tr": "yara",
+   "kok": "die Wunde, -n"
+  },
+  "fährst": {
+   "tr": "sürüyorsun, gidiyorsun",
+   "kok": "fahren",
+   "not": "du fährst (a → ä)"
+  },
+  "redest": {
+   "tr": "konuşuyorsun",
+   "kok": "reden",
+   "not": "kök red- → araya e"
+  },
+  "wächst": {
+   "tr": "büyüyor, yetişiyor",
+   "kok": "wachsen",
+   "not": "es wächst (a → ä)"
+  },
+  "zählst": {
+   "tr": "sayıyorsun",
+   "kok": "zählen"
+  },
+  "entscheidung": {
+   "tr": "karar",
+   "kok": "die Entscheidung, -en",
+   "not": "-ung → die"
+  },
+  "fast": {
+   "tr": "neredeyse",
+   "not": "fast alle = neredeyse herkes"
+  },
+  "freiheit": {
+   "tr": "özgürlük",
+   "kok": "die Freiheit",
+   "not": "-heit → die"
+  },
+  "sicherheit": {
+   "tr": "güvenlik",
+   "kok": "die Sicherheit",
+   "not": "-heit → die"
+  },
+  "haustür": {
+   "tr": "ev kapısı",
+   "kok": "die Haustür, -en",
+   "not": "Haus + Tür → die (son kelime belirler)"
+  },
+  "hausschlüssel": {
+   "tr": "ev anahtarı",
+   "kok": "der Hausschlüssel, -",
+   "not": "Haus + Schlüssel → der (son kelime belirler)"
+  },
+  "sprecht": {
+   "tr": "konuşuyorsunuz (ihr)",
+   "kok": "sprechen",
+   "not": "ihr sprecht; du için: du sprichst"
+  },
+  "kinds": {
+   "tr": "(yanlış çoğul) → Kinder: çocuklar",
+   "kok": "das Kind, -er"
+  },
+  "kinden": {
+   "tr": "(yanlış çoğul) → Kinder: çocuklar",
+   "kok": "das Kind, -er"
+  },
+  "lampes": {
+   "tr": "(yanlış çoğul) → Lampen: lambalar",
+   "kok": "die Lampe, -n"
+  },
+  "radien": {
+   "tr": "(yanlış çoğul) → Radios: radyolar",
+   "kok": "das Radio, -s"
+  },
+  "radioe": {
+   "tr": "(yanlış çoğul) → Radios: radyolar",
+   "kok": "das Radio, -s"
+  },
+  "lebst": {
+   "tr": "yaşıyorsun",
+   "kok": "leben"
+  },
+  "weinst": {
+   "tr": "ağlıyorsun",
+   "kok": "weinen"
+  },
+  "luft": {
+   "tr": "hava",
+   "kok": "die Luft"
+  },
+  "montagabend": {
+   "tr": "pazartesi akşamı",
+   "kok": "der Montagabend, -e",
+   "not": "Montag + Abend → der"
+  },
+  "rauch": {
+   "tr": "duman",
+   "kok": "der Rauch"
+  },
+  "wütend": {
+   "tr": "öfkeli, kızgın",
+   "kok": "wütend"
+  },
+  "zwiebelsuppe": {
+   "tr": "soğan çorbası",
+   "kok": "die Zwiebelsuppe, -n",
+   "not": "Zwiebel (soğan) + Suppe → die"
+  },
+  "krankheit": {
+   "tr": "hastalık",
+   "kok": "die Krankheit, -en",
+   "not": "-heit → die"
+  },
+  "achtung": {
+   "tr": "dikkat!",
+   "kok": "die Achtung",
+   "not": "-ung → die"
+  },
+  "brennen": {
+   "tr": "yanmak",
+   "kok": "brennen"
+  },
+  "brennt": {
+   "tr": "yanıyor",
+   "kok": "brennen"
+  },
+  "bringst": {
+   "tr": "getiriyorsun",
+   "kok": "bringen"
+  },
+  "flüstern": {
+   "tr": "fısıldamak",
+   "kok": "flüstern"
+  },
+  "flüstert": {
+   "tr": "fısıldıyor",
+   "kok": "flüstern"
+  },
+  "fragst": {
+   "tr": "soruyorsun",
+   "kok": "fragen"
+  },
+  "frauen": {
+   "tr": "kadınlar",
+   "kok": "die Frau, -en",
+   "not": "çoğul"
+  },
+  "fraus": {
+   "tr": "(yanlış çoğul) → Frauen: kadınlar",
+   "kok": "die Frau, -en"
+  },
+  "fraue": {
+   "tr": "(yanlış çoğul) → Frauen: kadınlar",
+   "kok": "die Frau, -en"
+  },
+  "grau": {
+   "tr": "gri",
+   "kok": "grau",
+   "not": "Alle tragen Grau = herkes gri giyiyor"
+  },
+  "handys": {
+   "tr": "cep telefonları",
+   "kok": "das Handy, -s",
+   "not": "çoğul"
+  },
+  "handyen": {
+   "tr": "(yanlış çoğul) → Handys: cep telefonları",
+   "kok": "das Handy, -s"
+  },
+  "handyer": {
+   "tr": "(yanlış çoğul) → Handys: cep telefonları",
+   "kok": "das Handy, -s"
+  },
+  "tags": {
+   "tr": "(yanlış çoğul) → Tage: günler",
+   "kok": "der Tag, -e"
+  },
+  "tagen": {
+   "tr": "(burada yanlış) → Tage: günler",
+   "kok": "der Tag, -e",
+   "not": "Tagen sadece Dativ'de; edatlar sonra gelecek"
+  },
+  "hausarbeit": {
+   "tr": "ev işi",
+   "kok": "die Hausarbeit, -en",
+   "not": "Haus + Arbeit → die (son kelime belirler)"
+  },
+  "schulbuch": {
+   "tr": "okul kitabı",
+   "kok": "das Schulbuch, die Schulbücher",
+   "not": "Schule + Buch → das (son kelime belirler)"
+  },
+  "mittagessen": {
+   "tr": "öğle yemeği",
+   "kok": "das Mittagessen, -",
+   "not": "Mittag + Essen → das"
+  },
+  "mitternacht": {
+   "tr": "gece yarısı",
+   "kok": "die Mitternacht",
+   "not": "Mitte + Nacht → die"
+  },
+  "möglichkeit": {
+   "tr": "olanak, imkân",
+   "kok": "die Möglichkeit, -en",
+   "not": "-keit → die"
+  },
+  "reis": {
+   "tr": "pirinç",
+   "kok": "der Reis"
+  },
+  "trägt": {
+   "tr": "giyiyor; taşıyor",
+   "kok": "tragen",
+   "not": "er trägt (a → ä)"
+  },
+  "wolle": {
+   "tr": "yün",
+   "kok": "die Wolle"
+  },
+  "öl": {
+   "tr": "yağ (sıvı)",
+   "kok": "das Öl, -e"
+  },
+  "antwortest": {
+   "tr": "cevap veriyorsun",
+   "kok": "antworten",
+   "not": "kök -t → araya e: du antwortest"
+  },
+  "autos": {
+   "tr": "arabalar",
+   "kok": "das Auto, -s",
+   "not": "çoğul"
+  },
+  "tische": {
+   "tr": "masalar",
+   "kok": "der Tisch, -e",
+   "not": "çoğul: die Tische"
+  },
+  "blau": {
+   "tr": "mavi",
+   "kok": "blau"
+  },
+  "bleistift": {
+   "tr": "kurşun kalem",
+   "kok": "der Bleistift, -e"
+  },
+  "dose": {
+   "tr": "kutu (teneke)",
+   "kok": "die Dose, -n"
+  },
+  "fünfzig": {
+   "tr": "elli",
+   "kok": "fünfzig"
+  },
+  "hundert": {
+   "tr": "yüz (100)",
+   "kok": "hundert"
+  },
+  "vierhundert": {
+   "tr": "dört yüz",
+   "kok": "vierhundert"
+  },
+  "fünfhundert": {
+   "tr": "beş yüz",
+   "kok": "fünfhundert"
+  },
+  "gesundheit": {
+   "tr": "sağlık",
+   "kok": "die Gesundheit",
+   "not": "-heit → die"
+  },
+  "wahrheit": {
+   "tr": "gerçek, hakikat",
+   "kok": "die Wahrheit, -en",
+   "not": "-heit → die"
+  },
+  "heulen": {
+   "tr": "ulumak; ötmek (siren)",
+   "kok": "heulen"
+  },
+  "heult": {
+   "tr": "ötüyor, uluyor",
+   "kok": "heulen"
+  },
+  "knurren": {
+   "tr": "hırlamak",
+   "kok": "knurren"
+  },
+  "knurrt": {
+   "tr": "hırlıyor",
+   "kok": "knurren"
+  },
+  "küchentisch": {
+   "tr": "mutfak masası",
+   "kok": "der Küchentisch, -e",
+   "not": "Küche + Tisch → der (son kelime belirler)"
+  },
+  "küchentür": {
+   "tr": "mutfak kapısı",
+   "kok": "die Küchentür, -en",
+   "not": "Küche + Tür → die (son kelime belirler)"
+  },
+  "meter": {
+   "tr": "metre",
+   "kok": "der Meter, -"
+  },
+  "sirene": {
+   "tr": "siren",
+   "kok": "die Sirene, -n"
+  },
+  "strecke": {
+   "tr": "güzergâh, yol",
+   "kok": "die Strecke, -n"
+  },
+  "biss": {
+   "tr": "ısırık",
+   "kok": "der Biss, -e"
+  },
+  "gitarre": {
+   "tr": "gitar",
+   "kok": "die Gitarre, -n"
+  },
+  "grauen": {
+   "tr": "Griler (gri montlular)",
+   "kok": "die Grauen",
+   "not": "grau = gri"
+  },
+  "mittag": {
+   "tr": "öğle",
+   "kok": "der Mittag, -e",
+   "not": "heute Mittag = bugün öğlen"
+  },
+  "okay": {
+   "tr": "tamam, uygun",
+   "not": "Ist das okay? = Uygun mu?"
+  },
+  "reinigen": {
+   "tr": "temizlemek",
+   "kok": "reinigen"
+  },
+  "reinige": {
+   "tr": "temizliyorum",
+   "kok": "reinigen"
+  },
+  "stück": {
+   "tr": "parça",
+   "kok": "das Stück, -e"
+  },
+  "taschen": {
+   "tr": "çantalar",
+   "kok": "die Tasche, -n",
+   "not": "çoğul"
+  },
+  "fahrerin": {
+   "tr": "kadın şoför",
+   "kok": "die Fahrerin, -nen",
+   "not": "-in → die"
+  },
+  "niedrig": {
+   "tr": "düşük, alçak"
+  },
+  "schreibt": {
+   "tr": "yazıyor",
+   "kok": "schreiben"
+  },
+  "befehl": {
+   "tr": "emir, komut",
+   "kok": "der Befehl, -e"
+  },
+  "blatt": {
+   "tr": "gazete; yaprak",
+   "kok": "das Blatt, die Blätter",
+   "not": "Tempelhofer Blatt: kampın gazetesi"
+  },
+  "tempelhofer": {
+   "tr": "Tempelhof'un",
+   "kok": "Tempelhofer",
+   "not": "yer adı + -er: Tempelhofer Blatt"
+  },
+  "denkt": {
+   "tr": "düşünüyor",
+   "kok": "denken"
+  },
+  "einmal": {
+   "tr": "bir kez",
+   "kok": "einmal",
+   "not": "zweimal = iki kez"
+  },
+  "funk": {
+   "tr": "telsiz yayını",
+   "kok": "der Funk",
+   "not": "im Funk = telsizde (kalıp)"
+  },
+  "gewächshaus": {
+   "tr": "sera",
+   "kok": "das Gewächshaus, -häuser",
+   "not": "bileşik isim: das Haus → das"
+  },
+  "gleichen": {
+   "tr": "aynı",
+   "kok": "gleich",
+   "not": "zur gleichen Zeit = aynı saatte (kalıp)"
+  },
+  "heizung": {
+   "tr": "ısıtma, kalorifer",
+   "kok": "die Heizung, -en",
+   "not": "-ung → die"
+  },
+  "holz": {
+   "tr": "odun, tahta",
+   "kok": "das Holz"
+  },
+  "lebt": {
+   "tr": "yaşıyor",
+   "kok": "leben"
+  },
+  "ort": {
+   "tr": "yer",
+   "kok": "der Ort, -e"
+  },
+  "schreibst": {
+   "tr": "yazıyorsun",
+   "kok": "schreiben",
+   "not": "du schreibst"
+  },
+  "stift": {
+   "tr": "kalem",
+   "kok": "der Stift, -e"
+  },
+  "süden": {
+   "tr": "güney",
+   "kok": "der Süden",
+   "not": "der Norden = kuzey"
+  },
+  "unklar": {
+   "tr": "belirsiz",
+   "kok": "unklar",
+   "not": "klar = açık, belli"
+  },
+  "viktor": {
+   "tr": "Viktor (isim)"
+  },
+  "alex": {
+   "tr": "Alex (isim)"
+  },
+  "mögen": {
+   "tr": "sevmek, hoşlanmak",
+   "kok": "mögen"
+  },
+  "setzen": {
+   "tr": "oturtmak, koymak",
+   "kok": "setzen"
+  },
+  "danken": {
+   "tr": "teşekkür etmek",
+   "kok": "danken"
+  },
+  "stimmen": {
+   "tr": "doğru olmak",
+   "kok": "stimmen"
+  },
+  "schenken": {
+   "tr": "hediye etmek",
+   "kok": "schenken"
+  },
+  "duschen": {
+   "tr": "duş almak",
+   "kok": "duschen"
+  },
+  "frühstücken": {
+   "tr": "kahvaltı etmek",
+   "kok": "frühstücken"
+  },
+  "bauen": {
+   "tr": "inşa etmek, yapmak",
+   "kok": "bauen"
+  },
+  "wechseln": {
+   "tr": "değiştirmek; (para) bozdurmak",
+   "kok": "wechseln"
+  },
+  "vorstellen": {
+   "tr": "tanıtmak",
+   "kok": "vorstellen"
+  },
+  "kennenlernen": {
+   "tr": "tanışmak",
+   "kok": "kennenlernen"
+  },
+  "aussehen": {
+   "tr": "görünmek",
+   "kok": "aussehen"
+  },
+  "beeilen": {
+   "tr": "acele etmek",
+   "kok": "sich beeilen"
+  },
+  "seite": {
+   "tr": "sayfa; taraf",
+   "kok": "die Seite"
+  },
+  "welt": {
+   "tr": "dünya",
+   "kok": "die Welt"
+  },
+  "sache": {
+   "tr": "şey, mesele",
+   "kok": "die Sache"
+  },
+  "ding": {
+   "tr": "şey, nesne",
+   "kok": "das Ding"
+  },
+  "junge": {
+   "tr": "erkek çocuk",
+   "kok": "der Junge"
+  },
+  "schüler": {
+   "tr": "öğrenci (okul)",
+   "kok": "der Schüler"
+  },
+  "klasse": {
+   "tr": "sınıf",
+   "kok": "die Klasse"
+  },
+  "kunde": {
+   "tr": "müşteri",
+   "kok": "der Kunde"
+  },
+  "sport": {
+   "tr": "spor",
+   "kok": "der Sport"
+  },
+  "spiel": {
+   "tr": "oyun; maç",
+   "kok": "das Spiel"
+  },
+  "tier": {
+   "tr": "hayvan",
+   "kok": "das Tier"
+  },
+  "baum": {
+   "tr": "ağaç",
+   "kok": "der Baum"
+  },
+  "blume": {
+   "tr": "çiçek",
+   "kok": "die Blume"
+  },
+  "berg": {
+   "tr": "dağ",
+   "kok": "der Berg"
+  },
+  "meer": {
+   "tr": "deniz",
+   "kok": "das Meer"
+  },
+  "dorf": {
+   "tr": "köy",
+   "kok": "das Dorf"
+  },
+  "kirche": {
+   "tr": "kilise",
+   "kok": "die Kirche"
+  },
+  "farbe": {
+   "tr": "renk",
+   "kok": "die Farbe"
+  },
+  "kleidung": {
+   "tr": "giysi, kıyafet",
+   "kok": "die Kleidung"
+  },
+  "hose": {
+   "tr": "pantolon",
+   "kok": "die Hose"
+  },
+  "körper": {
+   "tr": "vücut",
+   "kok": "der Körper"
+  },
+  "schnee": {
+   "tr": "kar",
+   "kok": "der Schnee"
+  },
+  "hobby": {
+   "tr": "hobi",
+   "kok": "das Hobby"
+  },
+  "froh": {
+   "tr": "memnun, sevinçli",
+   "kok": "froh"
+  },
+  "lustig": {
+   "tr": "komik, eğlenceli",
+   "kok": "lustig"
+  },
+  "wunderbar": {
+   "tr": "harika, muhteşem",
+   "kok": "wunderbar"
+  },
+  "gleich": {
+   "tr": "aynı",
+   "kok": "gleich"
+  },
+  "verschieden": {
+   "tr": "farklı, çeşitli",
+   "kok": "verschieden"
+  },
+  "satt": {
+   "tr": "tok",
+   "kok": "satt"
+  },
+  "sauer": {
+   "tr": "ekşi; kızgın",
+   "kok": "sauer"
+  },
+  "erreichen": {
+   "tr": "ulaşmak; yetişmek",
+   "kok": "erreichen"
+  },
+  "verlassen": {
+   "tr": "terk etmek, ayrılmak",
+   "kok": "verlassen"
+  },
+  "erwarten": {
+   "tr": "beklemek (ummak)",
+   "kok": "erwarten"
+  },
+  "bedeuten": {
+   "tr": "anlamına gelmek",
+   "kok": "bedeuten"
+  },
+  "fehlen": {
+   "tr": "eksik olmak",
+   "kok": "fehlen"
+  },
+  "folgen": {
+   "tr": "takip etmek, izlemek",
+   "kok": "folgen"
+  },
+  "führen": {
+   "tr": "götürmek; yönetmek",
+   "kok": "führen"
+  },
+  "bieten": {
+   "tr": "sunmak",
+   "kok": "bieten"
+  },
+  "teilen": {
+   "tr": "paylaşmak; bölmek",
+   "kok": "teilen"
+  },
+  "wählen": {
+   "tr": "seçmek; oy vermek",
+   "kok": "wählen"
+  },
+  "erleben": {
+   "tr": "yaşamak (deneyimlemek)",
+   "kok": "erleben"
+  },
+  "erkennen": {
+   "tr": "tanımak (görünce)",
+   "kok": "erkennen"
+  },
+  "merken": {
+   "tr": "fark etmek; aklında tutmak",
+   "kok": "merken"
+  },
+  "schaffen": {
+   "tr": "başarmak",
+   "kok": "schaffen"
+  },
+  "vorbereiten": {
+   "tr": "hazırlamak",
+   "kok": "vorbereiten"
+  },
+  "wiederholen": {
+   "tr": "tekrarlamak",
+   "kok": "wiederholen"
+  },
+  "üben": {
+   "tr": "alıştırma yapmak",
+   "kok": "üben"
+  },
+  "buchen": {
+   "tr": "yer ayırtmak (ödemeli)",
+   "kok": "buchen"
+  },
+  "reservieren": {
+   "tr": "ayırtmak, rezervasyon yapmak",
+   "kok": "reservieren"
+  },
+  "beschreiben": {
+   "tr": "tarif etmek, betimlemek",
+   "kok": "beschreiben"
+  },
+  "besprechen": {
+   "tr": "(bir konuyu) görüşmek",
+   "kok": "besprechen"
+  },
+  "diskutieren": {
+   "tr": "tartışmak",
+   "kok": "diskutieren"
+  },
+  "informieren": {
+   "tr": "bilgilendirmek",
+   "kok": "informieren"
+  },
+  "anmelden": {
+   "tr": "kaydettirmek; kaydolmak",
+   "kok": "anmelden"
+  },
+  "teilnehmen": {
+   "tr": "katılmak",
+   "kok": "teilnehmen"
+  },
+  "ausgeben": {
+   "tr": "harcamak (para)",
+   "kok": "ausgeben"
+  },
+  "erlauben": {
+   "tr": "izin vermek",
+   "kok": "erlauben"
+  },
+  "verbieten": {
+   "tr": "yasaklamak",
+   "kok": "verbieten"
+  },
+  "sorgen": {
+   "tr": "ilgilenmek, bakmak",
+   "kok": "sorgen"
+  },
+  "schützen": {
+   "tr": "korumak",
+   "kok": "schützen"
+  },
+  "aufpassen": {
+   "tr": "dikkat etmek; göz kulak olmak",
+   "kok": "aufpassen"
+  },
+  "verbessern": {
+   "tr": "iyileştirmek, düzeltmek",
+   "kok": "verbessern"
+  },
+  "interessieren": {
+   "tr": "ilgilenmek, ilgi duymak",
+   "kok": "sich interessieren"
+  },
+  "beispiel": {
+   "tr": "örnek",
+   "kok": "das Beispiel"
+  },
+  "gespräch": {
+   "tr": "konuşma, görüşme",
+   "kok": "das Gespräch"
+  },
+  "meinung": {
+   "tr": "fikir, görüş",
+   "kok": "die Meinung"
+  },
+  "fehler": {
+   "tr": "hata",
+   "kok": "der Fehler"
+  },
+  "aufgabe": {
+   "tr": "görev; alıştırma",
+   "kok": "die Aufgabe"
+  },
+  "gefühl": {
+   "tr": "duygu, his",
+   "kok": "das Gefühl"
+  },
+  "freude": {
+   "tr": "sevinç",
+   "kok": "die Freude"
+  },
+  "sorge": {
+   "tr": "endişe, kaygı",
+   "kok": "die Sorge"
+  },
+  "lösung": {
+   "tr": "çözüm",
+   "kok": "die Lösung"
+  },
+  "natur": {
+   "tr": "doğa",
+   "kok": "die Natur"
+  },
+  "umwelt": {
+   "tr": "çevre",
+   "kok": "die Umwelt"
+  },
+  "internet": {
+   "tr": "internet",
+   "kok": "das Internet"
+  },
+  "zahn": {
+   "tr": "diş",
+   "kok": "der Zahn"
+  },
+  "rücken": {
+   "tr": "sırt",
+   "kok": "der Rücken"
+  },
+  "bauch": {
+   "tr": "karın",
+   "kok": "der Bauch"
+  },
+  "patient": {
+   "tr": "hasta (kişi)",
+   "kok": "der Patient"
+  },
+  "tablette": {
+   "tr": "hap",
+   "kok": "die Tablette"
+  },
+  "arbeitsplatz": {
+   "tr": "iş yeri",
+   "kok": "der Arbeitsplatz"
+  },
+  "mitarbeiter": {
+   "tr": "çalışan, personel",
+   "kok": "der Mitarbeiter"
+  },
+  "gehalt": {
+   "tr": "maaş",
+   "kok": "das Gehalt"
+  },
+  "feierabend": {
+   "tr": "mesai bitimi",
+   "kok": "der Feierabend"
+  },
+  "treppe": {
+   "tr": "merdiven",
+   "kok": "die Treppe"
+  },
+  "balkon": {
+   "tr": "balkon",
+   "kok": "der Balkon"
+  },
+  "müll": {
+   "tr": "çöp",
+   "kok": "der Müll"
+  },
+  "mieter": {
+   "tr": "kiracı",
+   "kok": "der Mieter"
+  },
+  "behörde": {
+   "tr": "resmi kurum, daire",
+   "kok": "die Behörde"
+  },
+  "antrag": {
+   "tr": "başvuru, dilekçe",
+   "kok": "der Antrag"
+  },
+  "pass": {
+   "tr": "pasaport",
+   "kok": "der Pass"
+  },
+  "ausflug": {
+   "tr": "gezi",
+   "kok": "der Ausflug"
+  },
+  "gepäck": {
+   "tr": "bagaj",
+   "kok": "das Gepäck"
+  },
+  "gleis": {
+   "tr": "peron, ray",
+   "kok": "das Gleis"
+  },
+  "größe": {
+   "tr": "beden; büyüklük",
+   "kok": "die Größe"
+  },
+  "schwierig": {
+   "tr": "zor",
+   "kok": "schwierig"
+  },
+  "wahr": {
+   "tr": "doğru, gerçek",
+   "kok": "wahr"
+  },
+  "ähnlich": {
+   "tr": "benzer",
+   "kok": "ähnlich"
+  },
+  "praktisch": {
+   "tr": "pratik, kullanışlı",
+   "kok": "praktisch"
+  },
+  "typisch": {
+   "tr": "tipik",
+   "kok": "typisch"
+  },
+  "modern": {
+   "tr": "modern",
+   "kok": "modern"
+  },
+  "privat": {
+   "tr": "özel",
+   "kok": "privat"
+  },
+  "persönlich": {
+   "tr": "kişisel; bizzat",
+   "kok": "persönlich"
+  },
+  "öffentlich": {
+   "tr": "kamuya açık, kamusal",
+   "kok": "öffentlich"
+  },
+  "kostenlos": {
+   "tr": "ücretsiz",
+   "kok": "kostenlos"
+  },
+  "sympathisch": {
+   "tr": "sempatik, hoş",
+   "kok": "sympathisch"
+  },
+  "fleißig": {
+   "tr": "çalışkan",
+   "kok": "fleißig"
+  },
+  "stolz": {
+   "tr": "gururlu",
+   "kok": "stolz"
+  },
+  "neugierig": {
+   "tr": "meraklı",
+   "kok": "neugierig"
+  },
+  "enttäuscht": {
+   "tr": "hayal kırıklığına uğramış",
+   "kok": "enttäuscht"
+  },
+  "überrascht": {
+   "tr": "şaşırmış",
+   "kok": "überrascht"
+  },
+  "heiraten": {
+   "tr": "evlenmek",
+   "kok": "heiraten"
+  },
+  "vertrauen": {
+   "tr": "güvenmek",
+   "kok": "vertrauen"
+  },
+  "vermissen": {
+   "tr": "özlemek",
+   "kok": "vermissen"
+  },
+  "entwickeln": {
+   "tr": "geliştirmek",
+   "kok": "entwickeln"
+  },
+  "unterstützen": {
+   "tr": "desteklemek",
+   "kok": "unterstützen"
+  },
+  "behandeln": {
+   "tr": "tedavi etmek; davranmak",
+   "kok": "behandeln"
+  },
+  "berichten": {
+   "tr": "haber vermek, anlatmak",
+   "kok": "berichten"
+  },
+  "unterhalten": {
+   "tr": "sohbet etmek",
+   "kok": "sich unterhalten"
+  },
+  "gewöhnen": {
+   "tr": "alışmak",
+   "kok": "sich gewöhnen"
+  },
+  "ärgern": {
+   "tr": "sinirlenmek",
+   "kok": "sich ärgern"
+  },
+  "untersuchen": {
+   "tr": "muayene etmek; incelemek",
+   "kok": "untersuchen"
+  },
+  "verletzen": {
+   "tr": "yaralamak; kırmak (duygu)",
+   "kok": "verletzen"
+  },
+  "erledigen": {
+   "tr": "halletmek",
+   "kok": "erledigen"
+  },
+  "trennen": {
+   "tr": "ayırmak",
+   "kok": "trennen"
+  },
+  "ablehnen": {
+   "tr": "reddetmek",
+   "kok": "ablehnen"
+  },
+  "bestätigen": {
+   "tr": "onaylamak",
+   "kok": "bestätigen"
+  },
+  "drücken": {
+   "tr": "basmak; itmek",
+   "kok": "drücken"
+  },
+  "liefern": {
+   "tr": "teslim etmek (ürün)",
+   "kok": "liefern"
+  },
+  "abnehmen": {
+   "tr": "kilo vermek; (telefonu) açmak",
+   "kok": "abnehmen"
+  },
+  "erholen": {
+   "tr": "dinlenmek, toparlanmak",
+   "kok": "sich erholen"
+  },
+  "zurückgeben": {
+   "tr": "geri vermek",
+   "kok": "zurückgeben"
+  },
+  "verbrauchen": {
+   "tr": "tüketmek",
+   "kok": "verbrauchen"
+  },
+  "heizen": {
+   "tr": "ısıtmak",
+   "kok": "heizen"
+  },
+  "einschalten": {
+   "tr": "(cihazı) açmak",
+   "kok": "einschalten"
+  },
+  "ausschalten": {
+   "tr": "(cihazı) kapatmak",
+   "kok": "ausschalten"
+  },
+  "speichern": {
+   "tr": "kaydetmek (bilgisayar)",
+   "kok": "speichern"
+  },
+  "ausdrucken": {
+   "tr": "çıktı almak",
+   "kok": "ausdrucken"
+  },
+  "umtauschen": {
+   "tr": "(mağazada) değiştirmek",
+   "kok": "umtauschen"
+  },
+  "anprobieren": {
+   "tr": "(giysiyi) denemek",
+   "kok": "anprobieren"
+  },
+  "verabreden": {
+   "tr": "buluşmak için sözleşmek",
+   "kok": "sich verabreden"
+  },
+  "wald": {
+   "tr": "orman",
+   "kok": "der Wald"
+  },
+  "hoffnung": {
+   "tr": "umut",
+   "kok": "die Hoffnung"
+  },
+  "programm": {
+   "tr": "program",
+   "kok": "das Programm"
+  },
+  "bericht": {
+   "tr": "rapor, haber",
+   "kok": "der Bericht"
+  },
+  "e-mail": {
+   "tr": "e-posta",
+   "kok": "die E-Mail"
+  },
+  "zeitschrift": {
+   "tr": "dergi",
+   "kok": "die Zeitschrift"
+  },
+  "sendung": {
+   "tr": "yayın, program; gönderi",
+   "kok": "die Sendung"
+  },
+  "werbung": {
+   "tr": "reklam",
+   "kok": "die Werbung"
+  },
+  "anzeige": {
+   "tr": "ilan",
+   "kok": "die Anzeige"
+  },
+  "stress": {
+   "tr": "stres",
+   "kok": "der Stress"
+  },
+  "geduld": {
+   "tr": "sabır",
+   "kok": "die Geduld"
+  },
+  "ärger": {
+   "tr": "dert, kızgınlık",
+   "kok": "der Ärger"
+  },
+  "wut": {
+   "tr": "öfke",
+   "kok": "die Wut"
+  },
+  "klima": {
+   "tr": "iklim",
+   "kok": "das Klima"
+  },
+  "energie": {
+   "tr": "enerji",
+   "kok": "die Energie"
+  },
+  "quittung": {
+   "tr": "fiş, makbuz",
+   "kok": "die Quittung"
+  },
+  "bargeld": {
+   "tr": "nakit",
+   "kok": "das Bargeld"
+  },
+  "lieferung": {
+   "tr": "teslimat",
+   "kok": "die Lieferung"
+  },
+  "zahnarzt": {
+   "tr": "diş hekimi",
+   "kok": "der Zahnarzt"
+  },
+  "krankenkasse": {
+   "tr": "sağlık sigortası (kurumu)",
+   "kok": "die Krankenkasse"
+  },
+  "untersuchung": {
+   "tr": "muayene; inceleme",
+   "kok": "die Untersuchung"
+  },
+  "notfall": {
+   "tr": "acil durum",
+   "kok": "der Notfall"
+  },
+  "besprechung": {
+   "tr": "toplantı",
+   "kok": "die Besprechung"
+  },
+  "kündigung": {
+   "tr": "fesih; işten çıkarılma, istifa",
+   "kok": "die Kündigung"
+  },
+  "anmeldung": {
+   "tr": "kayıt; adres kaydı",
+   "kok": "die Anmeldung"
+  },
+  "bescheinigung": {
+   "tr": "belge, onay yazısı",
+   "kok": "die Bescheinigung"
+  },
+  "unterlagen": {
+   "tr": "belgeler, evrak (sadece çoğul)",
+   "kok": "die Unterlagen"
+  },
+  "gebühr": {
+   "tr": "harç, ücret",
+   "kok": "die Gebühr"
+  },
+  "steuer": {
+   "tr": "vergi",
+   "kok": "die Steuer"
+  },
+  "keller": {
+   "tr": "bodrum",
+   "kok": "der Keller"
+  },
+  "aufzug": {
+   "tr": "asansör",
+   "kok": "der Aufzug"
+  },
+  "kaution": {
+   "tr": "depozito",
+   "kok": "die Kaution"
+  },
+  "ankunft": {
+   "tr": "varış",
+   "kok": "die Ankunft"
+  },
+  "abfahrt": {
+   "tr": "kalkış",
+   "kok": "die Abfahrt"
+  },
+  "unterkunft": {
+   "tr": "konaklama yeri",
+   "kok": "die Unterkunft"
+  },
+  "grenze": {
+   "tr": "sınır",
+   "kok": "die Grenze"
+  },
+  "strand": {
+   "tr": "plaj, sahil",
+   "kok": "der Strand"
+  },
+  "landschaft": {
+   "tr": "manzara, doğa",
+   "kok": "die Landschaft"
+  },
+  "sehenswürdigkeit": {
+   "tr": "görülmeye değer yer",
+   "kok": "die Sehenswürdigkeit"
+  },
+  "verrückt": {
+   "tr": "deli, çılgın",
+   "kok": "verrückt"
+  },
+  "einsam": {
+   "tr": "yalnız (yalnızlık hisseden)",
+   "kok": "einsam"
+  },
+  "aufgeregt": {
+   "tr": "heyecanlı",
+   "kok": "aufgeregt"
+  },
+  "faul": {
+   "tr": "tembel",
+   "kok": "faul"
+  },
+  "hübsch": {
+   "tr": "güzel, hoş",
+   "kok": "hübsch"
+  },
+  "sportlich": {
+   "tr": "sportif",
+   "kok": "sportlich"
+  },
+  "vorsichtig": {
+   "tr": "dikkatli",
+   "kok": "vorsichtig"
+  },
+  "geduldig": {
+   "tr": "sabırlı",
+   "kok": "geduldig"
+  },
+  "dringend": {
+   "tr": "acil",
+   "kok": "dringend"
+  },
+  "erfolgreich": {
+   "tr": "başarılı",
+   "kok": "erfolgreich"
+  },
+  "gültig": {
+   "tr": "geçerli",
+   "kok": "gültig"
+  },
+  "zuständig": {
+   "tr": "yetkili, sorumlu",
+   "kok": "zuständig"
+  },
+  "arbeitslos": {
+   "tr": "işsiz",
+   "kok": "arbeitslos"
+  },
+  "berufstätig": {
+   "tr": "çalışan (bir işi olan)",
+   "kok": "berufstätig"
+  },
+  "selbstständig": {
+   "tr": "serbest çalışan; bağımsız",
+   "kok": "selbstständig"
+  },
+  "umweltfreundlich": {
+   "tr": "çevre dostu",
+   "kok": "umweltfreundlich"
+  }
+ }
+}

@@ -1,0 +1,3666 @@
+{
+ "baslik": "Partizip drill",
+ "bolumler": [
+  "Düzenli: ge…t (ve ge almayanlar)",
+  "Ayrılabilen fiiller: auf·ge·macht",
+  "Düzensiz I: sesli aynı kalır (ge…en)",
+  "Düzensiz II: sesli değişir (ie · u · o)",
+  "Özel fiiller: gegangen, gewesen, gebracht…",
+  "Tam cümle: hat/ist + Partizip"
+ ],
+ "tablo": {
+  "baslik": "Partizip II: Perfekt cümlesinin son parçası",
+  "sutunlar": [
+   "Kalıp",
+   "Örnekler"
+  ],
+  "satirlar": [
+   [
+    "düzenli",
+    "ge + kök + t",
+    "machen → gemacht · kaufen → gekauft · arbeiten → gearbeitet"
+   ],
+   [
+    "ge almayanlar",
+    "-ieren, be-, ver-, er- → ge yok",
+    "studieren → studiert · besuchen → besucht · verstehen → verstanden"
+   ],
+   [
+    "ayrılabilen",
+    "önek + ge + kök",
+    "aufmachen → aufgemacht · anrufen → angerufen · aufstehen → aufgestanden"
+   ],
+   [
+    "düzensiz: sesli aynı",
+    "ge + kök + en",
+    "sehen → gesehen · fahren → gefahren · essen → gegessen"
+   ],
+   [
+    "düzensiz: ei → ie",
+    "ge + …ie… + en",
+    "schreiben → geschrieben · bleiben → geblieben"
+   ],
+   [
+    "düzensiz: i → u",
+    "ge + …u… + en",
+    "trinken → getrunken · finden → gefunden · singen → gesungen"
+   ],
+   [
+    "düzensiz: → o",
+    "ge + …o… + en",
+    "nehmen → genommen · sprechen → gesprochen · fliegen → geflogen"
+   ],
+   [
+    "özel (ezber)",
+    "kök tamamen değişir",
+    "gehen → gegangen · sein → gewesen · bringen → gebracht · denken → gedacht"
+   ],
+   [
+    "hat mı ist mi?",
+    "hareket / durum değişimi → ist",
+    "gehen, fahren, kommen, aufstehen + bleiben, sein, werden → ist · gerisi → hat"
+   ]
+  ],
+  "notlar": [
+   "Perfekt = **haben/sein** (2. sırada, çekimli) + **Partizip** (en sonda): Ich **habe** Pizza **gegessen**.",
+   "Düzenli fiiller **-t**, düzensizler **-en** ile biter. Düzensizlerde kökteki sesli değişebilir: bu yüzden gruplar halinde ezberle.",
+   "Ayrılabilen fiilde *ge* ortaya girer (an**ge**rufen); -ieren ve be-/ver-/er- fiilleri *ge* hiç almaz (studiert, besucht).",
+   "Bir fiilin hangi gruba girdiği tabloda vurgulanır: önce tabloya bakarak yaz, zamanla bakmadan yazacaksın."
+  ],
+  "vurgu_satir": {
+   "t": 0,
+   "ohnege": 1,
+   "trennbar": 2,
+   "en": 3,
+   "ie": 4,
+   "u": 5,
+   "o": 6,
+   "ozel": 7,
+   "aux": 8
+  }
+ },
+ "hedef": {
+  "dogruluk": 90,
+  "sure_sn": 6
+ },
+ "sonraki": "Dativ",
+ "kategoriler": {
+  "t": "Düzenli (ge…t)",
+  "ohnege": "ge almayanlar",
+  "trennbar": "Ayrılabilen",
+  "en": "Düzensiz: sesli aynı",
+  "ie": "ei → ie",
+  "u": "i → u",
+  "o": "→ o",
+  "ozel": "Özel fiiller"
+ },
+ "sorular": [
+  {
+   "no": 1,
+   "bolum": 1,
+   "metin": "Ich habe meine Hausaufgaben ___.",
+   "ipucu": "machen",
+   "kategori": "t",
+   "tr": "Ödevlerimi yaptım.",
+   "cevaplar": [
+    [
+     "gemacht"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**machen** → **gemacht** (ge·mach·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 2,
+   "bolum": 1,
+   "metin": "Mehmet hat Salz ___.",
+   "ipucu": "kaufen",
+   "kategori": "t",
+   "tr": "Mehmet tuz satın aldı.",
+   "cevaplar": [
+    [
+     "gekauft"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**kaufen** → **gekauft** (ge·kauf·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 3,
+   "bolum": 1,
+   "metin": "Wir haben gestern Karten ___.",
+   "ipucu": "spielen",
+   "kategori": "t",
+   "tr": "Dün kâğıt oynadık.",
+   "cevaplar": [
+    [
+     "gespielt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**spielen** → **gespielt** (ge·spiel·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 4,
+   "bolum": 1,
+   "metin": "Hast du heute Deutsch ___?",
+   "ipucu": "lernen",
+   "kategori": "t",
+   "tr": "Bugün Almanca çalıştın mı?",
+   "cevaplar": [
+    [
+     "gelernt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**lernen** → **gelernt** (ge·lern·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 5,
+   "bolum": 1,
+   "metin": "Wir haben zwei Jahre in Hamburg ___.",
+   "ipucu": "wohnen",
+   "kategori": "t",
+   "tr": "İki yıl Hamburg'da oturduk.",
+   "cevaplar": [
+    [
+     "gewohnt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**wohnen** → **gewohnt** (ge·wohn·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 6,
+   "bolum": 1,
+   "metin": "Pavel hat die ganze Nacht ___.",
+   "ipucu": "arbeiten",
+   "kategori": "t",
+   "tr": "Pavel bütün gece çalıştı.",
+   "cevaplar": [
+    [
+     "gearbeitet"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**arbeiten** → **gearbeitet** (ge·arbeit·et). Kök -t/-d ile bitiyor, araya **e** girer: ge + kök + **et**."
+  },
+  {
+   "no": 7,
+   "bolum": 1,
+   "metin": "Mehmet hat eine Suppe ___.",
+   "ipucu": "kochen",
+   "kategori": "t",
+   "tr": "Mehmet bir çorba pişirdi.",
+   "cevaplar": [
+    [
+     "gekocht"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**kochen** → **gekocht** (ge·koch·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 8,
+   "bolum": 1,
+   "metin": "Hast du das Radio ___?",
+   "ipucu": "hören",
+   "kategori": "t",
+   "tr": "Radyoyu duydun mu?",
+   "cevaplar": [
+    [
+     "gehört",
+     "gehoert"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**hören** → **gehört** (ge·hör·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 9,
+   "bolum": 1,
+   "metin": "Was hat Ingrid ___?",
+   "ipucu": "sagen",
+   "kategori": "t",
+   "tr": "Ingrid ne dedi?",
+   "cevaplar": [
+    [
+     "gesagt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**sagen** → **gesagt** (ge·sag·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 10,
+   "bolum": 1,
+   "metin": "Ich habe den Lehrer ___.",
+   "ipucu": "fragen",
+   "kategori": "t",
+   "tr": "Öğretmene sordum.",
+   "cevaplar": [
+    [
+     "gefragt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**fragen** → **gefragt** (ge·frag·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 11,
+   "bolum": 1,
+   "metin": "Kofi hat seinen Schlüssel ___.",
+   "ipucu": "suchen",
+   "kategori": "t",
+   "tr": "Kofi anahtarını aradı.",
+   "cevaplar": [
+    [
+     "gesucht"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**suchen** → **gesucht** (ge·such·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 12,
+   "bolum": 1,
+   "metin": "Wir haben Hilfe ___.",
+   "ipucu": "brauchen",
+   "kategori": "t",
+   "tr": "Yardıma ihtiyacımız oldu.",
+   "cevaplar": [
+    [
+     "gebraucht"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**brauchen** → **gebraucht** (ge·brauch·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 13,
+   "bolum": 1,
+   "metin": "Ich habe eine Stunde ___.",
+   "ipucu": "warten",
+   "kategori": "t",
+   "tr": "Bir saat bekledim.",
+   "cevaplar": [
+    [
+     "gewartet"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**warten** → **gewartet** (ge·wart·et). Kök -t/-d ile bitiyor, araya **e** girer: ge + kök + **et**."
+  },
+  {
+   "no": 14,
+   "bolum": 1,
+   "metin": "Lena hat mir den Turm ___.",
+   "ipucu": "zeigen",
+   "kategori": "t",
+   "tr": "Lena bana kuleyi gösterdi.",
+   "cevaplar": [
+    [
+     "gezeigt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**zeigen** → **gezeigt** (ge·zeig·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 15,
+   "bolum": 1,
+   "metin": "Habt ihr die Küche ___?",
+   "ipucu": "putzen",
+   "kategori": "t",
+   "tr": "Mutfağı temizlediniz mi?",
+   "cevaplar": [
+    [
+     "geputzt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**putzen** → **geputzt** (ge·putz·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 16,
+   "bolum": 1,
+   "metin": "Wir haben die ganze Nacht ___.",
+   "ipucu": "tanzen",
+   "kategori": "t",
+   "tr": "Bütün gece dans ettik.",
+   "cevaplar": [
+    [
+     "getanzt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**tanzen** → **getanzt** (ge·tanz·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 17,
+   "bolum": 1,
+   "metin": "Ingrid hat Wasser ___.",
+   "ipucu": "holen",
+   "kategori": "t",
+   "tr": "Ingrid gidip su getirdi.",
+   "cevaplar": [
+    [
+     "geholt"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**holen** → **geholt** (ge·hol·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 18,
+   "bolum": 1,
+   "metin": "Alle haben laut ___.",
+   "ipucu": "lachen",
+   "kategori": "t",
+   "tr": "Herkes yüksek sesle güldü.",
+   "cevaplar": [
+    [
+     "gelacht"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**lachen** → **gelacht** (ge·lach·t). Düzenli fiil: **ge + kök + t**."
+  },
+  {
+   "no": 19,
+   "bolum": 1,
+   "metin": "Marta hat nicht ___.",
+   "ipucu": "antworten",
+   "kategori": "t",
+   "tr": "Marta cevap vermedi.",
+   "cevaplar": [
+    [
+     "geantwortet"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**antworten** → **geantwortet** (ge·antwort·et). Kök -t/-d ile bitiyor, araya **e** girer: ge + kök + **et**."
+  },
+  {
+   "no": 20,
+   "bolum": 1,
+   "metin": "Das Brot hat zwei Euro ___.",
+   "ipucu": "kosten",
+   "kategori": "t",
+   "tr": "Ekmek iki euro tuttu.",
+   "cevaplar": [
+    [
+     "gekostet"
+    ]
+   ],
+   "cins": [
+    "t"
+   ],
+   "aciklama": "**kosten** → **gekostet** (ge·kost·et). Kök -t/-d ile bitiyor, araya **e** girer: ge + kök + **et**."
+  },
+  {
+   "no": 21,
+   "bolum": 1,
+   "metin": "Ich habe in Istanbul ___.",
+   "ipucu": "studieren",
+   "kategori": "ohnege",
+   "tr": "İstanbul'da üniversite okudum.",
+   "cevaplar": [
+    [
+     "studiert"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**studieren** → **studiert** (studier·t). -ieren ile biten fiiller **ge** almaz."
+  },
+  {
+   "no": 22,
+   "bolum": 1,
+   "metin": "Hast du mit deiner Mutter ___?",
+   "ipucu": "telefonieren",
+   "kategori": "ohnege",
+   "tr": "Annenle telefonda konuştun mu?",
+   "cevaplar": [
+    [
+     "telefoniert"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**telefonieren** → **telefoniert** (telefonier·t). -ieren ile biten fiiller **ge** almaz."
+  },
+  {
+   "no": 23,
+   "bolum": 1,
+   "metin": "Amira hat das Radio ___.",
+   "ipucu": "reparieren",
+   "kategori": "ohnege",
+   "tr": "Amira radyoyu tamir etti.",
+   "cevaplar": [
+    [
+     "repariert"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**reparieren** → **repariert** (reparier·t). -ieren ile biten fiiller **ge** almaz."
+  },
+  {
+   "no": 24,
+   "bolum": 1,
+   "metin": "Yuki hat die Blumen ___.",
+   "ipucu": "fotografieren",
+   "kategori": "ohnege",
+   "tr": "Yuki çiçeklerin fotoğrafını çekti.",
+   "cevaplar": [
+    [
+     "fotografiert"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**fotografieren** → **fotografiert** (fotografier·t). -ieren ile biten fiiller **ge** almaz."
+  },
+  {
+   "no": 25,
+   "bolum": 1,
+   "metin": "Das Funkgerät hat nicht ___.",
+   "ipucu": "funktionieren",
+   "kategori": "ohnege",
+   "tr": "Telsiz çalışmadı.",
+   "cevaplar": [
+    [
+     "funktioniert"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**funktionieren** → **funktioniert** (funktionier·t). -ieren ile biten fiiller **ge** almaz."
+  },
+  {
+   "no": 26,
+   "bolum": 1,
+   "metin": "Wir haben Oma Gerda ___.",
+   "ipucu": "besuchen",
+   "kategori": "ohnege",
+   "tr": "Oma Gerda'yı ziyaret ettik.",
+   "cevaplar": [
+    [
+     "besucht"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**besuchen** → **besucht** (be·such·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 27,
+   "bolum": 1,
+   "metin": "Hast du das Essen schon ___?",
+   "ipucu": "bezahlen",
+   "kategori": "ohnege",
+   "tr": "Yemeği ödedin mi?",
+   "cevaplar": [
+    [
+     "bezahlt"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**bezahlen** → **bezahlt** (be·zahl·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 28,
+   "bolum": 1,
+   "metin": "Kofi hat alles ___.",
+   "ipucu": "erzählen",
+   "kategori": "ohnege",
+   "tr": "Kofi her şeyi anlattı.",
+   "cevaplar": [
+    [
+     "erzählt",
+     "erzaehlt"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**erzählen** → **erzählt** (er·zähl·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 29,
+   "bolum": 1,
+   "metin": "Oma Gerda hat Socken ___.",
+   "ipucu": "verkaufen",
+   "kategori": "ohnege",
+   "tr": "Oma Gerda çorap sattı.",
+   "cevaplar": [
+    [
+     "verkauft"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**verkaufen** → **verkauft** (ver·kauf·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 30,
+   "bolum": 1,
+   "metin": "Die Lehrerin hat die Regel ___.",
+   "ipucu": "erklären",
+   "kategori": "ohnege",
+   "tr": "Öğretmen kuralı açıkladı.",
+   "cevaplar": [
+    [
+     "erklärt",
+     "erklaert"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**erklären** → **erklärt** (er·klär·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 31,
+   "bolum": 1,
+   "metin": "Ich habe eine Pizza ___.",
+   "ipucu": "bestellen",
+   "kategori": "ohnege",
+   "tr": "Bir pizza sipariş ettim.",
+   "cevaplar": [
+    [
+     "bestellt"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**bestellen** → **bestellt** (be·stell·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 32,
+   "bolum": 1,
+   "metin": "Ich habe deinen Namen ___.",
+   "ipucu": "vergessen",
+   "kategori": "ohnege",
+   "tr": "Adını unuttum.",
+   "cevaplar": [
+    [
+     "vergessen"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**vergessen** → **vergessen** (ver·gess·en). Ayrılmayan önek (be-, ver-, er-) → **ge** yok. Fiil düzensiz, sonu -en."
+  },
+  {
+   "no": 33,
+   "bolum": 1,
+   "metin": "Hast du die Frage ___?",
+   "ipucu": "verstehen",
+   "kategori": "ohnege",
+   "tr": "Soruyu anladın mı?",
+   "cevaplar": [
+    [
+     "verstanden"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**verstehen** → **verstanden** (ver·stand·en). Ayrılmayan önek (be-, ver-, er-) → **ge** yok. Fiil düzensiz, sonu -en."
+  },
+  {
+   "no": 34,
+   "bolum": 1,
+   "metin": "Wir haben einen Brief ___.",
+   "ipucu": "bekommen",
+   "kategori": "ohnege",
+   "tr": "Bir mektup aldık.",
+   "cevaplar": [
+    [
+     "bekommen"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**bekommen** → **bekommen** (be·komm·en). Ayrılmayan önek (be-, ver-, er-) → **ge** yok. Fiil düzensiz, sonu -en."
+  },
+  {
+   "no": 35,
+   "bolum": 1,
+   "metin": "Pavel hat den Himmel ___.",
+   "ipucu": "beobachten",
+   "kategori": "ohnege",
+   "tr": "Pavel gökyüzünü gözlemledi.",
+   "cevaplar": [
+    [
+     "beobachtet"
+    ]
+   ],
+   "cins": [
+    "ohnege"
+   ],
+   "aciklama": "**beobachten** → **beobachtet** (be·obacht·et). Ayrılmayan önek (be-, ver-, er-) → **ge** yok."
+  },
+  {
+   "no": 36,
+   "bolum": 2,
+   "metin": "Hast du das Fenster ___?",
+   "ipucu": "aufmachen",
+   "kategori": "trennbar",
+   "tr": "Pencereyi açtın mı?",
+   "cevaplar": [
+    [
+     "aufgemacht"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**aufmachen** → **aufgemacht** (auf·ge·mach·t). Ayrılabilen: **auf** + gemacht → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 37,
+   "bolum": 2,
+   "metin": "Ich habe die Tür ___.",
+   "ipucu": "zumachen",
+   "kategori": "trennbar",
+   "tr": "Kapıyı kapattım.",
+   "cevaplar": [
+    [
+     "zugemacht"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**zumachen** → **zugemacht** (zu·ge·mach·t). Ayrılabilen: **zu** + gemacht → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 38,
+   "bolum": 2,
+   "metin": "Wir haben am Samstag ___.",
+   "ipucu": "einkaufen",
+   "kategori": "trennbar",
+   "tr": "Cumartesi alışveriş yaptık.",
+   "cevaplar": [
+    [
+     "eingekauft"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**einkaufen** → **eingekauft** (ein·ge·kauf·t). Ayrılabilen: **ein** + gekauft → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 39,
+   "bolum": 2,
+   "metin": "Lena hat ihr Zimmer ___.",
+   "ipucu": "aufräumen",
+   "kategori": "trennbar",
+   "tr": "Lena odasını topladı.",
+   "cevaplar": [
+    [
+     "aufgeräumt",
+     "aufgeraeumt"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**aufräumen** → **aufgeräumt** (auf·ge·räum·t). Ayrılabilen: **auf** + geräumt → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 40,
+   "bolum": 2,
+   "metin": "Bernd hat uns am Bahnhof ___.",
+   "ipucu": "abholen",
+   "kategori": "trennbar",
+   "tr": "Bernd bizi istasyondan aldı.",
+   "cevaplar": [
+    [
+     "abgeholt"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**abholen** → **abgeholt** (ab·ge·hol·t). Ayrılabilen: **ab** + geholt → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 41,
+   "bolum": 2,
+   "metin": "Hast du deinen Vater ___?",
+   "ipucu": "anrufen",
+   "kategori": "trennbar",
+   "tr": "Babanı aradın mı?",
+   "cevaplar": [
+    [
+     "angerufen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**anrufen** → **angerufen** (an·ge·ruf·en). Ayrılabilen: **an** + gerufen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 42,
+   "bolum": 2,
+   "metin": "Ich bin um sechs Uhr ___.",
+   "ipucu": "aufstehen",
+   "kategori": "trennbar",
+   "tr": "Saat altıda kalktım.",
+   "cevaplar": [
+    [
+     "aufgestanden"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**aufstehen** → **aufgestanden** (auf·ge·stand·en). Ayrılabilen: **auf** + gestanden → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 43,
+   "bolum": 2,
+   "metin": "Mehmet hat alle zum Essen ___.",
+   "ipucu": "einladen",
+   "kategori": "trennbar",
+   "tr": "Mehmet herkesi yemeğe davet etti.",
+   "cevaplar": [
+    [
+     "eingeladen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**einladen** → **eingeladen** (ein·ge·lad·en). Ayrılabilen: **ein** + geladen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 44,
+   "bolum": 2,
+   "metin": "Amira hat ihren Bruder ___.",
+   "ipucu": "mitbringen",
+   "kategori": "trennbar",
+   "tr": "Amira erkek kardeşini de getirdi.",
+   "cevaplar": [
+    [
+     "mitgebracht"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**mitbringen** → **mitgebracht** (mit·ge·brach·t). Ayrılabilen: **mit** + gebracht → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 45,
+   "bolum": 2,
+   "metin": "Der Bus ist um zehn Uhr ___.",
+   "ipucu": "ankommen",
+   "kategori": "trennbar",
+   "tr": "Otobüs saat onda vardı.",
+   "cevaplar": [
+    [
+     "angekommen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**ankommen** → **angekommen** (an·ge·komm·en). Ayrılabilen: **an** + gekommen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 46,
+   "bolum": 2,
+   "metin": "Der Zug ist schon ___.",
+   "ipucu": "abfahren",
+   "kategori": "trennbar",
+   "tr": "Tren çoktan kalktı.",
+   "cevaplar": [
+    [
+     "abgefahren"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**abfahren** → **abgefahren** (ab·ge·fahr·en). Ayrılabilen: **ab** + gefahren → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 47,
+   "bolum": 2,
+   "metin": "Habt ihr gestern ___?",
+   "ipucu": "fernsehen",
+   "kategori": "trennbar",
+   "tr": "Dün televizyon izlediniz mi?",
+   "cevaplar": [
+    [
+     "ferngesehen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**fernsehen** → **ferngesehen** (fern·ge·seh·en). Ayrılabilen: **fern** + gesehen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 48,
+   "bolum": 2,
+   "metin": "Der Film hat um acht Uhr ___.",
+   "ipucu": "anfangen",
+   "kategori": "trennbar",
+   "tr": "Film saat sekizde başladı.",
+   "cevaplar": [
+    [
+     "angefangen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**anfangen** → **angefangen** (an·ge·fang·en). Ayrılabilen: **an** + gefangen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 49,
+   "bolum": 2,
+   "metin": "Wir sind am Terminal ___.",
+   "ipucu": "aussteigen",
+   "kategori": "trennbar",
+   "tr": "Terminalde (araçtan) indik.",
+   "cevaplar": [
+    [
+     "ausgestiegen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**aussteigen** → **ausgestiegen** (aus·ge·stieg·en). Ayrılabilen: **aus** + gestiegen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 50,
+   "bolum": 2,
+   "metin": "Alle sind in den Bus ___.",
+   "ipucu": "einsteigen",
+   "kategori": "trennbar",
+   "tr": "Herkes otobüse bindi.",
+   "cevaplar": [
+    [
+     "eingestiegen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**einsteigen** → **eingestiegen** (ein·ge·stieg·en). Ayrılabilen: **ein** + gestiegen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 51,
+   "bolum": 2,
+   "metin": "Der Regen hat endlich ___.",
+   "ipucu": "aufhören",
+   "kategori": "trennbar",
+   "tr": "Yağmur nihayet durdu.",
+   "cevaplar": [
+    [
+     "aufgehört",
+     "aufgehoert"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**aufhören** → **aufgehört** (auf·ge·hör·t). Ayrılabilen: **auf** + gehört → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 52,
+   "bolum": 2,
+   "metin": "Hast du das Licht ___?",
+   "ipucu": "ausmachen",
+   "kategori": "trennbar",
+   "tr": "Işığı kapattın mı?",
+   "cevaplar": [
+    [
+     "ausgemacht"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**ausmachen** → **ausgemacht** (aus·ge·mach·t). Ayrılabilen: **aus** + gemacht → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 53,
+   "bolum": 2,
+   "metin": "Pavel hat die Lampe ___.",
+   "ipucu": "anmachen",
+   "kategori": "trennbar",
+   "tr": "Pavel lambayı yaktı.",
+   "cevaplar": [
+    [
+     "angemacht"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**anmachen** → **angemacht** (an·ge·mach·t). Ayrılabilen: **an** + gemacht → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 54,
+   "bolum": 2,
+   "metin": "Kartoffel ist auch ___.",
+   "ipucu": "mitkommen",
+   "kategori": "trennbar",
+   "tr": "Kartoffel de (bizimle) geldi.",
+   "cevaplar": [
+    [
+     "mitgekommen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**mitkommen** → **mitgekommen** (mit·ge·komm·en). Ayrılabilen: **mit** + gekommen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 55,
+   "bolum": 2,
+   "metin": "Kofi ist am Abend ___.",
+   "ipucu": "zurückkommen",
+   "kategori": "trennbar",
+   "tr": "Kofi akşam geri döndü.",
+   "cevaplar": [
+    [
+     "zurückgekommen",
+     "zurueckgekommen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**zurückkommen** → **zurückgekommen** (zurück·ge·komm·en). Ayrılabilen: **zurück** + gekommen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 56,
+   "bolum": 2,
+   "metin": "Wir haben am Montag ___.",
+   "ipucu": "abstimmen",
+   "kategori": "trennbar",
+   "tr": "Pazartesi oylama yaptık.",
+   "cevaplar": [
+    [
+     "abgestimmt"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**abstimmen** → **abgestimmt** (ab·ge·stimm·t). Ayrılabilen: **ab** + gestimmt → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 57,
+   "bolum": 2,
+   "metin": "Ich habe eine warme Jacke ___.",
+   "ipucu": "anziehen",
+   "kategori": "trennbar",
+   "tr": "Sıcak bir ceket giydim.",
+   "cevaplar": [
+    [
+     "angezogen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**anziehen** → **angezogen** (an·ge·zog·en). Ayrılabilen: **an** + gezogen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 58,
+   "bolum": 2,
+   "metin": "Ingrid hat alles ___.",
+   "ipucu": "aufschreiben",
+   "kategori": "trennbar",
+   "tr": "Ingrid her şeyi not aldı.",
+   "cevaplar": [
+    [
+     "aufgeschrieben"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**aufschreiben** → **aufgeschrieben** (auf·ge·schrieb·en). Ayrılabilen: **auf** + geschrieben → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 59,
+   "bolum": 2,
+   "metin": "Das Kind ist schnell ___.",
+   "ipucu": "einschlafen",
+   "kategori": "trennbar",
+   "tr": "Çocuk çabucak uyudu.",
+   "cevaplar": [
+    [
+     "eingeschlafen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**einschlafen** → **eingeschlafen** (ein·ge·schlaf·en). Ayrılabilen: **ein** + geschlafen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 60,
+   "bolum": 2,
+   "metin": "Wir sind in Berlin ___.",
+   "ipucu": "umsteigen",
+   "kategori": "trennbar",
+   "tr": "Berlin'de aktarma yaptık.",
+   "cevaplar": [
+    [
+     "umgestiegen"
+    ]
+   ],
+   "cins": [
+    "trennbar"
+   ],
+   "aciklama": "**umsteigen** → **umgestiegen** (um·ge·stieg·en). Ayrılabilen: **um** + gestiegen → *ge* önekle kökün arasına girer."
+  },
+  {
+   "no": 61,
+   "bolum": 3,
+   "metin": "Hast du den Film ___?",
+   "ipucu": "sehen",
+   "kategori": "en",
+   "tr": "Filmi gördün mü?",
+   "cevaplar": [
+    [
+     "gesehen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**sehen** → **gesehen** (ge·seh·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 62,
+   "bolum": 3,
+   "metin": "Ich habe das Buch schon ___.",
+   "ipucu": "lesen",
+   "kategori": "en",
+   "tr": "Kitabı çoktan okudum.",
+   "cevaplar": [
+    [
+     "gelesen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**lesen** → **gelesen** (ge·les·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 63,
+   "bolum": 3,
+   "metin": "Wir haben Pizza ___.",
+   "ipucu": "essen",
+   "kategori": "en",
+   "tr": "Pizza yedik.",
+   "cevaplar": [
+    [
+     "gegessen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**essen** → **gegessen** (ge·gess·en). Sesli aynı kalır, araya bir **g** girer: ge + g + essen."
+  },
+  {
+   "no": 64,
+   "bolum": 3,
+   "metin": "Bernd ist mit dem Bus ___.",
+   "ipucu": "fahren",
+   "kategori": "en",
+   "tr": "Bernd otobüsle gitti.",
+   "cevaplar": [
+    [
+     "gefahren"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**fahren** → **gefahren** (ge·fahr·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 65,
+   "bolum": 3,
+   "metin": "Hast du gut ___?",
+   "ipucu": "schlafen",
+   "kategori": "en",
+   "tr": "İyi uyudun mu?",
+   "cevaplar": [
+    [
+     "geschlafen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**schlafen** → **geschlafen** (ge·schlaf·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 66,
+   "bolum": 3,
+   "metin": "Ingrid hat mir ein Aspirin ___.",
+   "ipucu": "geben",
+   "kategori": "en",
+   "tr": "Ingrid bana bir aspirin verdi.",
+   "cevaplar": [
+    [
+     "gegeben"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**geben** → **gegeben** (ge·geb·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 67,
+   "bolum": 3,
+   "metin": "Wann bist du nach Hause ___?",
+   "ipucu": "kommen",
+   "kategori": "en",
+   "tr": "Eve ne zaman geldin?",
+   "cevaplar": [
+    [
+     "gekommen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**kommen** → **gekommen** (ge·komm·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 68,
+   "bolum": 3,
+   "metin": "Kofi ist zehn Kilometer ___.",
+   "ipucu": "laufen",
+   "kategori": "en",
+   "tr": "Kofi on kilometre koştu.",
+   "cevaplar": [
+    [
+     "gelaufen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**laufen** → **gelaufen** (ge·lauf·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 69,
+   "bolum": 3,
+   "metin": "Er hat die Kiste ___.",
+   "ipucu": "tragen",
+   "kategori": "en",
+   "tr": "Kutuyu taşıdı.",
+   "cevaplar": [
+    [
+     "getragen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**tragen** → **getragen** (ge·trag·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 70,
+   "bolum": 3,
+   "metin": "Ich habe meine Hände ___.",
+   "ipucu": "waschen",
+   "kategori": "en",
+   "tr": "Ellerimi yıkadım.",
+   "cevaplar": [
+    [
+     "gewaschen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**waschen** → **gewaschen** (ge·wasch·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 71,
+   "bolum": 3,
+   "metin": "Das Glas ist auf den Boden ___.",
+   "ipucu": "fallen",
+   "kategori": "en",
+   "tr": "Bardak yere düştü.",
+   "cevaplar": [
+    [
+     "gefallen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**fallen** → **gefallen** (ge·fall·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 72,
+   "bolum": 3,
+   "metin": "Der Bus hat am Terminal ___.",
+   "ipucu": "halten",
+   "kategori": "en",
+   "tr": "Otobüs terminalde durdu.",
+   "cevaplar": [
+    [
+     "gehalten"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**halten** → **gehalten** (ge·halt·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 73,
+   "bolum": 3,
+   "metin": "Lena hat laut ___.",
+   "ipucu": "rufen",
+   "kategori": "en",
+   "tr": "Lena yüksek sesle seslendi.",
+   "cevaplar": [
+    [
+     "gerufen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**rufen** → **gerufen** (ge·ruf·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 74,
+   "bolum": 3,
+   "metin": "Oma Gerda hat einen Kuchen ___.",
+   "ipucu": "backen",
+   "kategori": "en",
+   "tr": "Oma Gerda bir kek pişirdi.",
+   "cevaplar": [
+    [
+     "gebacken"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**backen** → **gebacken** (ge·back·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 75,
+   "bolum": 3,
+   "metin": "Ich habe mein Handy zu Hause ___.",
+   "ipucu": "lassen",
+   "kategori": "en",
+   "tr": "Telefonumu evde bıraktım.",
+   "cevaplar": [
+    [
+     "gelassen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**lassen** → **gelassen** (ge·lass·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 76,
+   "bolum": 3,
+   "metin": "Wir haben Sterne ___.",
+   "ipucu": "sehen",
+   "kategori": "en",
+   "tr": "Yıldızlar gördük.",
+   "cevaplar": [
+    [
+     "gesehen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**sehen** → **gesehen** (ge·seh·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 77,
+   "bolum": 3,
+   "metin": "Hat Pavel die Liste ___?",
+   "ipucu": "lesen",
+   "kategori": "en",
+   "tr": "Pavel listeyi okudu mu?",
+   "cevaplar": [
+    [
+     "gelesen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**lesen** → **gelesen** (ge·les·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 78,
+   "bolum": 3,
+   "metin": "Was hast du zum Frühstück ___?",
+   "ipucu": "essen",
+   "kategori": "en",
+   "tr": "Kahvaltıda ne yedin?",
+   "cevaplar": [
+    [
+     "gegessen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**essen** → **gegessen** (ge·gess·en). Sesli aynı kalır, araya bir **g** girer: ge + g + essen."
+  },
+  {
+   "no": 79,
+   "bolum": 3,
+   "metin": "Wir sind nach Antalya ___.",
+   "ipucu": "fahren",
+   "kategori": "en",
+   "tr": "Antalya'ya gittik (araçla).",
+   "cevaplar": [
+    [
+     "gefahren"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**fahren** → **gefahren** (ge·fahr·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 80,
+   "bolum": 3,
+   "metin": "Kartoffel hat im Hangar ___.",
+   "ipucu": "schlafen",
+   "kategori": "en",
+   "tr": "Kartoffel hangarda uyudu.",
+   "cevaplar": [
+    [
+     "geschlafen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**schlafen** → **geschlafen** (ge·schlaf·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 81,
+   "bolum": 3,
+   "metin": "Mehmet hat uns Suppe ___.",
+   "ipucu": "geben",
+   "kategori": "en",
+   "tr": "Mehmet bize çorba verdi.",
+   "cevaplar": [
+    [
+     "gegeben"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**geben** → **gegeben** (ge·geb·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 82,
+   "bolum": 3,
+   "metin": "Marta ist nicht ___.",
+   "ipucu": "kommen",
+   "kategori": "en",
+   "tr": "Marta gelmedi.",
+   "cevaplar": [
+    [
+     "gekommen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**kommen** → **gekommen** (ge·komm·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 83,
+   "bolum": 3,
+   "metin": "Die Kinder sind schnell ___.",
+   "ipucu": "laufen",
+   "kategori": "en",
+   "tr": "Çocuklar hızla koştu.",
+   "cevaplar": [
+    [
+     "gelaufen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**laufen** → **gelaufen** (ge·lauf·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 84,
+   "bolum": 3,
+   "metin": "Hast du die Wäsche ___?",
+   "ipucu": "waschen",
+   "kategori": "en",
+   "tr": "Çamaşırları yıkadın mı?",
+   "cevaplar": [
+    [
+     "gewaschen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**waschen** → **gewaschen** (ge·wasch·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 85,
+   "bolum": 3,
+   "metin": "Sie hat ein rotes Kleid ___.",
+   "ipucu": "tragen",
+   "kategori": "en",
+   "tr": "Kırmızı bir elbise giydi.",
+   "cevaplar": [
+    [
+     "getragen"
+    ]
+   ],
+   "cins": [
+    "en"
+   ],
+   "aciklama": "**tragen** → **getragen** (ge·trag·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**."
+  },
+  {
+   "no": 86,
+   "bolum": 4,
+   "metin": "Ich habe einen Brief ___.",
+   "ipucu": "schreiben",
+   "kategori": "ie",
+   "tr": "Bir mektup yazdım.",
+   "cevaplar": [
+    [
+     "geschrieben"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**schreiben** → **geschrieben** (ge·schrieb·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 87,
+   "bolum": 4,
+   "metin": "Wir sind zu Hause ___.",
+   "ipucu": "bleiben",
+   "kategori": "ie",
+   "tr": "Evde kaldık.",
+   "cevaplar": [
+    [
+     "geblieben"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**bleiben** → **geblieben** (ge·blieb·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 88,
+   "bolum": 4,
+   "metin": "Pavel ist auf den Turm ___.",
+   "ipucu": "steigen",
+   "kategori": "ie",
+   "tr": "Pavel kuleye tırmandı.",
+   "cevaplar": [
+    [
+     "gestiegen"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**steigen** → **gestiegen** (ge·stieg·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 89,
+   "bolum": 4,
+   "metin": "Lena hat mir ihr Fahrrad ___.",
+   "ipucu": "leihen",
+   "kategori": "ie",
+   "tr": "Lena bana bisikletini ödünç verdi.",
+   "cevaplar": [
+    [
+     "geliehen"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**leihen** → **geliehen** (ge·lieh·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 90,
+   "bolum": 4,
+   "metin": "Die Sonne hat den ganzen Tag ___.",
+   "ipucu": "scheinen",
+   "kategori": "ie",
+   "tr": "Güneş bütün gün parladı.",
+   "cevaplar": [
+    [
+     "geschienen"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**scheinen** → **geschienen** (ge·schien·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 91,
+   "bolum": 4,
+   "metin": "Das Baby hat die ganze Nacht ___.",
+   "ipucu": "schreien",
+   "kategori": "ie",
+   "tr": "Bebek bütün gece bağırdı.",
+   "cevaplar": [
+    [
+     "geschrien"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**schreien** → **geschrien** (ge·schri·en). Düzensiz: ei → ie, ama tek e: geschri**en**."
+  },
+  {
+   "no": 92,
+   "bolum": 4,
+   "metin": "Marta hat lange ___.",
+   "ipucu": "schweigen",
+   "kategori": "ie",
+   "tr": "Marta uzun süre sustu.",
+   "cevaplar": [
+    [
+     "geschwiegen"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**schweigen** → **geschwiegen** (ge·schwieg·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 93,
+   "bolum": 4,
+   "metin": "Mehmet hat das Brot ___.",
+   "ipucu": "schneiden",
+   "kategori": "ie",
+   "tr": "Mehmet ekmeği kesti.",
+   "cevaplar": [
+    [
+     "geschnitten"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**schneiden** → **geschnitten** (ge·schnitt·en). Düzensiz: **ei → i** ve çift t, sonu -en."
+  },
+  {
+   "no": 94,
+   "bolum": 4,
+   "metin": "Hast du die E-Mail schon ___?",
+   "ipucu": "schreiben",
+   "kategori": "ie",
+   "tr": "E-postayı yazdın mı?",
+   "cevaplar": [
+    [
+     "geschrieben"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**schreiben** → **geschrieben** (ge·schrieb·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 95,
+   "bolum": 4,
+   "metin": "Kofi ist nicht lange ___.",
+   "ipucu": "bleiben",
+   "kategori": "ie",
+   "tr": "Kofi uzun kalmadı.",
+   "cevaplar": [
+    [
+     "geblieben"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**bleiben** → **geblieben** (ge·blieb·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 96,
+   "bolum": 4,
+   "metin": "Bernd und Amira haben ___.",
+   "ipucu": "streiten",
+   "kategori": "ie",
+   "tr": "Bernd ile Amira tartıştı.",
+   "cevaplar": [
+    [
+     "gestritten"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**streiten** → **gestritten** (ge·stritt·en). Düzensiz: **ei → i** ve çift t, sonu -en."
+  },
+  {
+   "no": 97,
+   "bolum": 4,
+   "metin": "Wir sind in den Bus ___.",
+   "ipucu": "steigen",
+   "kategori": "ie",
+   "tr": "Otobüse bindik.",
+   "cevaplar": [
+    [
+     "gestiegen"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**steigen** → **gestiegen** (ge·stieg·en). Düzensiz: **ei → ie**, sonu -en."
+  },
+  {
+   "no": 98,
+   "bolum": 4,
+   "metin": "Hast du die Tomaten ___?",
+   "ipucu": "schneiden",
+   "kategori": "ie",
+   "tr": "Domatesleri doğradın mı?",
+   "cevaplar": [
+    [
+     "geschnitten"
+    ]
+   ],
+   "cins": [
+    "ie"
+   ],
+   "aciklama": "**schneiden** → **geschnitten** (ge·schnitt·en). Düzensiz: **ei → i** ve çift t, sonu -en."
+  },
+  {
+   "no": 99,
+   "bolum": 4,
+   "metin": "Ich habe einen Tee ___.",
+   "ipucu": "trinken",
+   "kategori": "u",
+   "tr": "Bir çay içtim.",
+   "cevaplar": [
+    [
+     "getrunken"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**trinken** → **getrunken** (ge·trunk·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 100,
+   "bolum": 4,
+   "metin": "Kofi hat den Schlüssel ___.",
+   "ipucu": "finden",
+   "kategori": "u",
+   "tr": "Kofi anahtarı buldu.",
+   "cevaplar": [
+    [
+     "gefunden"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**finden** → **gefunden** (ge·fund·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 101,
+   "bolum": 4,
+   "metin": "Wir haben ein Lied ___.",
+   "ipucu": "singen",
+   "kategori": "u",
+   "tr": "Bir şarkı söyledik.",
+   "cevaplar": [
+    [
+     "gesungen"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**singen** → **gesungen** (ge·sung·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 102,
+   "bolum": 4,
+   "metin": "Kartoffel ist ins Wasser ___.",
+   "ipucu": "springen",
+   "kategori": "u",
+   "tr": "Kartoffel suya atladı.",
+   "cevaplar": [
+    [
+     "gesprungen"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**springen** → **gesprungen** (ge·sprung·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 103,
+   "bolum": 4,
+   "metin": "Das Licht ist ___.",
+   "ipucu": "verschwinden",
+   "kategori": "u",
+   "tr": "Işık kayboldu.",
+   "cevaplar": [
+    [
+     "verschwunden"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**verschwinden** → **verschwunden** (ver·schwund·en). Düzensiz: **i → u**, sonu -en. Ayrılmayan önek olduğu için **ge** yok."
+  },
+  {
+   "no": 104,
+   "bolum": 4,
+   "metin": "Ich habe die Kiste mit einem Seil ___.",
+   "ipucu": "binden",
+   "kategori": "u",
+   "tr": "Kutuyu bir iple bağladım.",
+   "cevaplar": [
+    [
+     "gebunden"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**binden** → **gebunden** (ge·bund·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 105,
+   "bolum": 4,
+   "metin": "Habt ihr genug Wasser ___?",
+   "ipucu": "trinken",
+   "kategori": "u",
+   "tr": "Yeterince su içtiniz mi?",
+   "cevaplar": [
+    [
+     "getrunken"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**trinken** → **getrunken** (ge·trunk·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 106,
+   "bolum": 4,
+   "metin": "Hast du deine Brille ___?",
+   "ipucu": "finden",
+   "kategori": "u",
+   "tr": "Gözlüğünü buldun mu?",
+   "cevaplar": [
+    [
+     "gefunden"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**finden** → **gefunden** (ge·fund·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 107,
+   "bolum": 4,
+   "metin": "Oma Gerda hat ein altes Lied ___.",
+   "ipucu": "singen",
+   "kategori": "u",
+   "tr": "Oma Gerda eski bir şarkı söyledi.",
+   "cevaplar": [
+    [
+     "gesungen"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**singen** → **gesungen** (ge·sung·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 108,
+   "bolum": 4,
+   "metin": "Kofi hat viel Wasser ___.",
+   "ipucu": "trinken",
+   "kategori": "u",
+   "tr": "Kofi çok su içti.",
+   "cevaplar": [
+    [
+     "getrunken"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**trinken** → **getrunken** (ge·trunk·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 109,
+   "bolum": 4,
+   "metin": "Wir haben kein Salz ___.",
+   "ipucu": "finden",
+   "kategori": "u",
+   "tr": "Hiç tuz bulamadık.",
+   "cevaplar": [
+    [
+     "gefunden"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**finden** → **gefunden** (ge·fund·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 110,
+   "bolum": 4,
+   "metin": "Die Kinder sind über den Zaun ___.",
+   "ipucu": "springen",
+   "kategori": "u",
+   "tr": "Çocuklar çitin üstünden atladı.",
+   "cevaplar": [
+    [
+     "gesprungen"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**springen** → **gesprungen** (ge·sprung·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 111,
+   "bolum": 4,
+   "metin": "Die Temperatur ist ___.",
+   "ipucu": "sinken",
+   "kategori": "u",
+   "tr": "Sıcaklık düştü.",
+   "cevaplar": [
+    [
+     "gesunken"
+    ]
+   ],
+   "cins": [
+    "u"
+   ],
+   "aciklama": "**sinken** → **gesunken** (ge·sunk·en). Düzensiz: **i → u**, sonu -en."
+  },
+  {
+   "no": 112,
+   "bolum": 4,
+   "metin": "Ich habe den Bus ___.",
+   "ipucu": "nehmen",
+   "kategori": "o",
+   "tr": "Otobüse bindim (otobüsü aldım).",
+   "cevaplar": [
+    [
+     "genommen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**nehmen** → **genommen** (ge·nomm·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 113,
+   "bolum": 4,
+   "metin": "Hast du mit Ingrid ___?",
+   "ipucu": "sprechen",
+   "kategori": "o",
+   "tr": "Ingrid ile konuştun mu?",
+   "cevaplar": [
+    [
+     "gesprochen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**sprechen** → **gesprochen** (ge·sproch·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 114,
+   "bolum": 4,
+   "metin": "Amira hat mir ___.",
+   "ipucu": "helfen",
+   "kategori": "o",
+   "tr": "Amira bana yardım etti.",
+   "cevaplar": [
+    [
+     "geholfen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**helfen** → **geholfen** (ge·holf·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 115,
+   "bolum": 4,
+   "metin": "Wir haben Marta ___.",
+   "ipucu": "treffen",
+   "kategori": "o",
+   "tr": "Marta ile buluştuk.",
+   "cevaplar": [
+    [
+     "getroffen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**treffen** → **getroffen** (ge·troff·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 116,
+   "bolum": 4,
+   "metin": "Kofi hat den Ball ___.",
+   "ipucu": "werfen",
+   "kategori": "o",
+   "tr": "Kofi topu attı.",
+   "cevaplar": [
+    [
+     "geworfen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**werfen** → **geworfen** (ge·worf·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 117,
+   "bolum": 4,
+   "metin": "Wir sind im See ___.",
+   "ipucu": "schwimmen",
+   "kategori": "o",
+   "tr": "Gölde yüzdük.",
+   "cevaplar": [
+    [
+     "geschwommen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**schwimmen** → **geschwommen** (ge·schwomm·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 118,
+   "bolum": 4,
+   "metin": "Die Versammlung hat um acht Uhr ___.",
+   "ipucu": "beginnen",
+   "kategori": "o",
+   "tr": "Toplantı saat sekizde başladı.",
+   "cevaplar": [
+    [
+     "begonnen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**beginnen** → **begonnen** (be·gonn·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Ayrılmayan önek olduğu için **ge** yok."
+  },
+  {
+   "no": 119,
+   "bolum": 4,
+   "metin": "Wir sind nach Berlin ___.",
+   "ipucu": "fliegen",
+   "kategori": "o",
+   "tr": "Berlin'e uçtuk.",
+   "cevaplar": [
+    [
+     "geflogen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**fliegen** → **geflogen** (ge·flog·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 120,
+   "bolum": 4,
+   "metin": "Bernd hat den Bus aus der Garage ___.",
+   "ipucu": "ziehen",
+   "kategori": "o",
+   "tr": "Bernd otobüsü garajdan çekti.",
+   "cevaplar": [
+    [
+     "gezogen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**ziehen** → **gezogen** (ge·zog·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 121,
+   "bolum": 4,
+   "metin": "Ich habe meinen Schlüssel ___.",
+   "ipucu": "verlieren",
+   "kategori": "o",
+   "tr": "Anahtarımı kaybettim.",
+   "cevaplar": [
+    [
+     "verloren"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**verlieren** → **verloren** (ver·lor·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Ayrılmayan önek olduğu için **ge** yok."
+  },
+  {
+   "no": 122,
+   "bolum": 4,
+   "metin": "Hast du die Tür ___?",
+   "ipucu": "schließen",
+   "kategori": "o",
+   "tr": "Kapıyı kapattın mı?",
+   "cevaplar": [
+    [
+     "geschlossen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**schließen** → **geschlossen** (ge·schloss·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 123,
+   "bolum": 4,
+   "metin": "Pavel hat mit Marta ___.",
+   "ipucu": "sprechen",
+   "kategori": "o",
+   "tr": "Pavel, Marta ile konuştu.",
+   "cevaplar": [
+    [
+     "gesprochen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**sprechen** → **gesprochen** (ge·sproch·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 124,
+   "bolum": 4,
+   "metin": "Hast du ein Aspirin ___?",
+   "ipucu": "nehmen",
+   "kategori": "o",
+   "tr": "Bir aspirin aldın mı?",
+   "cevaplar": [
+    [
+     "genommen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**nehmen** → **genommen** (ge·nomm·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 125,
+   "bolum": 4,
+   "metin": "Habt ihr Mehmet ___?",
+   "ipucu": "helfen",
+   "kategori": "o",
+   "tr": "Mehmet'e yardım ettiniz mi?",
+   "cevaplar": [
+    [
+     "geholfen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**helfen** → **geholfen** (ge·holf·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 126,
+   "bolum": 4,
+   "metin": "Ich habe meine Freundin im Café ___.",
+   "ipucu": "treffen",
+   "kategori": "o",
+   "tr": "Arkadaşımla kafede buluştum.",
+   "cevaplar": [
+    [
+     "getroffen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**treffen** → **getroffen** (ge·troff·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 127,
+   "bolum": 4,
+   "metin": "Er hat sich das Bein ___.",
+   "ipucu": "brechen",
+   "kategori": "o",
+   "tr": "Bacağını kırdı.",
+   "cevaplar": [
+    [
+     "gebrochen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**brechen** → **gebrochen** (ge·broch·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 128,
+   "bolum": 4,
+   "metin": "Wir haben in der Nacht ___.",
+   "ipucu": "frieren",
+   "kategori": "o",
+   "tr": "Gece üşüdük.",
+   "cevaplar": [
+    [
+     "gefroren"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**frieren** → **gefroren** (ge·fror·en). Düzensiz: kökteki sesli **o** olur, sonu -en."
+  },
+  {
+   "no": 129,
+   "bolum": 4,
+   "metin": "Ingrid hat mir Tee ___.",
+   "ipucu": "empfehlen",
+   "kategori": "o",
+   "tr": "Ingrid bana çay tavsiye etti.",
+   "cevaplar": [
+    [
+     "empfohlen"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**empfehlen** → **empfohlen** (emp·fohl·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Ayrılmayan önek olduğu için **ge** yok."
+  },
+  {
+   "no": 130,
+   "bolum": 4,
+   "metin": "Mehmet hat uns Kaffee ___.",
+   "ipucu": "anbieten",
+   "kategori": "o",
+   "tr": "Mehmet bize kahve ikram etti.",
+   "cevaplar": [
+    [
+     "angeboten"
+    ]
+   ],
+   "cins": [
+    "o"
+   ],
+   "aciklama": "**anbieten** → **angeboten** (an·ge·bot·en). Ayrılabilen (an + ge) ve düzensiz: ie → o."
+  },
+  {
+   "no": 131,
+   "bolum": 5,
+   "metin": "Ich bin ins Kino ___.",
+   "ipucu": "gehen",
+   "kategori": "ozel",
+   "tr": "Sinemaya gittim.",
+   "cevaplar": [
+    [
+     "gegangen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**gehen** → **gegangen** (ge·gang·en). Tamamen düzensiz: e → a ve araya **ng**."
+  },
+  {
+   "no": 132,
+   "bolum": 5,
+   "metin": "Wir haben lange an der Tür ___.",
+   "ipucu": "stehen",
+   "kategori": "ozel",
+   "tr": "Uzun süre kapıda durduk.",
+   "cevaplar": [
+    [
+     "gestanden"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**stehen** → **gestanden** (ge·stand·en). Araya **nd** girer (aufstehen → aufgestanden)."
+  },
+  {
+   "no": 133,
+   "bolum": 5,
+   "metin": "Pavel hat die ganze Nacht am Funkgerät ___.",
+   "ipucu": "sitzen",
+   "kategori": "ozel",
+   "tr": "Pavel bütün gece telsizin başında oturdu.",
+   "cevaplar": [
+    [
+     "gesessen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**sitzen** → **gesessen** (ge·sess·en). i → e, tz → ss."
+  },
+  {
+   "no": 134,
+   "bolum": 5,
+   "metin": "Ich habe den ganzen Tag im Bett ___.",
+   "ipucu": "liegen",
+   "kategori": "ozel",
+   "tr": "Bütün gün yatakta yattım.",
+   "cevaplar": [
+    [
+     "gelegen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**liegen** → **gelegen** (ge·leg·en). ie → e."
+  },
+  {
+   "no": 135,
+   "bolum": 5,
+   "metin": "Ich bin noch nie in Berlin ___.",
+   "ipucu": "sein",
+   "kategori": "ozel",
+   "tr": "Hiç Berlin'de bulunmadım.",
+   "cevaplar": [
+    [
+     "gewesen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**sein** → **gewesen** (ge·wes·en). Ezber: sein → gewesen, hep **sein** ile."
+  },
+  {
+   "no": 136,
+   "bolum": 5,
+   "metin": "Wir haben Glück ___.",
+   "ipucu": "haben",
+   "kategori": "ozel",
+   "tr": "Şanslıydık.",
+   "cevaplar": [
+    [
+     "gehabt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**haben** → **gehabt** (ge·hab·t). Düzenli gibi: ge + hab + t."
+  },
+  {
+   "no": 137,
+   "bolum": 5,
+   "metin": "Es ist kalt ___.",
+   "ipucu": "werden",
+   "kategori": "ozel",
+   "tr": "Hava soğudu.",
+   "cevaplar": [
+    [
+     "geworden"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**werden** → **geworden** (ge·word·en). e → o, **sein** ile."
+  },
+  {
+   "no": 138,
+   "bolum": 5,
+   "metin": "Kofi hat einen Brief ___.",
+   "ipucu": "bringen",
+   "kategori": "ozel",
+   "tr": "Kofi bir mektup getirdi.",
+   "cevaplar": [
+    [
+     "gebracht"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**bringen** → **gebracht** (ge·brach·t). Karışık fiil: kök değişir ama sonu **-t**."
+  },
+  {
+   "no": 139,
+   "bolum": 5,
+   "metin": "Ich habe an dich ___.",
+   "ipucu": "denken",
+   "kategori": "ozel",
+   "tr": "Seni düşündüm.",
+   "cevaplar": [
+    [
+     "gedacht"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**denken** → **gedacht** (ge·dach·t). Karışık fiil: kök değişir ama sonu **-t**."
+  },
+  {
+   "no": 140,
+   "bolum": 5,
+   "metin": "Das habe ich nicht ___.",
+   "ipucu": "wissen",
+   "kategori": "ozel",
+   "tr": "Bunu bilmiyordum.",
+   "cevaplar": [
+    [
+     "gewusst"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**wissen** → **gewusst** (ge·wuss·t). Karışık fiil: i → u, sonu **-t**."
+  },
+  {
+   "no": 141,
+   "bolum": 5,
+   "metin": "Ich habe ihn nicht ___.",
+   "ipucu": "kennen",
+   "kategori": "ozel",
+   "tr": "Onu tanımıyordum.",
+   "cevaplar": [
+    [
+     "gekannt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**kennen** → **gekannt** (ge·kann·t). Karışık fiil: e → a, sonu **-t**."
+  },
+  {
+   "no": 142,
+   "bolum": 5,
+   "metin": "Was hast du ___?",
+   "ipucu": "tun",
+   "kategori": "ozel",
+   "tr": "Ne yaptın?",
+   "cevaplar": [
+    [
+     "getan"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**tun** → **getan** (ge·ta·n). u → a: ge + ta + n."
+  },
+  {
+   "no": 143,
+   "bolum": 5,
+   "metin": "Ingrid hat uns um Hilfe ___.",
+   "ipucu": "bitten",
+   "kategori": "ozel",
+   "tr": "Ingrid bizden yardım istedi.",
+   "cevaplar": [
+    [
+     "gebeten"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**bitten** → **gebeten** (ge·bet·en). i → e."
+  },
+  {
+   "no": 144,
+   "bolum": 5,
+   "metin": "Kofi ist nach Hause ___.",
+   "ipucu": "rennen",
+   "kategori": "ozel",
+   "tr": "Kofi eve koştu.",
+   "cevaplar": [
+    [
+     "gerannt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**rennen** → **gerannt** (ge·rann·t). Karışık fiil: e → a, sonu **-t**."
+  },
+  {
+   "no": 145,
+   "bolum": 5,
+   "metin": "Seid ihr zu Fuß ___?",
+   "ipucu": "gehen",
+   "kategori": "ozel",
+   "tr": "Yürüyerek mi gittiniz?",
+   "cevaplar": [
+    [
+     "gegangen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**gehen** → **gegangen** (ge·gang·en). Tamamen düzensiz: e → a ve araya **ng**."
+  },
+  {
+   "no": 146,
+   "bolum": 5,
+   "metin": "Wo bist du gestern ___?",
+   "ipucu": "sein",
+   "kategori": "ozel",
+   "tr": "Dün neredeydin?",
+   "cevaplar": [
+    [
+     "gewesen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**sein** → **gewesen** (ge·wes·en). Ezber: sein → gewesen, hep **sein** ile."
+  },
+  {
+   "no": 147,
+   "bolum": 5,
+   "metin": "Hast du Zeit ___?",
+   "ipucu": "haben",
+   "kategori": "ozel",
+   "tr": "Vaktin oldu mu?",
+   "cevaplar": [
+    [
+     "gehabt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**haben** → **gehabt** (ge·hab·t). Düzenli gibi: ge + hab + t."
+  },
+  {
+   "no": 148,
+   "bolum": 5,
+   "metin": "Wer hat den Kuchen ___?",
+   "ipucu": "bringen",
+   "kategori": "ozel",
+   "tr": "Keki kim getirdi?",
+   "cevaplar": [
+    [
+     "gebracht"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**bringen** → **gebracht** (ge·brach·t). Karışık fiil: kök değişir ama sonu **-t**."
+  },
+  {
+   "no": 149,
+   "bolum": 5,
+   "metin": "Was hast du ___?",
+   "ipucu": "denken",
+   "kategori": "ozel",
+   "tr": "Ne düşündün?",
+   "cevaplar": [
+    [
+     "gedacht"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**denken** → **gedacht** (ge·dach·t). Karışık fiil: kök değişir ama sonu **-t**."
+  },
+  {
+   "no": 150,
+   "bolum": 5,
+   "metin": "Hast du das ___?",
+   "ipucu": "wissen",
+   "kategori": "ozel",
+   "tr": "Bunu biliyor muydun?",
+   "cevaplar": [
+    [
+     "gewusst"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**wissen** → **gewusst** (ge·wuss·t). Karışık fiil: i → u, sonu **-t**."
+  },
+  {
+   "no": 151,
+   "bolum": 5,
+   "metin": "Der Bus hat vor dem Hangar ___.",
+   "ipucu": "stehen",
+   "kategori": "ozel",
+   "tr": "Otobüs hangarın önünde duruyordu.",
+   "cevaplar": [
+    [
+     "gestanden"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**stehen** → **gestanden** (ge·stand·en). Araya **nd** girer (aufstehen → aufgestanden)."
+  },
+  {
+   "no": 152,
+   "bolum": 5,
+   "metin": "Wir haben im Garten ___.",
+   "ipucu": "sitzen",
+   "kategori": "ozel",
+   "tr": "Bahçede oturduk.",
+   "cevaplar": [
+    [
+     "gesessen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**sitzen** → **gesessen** (ge·sess·en). i → e, tz → ss."
+  },
+  {
+   "no": 153,
+   "bolum": 5,
+   "metin": "Die Karte hat auf dem Tisch ___.",
+   "ipucu": "liegen",
+   "kategori": "ozel",
+   "tr": "Harita masanın üzerindeydi.",
+   "cevaplar": [
+    [
+     "gelegen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**liegen** → **gelegen** (ge·leg·en). ie → e."
+  },
+  {
+   "no": 154,
+   "bolum": 5,
+   "metin": "Lena ist müde ___.",
+   "ipucu": "werden",
+   "kategori": "ozel",
+   "tr": "Lena yoruldu.",
+   "cevaplar": [
+    [
+     "geworden"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**werden** → **geworden** (ge·word·en). e → o, **sein** ile."
+  },
+  {
+   "no": 155,
+   "bolum": 5,
+   "metin": "Sie hat ihren Namen ___.",
+   "ipucu": "nennen",
+   "kategori": "ozel",
+   "tr": "Adını söyledi.",
+   "cevaplar": [
+    [
+     "genannt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**nennen** → **genannt** (ge·nann·t). Karışık fiil: e → a, sonu **-t**."
+  },
+  {
+   "no": 156,
+   "bolum": 5,
+   "metin": "Hast du seinen Vater ___?",
+   "ipucu": "kennen",
+   "kategori": "ozel",
+   "tr": "Babasını tanır mıydın?",
+   "cevaplar": [
+    [
+     "gekannt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**kennen** → **gekannt** (ge·kann·t). Karışık fiil: e → a, sonu **-t**."
+  },
+  {
+   "no": 157,
+   "bolum": 5,
+   "metin": "Ich habe nichts ___.",
+   "ipucu": "tun",
+   "kategori": "ozel",
+   "tr": "Hiçbir şey yapmadım.",
+   "cevaplar": [
+    [
+     "getan"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**tun** → **getan** (ge·ta·n). u → a: ge + ta + n."
+  },
+  {
+   "no": 158,
+   "bolum": 5,
+   "metin": "Marta ist in den Turm ___.",
+   "ipucu": "gehen",
+   "kategori": "ozel",
+   "tr": "Marta kuleye gitti.",
+   "cevaplar": [
+    [
+     "gegangen"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**gehen** → **gegangen** (ge·gang·en). Tamamen düzensiz: e → a ve araya **ng**."
+  },
+  {
+   "no": 159,
+   "bolum": 5,
+   "metin": "Ich habe ihn um Wasser ___.",
+   "ipucu": "bitten",
+   "kategori": "ozel",
+   "tr": "Ondan su istedim.",
+   "cevaplar": [
+    [
+     "gebeten"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**bitten** → **gebeten** (ge·bet·en). i → e."
+  },
+  {
+   "no": 160,
+   "bolum": 5,
+   "metin": "Wir sind zum Bus ___.",
+   "ipucu": "rennen",
+   "kategori": "ozel",
+   "tr": "Otobüse koştuk.",
+   "cevaplar": [
+    [
+     "gerannt"
+    ]
+   ],
+   "cins": [
+    "ozel"
+   ],
+   "aciklama": "**rennen** → **gerannt** (ge·rann·t). Karışık fiil: e → a, sonu **-t**."
+  },
+  {
+   "no": 161,
+   "bolum": 6,
+   "metin": "Was ___ ihr am Wochenende ___?",
+   "ipucu": "machen",
+   "kategori": "t",
+   "tr": "Hafta sonu ne yaptınız?",
+   "cevaplar": [
+    [
+     "habt"
+    ],
+    [
+     "gemacht"
+    ]
+   ],
+   "cins": [
+    "t",
+    "aux"
+   ],
+   "aciklama": "**machen** → **gemacht** (ge·mach·t). Düzenli fiil: **ge + kök + t**. Yardımcı fiil **habt**: hareket yok → haben."
+  },
+  {
+   "no": 162,
+   "bolum": 6,
+   "metin": "Wir ___ nach Italien ___.",
+   "ipucu": "reisen",
+   "kategori": "t",
+   "tr": "İtalya'ya seyahat ettik.",
+   "cevaplar": [
+    [
+     "sind"
+    ],
+    [
+     "gereist"
+    ]
+   ],
+   "cins": [
+    "t",
+    "aux"
+   ],
+   "aciklama": "**reisen** → **gereist** (ge·reis·t). Düzenli fiil: **ge + kök + t**. Yardımcı fiil **sind**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 163,
+   "bolum": 6,
+   "metin": "Lena ___ ein neues Radio ___.",
+   "ipucu": "kaufen",
+   "kategori": "t",
+   "tr": "Lena yeni bir radyo aldı.",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "gekauft"
+    ]
+   ],
+   "cins": [
+    "t",
+    "aux"
+   ],
+   "aciklama": "**kaufen** → **gekauft** (ge·kauf·t). Düzenli fiil: **ge + kök + t**. Yardımcı fiil **hat**: hareket yok → haben."
+  },
+  {
+   "no": 164,
+   "bolum": 6,
+   "metin": "Ich ___ in den Bergen ___.",
+   "ipucu": "wandern",
+   "kategori": "t",
+   "tr": "Dağlarda yürüyüş yaptım.",
+   "cevaplar": [
+    [
+     "bin"
+    ],
+    [
+     "gewandert"
+    ]
+   ],
+   "cins": [
+    "t",
+    "aux"
+   ],
+   "aciklama": "**wandern** → **gewandert** (ge·wander·t). Düzenli fiil: **ge + kök + t**. Yardımcı fiil **bin**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 165,
+   "bolum": 6,
+   "metin": "___ du Fußball ___?",
+   "ipucu": "spielen",
+   "kategori": "t",
+   "tr": "Futbol oynadın mı?",
+   "cevaplar": [
+    [
+     "Hast"
+    ],
+    [
+     "gespielt"
+    ]
+   ],
+   "cins": [
+    "t",
+    "aux"
+   ],
+   "aciklama": "**spielen** → **gespielt** (ge·spiel·t). Düzenli fiil: **ge + kök + t**. Yardımcı fiil **Hast**: hareket yok → haben."
+  },
+  {
+   "no": 166,
+   "bolum": 6,
+   "metin": "Wir ___ das Museum ___.",
+   "ipucu": "besuchen",
+   "kategori": "ohnege",
+   "tr": "Müzeyi gezdik.",
+   "cevaplar": [
+    [
+     "haben"
+    ],
+    [
+     "besucht"
+    ]
+   ],
+   "cins": [
+    "ohnege",
+    "aux"
+   ],
+   "aciklama": "**besuchen** → **besucht** (be·such·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok. Yardımcı fiil **haben**: hareket yok → haben."
+  },
+  {
+   "no": 167,
+   "bolum": 6,
+   "metin": "Was ___ ___?",
+   "ipucu": "passieren",
+   "kategori": "ohnege",
+   "tr": "Ne oldu?",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "passiert"
+    ]
+   ],
+   "cins": [
+    "ohnege",
+    "aux"
+   ],
+   "aciklama": "**passieren** → **passiert** (passier·t). -ieren ile biten fiiller **ge** almaz. Yardımcı fiil **ist**: *passieren* hareket olmasa da sein alır (ezber: sein, bleiben, werden, passieren)."
+  },
+  {
+   "no": 168,
+   "bolum": 6,
+   "metin": "___ du ihm alles ___?",
+   "ipucu": "erzählen",
+   "kategori": "ohnege",
+   "tr": "Ona her şeyi anlattın mı?",
+   "cevaplar": [
+    [
+     "Hast"
+    ],
+    [
+     "erzählt",
+     "erzaehlt"
+    ]
+   ],
+   "cins": [
+    "ohnege",
+    "aux"
+   ],
+   "aciklama": "**erzählen** → **erzählt** (er·zähl·t). Ayrılmayan önek (be-, ver-, er-) → **ge** yok. Yardımcı fiil **Hast**: hareket yok → haben."
+  },
+  {
+   "no": 169,
+   "bolum": 6,
+   "metin": "Ich ___ mit Pavel ___.",
+   "ipucu": "telefonieren",
+   "kategori": "ohnege",
+   "tr": "Pavel'le telefonda konuştum.",
+   "cevaplar": [
+    [
+     "habe"
+    ],
+    [
+     "telefoniert"
+    ]
+   ],
+   "cins": [
+    "ohnege",
+    "aux"
+   ],
+   "aciklama": "**telefonieren** → **telefoniert** (telefonier·t). -ieren ile biten fiiller **ge** almaz. Yardımcı fiil **habe**: hareket yok → haben."
+  },
+  {
+   "no": 170,
+   "bolum": 6,
+   "metin": "Wir ___ nichts ___.",
+   "ipucu": "verstehen",
+   "kategori": "ohnege",
+   "tr": "Hiçbir şey anlamadık.",
+   "cevaplar": [
+    [
+     "haben"
+    ],
+    [
+     "verstanden"
+    ]
+   ],
+   "cins": [
+    "ohnege",
+    "aux"
+   ],
+   "aciklama": "**verstehen** → **verstanden** (ver·stand·en). Ayrılmayan önek (be-, ver-, er-) → **ge** yok. Fiil düzensiz, sonu -en. Yardımcı fiil **haben**: hareket yok → haben."
+  },
+  {
+   "no": 171,
+   "bolum": 6,
+   "metin": "Wann ___ du heute ___?",
+   "ipucu": "aufstehen",
+   "kategori": "trennbar",
+   "tr": "Bugün ne zaman kalktın?",
+   "cevaplar": [
+    [
+     "bist"
+    ],
+    [
+     "aufgestanden"
+    ]
+   ],
+   "cins": [
+    "trennbar",
+    "aux"
+   ],
+   "aciklama": "**aufstehen** → **aufgestanden** (auf·ge·stand·en). Ayrılabilen: **auf** + gestanden → *ge* önekle kökün arasına girer. Yardımcı fiil **bist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 172,
+   "bolum": 6,
+   "metin": "Marta ___ uns ___.",
+   "ipucu": "anrufen",
+   "kategori": "trennbar",
+   "tr": "Marta bizi aradı.",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "angerufen"
+    ]
+   ],
+   "cins": [
+    "trennbar",
+    "aux"
+   ],
+   "aciklama": "**anrufen** → **angerufen** (an·ge·ruf·en). Ayrılabilen: **an** + gerufen → *ge* önekle kökün arasına girer. Yardımcı fiil **hat**: hareket yok → haben."
+  },
+  {
+   "no": 173,
+   "bolum": 6,
+   "metin": "___ ihr schon ___?",
+   "ipucu": "einkaufen",
+   "kategori": "trennbar",
+   "tr": "Alışverişi yaptınız mı?",
+   "cevaplar": [
+    [
+     "Habt"
+    ],
+    [
+     "eingekauft"
+    ]
+   ],
+   "cins": [
+    "trennbar",
+    "aux"
+   ],
+   "aciklama": "**einkaufen** → **eingekauft** (ein·ge·kauf·t). Ayrılabilen: **ein** + gekauft → *ge* önekle kökün arasına girer. Yardımcı fiil **Habt**: hareket yok → haben."
+  },
+  {
+   "no": 174,
+   "bolum": 6,
+   "metin": "Wann ___ der Zug ___?",
+   "ipucu": "ankommen",
+   "kategori": "trennbar",
+   "tr": "Tren ne zaman vardı?",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "angekommen"
+    ]
+   ],
+   "cins": [
+    "trennbar",
+    "aux"
+   ],
+   "aciklama": "**ankommen** → **angekommen** (an·ge·komm·en). Ayrılabilen: **an** + gekommen → *ge* önekle kökün arasına girer. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 175,
+   "bolum": 6,
+   "metin": "Ich ___ sofort ___.",
+   "ipucu": "einschlafen",
+   "kategori": "trennbar",
+   "tr": "Hemen uyudum.",
+   "cevaplar": [
+    [
+     "bin"
+    ],
+    [
+     "eingeschlafen"
+    ]
+   ],
+   "cins": [
+    "trennbar",
+    "aux"
+   ],
+   "aciklama": "**einschlafen** → **eingeschlafen** (ein·ge·schlaf·en). Ayrılabilen: **ein** + geschlafen → *ge* önekle kökün arasına girer. Yardımcı fiil **bin**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 176,
+   "bolum": 6,
+   "metin": "Wir ___ mit dem Fahrrad ___.",
+   "ipucu": "fahren",
+   "kategori": "en",
+   "tr": "Bisikletle gittik.",
+   "cevaplar": [
+    [
+     "sind"
+    ],
+    [
+     "gefahren"
+    ]
+   ],
+   "cins": [
+    "en",
+    "aux"
+   ],
+   "aciklama": "**fahren** → **gefahren** (ge·fahr·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**. Yardımcı fiil **sind**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 177,
+   "bolum": 6,
+   "metin": "___ du die Zeitung ___?",
+   "ipucu": "lesen",
+   "kategori": "en",
+   "tr": "Gazeteyi okudun mu?",
+   "cevaplar": [
+    [
+     "Hast"
+    ],
+    [
+     "gelesen"
+    ]
+   ],
+   "cins": [
+    "en",
+    "aux"
+   ],
+   "aciklama": "**lesen** → **gelesen** (ge·les·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**. Yardımcı fiil **Hast**: hareket yok → haben."
+  },
+  {
+   "no": 178,
+   "bolum": 6,
+   "metin": "Kofi ___ zu spät ___.",
+   "ipucu": "kommen",
+   "kategori": "en",
+   "tr": "Kofi geç geldi.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "gekommen"
+    ]
+   ],
+   "cins": [
+    "en",
+    "aux"
+   ],
+   "aciklama": "**kommen** → **gekommen** (ge·komm·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 179,
+   "bolum": 6,
+   "metin": "Ich ___ schlecht ___.",
+   "ipucu": "schlafen",
+   "kategori": "en",
+   "tr": "Kötü uyudum.",
+   "cevaplar": [
+    [
+     "habe"
+    ],
+    [
+     "geschlafen"
+    ]
+   ],
+   "cins": [
+    "en",
+    "aux"
+   ],
+   "aciklama": "**schlafen** → **geschlafen** (ge·schlaf·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**. Yardımcı fiil **habe**: hareket yok → haben."
+  },
+  {
+   "no": 180,
+   "bolum": 6,
+   "metin": "Er ___ vom Fahrrad ___.",
+   "ipucu": "fallen",
+   "kategori": "en",
+   "tr": "Bisikletten düştü.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "gefallen"
+    ]
+   ],
+   "cins": [
+    "en",
+    "aux"
+   ],
+   "aciklama": "**fallen** → **gefallen** (ge·fall·en). Düzensiz ama sesli aynı kalır: **ge + kök + en**. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 181,
+   "bolum": 6,
+   "metin": "Wie lange ___ ihr in Berlin ___?",
+   "ipucu": "bleiben",
+   "kategori": "ie",
+   "tr": "Berlin'de ne kadar kaldınız?",
+   "cevaplar": [
+    [
+     "seid"
+    ],
+    [
+     "geblieben"
+    ]
+   ],
+   "cins": [
+    "ie",
+    "aux"
+   ],
+   "aciklama": "**bleiben** → **geblieben** (ge·blieb·en). Düzensiz: **ei → ie**, sonu -en. Yardımcı fiil **seid**: *bleiben* hareket olmasa da sein alır (ezber: sein, bleiben, werden, passieren)."
+  },
+  {
+   "no": 182,
+   "bolum": 6,
+   "metin": "Ingrid ___ eine Liste ___.",
+   "ipucu": "schreiben",
+   "kategori": "ie",
+   "tr": "Ingrid bir liste yazdı.",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "geschrieben"
+    ]
+   ],
+   "cins": [
+    "ie",
+    "aux"
+   ],
+   "aciklama": "**schreiben** → **geschrieben** (ge·schrieb·en). Düzensiz: **ei → ie**, sonu -en. Yardımcı fiil **hat**: hareket yok → haben."
+  },
+  {
+   "no": 183,
+   "bolum": 6,
+   "metin": "Pavel ___ auf den Turm ___.",
+   "ipucu": "steigen",
+   "kategori": "ie",
+   "tr": "Pavel kuleye tırmandı.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "gestiegen"
+    ]
+   ],
+   "cins": [
+    "ie",
+    "aux"
+   ],
+   "aciklama": "**steigen** → **gestiegen** (ge·stieg·en). Düzensiz: **ei → ie**, sonu -en. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 184,
+   "bolum": 6,
+   "metin": "___ du das Gemüse ___?",
+   "ipucu": "schneiden",
+   "kategori": "ie",
+   "tr": "Sebzeleri doğradın mı?",
+   "cevaplar": [
+    [
+     "Hast"
+    ],
+    [
+     "geschnitten"
+    ]
+   ],
+   "cins": [
+    "ie",
+    "aux"
+   ],
+   "aciklama": "**schneiden** → **geschnitten** (ge·schnitt·en). Düzensiz: **ei → i** ve çift t, sonu -en. Yardımcı fiil **Hast**: hareket yok → haben."
+  },
+  {
+   "no": 185,
+   "bolum": 6,
+   "metin": "Ich ___ dir mein Buch ___.",
+   "ipucu": "leihen",
+   "kategori": "ie",
+   "tr": "Sana kitabımı ödünç verdim.",
+   "cevaplar": [
+    [
+     "habe"
+    ],
+    [
+     "geliehen"
+    ]
+   ],
+   "cins": [
+    "ie",
+    "aux"
+   ],
+   "aciklama": "**leihen** → **geliehen** (ge·lieh·en). Düzensiz: **ei → ie**, sonu -en. Yardımcı fiil **habe**: hareket yok → haben."
+  },
+  {
+   "no": 186,
+   "bolum": 6,
+   "metin": "Was ___ du ___?",
+   "ipucu": "trinken",
+   "kategori": "u",
+   "tr": "Ne içtin?",
+   "cevaplar": [
+    [
+     "hast"
+    ],
+    [
+     "getrunken"
+    ]
+   ],
+   "cins": [
+    "u",
+    "aux"
+   ],
+   "aciklama": "**trinken** → **getrunken** (ge·trunk·en). Düzensiz: **i → u**, sonu -en. Yardımcı fiil **hast**: hareket yok → haben."
+  },
+  {
+   "no": 187,
+   "bolum": 6,
+   "metin": "Wir ___ eine Karte ___.",
+   "ipucu": "finden",
+   "kategori": "u",
+   "tr": "Bir harita bulduk.",
+   "cevaplar": [
+    [
+     "haben"
+    ],
+    [
+     "gefunden"
+    ]
+   ],
+   "cins": [
+    "u",
+    "aux"
+   ],
+   "aciklama": "**finden** → **gefunden** (ge·fund·en). Düzensiz: **i → u**, sonu -en. Yardımcı fiil **haben**: hareket yok → haben."
+  },
+  {
+   "no": 188,
+   "bolum": 6,
+   "metin": "Die Katze ___ auf den Tisch ___.",
+   "ipucu": "springen",
+   "kategori": "u",
+   "tr": "Kedi masaya atladı.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "gesprungen"
+    ]
+   ],
+   "cins": [
+    "u",
+    "aux"
+   ],
+   "aciklama": "**springen** → **gesprungen** (ge·sprung·en). Düzensiz: **i → u**, sonu -en. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 189,
+   "bolum": 6,
+   "metin": "Mein Schlüssel ___ ___.",
+   "ipucu": "verschwinden",
+   "kategori": "u",
+   "tr": "Anahtarım kayboldu.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "verschwunden"
+    ]
+   ],
+   "cins": [
+    "u",
+    "aux"
+   ],
+   "aciklama": "**verschwinden** → **verschwunden** (ver·schwund·en). Düzensiz: **i → u**, sonu -en. Ayrılmayan önek olduğu için **ge** yok. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 190,
+   "bolum": 6,
+   "metin": "Die Kinder ___ laut ___.",
+   "ipucu": "singen",
+   "kategori": "u",
+   "tr": "Çocuklar yüksek sesle şarkı söyledi.",
+   "cevaplar": [
+    [
+     "haben"
+    ],
+    [
+     "gesungen"
+    ]
+   ],
+   "cins": [
+    "u",
+    "aux"
+   ],
+   "aciklama": "**singen** → **gesungen** (ge·sung·en). Düzensiz: **i → u**, sonu -en. Yardımcı fiil **haben**: hareket yok → haben."
+  },
+  {
+   "no": 191,
+   "bolum": 6,
+   "metin": "Ich ___ nach Istanbul ___.",
+   "ipucu": "fliegen",
+   "kategori": "o",
+   "tr": "İstanbul'a uçtum.",
+   "cevaplar": [
+    [
+     "bin"
+    ],
+    [
+     "geflogen"
+    ]
+   ],
+   "cins": [
+    "o",
+    "aux"
+   ],
+   "aciklama": "**fliegen** → **geflogen** (ge·flog·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Yardımcı fiil **bin**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 192,
+   "bolum": 6,
+   "metin": "Wer ___ meinen Kaffee ___?",
+   "ipucu": "nehmen",
+   "kategori": "o",
+   "tr": "Kahvemi kim aldı?",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "genommen"
+    ]
+   ],
+   "cins": [
+    "o",
+    "aux"
+   ],
+   "aciklama": "**nehmen** → **genommen** (ge·nomm·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Yardımcı fiil **hat**: hareket yok → haben."
+  },
+  {
+   "no": 193,
+   "bolum": 6,
+   "metin": "Mehmet ___ mir ___.",
+   "ipucu": "helfen",
+   "kategori": "o",
+   "tr": "Mehmet bana yardım etti.",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "geholfen"
+    ]
+   ],
+   "cins": [
+    "o",
+    "aux"
+   ],
+   "aciklama": "**helfen** → **geholfen** (ge·holf·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Yardımcı fiil **hat**: hareket yok → haben."
+  },
+  {
+   "no": 194,
+   "bolum": 6,
+   "metin": "Viele Pflanzen ___ im Winter ___.",
+   "ipucu": "sterben",
+   "kategori": "o",
+   "tr": "Birçok bitki kışın öldü.",
+   "cevaplar": [
+    [
+     "sind"
+    ],
+    [
+     "gestorben"
+    ]
+   ],
+   "cins": [
+    "o",
+    "aux"
+   ],
+   "aciklama": "**sterben** → **gestorben** (ge·storb·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Yardımcı fiil **sind**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 195,
+   "bolum": 6,
+   "metin": "___ ihr Deutsch ___?",
+   "ipucu": "sprechen",
+   "kategori": "o",
+   "tr": "Almanca konuştunuz mu?",
+   "cevaplar": [
+    [
+     "Habt"
+    ],
+    [
+     "gesprochen"
+    ]
+   ],
+   "cins": [
+    "o",
+    "aux"
+   ],
+   "aciklama": "**sprechen** → **gesprochen** (ge·sproch·en). Düzensiz: kökteki sesli **o** olur, sonu -en. Yardımcı fiil **Habt**: hareket yok → haben."
+  },
+  {
+   "no": 196,
+   "bolum": 6,
+   "metin": "Wohin ___ Marta ___?",
+   "ipucu": "gehen",
+   "kategori": "ozel",
+   "tr": "Marta nereye gitti?",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "gegangen"
+    ]
+   ],
+   "cins": [
+    "ozel",
+    "aux"
+   ],
+   "aciklama": "**gehen** → **gegangen** (ge·gang·en). Tamamen düzensiz: e → a ve araya **ng**. Yardımcı fiil **ist**: hareket ya da durum değişimi → sein."
+  },
+  {
+   "no": 197,
+   "bolum": 6,
+   "metin": "Wir ___ sehr müde ___.",
+   "ipucu": "sein",
+   "kategori": "ozel",
+   "tr": "Çok yorgunduk.",
+   "cevaplar": [
+    [
+     "sind"
+    ],
+    [
+     "gewesen"
+    ]
+   ],
+   "cins": [
+    "ozel",
+    "aux"
+   ],
+   "aciklama": "**sein** → **gewesen** (ge·wes·en). Ezber: sein → gewesen, hep **sein** ile. Yardımcı fiil **sind**: *sein* hareket olmasa da sein alır (ezber: sein, bleiben, werden, passieren)."
+  },
+  {
+   "no": 198,
+   "bolum": 6,
+   "metin": "Wer ___ den Hund ___?",
+   "ipucu": "bringen",
+   "kategori": "ozel",
+   "tr": "Köpeği kim getirdi?",
+   "cevaplar": [
+    [
+     "hat"
+    ],
+    [
+     "gebracht"
+    ]
+   ],
+   "cins": [
+    "ozel",
+    "aux"
+   ],
+   "aciklama": "**bringen** → **gebracht** (ge·brach·t). Karışık fiil: kök değişir ama sonu **-t**. Yardımcı fiil **hat**: hareket yok → haben."
+  },
+  {
+   "no": 199,
+   "bolum": 6,
+   "metin": "Ich ___ an meine Familie ___.",
+   "ipucu": "denken",
+   "kategori": "ozel",
+   "tr": "Ailemi düşündüm.",
+   "cevaplar": [
+    [
+     "habe"
+    ],
+    [
+     "gedacht"
+    ]
+   ],
+   "cins": [
+    "ozel",
+    "aux"
+   ],
+   "aciklama": "**denken** → **gedacht** (ge·dach·t). Karışık fiil: kök değişir ama sonu **-t**. Yardımcı fiil **habe**: hareket yok → haben."
+  },
+  {
+   "no": 200,
+   "bolum": 6,
+   "metin": "Das Wetter ___ besser ___.",
+   "ipucu": "werden",
+   "kategori": "ozel",
+   "tr": "Hava düzeldi.",
+   "cevaplar": [
+    [
+     "ist"
+    ],
+    [
+     "geworden"
+    ]
+   ],
+   "cins": [
+    "ozel",
+    "aux"
+   ],
+   "aciklama": "**werden** → **geworden** (ge·word·en). e → o, **sein** ile. Yardımcı fiil **ist**: *werden* hareket olmasa da sein alır (ezber: sein, bleiben, werden, passieren)."
+  }
+ ]
+}

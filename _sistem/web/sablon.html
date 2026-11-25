@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Almanca</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%87%A9%F0%9F%87%AA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+/*@@app.css@@*/
+</style>
+<script>
+  // Açılış sorunlarını boş sayfa yerine ekrana yaz
+  window.__abHatalar = [];
+  window.__abHata = function (t) {
+    window.__abHatalar.push(t);
+    var m = document.getElementById("ab-fallback-why");
+    if (m) m.textContent = window.__abHatalar.join(" · ");
+  };
+  window.addEventListener("error", function (e) {
+    var hedef = e.target && e.target !== window && (e.target.src || e.target.href);
+    window.__abHata(hedef ? "Yüklenemedi: " + decodeURI(hedef) : "Hata: " + (e.message || e.error));
+  }, true);
+</script>
+<script>
+/*@@vendor/marked.min.js@@*/
+</script>
+</head>
+<body class="theme-light">
+<!-- Almanca Vault arayüzü: Chrome / Edge ile çift tıklayarak aç. Safari ya da Firefox için Almanca.command.
+     Bu dosya üretilir, elle düzenleme: kaynaklar _sistem/web/ içinde, üretmek için  python3 -I _sistem/web/derle.py
+     Her şey tek dosyada, çünkü macOS Masaüstü/Belgeler klasöründe tarayıcının yan dosyaları okumasına izin vermiyor. -->
+<div id="app">
+  <div id="ab-fallback" style="max-width:520px;margin:12vh auto;padding:28px;font-family:system-ui,-apple-system,sans-serif;color:#26213f;line-height:1.55;text-align:center">
+    <div style="font-size:44px">🇩🇪</div>
+    <h1 style="margin:8px 0 12px;font-size:24px">Almanca Vault</h1>
+    <p id="ab-fallback-msg" style="color:#6b6690">Yükleniyor…</p>
+    <p id="ab-fallback-why" style="color:#d64545;font-size:13px;word-break:break-word"></p>
+    <ol style="text-align:left;color:#6b6690">
+      <li>Bu dosyayı Finder'dan aç: <b>Almanca.html</b> → sağ tık → <b>Birlikte Aç → Google Chrome</b> (ya da Edge).</li>
+      <li>Safari ya da Firefox kullanıyorsan aynı klasördeki <b>Almanca.command</b> dosyasına çift tıkla.</li>
+    </ol>
+    <p style="font-size:13px;color:#a19cbc">Claude uygulamasının içindeki önizleme bu sayfayı çalıştıramaz; gerçek bir tarayıcı gerekir.</p>
+  </div>
+</div>
+<script>
+  // app.js yüklenmezse ya da açılışta takılırsa boş sayfa yerine ne yapılacağını göster
+  window.__abYuklendi = false;
+  setTimeout(function () {
+    if (window.__abYuklendi) return;
+    var m = document.getElementById("ab-fallback-msg");
+    if (m) m.textContent = "Arayüz açılamadı. Büyük ihtimalle dosya bir önizlemede ya da desteklenmeyen biçimde açıldı:";
+    if (!window.__abHatalar.length) window.__abHata("Adres: " + location.protocol + " · " + (navigator.userAgent.match(/(Chrome|Edg|Firefox|Version)\/[\d.]+/g) || []).join(" "));
+  }, 2500);
+</script>
+<script>
+/*@@app.js@@*/
+</script>
+</body>
+</html>
