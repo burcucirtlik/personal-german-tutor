@@ -496,3 +496,4 @@ Kademe, yoklama, tekrar, onarım, ön konu, kelime teması ve Teile geçişlerin
 - Betik kurallarla çelişen bir şey görürse (ör. bilinmeyen konu id'si) durur ve söyler; Claude elle karar verir ve nedenini sonuç notuna yazar.
 - `python3 -I _sistem/ilerleme.py alt`: alt beceri durumu, son yapı hataları ve dar onarımdaki konuların dar alt becerileri (Alt beceri kanıtı, Dar onarım). `python3 -I _sistem/ilerleme.py sinir`: üretim ve anlama sınırı.
 - `python3 -I _sistem/cesitlilik.py <gün>`: soru dosyasının çeşitlilik denetimi (Çeşitlilik). Hiçbir dosyayı değiştirmez.
+- Antrenman yardımcıları: `_sistem/antrenman/hazirla.py` (günün durum özeti, kuralların bugün geçerli satırları), `_sistem/antrenman/not_yaz.py` (antrenman notu ve dinleme sesleri soru dosyasından), `_sistem/sozluk/eksik.py` (sözlükte olmayan biçimler ve güvenli ekleme).

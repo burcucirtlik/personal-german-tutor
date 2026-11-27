@@ -5,20 +5,20 @@ description: Bugünün Almanca antrenman notunu 05 Günlük/ içinde oluşturur.
 
 # Günlük antrenman oluşturma
 
+## 0. Akış (hızlı yol)
+1. **Durum:** `python3 -I _sistem/antrenman/hazirla.py` (tarih vermezsen bugün). Tek çıktıda: kapı, mevcut not, iki hattın odağı ve ön konusu, yoklama penceresi, tekrar listesi (onarım, yayılım, vadesi gelen), alt beceri raporu, sınırlar, kelime teması, günün becerisi, kademe tanımları, önceki notun "yarın" notları, son 7 günün hata türleri, mini drill, yıpranmış kelimeler, tıklama sinyali, kartlar ve Tempelhof'un sıradaki yazarı ve vuruşu. **`Kurallar.md` ve `Müfredat.md`'yi baştan okuma:** betik bugün geçerli satırları oradan canlı çıkarır. Bir kuralın ayrıntısı gerekirse sadece o bölümü Grep ile aç.
+2. **Köprü ve günlük:** günün hikâye köprüsünü seç (vuruştan küçük bir ipucu: ilan, telsiz kaydı, not) ve Tempelhof günlüğünü hemen **arka planda bir alt-ajana** ver (7. adım). Sen bu arada soruları yazarsın.
+3. **Sorular:** soru dosyasını yaz (2–5. adımlar); `cesitlilik.py` ❌ kalmayana kadar düzelt. Yazmadan önce çıktıdaki yıpranmış kelimelerden uzak dur: düzeltme turu azalır.
+4. **Not ve ses:** `python3 -I _sistem/antrenman/not_yaz.py <bugün> --ses --yaz` (5. adım). Notu elle yazma.
+5. **Sözlük ve kartlar:** alt-ajan bitince `python3 -I _sistem/sozluk/eksik.py <bugün>` (günlüğü de tarar), sonra kartlar (6. adım) ve kullanıcıya bildir (8. adım).
+
 ## 1. Durumu oku
-1. `_sistem/Kurallar.md` (Müfredat, kademeler, yoklama, bileşim) ve `_sistem/Müfredat.md` (iki hattın sırası) dosyalarını oku.
-2. `_kisisel/Profil.md` dosyasından `gunluk_dakika` ve `sinav_tarihi` değerlerini al. **Kapı:** `seviye_tespiti` `tamamlandi` değilse (boş, `bekliyor` ya da `devam`) antrenman, kart, günlük ya da Tempelhof notu **oluşturma**. Kullanıcıya seviye tespitinin zorunlu olduğunu söyle ve `.claude/skills/seviye/SKILL.md`'yi uygula (Kurallar → Seviye tespiti → Zorunlu).
-3. Bugünün tarihini `date +%F` ile al. `05 Günlük/<bugün>.md` zaten varsa yeni not oluşturma:
-   - Not `durum: bekliyor` ise kullanıcıya hazır olduğunu söyle.
-   - Not `tamamlandi` ise ek bir antrenman isteyip istemediğini sor. İsterse `<bugün>-2.md` olarak oluştur.
-4. Konuların durumunu topla: konu bilgisi (id, hat, sira, seviye, alt) notların frontmatter'ında, kullanıcının ilerlemesi (durum, kademe, yoklama, ustalik, sonraki_tekrar …) `_kisisel/ilerleme.json`'da; ikisi birleşince geçerli durum çıkar (ilerleme dosyasında olmayan konu varsayılandadır: kilitli). Hızlı yol: `python3 -I _sistem/ilerleme.py alt` ve `sinir` (6. adım) çoğu zaman yeter; tam liste için `cat _kisisel/ilerleme.json`.
-5. Son 7 günün `06 Fehlerlog/` notlarındaki `sayac` ve `son_gorulme` değerlerine bak.
-6. **Alt beceri durumu ve sınırlar** (elle tahmin etme, betik yazar):
-   - `python3 -I _sistem/ilerleme.py alt` → her odak, ön ve onarım konusunun alt becerileri (kırmızı / yeşil / kanıt yok), penceresi ve son yapı hataları. Soruların dağılımını bu belirler (2. adım).
-   - `python3 -I _sistem/ilerleme.py sinir` → üretim sınırı (sorulabilir yapılar) ve anlama sınırı (sadece metinlerde, sözlüklü). Kurallar → Üretim ve anlama sınırı.
-   - Önceki `## Sonuç`'taki betik uyarılarını ve "Yarın bağlamda" kelimelerini de uygula.
-7. **Kısa gün mü?** Kullanıcı "kısa" dediyse kısa antrenman yaz (Kurallar → Kısa gün). Dün antrenman yoksa (ve kullanıcı süre söylemediyse) normal antrenmanı yaz ama mesajda tek cümleyle kısa günün de mümkün olduğunu söyle; kullanıcı isterse aynı gün `kisa: true` notuyla değiştir.
-8. **Mini drill:** `09 Drill/` içinde `durum: acik` mini drill varsa notun başına (özet bloğunun altına) bir satır: `> [!tip] 🎯 Açık mini drill: [[Mini <etiket>]] (~5 dk)`. `acilis` 2+ gün önceyse ve `_kisisel/drill/<set>.durum.json` hâlâ boşsa satırı "henüz başlamadın" diye güçlendir.
+`hazirla.py` çıktısını kullan; elle toplama. Çıktıya göre:
+1. **Kapı:** "⛔ Seviye tespiti tamamlanmadı" yazıyorsa antrenman, kart, günlük ya da Tempelhof notu **oluşturma**. Kullanıcıya seviye tespitinin zorunlu olduğunu söyle ve `.claude/skills/seviye/SKILL.md`'yi uygula (Kurallar → Seviye tespiti → Zorunlu).
+2. **Not zaten varsa** yeni not oluşturma: `durum: bekliyor` ise kullanıcıya hazır olduğunu söyle; `tamamlandi` ise ek bir antrenman isteyip istemediğini sor, isterse `<bugün>-2` olarak oluştur.
+3. **Önceki notun "yarın" notları**, "Yarın bağlamda" kelimeleri ve betik uyarıları bugün uygulanır.
+4. **Kısa gün mü?** Kullanıcı "kısa" dediyse kısa antrenman yaz (Kurallar → Kısa gün). Çıktı "Dün antrenman yok" diyorsa (ve kullanıcı süre söylemediyse) normal antrenmanı yaz ama mesajda tek cümleyle kısa günün de mümkün olduğunu söyle; kullanıcı isterse aynı gün `kisa: true` notuyla değiştir.
+5. **Mini drill:** açık mini drill varsa notun başına (`not.ust`) bir kutu: `🎯 Açık mini drill: [[Mini <etiket>]] (~5 dk)`. Çıktı "HİÇ BAŞLANMADI (2+ gün)" diyorsa kutuyu `warning` yap ve "henüz başlamadın" diye güçlendir.
 
 ## 2. Ne sorulacağını seç
 Kurallar → Günlük antrenmanın bileşimi tablosunu uygula. Sıra:
@@ -128,17 +128,13 @@ Kurallar → Sınav biçimleri (mini). Hepsi mevcut kartlarla yazılır:
 - Dinleme bölümünde ses dosyası notta, bölümün dataviewjs bloğunun **üstünde** `> [!dinle]` kutusuyla verilir.
 - Konuşma (Sprechen) alıştırması **yazılmaz**.
 
-### Dinleme sesi oluşturma
-**Önce `_kisisel/ortam.json` → `ses`'e bak** (`baslat.py` yazar). `false` ise bu bilgisayarda ses dosyası üretilemez (macOS dışı): `ses.py` çalıştırma, embed koyma. Dinleme bölümünün metnini katlanmış kutu yerine açık bir `> [!dinle] Metni sesli oku ya da cümlelere tıklayıp 🗣 ile dinle` kutusunda ver; soruları aynı kalır. Tempelhof günlüğünde de ses satırı olmaz.
-```bash
-mkdir -p "05 Günlük/ses"
-python3 -I _sistem/ses.py --tercih "Anna,Petra" --hiz 150 --cikti "05 Günlük/ses/<bugün>-1.m4a" --metin "Metin buraya"
-```
-- Betik yüklü en doğal Almanca sesi seçer. Diyalog varsa her konuşmacı için ayrı dosya üret ve farklı ses tercihi ver (ör. kadın: "Anna,Petra", erkek: "Markus,Yannick").
-- A1 için hız `150`, A2 için `165`, B1 için `180`
-- Notta `![[<bugün>-1.m4a]]` ile göm. Metnin kendisini `> [!note]- Metin (cevapladıktan sonra aç)` şeklinde katlanmış kutuya koy.
-- **Dinleme hakkı:** kaç kez dinlenebileceğini kutunun başlığına yaz (`> [!dinle] Dinle (iki kez dinleyebilirsin)`) ya da embed'e ekle: `![[<bugün>-1.m4a|dinleme:2]]`. Arayüz bugün için bu sınırı uygular; telc Teil 1 formatında `dinleme:1`. Sınır dolunca cümle cümle dinleme ve dikte açılır.
-- **Cümle dosyası:** `ses.py` cümle aralarına kısa sessizlik koyar ve `<ses adı>.cumleler.json` yazar (her cümlenin metni ve zamanı). Arayüz bununla "📝 Cümle cümle", "🗣 Arkasından tekrar et" ve "✍️ Dikte" modlarını açar. Çıktıda "⚠️ yaklaşık" görürsen metni sadeleştirip yeniden üret. Metni `--metin`'e notta göründüğü gibi ver: dikte cevabı bu metinle karşılaştırılır.
+### Dinleme sesi
+Sesi elle üretme: dinleme bölümüne `dinle` alanını yaz, `not_yaz.py --ses` her sesi `_sistem/ses.py` ile üretir ve notta kutusunu kurar (5. adım). Bu bilgisayarda ses yoksa (`_kisisel/ortam.json` → `ses: false`) betik ses üretmez ve metni açık bir `[!dinle]` kutusunda verir; soruları aynı kalır.
+- `dinle.sesler[]`: her ses dosyası için `dosya` (`<bugün>-1.m4a`), `metin` (notta göründüğü gibi: dikte bu metinle karşılaştırılır) ve `tercih`. Diyalogda her konuşmacı ayrı dosya ve farklı ses (kadın: "Anna,Petra", erkek: "Markus,Yannick"; karakter sesleri: Karakterler.md → Sesler).
+- `dinle.hiz`: A1 `150`, A2 `165`, B1 `180` (`hazirla.py` söyler).
+- `dinle.hak`: kaç kez dinlenebileceği (telc Teil 1 biçiminde `1`, ayrıntı dinlemesinde `2`); `dinle.baslik` kutunun başlığı ("Her konuşmayı bir kez dinleyebilirsin"). Sınır dolunca arayüz cümle cümle dinleme ve dikteyi açar.
+- Metinler notta katlanmış "Metinler (cevapladıktan sonra aç)" kutusuna girer (`dinle.metin_baslik` ile değiştirilebilir).
+- `ses.py` çıktısında "⚠️ yaklaşık" görürsen metni sadeleştirip sesi sil ve `--ses`'i yeniden çalıştır.
 
 ## 5. Notun biçimi
 İki dosya yazılır.
@@ -171,49 +167,28 @@ python3 -I _sistem/ses.py --tercih "Anna,Petra" --hiz 150 --cikti "05 Günlük/s
 - Soru `id`'leri `bölüm.sıra` biçiminde.
 - Cevapları ve doğruları bu dosyaya **yazma**. Kullanıcının cevapları `05 Günlük/veri/<bugün>.cevap.json` dosyasına ekrandan otomatik kaydedilir; sonuçları `/kontrol` ekler.
 
-**b) Not:** `05 Günlük/<bugün>.md`. Örnek: `05 Günlük/2026-10-24.md`
-````markdown
----
-tarih: 2026-10-25
-tur: gunluk
-durum: bekliyor
-dakika: 45
-puan:
-veri: 05 Günlük/veri/2026-10-25.json
-konular: [A1-07, A1-14, W-A1-02]
-cssclasses: [antrenman]
----
-# Antrenman · 25 Ekim 2026
-
-```dataviewjs
-await dv.view("_sistem/alistirma", { gun: "2026-10-25", ozet: true })
+**b) Not:** `05 Günlük/<bugün>.md` **elle yazılmaz**: `python3 -I _sistem/antrenman/not_yaz.py <bugün> --ses --yaz` soru dosyasından üretir (önce `--yaz`'sız çalıştırıp çıktıya bakabilirsin). Frontmatter (`konular` dahil), özet bloğu, bölüm başlıkları, ders ve alıştırma blokları, dinleme kutuları, 🃏 Kartlar ve 📓 Tempelhof bölümü otomatik gelir. Senin işin soru dosyasına şu alanları yazmak (alıştırma ekranı bunları yok sayar):
+```json
+"not": {"dakika": 45, "kisa": false, "tempelhof": "2026-11-28 Bernd",
+        "ust": [{"tip": "warning", "baslik": "🎯 Açık mini drill: [[Mini artikel-genus]] (~5 dk) · henüz başlamadın", "metin": "…"}]},
+"bolumler": [
+  {"no": 1, "rol": "odak", "konu": "A1-11", "kademe": 2, …,
+   "kutu": {"tip": "tip", "baslik": "Kademe 2 · Üretme (2. gün)", "metin": "Dün K2'de %90 aldın. Bugün de hatasızsa K3'e (cümle kurma) geçiyorsun."},
+   "ders": {"not": "A1-11 Trennbare Verben", "baslik": "ayrılabilen fiiller", "acik": true}},
+  {"no": 8, "rol": "beceri", "teil": "P-06", "not_baslik": "🎧 Hören · Radio Tempelhof",
+   "kutu": {"tip": "tip", "baslik": "Sınavdaki gibi: Hören Teil 1", "metin": "Beş kısa konuşma, her biri **bir kez**."},
+   "dinle": {"baslik": "Her konuşmayı bir kez dinleyebilirsin", "hak": 1, "hiz": 150,
+             "sesler": [{"dosya": "2026-11-28-1.m4a", "metin": "Hallo, hier ist …", "tercih": "Anna,Petra"}]}}
+]
 ```
-
-## 1. 🔧 Fiil hattı · [[A1-11 Trennbare Verben]] · K2
-
-> [!tip] Kademe 2 · Üretme (2. gün)
-> Dün K2'de %90 aldın. Bugün de ≥85 olursa K3'e (cümle kurma) geçiyorsun.
-
-```dataviewjs
-await dv.view("_sistem/ders", { not: "A1-11 Trennbare Verben", baslik: "ayrılabilen fiiller" })
-```
-
-```dataviewjs
-await dv.view("_sistem/alistirma", { gun: "2026-10-25", bolum: 1 })
-```
-````
-- Odak bölümleri: başlıkta hat, konu bağlantısı ve kademe; altında kademenin ne ölçtüğünü ve geçiş şartını söyleyen tek satırlık kutu; ders kutusu; alıştırma bloğu.
-- Yoklama bölümü: `## 🔎 Yoklama` ve altında "Sırası yaklaşan konular. Hepsini iki ayrı günde hatasız yaparsan bu konuları öğretmeden geçeriz; tek bir hata olursa sırası gelince adım adım öğreneceğiz." gibi kısa bir açıklama. Ders kutusu yok.
-- Tekrar bölümü: `## 🔁 Tekrar`, ders kutusu yok.
-- Beceri bölümlerinin başlığı konu bağlantısı içermez: `## 9. 📖 Lesen · Schwarzes Brett`
-- `konular` listesine bu notta geçen tüm konu id'lerini yaz.
+- **Başlıklar:** `not_baslik` yazmazsan betik rol ve konudan üretir: odak `🔧 Fiil hattı · [[konu]] · K2`, ön konu `· ön konu ·`, `🔎 Yoklama`, `🔁 Tekrar`, `🔤 Kelime · [[tema]]`, `🧷 İnatçı kelimeler`, `🗣 Sesli` (Pazar, kartlardan önce). Beceri bölümlerinde `not_baslik` yaz (konu bağlantısı yok): `📖 Lesen · Schwarzes Brett`.
+- **Kutu** (`kutu`, tek nesne ya da liste): odak bölümünde kademenin ne ölçtüğünü ve geçiş şartını söyleyen kısa kutu; yoklamada "Sırası yaklaşan konular. Hepsini iki ayrı günde hatasız yaparsan bu konuları öğretmeden geçeriz; tek bir hata olursa sırası gelince adım adım öğreneceğiz."; tekrar bölümünde onarım ve yayılımdaki kalıplar. `kapali: true` katlanmış kutu yapar.
+- **Ders** (`ders`): 3. adımdaki kurala göre `acik`; kelime temasında `"bolum": "Kartlar"`. Yoklama ve tekrar bölümlerinde ders kutusu yok.
+- `not.tempelhof`: günlük henüz yazılmadıysa beklenen dosya adı (`<bugün> <yazarın kısa adı>`); yazılmışsa betik kendisi bulur.
 
 ## 6. Sözlük ve kartlar
-0. **Tıklanabilir sözlüğü güncelle.** Motor sözlüğü `_sistem/sozluk/sozluk.json` salt okunurdur; eklemeleri `_kisisel/sozluk/sozluk.json`'a (`kelimeler` nesnesi) yaz. Bir kelime ikisinde de yoksa eksiktir:
-   - Bugünkü günlükte, alıştırmalarda (Türkçe çeviri soruları hariç), yeni yazılan ders notlarının Almanca örneklerinde ve yeni kartlarda geçen **her Almanca kelime biçimi** sözlükte olmalı. (Sayfanın her yerindeki tıklamaları tarayıcı arayüzü `_sistem/web/app.js` ve Obsidian'da `.obsidian/plugins/almanca-yardimci` eklentisi sözlüğe sorar; sözlükte olmayan kelime Türkçe bir cümlenin içindeyse balon çıkmaz.) Eksikleri bir betikle bul ve ekle. Anahtar küçük harfli kelime biçimi; değer `{"tr": "Türkçesi (bu biçimin anlamı)", "kok": "sözlük biçimi, isimlerde artikel ve çoğulla", "not": "kısa dilbilgisi notu (isteğe bağlı)"}`. Örnek: `"stehe": {"tr": "kalkıyorum", "kok": "aufstehen", "not": "stehe … auf"}`.
-   - `_kisisel/sozluk/tiklananlar.json` içinde `tr: null` olan kelimeler sözlükte yoktu: sözlüğe ekle.
-   - Mevcut sözlük girişlerini ve `tiklananlar.json` dosyasının yapısını bozma; sadece ekle.
-1. **Tıklama sinyali** (Kurallar → Kartlar → Tıklama sinyali): önce `python3 -I _sistem/sozluk/sinyal.py <bugün>` çalıştır, `_kisisel/sozluk/sinyal.json` dosyasını oku.
+0. **Tıklanabilir sözlüğü güncelle** (günlük yazıldıktan sonra): `python3 -I _sistem/sozluk/eksik.py <bugün> --taslak <scratchpad>/sozluk.json` bugünkü alıştırmalarda (Türkçe çeviri soruları hariç), dinleme metinlerinde, Tempelhof günlüğünde ve bugün eklenen kartlarda sözlükte olmayan **her Almanca kelime biçimini** listeler, kökü bilinenlere `kok` önerir ve tıklanıp bulunamayan kelimeleri (`tr: null`) ekler. Yeni ders notu yazdıysan `--dosya "03 Grammatik/<konu>.md"` ekle. Taslakta `tr` (bu biçimin anlamı) ve gerekirse `not` alanlarını doldur, Türkçe arayüz kelimelerini sil, sonra `python3 -I _sistem/sozluk/eksik.py --ekle <taslak>` (sadece yeni anahtarlar `_kisisel/sozluk/sozluk.json`'a eklenir; motor sözlüğü salt okunur). Giriş biçimi: `"stehe": {"tr": "kalkıyorum", "kok": "aufstehen", "not": "stehe … auf"}`; `kok` sözlük biçimidir, isimlerde artikel ve çoğulla.
+1. **Tıklama sinyali** (Kurallar → Kartlar → Tıklama sinyali): `hazirla.py` sinyali yeniler ve `sik_bakiyor`, `istek`, `kartta_takili` kelimelerini listeler.
    - `sik_bakiyor` olan kelimelerden 3–5 tanesini bugünkü alıştırmalara, okuma metnine ya da Tempelhof günlüğüne doğal biçimde koy. Zarf ve edatlar da olabilir (*zuerst, schon, oben*). Müfredat kuralı geçerli: kelime sırası gelmemiş bir yapı gerektiriyorsa koyma.
    - **Kartlar her zaman `_kisisel/kartlar/deste.json`'a eklenir** (çekirdek deste `_sistem/kartlar/deste.json` salt okunur; var olan kartı ararken ikisine de bak).
    - `istek` durumundaki kelimeler (kullanıcı balonda "⭐ Karta ekle" dedi): isim, fiil ya da sıfatsa yalın biçimiyle desteye ekle (`kaynak: "istek"`), seviyesi ne olursa olsun; değilse (edat, zarf, kalıp) kart yapma, bugünkü alıştırmalardan birine koy. `biliyor` durumundakileri alıştırmaya koyma.
@@ -229,33 +204,23 @@ await dv.view("_sistem/alistirma", { gun: "2026-10-25", bolum: 1 })
 3b. **İnatçı kartlar:** `durum.json` içinde `inatci.bas` son 3 gün içinde olan kartlar dinleniyor demektir (5 kez sola atıldılar). Her biri için:
    - Bugünkü antrenmana bu kelimeleri bağlam içinde soran kısa bir bölüm ekle: `## 🧷 İnatçı kelimeler` (bölüm `konu`: `null`, `kisa`: "İnatçı"). Her kelimeye 1–2 soru: boşluk doldurma (Türkçe ipucuyla), `yaz` (kelimeyle cümle kur) ya da `eslestir`. Her gün farklı cümle ve farklı tür.
    - Kartında `kanca` yoksa ekle, `ornek` cümlesini gerekirse daha basit biriyle değiştir. `de`/`tr` alanlarına ve `durum.json`'a dokunma. Kart çekirdek destedeyse değişikliği `_kisisel/kartlar/deste.json`'a aynı `id` ve sadece değişen alanlarla yaz (`{"id": "k-0123", "kanca": "…"}`).
-4. Antrenman notunda Tempelhof bölümünden **önce** şunu ekle (`adet`: Profil'deki `kart_adet`):
-   ````markdown
-   ## 🃏 Kartlar
-   Kartı çevirmek için üstüne dokun. Biliyorsan **sağa**, bilmiyorsan **sola** at (ya da ✓ / ✗ düğmeleri, klavyede ← →). Sola attıkların bugün tekrar gelir.
+4. 🃏 Kartlar bölümünü `not_yaz.py` ekler (`adet`: Profil → `kart_adet`).
 
-   ```dataviewjs
-   await dv.view("_sistem/kartlar", { gun: "<bugün>", deste: "kelime", adet: 10 })
-   ```
+## 7. Tempelhof günlüğü (arka planda, alt-ajan)
+`08 Tempelhof/<bugün> *.md` yoksa günlüğü **sen yazma**: soruları yazmaya başlamadan önce `Agent` aracıyla (`subagent_type: "general-purpose"`, arka planda) bir alt-ajana ver ve sorulara geç. Alt-ajanın brifingi kendi kendine yetmeli; `hazirla.py` çıktısından şunları kopyala:
+- tarih, Tag numarası, yazar ve ses tercihi, ses hızı; sezon vuruşu ve önceki hook (spoiler: sadece ajana);
+- günün **köprüsü** (alıştırmalardaki ipucu; günlükte karşılığı çıkmalı) ve odak konularından 2–3 örnek yapı;
+- üretim ve anlama sınırı listeleri, yıpranmış kelimeler, `sik_bakiyor` kelimelerden 1–2'si;
+- görev: aşağıdaki 1–6. adımlar; **sözlüğe ve kart destesine dokunma** (onları sen yaparsın, eşzamanlı yazma çakışır); dönüşte dosya adını, hook'u ve günlükte kullandığı köprü cümlesini tek paragrafta bildir.
 
-   ```dataviewjs
-   await dv.view("_sistem/kartlar", { gun: "<bugün>", deste: "cumle", adet: 10 })
-   ```
-   ````
+Alt-ajanın adımları:
+1. `_sistem/Tempelhof/Karakterler.md` (dünya, karakterler, **dil seviyesi kuralları**) ve `_kisisel/Hikâye.md` (son kayıtlar, açık meraklar) dosyalarını oku; biçim için son günlüğe bak.
+2. İki paragraf yaz, Karakterler.md → **Günlüğün yapısı**na göre: bir anın ortasında başla, bir aksiyon anı ve vuruşun ipucunu ver, **son cümle hook olsun** (bir önceki günlüğün hook türünü tekrarlama). Bir önceki hook'u bu yazarın gözünden cevapla ya da derinleştir. Ton karanlık ve gerilimli; kan ve vahşet yok. Gövde üretim sınırında ve şimdiki zamanla; her dört cümleden en fazla birinde anlama sınırından bir yapı. Odak konularından 2–3 örnek. Yıpranmış kelimeleri eş anlamlılarıyla ve yeni sahnelerle değiştir. Telif hakkı olan metinden alıntı yok.
+3. Biçim: frontmatter (`tur: tagebuch`, `tarih`, `tag`, `yazar`, `seviye`, `cssclasses: [antrenman]`), `[!dinle]` ses kutusu, metin **okuma bloğunda** (`await dv.view("_sistem/okuma", { tarih: "…", kaynak: "Tag N", metin: `…` })`; paragraflar boş satırla ayrılır, metinde ters tırnak yok), katlanmış sözlük, "Metinde dikkat et" kutusu, katlanmış 3 richtig/falsch sorusu ve "Kağıda geçir" adımları.
+4. Ses (`_kisisel/ortam.json` → `ses` `true` ise): `python3 -I _sistem/ses.py --tercih "<tercih>" --hiz <hız> --cikti "08 Tempelhof/ses/<bugün> <Ad>.m4a" --baslik 2 --metin "…"` (başlık ve tarih de okunur, paragraflar arasında `[[slnc 900]]`).
+5. `_kisisel/Hikâye.md` kayıt tablosuna bir satır ekle (olay sütununun sonunda *Hook: …*) ve açık merakları güncelle.
 
-## 7. Tempelhof günlüğü
-`08 Tempelhof/<bugün> *.md` yoksa yeni bir kayıt yaz:
-1. `_sistem/Tempelhof/Karakterler.md` (dünya, karakterler, **dil seviyesi kuralları**) ve `_kisisel/Hikâye.md` (son kayıtlar, açık meraklar) dosyalarını oku.
-2. Yazar: Hikâye kaydındaki son yazardan sonraki karakter. Vuruş: `_sistem/Tempelhof/Sezon 1.md` içinde Tag numarasına denk gelen satır (son Tag + 1). Vault yeni başladıysa Tag 1'den, Akt 1 tablosundaki vuruş ve tohumlarla başla.
-3. İki paragraf yaz, Karakterler.md → **Günlüğün yapısı**na göre: bir anın ortasında başla, bir aksiyon anı ve vuruşun ipucunu ver, **son cümle hook olsun** (bir önceki günlüğün hook türünü tekrarlama). Bir önceki günlüğün hook'unu bu yazarın gözünden cevapla ya da derinleştir. Ton karanlık ve gerilimli; kan ve vahşet yok. Karakterler.md → Dil seviyesi kurallarına uy: metnin gövdesi üretim sınırında ve şimdiki zamanla; her dört cümleden en fazla birinde anlama sınırından bir yapı (`ilerleme.py sinir`), sözlükte biçimiyle açıklanmış. Odak konularından 2–3 örnek yerleştir. Son günlüklerde yıpranan kelimeleri (*müde, Suppe, warten*) eş anlamlılarıyla ve yeni sahnelerle değiştir. Telif hakkı olan metinlerden alıntı yapma.
-4. Biçim: `08 Tempelhof/2026-10-24 Lena.md` örneğindeki gibi. Frontmatter (`tur: tagebuch`, `tarih`, `tag`, `yazar`, `seviye`, `cssclasses: [antrenman]`), `[!dinle]` ses kutusu, metin **okuma bloğunda** (`await dv.view("_sistem/okuma", { tarih: "…", kaynak: "Tag N", metin: `…` })`; paragraflar boş satırla ayrılır, metinde ters tırnak ` kullanma), katlanmış sözlük, "Metinde dikkat et" kutusu, katlanmış 3 richtig/falsch sorusu ve "Kağıda geçir" adımları.
-5. Sesi oluştur: `python3 -I _sistem/ses.py --tercih "<Karakterler.md → Sesler tablosu>" --hiz <seviyeye göre> --cikti "08 Tempelhof/ses/<bugün> <Ad>.m4a" --metin "…"`. Başlığı ve tarihi de okut, paragraflar arasına `[[slnc 900]]` koy, `--baslik 2` ver (başlık ve tarih dikteye girmez).
-6. `Hikâye.md` kayıt tablosuna bir satır ekle (olay sütununun sonunda hook'u da yaz: *Hook: …*) ve açık merakları güncelle.
-7. Antrenman notunun **sonuna** şunu ekle:
-   ```markdown
-   ## 📓 Tempelhof günlüğü
-   Bugün [[<bugün> <Ad>|<Ad>]] yazdı. Dinle, oku ve kağıda geçir (~10 dk).
-   ```
+Sen: alt-ajan bitince günlüğü hızla gözden geçir (köprü var mı, sınır dışı yapı yok mu), sonra sözlük (`eksik.py` günlüğü de tarar) ve günlükten 1–2 cümle kartı. Notun Tempelhof satırını `not_yaz.py` yazar.
 
 ## 8. Kullanıcıya bildir
 Notu oluşturduktan sonra kısa bir mesaj yaz:

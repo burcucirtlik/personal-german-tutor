@@ -1,15 +1,13 @@
 {
  "ad": "Personal German Tutor",
- "surum": "1.1.0",
+ "surum": "1.1.1",
  "tarih": "2026-11-27",
  "depo": "https://github.com/burcucirtlik/personal-german-tutor",
  "dal": "main",
  "yenilikler": [
-  "Kademeler üçe indi (tanıma, üretme, cümle): cümle içinde doğru kullanmaya başlayınca konu biter.",
-  "Biten konu 14 gün boyunca genele yayılır: her gün tekrarda 2–3 soru ve bütün alıştırmaların içinde.",
-  "Kademe sadece konunun yapısını ölçer: küçük harf, yazım, kelime hatası ve başka konunun hatası sayılmaz.",
-  "Süre tavanı: 8 seansı geçen, K3'te ve son 3 seansı %70+ olan konu odakta takılı kalmaz.",
-  "Çoğul: kalıba uymayan çoğul (Häuser, Jahre) kelime bilgisi sayılır; çoğul her antrenmanda alıştırmalara yayılır.",
-  "Dashboard ve haftalık analiz yeni düzeni gösterir (üç kademe, 'Genele yayılıyor')."
+  "Antrenman daha hızlı hazırlanır: tek bir hazırlık betiği bütün durumu ve kuralların bugün geçerli satırlarını verir.",
+  "Antrenman notu ve dinleme sesleri soru dosyasından otomatik üretilir.",
+  "Tempelhof günlüğü sorularla aynı anda, arka planda yazılır.",
+  "Sözlük yardımcısı eksik kelime biçimlerini bulur, kök önerir ve güvenle ekler."
  ]
 }
