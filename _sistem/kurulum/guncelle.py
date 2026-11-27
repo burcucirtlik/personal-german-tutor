@@ -108,6 +108,11 @@ def main():
         except (OSError, ValueError, KeyError):
             sv = ev = "?"
         print(f"Sürüm: {ev} → {sv}")
+        try:
+            for y in json.load(open(os.path.join(kaynak, "_sistem", "surum.json"), encoding="utf-8")).get("yenilikler", []) if sv != ev else []:
+                print("  ✦ " + y)
+        except (OSError, ValueError):
+            pass
         surum = lambda v: tuple(int(x) for x in re.findall(r"\d+", v)) if v != "?" else ()
         if surum(sv) and surum(ev) and surum(sv) < surum(ev) and "--zorla" not in sys.argv:
             sys.exit("Kaynak daha eski bir sürüm (GitHub arşivi birkaç dakika gecikebilir). Biraz sonra tekrar dene; "

@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import kisisel as K  # noqa: E402
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-GENEL = {"yazim", "kelime-eksik", "ingilizce-kelime", "kalip-ifade", "artikel-kelime"}
+GENEL = {"yazim", "kelime-eksik", "ingilizce-kelime", "kalip-ifade", "artikel-kelime", "plural-kelime"}
 PENCERE, PENCERE_GEC = 12, 10        # kademe geçişi: son 12 yapı sorusunda en az 10 doğru
 ONARIM_PENCERE, ONARIM_GEC = 10, 8   # onarımdan çıkış: son 10 soruda en az 8 doğru
 PENCERE_DUS = 8                      # düşüş için pencerede en az bu kadar soru olmalı
@@ -30,6 +30,12 @@ TAKILI = 2                           # pencerede aynı alt beceride bu kadar hat
 DAR_ESIK = 8                         # dar onarım: dolu pencerede (K4+) en az bu kadar doğru
 DAR_EN_FAZLA = 2                     # dar onarım: hatalar en fazla bu kadar alt beceride toplanmış olmalı
 DAR_PENCERE, DAR_GEC = 6, 5          # dar onarımdan çıkış: dar alt becerilerin son 6 sorusunda en az 5 doğru
+SEANS_TAVAN = 8                      # süre tavanı: odakta bu kadar seansı geçen konu ...
+TAVAN_ORT = 70                       # ... son 3 seansın yapı ortalaması en az bu kadarsa odaktan çıkar
+TAVAN_KADEME = 3                     # ... ve en az bu kademedeyse (üretim kanıtı)
+BITIS_KADEME = 3                     # son kademe: geçilince konu biter (Kurallar → Kademeler)
+YAYILIM_GUN = 14                     # bitmiş konu bu kadar gün her gün genele yayılır
+TEKRAR_EN_AZ = 3                     # bitmiş konu ancak en az bu kadar tekrar sorusuyla onarıma düşer
 ARALIK = {0: 1, 1: 3, 2: 7, 3: 14}  # adim → gün; 4+ → 30
 TEIL_VARSAYILAN = {"Hören": "P-06", "Lesen": "P-01", "Schreiben": "P-09"}
 LOG = K.yol("ilerleme.log")
@@ -143,6 +149,17 @@ def notlari_yukle():
     return notlar
 
 
+_ETIKET_KONU = None
+
+
+def etiket_konu():
+    """Önbellekli etiket → bağlı konu."""
+    global _ETIKET_KONU
+    if _ETIKET_KONU is None:
+        _ETIKET_KONU = hata_konulari()
+    return _ETIKET_KONU
+
+
 def hata_konulari():
     """etiket → bağlı konu (06 Fehlerlog notlarındaki `konu` alanı)."""
     sonuc = {}
@@ -190,25 +207,47 @@ def pencere_ozeti(w):
 
 
 # ---------- puan yardımcıları ----------
-def yapi(r):
-    """Yapı doğru mu (1/0)? sonuc.yapi yazılmışsa o; yoksa: tam puan → 1, genel etiketli kısmi → 1, değilse 0."""
+def baska_konunun(r, konu):
+    """Hata başka bir konunun mu? (Kurallar → Başka konunun hatası.) Etiketin bağlı konusu ölçülen konu değilse
+    hata o konunun hanesine yazılmaz: Fehlerlog'a, hata etiketi kuralına ve mini drill'e gider."""
+    e = (r or {}).get("etiket")
+    if not konu or not e or e in GENEL:
+        return False
+    k = etiket_konu().get(e)
+    return bool(k) and k != konu
+
+
+def yapi(r, konu=None):
+    """Ölçülen konunun yapısı doğru mu (1/0)? (Kurallar → Kademe geçişi: konuyla alakasız hata sayılmaz.)
+    1) Hata başka konunun etiketini taşıyorsa → 1.  2) sonuc.yapi yazılmışsa o.
+    3) Genel etiket (yazım, büyük harf, kelime, artikel/çoğul kelime bilgisi) → 1, puanı ne olursa olsun;
+       yapı cevapta hiç görünmüyorsa /kontrol bunu `yapi: 0` ile açıkça yazar.  4) Tam puan → 1, değilse 0."""
     if r is None:
         return 0
+    if baska_konunun(r, konu):
+        return 1
     if "yapi" in r:
         return 1 if r["yapi"] else 0
-    p = r.get("puan", 0) or 0
-    if p >= 1:
+    if r.get("etiket") in GENEL:
         return 1
-    if p > 0 and r.get("etiket") in GENEL:
-        return 1
-    return 0
+    return 1 if (r.get("puan", 0) or 0) >= 1 else 0
 
 
-def yapi_hatasi(r):
+def yapi_hatasi(r, konu=None):
     """Yoklamayı bozan dilbilgisi hatası mı? Genel etiketli ve yapısı görünmeyen cevap hata değildir."""
-    if yapi(r):
+    if yapi(r, konu):
         return False
     return (r or {}).get("etiket") not in GENEL
+
+
+def hata_etiketleri(r):
+    """Cevaptaki yapı hatası etiketleri (genel etiketler hariç): `etiket` ve varsa `etiketler`.
+    Hata, ölçülen konunun hanesine yazılmasa da (başka konunun hatası) etiketine sayılır."""
+    r = r or {}
+    es = [r.get("etiket")] + list(r.get("etiketler") or [])
+    if (r.get("puan", 0) or 0) >= 1 and not r.get("etiketler"):
+        return []
+    return [e for e in dict.fromkeys(es) if e and e not in GENEL]
 
 
 def ustalik(n, seans):
@@ -228,7 +267,8 @@ class Hesap:
     # --- kayan pencere ---
     def odak_penceresi(self, n, kademe, sorular, sonuc):
         """Bu kademede kesintisiz sorulan son PENCERE yapı sorusu (bugün dahil), yeniden eskiye."""
-        w = [(self.gun, q.get("alt"), yapi(sonuc.get(q["id"]))) for q in reversed(sorular)]
+        kid = n["id"]
+        w = [(self.gun, q.get("alt"), yapi(sonuc.get(q["id"]), kid)) for q in reversed(sorular)]
         for g, v in self.gecmis:
             if len(w) >= PENCERE:
                 break
@@ -238,30 +278,31 @@ class Hesap:
             if any(b.get("kademe") != kademe for b in bs):
                 break  # kademe o gün farklıydı: pencere burada başlar
             for b in reversed(bs):
-                w += [(g, q.get("alt"), yapi(v["sonuc"].get(q["id"]))) for q in reversed(b["sorular"])]
+                w += [(g, q.get("alt"), yapi(v["sonuc"].get(q["id"]), kid)) for q in reversed(b["sorular"])]
         return w[:PENCERE]
 
     def onarim_penceresi(self, n, sorular, sonuc):
         """Onarım başladığından beri sorulan son ONARIM_PENCERE tekrar sorusu (bugün dahil)."""
-        bas = n["onarim_bas"] or self.gun
-        w = [(self.gun, q.get("alt"), yapi(sonuc.get(q["id"]))) for q in reversed(sorular)]
+        bas, kid = n["onarim_bas"] or self.gun, n["id"]
+        w = [(self.gun, q.get("alt"), yapi(sonuc.get(q["id"]), kid)) for q in reversed(sorular)]
         for g, v in self.gecmis:
             if len(w) >= ONARIM_PENCERE or g < bas:
                 break
             for b in reversed(v["bolumler"]):
                 if b.get("rol") != "tekrar":
                     continue
-                w += [(g, q.get("alt"), yapi(v["sonuc"].get(q["id"]))) for q in reversed(b["sorular"])
+                w += [(g, q.get("alt"), yapi(v["sonuc"].get(q["id"]), kid)) for q in reversed(b["sorular"])
                       if (q.get("konu") or b.get("konu")) == n["id"]]
         return w[:ONARIM_PENCERE]
 
     def kapsanmayan_alt(self, n, sorular, sonuc):
         """K4–K5'te doğru kanıtı olmayan (kenar olmayan) alt beceriler. Konu ancak hepsi kapsanınca biter."""
-        var = {q.get("alt") for q in sorular if q.get("alt") and yapi(sonuc.get(q["id"]))}
+        kid = n["id"]
+        var = {q.get("alt") for q in sorular if q.get("alt") and yapi(sonuc.get(q["id"]), kid)}
         for _, v in self.gecmis:
             for b in v["bolumler"]:
-                if b.get("rol") == "odak" and b.get("konu") == n["id"] and (b.get("kademe") or 0) >= 4:
-                    var |= {q.get("alt") for q in b["sorular"] if q.get("alt") and yapi(v["sonuc"].get(q["id"]))}
+                if b.get("rol") == "odak" and b.get("konu") == kid and (b.get("kademe") or 0) >= 4:
+                    var |= {q.get("alt") for q in b["sorular"] if q.get("alt") and yapi(v["sonuc"].get(q["id"]), kid)}
         return [a for a in n.liste("alt") if not a.startswith("kenar:") and a not in var]
 
     def dar_adayi(self, n, w, sorular, sonuc):
@@ -290,21 +331,21 @@ class Hesap:
 
     def dar_penceresi(self, n, dar, sorular, sonuc):
         """Dar onarım başından beri dar alt becerilere sorulan son DAR_PENCERE soru (bugün dahil), yeniden eskiye."""
-        bas = n["onarim_bas"] or self.gun
-        w = [(self.gun, q.get("alt"), yapi(sonuc.get(q["id"]))) for q in reversed(sorular) if q.get("alt") in dar]
+        bas, kid = n["onarim_bas"] or self.gun, n["id"]
+        w = [(self.gun, q.get("alt"), yapi(sonuc.get(q["id"]), kid)) for q in reversed(sorular) if q.get("alt") in dar]
         for g, v in self.gecmis:
             if len(w) >= DAR_PENCERE or g < bas:
                 break
             for b in reversed(v["bolumler"]):
                 if b.get("rol") != "tekrar":
                     continue
-                w += [(g, q.get("alt"), yapi(v["sonuc"].get(q["id"]))) for q in reversed(b["sorular"])
+                w += [(g, q.get("alt"), yapi(v["sonuc"].get(q["id"]), kid)) for q in reversed(b["sorular"])
                       if (q.get("konu") or b.get("konu")) == n["id"] and q.get("alt") in dar]
         return w[:DAR_PENCERE]
 
     def dar_tekrar(self, n, sorular, sonuc, kp, nn):
         dar = n.liste("dar")
-        genis = [q["alt"] for q in sorular if q.get("alt") and q["alt"] not in dar and yapi_hatasi(sonuc.get(q["id"]))]
+        genis = [q["alt"] for q in sorular if q.get("alt") and q["alt"] not in dar and yapi_hatasi(sonuc.get(q["id"]), n["id"])]
         if genis:
             dar = dar + sorted(set(genis))
             n["dar"] = liste_yaz(dar)
@@ -323,10 +364,44 @@ class Hesap:
         n["pencere"], n["sonraki_tekrar"] = f"{wd}/{wn}", gun_ekle(self.gun, 1)
         ek = f" · doğru kanıtı olmayan: {', '.join(eksik)}" if eksik else ""
         self.olay(n["id"], f"dar onarım · yapı %{kp} ({nn} soru) · dar pencere {wd}/{wn}, {wg} gün (çıkış: {DAR_GEC}/{DAR_PENCERE}, 2 gün, her dar alt beceride doğru){ek}")
-        if nn < 4:
-            self.uyarilar.append(f"{n['id']}: dar onarımda {nn} soru sorulmuş (kural en az 4)")
+        if nn < 3:
+            self.uyarilar.append(f"{n['id']}: dar onarımda {nn} soru sorulmuş (kural en az 3)")
         if not any(q.get("alt") and q["alt"] not in dar for q in sorular):
             self.uyarilar.append(f"{n['id']}: dar onarımda dar dışı kontrol sorusu yok (kural 1)")
+
+    def odak_seanslari(self, n, sorular, sonuc):
+        """Konunun odak seansları (bugün dahil), yeniden eskiye: [yapı yüzdesi]."""
+        kid = n["id"]
+        s = [round(100 * sum(yapi(sonuc.get(q["id"]), kid) for q in sorular) / len(sorular))]
+        for _, v in self.gecmis:
+            qs = [(q, v["sonuc"].get(q["id"])) for b in v["bolumler"] if b.get("rol") == "odak" and b.get("konu") == kid for q in b["sorular"]]
+            if qs:
+                s.append(round(100 * sum(yapi(r, kid) for _, r in qs) / len(qs)))
+        return s
+
+    def kirmizi_alt(self, n, sorular, sonuc):
+        """Son 3 denemesinde yapı hatası olan (kenar olmayan) alt beceriler; odak ve tekrar soruları, bugün dahil."""
+        kid, deneme = n["id"], {}
+        for q in sorular:
+            if q.get("alt"):
+                deneme.setdefault(q["alt"], []).append(yapi(sonuc.get(q["id"]), kid))
+        for _, v in self.gecmis:
+            for b in v["bolumler"]:
+                if b.get("rol") not in ("odak", "tekrar"):
+                    continue
+                for q in b["sorular"]:
+                    if (q.get("konu") or b.get("konu")) == kid and q.get("alt") and q.get("tip") != "yazma":
+                        deneme.setdefault(q["alt"], []).append(yapi(v["sonuc"].get(q["id"]), kid))
+        return [a for a in n.liste("alt") if not a.startswith("kenar:") and 0 in deneme.get(a, [])[:3]]
+
+    def bitir(self, n, metin):
+        """Konu biter ve genele yayılır (Kurallar → Yayılım): YAYILIM_GUN boyunca her gün tekrarda ve arka planda."""
+        n["durum"], n["kademe"], n["adim"], n["bitis"] = "temiz", BITIS_KADEME, 0, self.gun
+        n["sonraki_tekrar"], n["yayilim"] = gun_ekle(self.gun, 1), gun_ekle(self.gun, YAYILIM_GUN)
+        for alan in ("pencere", "on", "dar", "onarim_bas"):
+            n.sil(alan)
+        self.olay(n["id"], f"{metin} → BİTTİ, {n['yayilim']} tarihine kadar genele yayılıyor")
+        self.odak_yap(n)
 
     def olay(self, kid, metin):
         self.olaylar.append((kid, metin))
@@ -366,7 +441,7 @@ class Hesap:
         if odak["durum"] == "temiz" or onarimda(odak):
             return
         kd = odak.sayi("kademe")
-        if kd >= 4 and not mevcut:
+        if kd >= BITIS_KADEME and not mevcut:
             s = self.sonraki(odak)
             if s and (s["yoklama"] or "").startswith("hata"):
                 s["on"] = "true"
@@ -374,49 +449,43 @@ class Hesap:
                 s["kademe"] = min(2, max(1, s.sayi("kademe")))
                 s["seri"] = 0
                 self.olay(s["id"], f"ön konu olarak başladı (K{s.sayi('kademe')})")
-        elif kd < 4 and mevcut:
+        elif kd < BITIS_KADEME and mevcut:
             mevcut.sil("on")
             mevcut["durum"] = "beklemede"
-            self.olay(mevcut["id"], "ön konu durdu (odak K4'ün altına düştü), kademe korunur")
+            self.olay(mevcut["id"], f"ön konu durdu (odak K{BITIS_KADEME}'ün altına düştü), kademe korunur")
 
     # --- roller ---
     def odak(self, n, sorular, sonuc, on=False):
         nn = len(sorular)
         if not nn:
             return
-        kp = round(100 * sum(yapi(sonuc.get(q["id"])) for q in sorular) / nn)
+        kp = round(100 * sum(yapi(sonuc.get(q["id"]), n["id"]) for q in sorular) / nn)
         ham = round(100 * sum((sonuc.get(q["id"]) or {}).get("puan", 0) or 0 for q in sorular) / nn)
         kd = max(1, n.sayi("kademe"))
-        tavan = 2 if on else 5
+        tavan = 2 if on else BITIS_KADEME
         w = self.odak_penceresi(n, kd, sorular, sonuc)
         wd, wn, wg, takili = pencere_ozeti(w)
         once = f"K{kd}"
         ad = "ön konu" if on else "odak"
         ek = f" · takılan alt beceri: {', '.join(takili)}" if takili else ""
-        gecti = wn >= PENCERE and wd >= PENCERE_GEC and wg >= 2 and not takili
+        # takılan alt beceri geçişi durdurmaz: sorular o kalıba yönelir, konu bitince yayılımda öne çıkar
+        gecti = wn >= PENCERE and wd >= PENCERE_GEC and wg >= 2
+        seanslar = self.odak_seanslari(n, sorular, sonuc)
+        tavan_doldu = (not on and not self.kisa and kd >= TAVAN_KADEME and len(seanslar) > SEANS_TAVAN
+                       and sum(seanslar[:3]) / len(seanslar[:3]) >= TAVAN_ORT)
         n["ustalik"], n["son_calisma"], n["sonraki_tekrar"] = ustalik(n, ham), self.gun, gun_ekle(self.gun, 1)
         n["seri"] = 0  # eski alan; ilerlemeyi artık `pencere` gösterir
-        if kp == 100 and kd < 5 and not self.kisa:
+        hatasiz = kp == 100 and not self.kisa
+        if (hatasiz or gecti) and kd >= BITIS_KADEME and not on:
+            neden = "hatasız seans" if hatasiz else f"pencere {wd}/{wn}, {wg} gün"
+            return self.bitir(n, f"odak · yapı %{kp} (ham %{ham}) · K{kd} · {neden}{ek}")
+        elif hatasiz and kd < tavan:
             yeni, neden = kd + 1, "hatasız seans"
-        elif gecti and kd == 5 and not on:
-            eksik = self.kapsanmayan_alt(n, sorular, sonuc)
-            if not eksik:
-                n["durum"], n["adim"], n["bitis"] = "temiz", 2, self.gun
-                n["sonraki_tekrar"], n["kademe"] = gun_ekle(self.gun, 7), 5
-                n.sil("pencere")
-                self.olay(n["id"], f"odak · yapı %{kp} (ham %{ham}) · K5 pencere {wd}/{wn} → BİTTİ")
-                self.odak_yap(n)
-                return
-            yeni, neden = kd, f"pencere tamam ama K4–K5'te kanıtı olmayan alt beceri: {', '.join(eksik)}"
         elif gecti:
             yeni, neden = kd + 1, f"pencere {wd}/{wn}, {wg} gün"
-        elif kd >= 4 and not on and not self.kisa and self.dar_adayi(n, w, sorular, sonuc)[0]:
-            dar = self.dar_adayi(n, w, sorular, sonuc)[0]
-            n["durum"], n["dar"], n["pencere"] = "zayif", liste_yaz(dar), "0/0"
-            n["onarim_bas"] = n["sonraki_tekrar"] = gun_ekle(self.gun, 1)
-            self.olay(n["id"], f"odak · yapı %{kp} (ham %{ham}) · K{kd} pencere {wd}/{wn} → DAR ONARIM ({', '.join(dar)}); hat ilerliyor")
-            self.odak_yap(n)
-            return
+        elif tavan_doldu:
+            son3 = " · ".join(str(s) for s in reversed(seanslar[:3]))
+            return self.bitir(n, f"odak · yapı %{kp} (ham %{ham}) · K{kd} · SÜRE TAVANI ({len(seanslar)} seans, son 3: {son3})")
         elif (wn >= PENCERE_DUS and wd / wn < 0.6) or (wn < PENCERE_DUS and kp < 60):
             yeni, neden = max(1, kd - 1), f"pencere {wd}/{wn} < %60"
             n["durum"] = "zayif"
@@ -441,11 +510,11 @@ class Hesap:
         for q in sorular:
             r = sonuc.get(q["id"])
             s += 1
-            if yapi(r):
+            if yapi(r, n["id"]):
                 d += 1
                 if q.get("alt"):
                     kapsanan.add(q["alt"])
-            elif yapi_hatasi(r):
+            elif yapi_hatasi(r, n["id"]):
                 hata = True
         if n["son_calisma"] != self.gun:
             g += 1
@@ -480,7 +549,7 @@ class Hesap:
             # tekrar bölümü sadece bitmiş, onarımdaki ve dar onarımdaki konular içindir
             self.uyarilar.append(f"{n['id']}: tekrar bölümünde soru var ama konu bitmemiş ve onarımda değil ({n['durum']}); sayılmadı")
             return
-        kp = round(100 * sum(yapi(sonuc.get(q["id"])) for q in sorular) / nn)
+        kp = round(100 * sum(yapi(sonuc.get(q["id"]), n["id"]) for q in sorular) / nn)
         ham = round(100 * sum((sonuc.get(q["id"]) or {}).get("puan", 0) or 0 for q in sorular) / nn)
         n["ustalik"], n["son_calisma"] = ustalik(n, ham), self.gun
         if n["durum"] == "zayif" and n["dar"]:
@@ -500,16 +569,17 @@ class Hesap:
                 n["pencere"], n["sonraki_tekrar"] = f"{wd}/{wn}", gun_ekle(self.gun, 1)
                 ek = f" · takılan alt beceri: {', '.join(takili)}" if takili else ""
                 self.olay(n["id"], f"onarım · yapı %{kp} ({nn} soru) · pencere {wd}/{wn}, {wg} gün (çıkış: {ONARIM_GEC}/{ONARIM_PENCERE}, 2 gün){ek}")
-                if nn < 5:
-                    self.uyarilar.append(f"{n['id']}: onarımda {nn} soru sorulmuş (kural 5–6)")
+                if nn < 3:
+                    self.uyarilar.append(f"{n['id']}: onarımda {nn} soru sorulmuş (kural en az 3)")
             return
         if kp >= 85:
             n["adim"] = n.sayi("adim") + 1
             n["sonraki_tekrar"] = gun_ekle(self.gun, aralik(n.sayi("adim")))
             self.olay(n["id"], f"tekrar · yapı %{kp} → adım {n['adim']}, sonraki {n['sonraki_tekrar']}")
-        elif kp >= 60:
+        elif kp >= 60 or nn < TEKRAR_EN_AZ:
+            # 3'ten az soruyla bitmiş konu onarıma düşmez (tek hata %50 demek): yarın yine sorulur
             n["sonraki_tekrar"] = gun_ekle(self.gun, 1)
-            self.olay(n["id"], f"tekrar · yapı %{kp} → yarın yine")
+            self.olay(n["id"], f"tekrar · yapı %{kp} ({nn} soru) → yarın yine")
         else:
             n["durum"], n["kademe"], n["seri"] = "zayif", 3, 0
             n["sonraki_tekrar"] = n["onarim_bas"] = gun_ekle(self.gun, 1)
@@ -557,8 +627,8 @@ class Hesap:
         for b in veri_bugun["bolumler"]:
             for q in b["sorular"]:
                 r = veri_bugun.get("sonuc", {}).get(q["id"]) or {}
-                if r.get("etiket") and r["etiket"] not in GENEL and not yapi_disi(q["tip"]) and not yapi(r):
-                    bugun_etiketler.add(r["etiket"])
+                if not yapi_disi(q["tip"]):
+                    bugun_etiketler.update(hata_etiketleri(r))
         bas = gun_ekle(self.gun, -6)
         sorular_konu, hatalar = {}, {}
         for d in sorted(glob.glob(yol("05 Günlük", "veri", "*.json"))):
@@ -577,8 +647,7 @@ class Hesap:
                     if k:
                         sorular_konu[k] = sorular_konu.get(k, 0) + 1
                     r = v.get("sonuc", {}).get(q["id"]) or {}
-                    e = r.get("etiket")
-                    if e and e not in GENEL and not yapi(r):
+                    for e in hata_etiketleri(r):
                         hatalar.setdefault(e, []).append(k)
         for e in sorted(bugun_etiketler):
             konu = etiket_konu.get(e)
@@ -603,7 +672,13 @@ class Hesap:
 
 
 # ---------- raporlar: alt beceri ve sınırlar ----------
+def yayilimda(n, bugun=None):
+    return n["durum"] == "temiz" and n["yayilim"] >= (bugun or dt.date.today().isoformat())
+
+
 def konu_rolu(n):
+    if yayilimda(n):
+        return f"yayılım ({n['yayilim']} tarihine kadar)"
     if n["on"] == "true":
         return "ön konu"
     if n["durum"] == "zayif" and n["dar"]:
@@ -614,7 +689,8 @@ def konu_rolu(n):
 
 
 def aktif_konular(notlar):
-    ks = [n for n in notlar.values() if n["tur"] == "gramer" and n["durum"] in ("ogreniliyor", "zayif") and n.sayi("kademe") >= 1]
+    ks = [n for n in notlar.values() if n["tur"] == "gramer" and
+          ((n["durum"] in ("ogreniliyor", "zayif") and n.sayi("kademe") >= 1) or yayilimda(n))]
     return sorted(ks, key=lambda n: (n["hat"], n.sayi("sira")))
 
 
@@ -632,7 +708,7 @@ def alt_raporu():
                     if (q.get("konu") or b.get("konu")) != kid or q.get("tip") == "yazma":
                         continue
                     r = v["sonuc"].get(q["id"]) or {}
-                    y = yapi(r)
+                    y = yapi(r, kid)
                     if q.get("alt"):
                         deneme.setdefault(q["alt"], []).append(y)
                         if y and b.get("rol") == "odak" and (b.get("kademe") or 0) >= 4:
@@ -641,7 +717,7 @@ def alt_raporu():
                         hatalar.append(f"  {g[5:]} {q['id']:<5} [{r.get('etiket', '?')}] {str(q.get('metin') or q.get('talimat') or '')[:48]} → {str(r.get('dogru', ''))[:48]}")
         print(f"## {kid} {n['baslik']} · {konu_rolu(n)} · K{n.sayi('kademe')} · pencere {n['pencere'] or '–'}")
         if n["dar"]:
-            print(f"  Dar alt beceriler: {', '.join(n.liste('dar'))} → her biri için 2 soru (en az 4), artı 1 kontrol sorusu başka bir alt beceriden")
+            print(f"  Dar alt beceriler: {', '.join(n.liste('dar'))} → her biri için 2 soru (en az 3), artı 1 kontrol sorusu başka bir alt beceriden")
         alts = n.liste("alt")
         if not alts:
             print("  ⚠️ `alt` listesi yok: önce frontmatter'a yaz")
@@ -659,10 +735,8 @@ def alt_raporu():
                 if not a.startswith("kenar:"):
                     yok.append(a)
             print(f"  {durum} {a:<46} son (yeni → eski): {son}")
-        if n.sayi("kademe") >= 4 and konu_rolu(n) == "odak":
-            eksik = [a for a in alts if not a.startswith("kenar:") and a not in kapsam]
-            if eksik:
-                print(f"  Bitiş için K4–K5'te kanıt gereken: {', '.join(eksik)}")
+        if yayilimda(n):
+            print("  → Yayılım: tekrar bölümünde 2–3 soru (önce kırmızı alt beceriler ve kenar durumlar); odak, kelime, okuma ve günlük cümlelerinde de doğal biçimde kullan.")
         if hatalar:
             print("  Son yapı hataları:")
             print("\n".join(hatalar))

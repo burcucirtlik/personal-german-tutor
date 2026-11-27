@@ -274,19 +274,23 @@ if (v.bulgu) {
 
 // ================= 4. Müfredat =================
 if (v.hatlar?.length) {
-  const k = bolum(kok, "🧭", "Müfredat", "K1 Tanıma · K2 Üretme · K3 Cümle · K4 Serbest · K5 Bağlam");
+  // Kademeler 1.1.0'dan beri üç (K3 geçilince konu biter, Kurallar → Kademeler); eski analizler beş kademeyle çizilir
+  const kSayi = Math.max(...v.hatlar.map((h) => Math.max(h.bas || 0, h.son || 0))) > 3 ? 5 : 3;
+  const kAd = ["", "Tanıma", "Üretme", "Cümle", "Serbest", "Bağlam"];
+  const k = bolum(kok, "🧭", "Müfredat", kSayi === 3 ? "K1 Tanıma · K2 Üretme · K3 Cümle → konu biter, genele yayılır" : "K1 Tanıma · K2 Üretme · K3 Cümle · K4 Serbest · K5 Bağlam");
   const g = el("div", "an-lanes", null, k);
   for (const h of v.hatlar) {
     const c = el("div", "an-lane", null, g);
     const ust = el("div", "an-lane-head", null, c);
     el("span", "an-lane-name", h.ikon + " " + h.ad, ust);
     const ilerledi = h.son > h.bas;
-    el("span", "an-chip " + (ilerledi ? "is-good" : "is-wait"), ilerledi ? `✓ K${h.bas} → K${h.son}` : `⏸ K${h.son}'te`, ust);
+    // h.bitti: konu bu hafta bitti (K3 geçildi ya da süre tavanı) ve genele yayılıyor
+    el("span", "an-chip " + (ilerledi || h.bitti ? "is-good" : "is-wait"), h.bitti ? "✓ bitti · genele yayılıyor" : ilerledi ? `✓ K${h.bas} → K${h.son}` : `⏸ K${h.son}'te`, ust);
     notLinki(h.konu, h.kisa, c, "an-lane-topic");
     const iz = el("div", "an-steps", null, c);
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= kSayi; i++) {
       const s = el("div", "an-step" + (i <= h.son ? " is-on" : "") + (i > h.bas && i <= h.son ? " is-new" : ""), "K" + i, iz);
-      ipucu(s, ["", "Tanıma", "Üretme", "Cümle", "Serbest", "Bağlam"][i] + (i <= h.son ? " · geçildi" : ""));
+      ipucu(s, kAd[i] + (i <= h.son ? " · geçildi" : ""));
     }
     if (h.seanslar?.length) {
       const m = el("div", "an-lane-sessions", null, c);
@@ -299,7 +303,7 @@ if (v.hatlar?.length) {
     // Veri dosyası eşiği yazmazsa 85 kabul edilir (eski biçim; Kurallar → onarım).
     // o.sonuc ("temiz" | "onarimda") ve o.etiket verilirse çip onlardan yazılır (ör. temiz olup aynı gün geri dönen konu).
     const esik = v.onarim_esik || 85;
-    el("div", "an-subhead", `🔁 Onarım: iki seans üst üste ≥ ${esik} gerekiyor`, k);
+    el("div", "an-subhead", v.onarim_esik ? "🔁 Onarım: çıkış için son 10 soruda 8 doğru, 2 gün" : `🔁 Onarım: iki seans üst üste ≥ ${esik} gerekiyor`, k);
     const t = el("div", "an-repairs", null, k);
     for (const o of v.onarim) {
       const r = el("div", "an-repair", null, t);

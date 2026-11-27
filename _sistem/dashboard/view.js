@@ -4,7 +4,7 @@
 
 const SEVIYELER = ["A1", "A2", "B1"];
 const DURUM_ETIKET = { temiz: "temiz", ogreniliyor: "öğreniliyor", zayif: "zayıf", yeni: "yeni", beklemede: "beklemede", kilitli: "kilitli" };
-const KADEMELER = ["Tanıma", "Üretme", "Cümle", "Serbest", "Bağlam"];
+const KADEMELER = ["Tanıma", "Üretme", "Cümle"]; // K3 geçilince konu biter ve genele yayılır (Kurallar → Yayılım)
 // Kademe geçişi: son 12 yapı sorusunda en az 10 doğru (Kurallar → Kademe geçişi). `pencere: 9/12` alanını ilerleme.py yazar.
 // Onarımdaki konu (bitmiş konu ya da dar onarım) hattın odağı olamaz (Kurallar → Dar onarım)
 const onarimda = (k) => k.durum === "zayif" && (!!k.dar || !!k.bitis || String(k.yoklama || "") === "gecti");
@@ -562,6 +562,16 @@ for (const [hat, ad] of [["fiil", "🔧 Fiil hattı"], ["isim", "🧱 İsim hatt
       metin(s3, "Dar onarım: ");
       notLinki(dar, dar.baslik || dar.file.name, s3);
       el("span", "ad-hat-sub", ` · sadece ${darListe(dar).join(", ")}${pencereYazi(dar).replace("geçiş: 12'de 10", "çıkış: 6'da 5")}`, s3);
+    }
+    const yay = ks.filter((k) => k.durum === "temiz" && isoTarih(k.yayilim) && isoTarih(k.yayilim) >= bugun);
+    if (yay.length) {
+      const s4 = el("div", "ad-hat-focus", null, blok);
+      metin(s4, "Genele yayılıyor: ");
+      yay.forEach((k, i) => {
+        if (i) metin(s4, ", ");
+        notLinki(k, k.baslik || k.file.name, s4);
+      });
+      el("span", "ad-hat-sub", " · her gün tekrarda ve alıştırmaların içinde", s4);
     }
     const on = ks.find((k) => k !== odak && String(k.on) === "true");
     if (on) {

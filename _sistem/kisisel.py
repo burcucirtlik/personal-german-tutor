@@ -24,7 +24,7 @@ KISISEL = os.path.join(KOK, "_kisisel")
 ILERLEME_YOLU = os.path.join(KISISEL, "ilerleme.json")
 # Konu notlarında kullanıcıya ait (kullanımla değişen) alanlar. Geri kalanı (id, hat, sira, alt, onkosul …) motordur.
 ILERLEME_ALANLARI = ("durum", "kademe", "seri", "yoklama", "ustalik", "temiz_gun", "adim", "son_calisma",
-                     "sonraki_tekrar", "bitis", "pencere", "onarim_bas", "on", "yoklama_alt", "dar", "asama")
+                     "sonraki_tekrar", "bitis", "pencere", "onarim_bas", "on", "yoklama_alt", "dar", "asama", "yayilim")
 KONU_TURLERI = ("gramer", "kelime", "sinav")
 KONU_KLASORLERI = ("03 Grammatik", "02 Wortschatz", "01 Sınav/Teile")
 

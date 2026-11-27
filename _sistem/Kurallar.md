@@ -38,79 +38,69 @@ sonraki_tekrar:
 bitis:               # konunun bittiği gün
 on: true             # sadece ön konuda (Ön konu bölümü); yoksa yazılmaz
 onarim_bas:          # sadece onarımda: onarım penceresinin başladığı gün
-dar: [...]           # sadece dar onarımda: hâlâ çalışılan alt beceriler
+dar: [...]           # eski: sadece dar onarımda (artık açılmaz)
+yayilim: 2026-12-11  # konu bittiyse: bu tarihe kadar her gün genele yayılır (Yayılım)
 alt: [...]           # alt beceriler (Alt beceriler bölümü)
 ```
 `onkosul` gramer konularında artık kullanılmaz; sıra Müfredat'ta.
 
 ### Kademeler
+Bir konu **kullanımı anlaşılıp cümle içinde doğru kurulmaya başlayınca** biter. Ondan sonrası (ipucusuz çeviri, metin içinde kullanma, uzun süre doğru kalma) ayrı bir bölümde beklemez: konu **genele yayılır** ve bütün alıştırmaların içinde yaşar (Yayılım, aşağıda). Neden: eskiden K4 (serbest) ve K5 (bağlam) de odakta geçiliyordu ve temel konular (düzenli fiiller, artikel) 15 seansa kadar odakta kalabiliyordu, oysa bu yapılar her alıştırmada zaten kullanılıyor ve sıfır hataya hiçbir zaman inmez.
+
 | K | Ad | Soru türleri | Ne ölçer |
 |---|---|---|---|
 | 1 | Tanıma | `secmeli`, `dogruyanlis`, `eslestir`, `kutula` | Doğru biçimi görünce tanıyor mu? Kısa cümle, tek kalıp |
 | 2 | Üretme | `bosluk` (tek boşluk, ipuçlu): tek cümle, mini diyalog (soru – cevap) ya da iki cümlelik bağlam içinde | Biçimi kendisi yazabiliyor mu? |
-| 3 | Cümle | `donustur`, `hata`, `yaz`, kontrast `secmeli` ya da `kutula` (en fazla bir kart) | Cümle içinde kurabiliyor, hatayı görebiliyor mu? İpucu azalır |
-| 4 | Serbest | `ceviri`, çok boşluklu `bosluk`, ipucusuz `yaz`, kontrast `hata`; bitmiş konularla karışık | İpucusuz, Türkçeden Almancaya |
-| 5 | Bağlam | Kısa metinde boşluklar, metin + soru, 2–3 cümle yazma | Gerçek metin içinde kullanabiliyor mu? |
+| 3 | Cümle | `donustur`, `hata`, `yaz`, `ceviri`, kontrast `secmeli` ya da `kutula` (en fazla bir kart) | Cümle içinde kurabiliyor, hatayı görebiliyor mu? İpucu azalır. **Son kademe**: geçilince konu biter |
+
+Yoklama ve tekrar soruları eskisi gibi **K4 düzeyindedir** (ipucusuz, Türkçeden Almancaya, metin içinde); bu düzey artık bir kademe değil, bitmiş konunun her gün kullanıldığı yerdir.
 
 - Aynı kademenin ikinci günü birinciden zordur: farklı fiil ve isimler, daha uzun cümle, daha az ipucu.
-- **Tür rotasyonu:** K3 ve üstünde bir bölümde tek bir soru türü soruların %60'ını geçmez; tür dağılımı bir önceki seansla aynı olmaz; aynı tür art arda en fazla 3 kez gelir. K2'de soruların en az üçte biri mini diyalog ya da iki cümlelik bağlamdır. (Neden: bu kural olmazsa bir kademe seanslarca aynı karışımla gelir, ör. her gün "4 hata + 4 dönüştür + 3 yaz".) `_sistem/cesitlilik.py` denetler (Çeşitlilik, aşağıda).
-- **Kontrast soruları (K3 ve üstü):** odak sorularının en az dörtte biri, odak yapısıyla **karışan komşu yapıyı** aynı soruda karşı karşıya getirir; soruya `kontrast: "<komşu konu id'si>"` yazılır. Düzenli ↔ düzensiz fiil (*Pavel fragt, aber Kofi fährt*), ich ↔ du/er (*ich helfe, du hilfst*), -st ↔ -est (*du weinst, du arbeitest*), kurallı ↔ kuralsız artikel. Neden: her kural kendi bloğunda çalışılınca hangi kuralın geçerli olduğuna hiç karar verilmiyor; *frägt, ich hilfe, zählest, weinest* gibi hatalar kuralı bilmemekten değil, aşırı genellemeden gelir. Kontrast sorusu odak konusunun kademe puanına sayılır; yapı ancak **iki taraf da** doğruysa doğrudur.
+- **Tür rotasyonu:** K3'te bir bölümde tek bir soru türü soruların %60'ını geçmez; tür dağılımı bir önceki seansla aynı olmaz; aynı tür art arda en fazla 3 kez gelir. K2'de soruların en az üçte biri mini diyalog ya da iki cümlelik bağlamdır. (Neden: bu kural olmazsa bir kademe seanslarca aynı karışımla gelir, ör. her gün "4 hata + 4 dönüştür + 3 yaz".) `_sistem/cesitlilik.py` denetler (Çeşitlilik, aşağıda).
+- **Kontrast soruları (K3):** odak sorularının en az dörtte biri, odak yapısıyla **karışan komşu yapıyı** aynı soruda karşı karşıya getirir; soruya `kontrast: "<komşu konu id'si>"` yazılır. Düzenli ↔ düzensiz fiil (*Pavel fragt, aber Kofi fährt*), ich ↔ du/er (*ich helfe, du hilfst*), -st ↔ -est (*du weinst, du arbeitest*), kurallı ↔ kuralsız artikel. Neden: her kural kendi bloğunda çalışılınca hangi kuralın geçerli olduğuna hiç karar verilmiyor; *frägt, ich hilfe, zählest, weinest* gibi hatalar kuralı bilmemekten değil, aşırı genellemeden gelir. Kontrast sorusu odak konusunun kademe puanına **sadece odak tarafıyla** sayılır: komşu taraftaki hata (*Mehmet tragt*) komşu konunun hatasıdır (aşağıda, Başka konunun hatası).
+- **Başka konunun hatası bu konunun hanesine yazılmaz.** Artikel, fiil çekimi, fiilin yeri gibi temel yapılar her konunun içinde geçer. Bir soruda ölçülen konu dışındaki bir yapıda hata yapılırsa (etiketin bağlı konusu ölçülen konu değilse) o soru ölçülen konu için **doğru** sayılır; hata kendi etiketine yazılır: Fehlerlog, hata etiketi kuralı, mini drill, cümle kartı ve o konunun tekrar soruları onu düzeltir. Bir cevapta iki hata varsa ölçülen konunun hatası `etiket`'e, diğeri `etiketler` listesine yazılır. Neden: aksi hâlde en temel yapılardaki her kayma sonraki bütün konuları kilitler; düzenli fiiller düzensiz fiillerin *tragt* gibi hataları yüzünden haftalarca K3–K4 arasında gidip gelebiliyordu. Betik bunu etiketin bağlı konusundan (Fehlerlog → `konu`) kendisi çıkarır.
 - Odak sorularında **sadece üretim sınırındaki yapılar** (o konu ve bitmiş konular) geçer. Sırası gelmemiş bir yapı (ör. Perfekt) soruda, örnek cümlede ve cümle kartında kullanılmaz; okuma, dinleme ve günlük metinleri için **Üretim ve anlama sınırı** bölümüne bak.
 - Konu ilk kez öğretilirken (K1 ya da yoklamadan sonra K2) ders kutusu açık gelir. Kademe düşünce de açık gelir.
 
 ### Kademe geçişi (her `/kontrol` sonrası, odak konusu için)
 **Kademe puanı = o günkü odak sorularında yapının doğruluğu × 100.** Kademe yapıyı ölçer, kelimeyi değil:
-- Genel etiketli hatalar (`yazim`, `kelime-eksik`, `ingilizce-kelime`, `kalip-ifade`, `artikel-kelime`) kademe puanında **sayılmaz**: ölçülen yapı doğru kurulduysa soru 1 sayılır. Yapı cevapta hiç görünmüyorsa (ör. fiil yerine başka kelime yazıldı, yapı kurulmadı) soru 0 sayılır.
-- Genel puan, `ustalik` ve beceri puanları **ham puandan** hesaplanır (yazım ve kelime hataları orada düşer). Böylece puan şişmez, ama kelime eksiği gramer ilerlemesini kilitlemez (yoksa yapıyı bilen öğrenci sadece kelime ve yazım hataları yüzünden bir kademede günlerce kalabilir).
-- **Kenar durumlar** (konu notunun `alt` listesinde `kenar:` ile başlayanlar, ör. *du redest, er zeichnet*) K1–K3'te sorulmaz; K4, K5 ve tekrarda sorulur.
+- **Konuyla alakasız hata kademe puanında sayılmaz** (bu kural çok önemli). Küçük harfle yazılan isim, harf hatası, yanlış ya da bilinmeyen kelime, İngilizce kelime, kuralsız artikel ya da çoğul, noktalama genel etiket alır (`yazim`, `kelime-eksik`, `ingilizce-kelime`, `kalip-ifade`, `artikel-kelime`, `plural-kelime`) ve ölçülen yapı doğru kurulduysa soru **puanı ne olursa olsun** 1 sayılır: yanlış fiil seçilmiş ama çekim kalıbı doğruysa da. Soru ancak yapı cevapta **hiç görünmüyorsa** (boş, çevrilmemiş, yapı kurulmamış) 0 sayılır; `/kontrol` bunu `yapi: 0` ile açıkça yazar. Başka bir konunun yapısındaki hata da sayılmaz (aşağıda, Başka konunun hatası).
+- Genel puan, `ustalik` ve beceri puanları **ham puandan** hesaplanır (yazım ve kelime hataları orada düşer). Böylece puan şişmez, ama kelime eksiği gramer ilerlemesini kilitlemez.
+- **Kenar durumlar** (konu notunun `alt` listesinde `kenar:` ile başlayanlar, ör. *du redest, er zeichnet*) odakta sorulmaz; yayılımda ve tekrarda sorulur.
 - Hesabı `python3 -I _sistem/ilerleme.py <gün>` yapar (Puanlama betiği, aşağıda).
 
 **Kayan pencere.** Geçişe tek bir günün yüzdesi değil, o kademede sorulan **son 12 yapı sorusu** karar verir (bugün dahil, günler arasında birikir; kademe değişince pencere sıfırdan başlar):
 
 | Durum | Ne olur |
 |---|---|
-| Bugün **hiç yapı hatası yok**, K1–K4 | Kademe doğrudan +1. Bildiğin kademede ikinci gün beklenmez. **Kısa gün** seanslarında bu satır uygulanmaz |
-| Pencere dolu (12 soru), **en az 10 doğru**, en az **2 farklı gün**, takılan alt beceri yok | Kademe +1. K5'te konu **biter**: `temiz`, `adim: 2`, `bitis` = bugün, sonraki tekrar 7 gün sonra |
+| Bugün **hiç yapı hatası yok** | Kademe +1; **K3'te konu biter**. Bildiğin kademede ikinci gün beklenmez. **Kısa gün** seanslarında bu satır uygulanmaz |
+| Pencere dolu (12 soru), **en az 10 doğru**, en az **2 farklı gün** | Kademe +1; **K3'te konu biter** |
+| Konu odakta **8 seansı geçti**, **K3**'te ve **son 3 seansın yapı ortalaması ≥ %70** (süre tavanı) | Konu biter |
 | Pencerede (en az 8 soru) doğruluk **%60'ın altında** | Kademe −1 (en az 1), durum `zayif`. Pencerede 8 soru yoksa bugünün puanına bakılır |
 | Diğer durumlar | Kademe aynı; pencere birikmeye devam eder |
 
-- **Takılan alt beceri:** pencerede aynı alt beceride **2 hata** varsa geçiş olmaz; ertesi günün soruları o alt beceriye yönelir (Alt beceri kanıtı). Pencere 10/12 olsa da *das Mädchen* iki kez yanlışsa konu ilerlemez.
-- **Bitiş kapsamı:** konu K5'te ancak kenar olmayan **her alt becerisinden K4–K5'te en az bir doğru kanıt** varsa biter (yoklamadaki kuralın aynısı). Eksik alt beceriyi betik söyler.
-- Neden: "üst üste iki seans ≥ 85" gibi seans eşikleri gürültülüdür. 8–11 soruluk bir seansta ≥ 85 en fazla bir hata demek; gerçek başarısı %85 olan biri bile bir günü ancak ~%60 ihtimalle geçer, iki günü üst üste ~%36. Ortalaması %84 olan bir öğrenci böyle bir kuralla haftalarca aynı kademede kalabilir. Pencere aynı kanıtı ister (12'de 10 = %83, iki gün), tek bir kötü gün birikmiş kanıtı silmez. Takılan alt beceri kuralı ise seans eşiğinden **sıkıdır**: yarım bilinen kalıp ortalamanın içinde kaybolamaz.
+**Konu bitince:** `durum: temiz`, `kademe: 3`, `bitis` = bugün, `adim: 0`, `yayilim` = bugün + 14 gün, sonraki tekrar yarın. Hattın sıradaki konusu odak olur (ön konu varsa o, kaldığı kademeden).
+- **Takılan alt beceri:** pencerede aynı alt beceride **2 hata** varsa betik bunu söyler ve sorular o alt beceriye yönelir (Alt beceri kanıtı). Geçişi durdurmaz; konu bitince takılan kalıp yayılımda öne çıkar.
+- **Süre tavanı:** hiçbir konu odakta sonsuza kadar kalmaz. Yarım bilinen konu yine atlanmaz: %70'in altındaki ya da cümle kademesine (K3) gelmemiş konu tavanla bitmez.
+- Neden pencere: "üst üste iki seans ≥ 85" gibi seans eşikleri gürültülüdür; pencere aynı kanıtı ister (12'de 10 = %83, iki gün), tek bir kötü gün birikmiş kanıtı silmez.
 - `pencere` alanını (`9/12`) betik yazar; dashboard gösterir.
 
-Konu bitince hattın sıradaki konusu odak olur (`ogreniliyor`). Ön konu varsa (aşağıda) odak o olur ve kaldığı kademeden devam eder.
-
 ### Ön konu: sıradaki konuya erken başlamak
-Tek odak kuralı korunur, ama odak konusu son kademelerdeyken hattın vakti boşa gitmez:
-- Odak konusu **K4'e ulaştığında**, hattın sıradaki konusu yoklaması bozulmuşsa (öğretilmesi gerekiyorsa) **ön konu** olarak K1'den başlar: `durum: ogreniliyor`, `on: true`. Yoklaması açık olan konu ön konu olmaz, yoklamada kalır.
-- Ön konuya her gün **4–6 soru** ve ders kutusu gelir (antrenman JSON'unda `rol: "on"`). Kademe geçişi odaktaki gibidir, ama ön konu **en fazla K2'ye** kadar çıkar; K3'ten sonrası ancak odak olunca açılır.
-- Odak konusu K4'ün altına düşerse ön konu durur: kademesi korunur, `on` alanı silinir, konu `beklemede` olur.
+Tek odak kuralı korunur, ama odak konusu son kademedeyken hattın vakti boşa gitmez:
+- Odak konusu **K3'e ulaştığında**, hattın sıradaki konusu yoklaması bozulmuşsa (öğretilmesi gerekiyorsa) **ön konu** olarak K1'den başlar: `durum: ogreniliyor`, `on: true`. Yoklaması açık olan konu ön konu olmaz, yoklamada kalır.
+- Ön konuya her gün **4–6 soru** ve ders kutusu gelir (antrenman JSON'unda `rol: "on"`). Kademe geçişi odaktaki gibidir, ama ön konu **en fazla K2'ye** kadar çıkar; K3 ancak odak olunca açılır.
+- Odak konusu K3'ün altına düşerse ön konu durur: kademesi korunur, `on` alanı silinir, konu `beklemede` olur.
 - Odak bitince ön konu odak olur (`on` silinir) ve kaldığı kademeden devam eder.
 - Ön konunun yapıları sadece kendi bölümünde **sorulur**; diğer sorularda hâlâ sırası gelmemiş yapı sayılır. Metinlerde anlama sınırındaki her yapı gibi geçebilir (Üretim ve anlama sınırı).
-- Neden: iki hatta 60'a yakın konu var; bir konunun bütün kademelerden geçmesi çoğu zaman 9–10 seans sürer, tek odakla bu tempo sınav takvimine sığmayabilir. Ön konu hiçbir kademeyi atlatmaz, sadece K1–K2'yi öne çeker.
 
-### Dar onarım: kalan bir iki kalıp hattı durdurmasın
-Odak konusu son kademelerde, ama hatalar bütün konuya değil bir iki kalıba sıkışmışsa konu odakta haftalarca bekleyip hattı durdurmaz: **sadece o kalıplarla** tekrar bölümüne geçer, hat sıradaki konuya ilerler. Konu bitmiş sayılmaz; yarım kalan kalıp her gün sorulur ve kanıtlanmadan konu bitmez. (Neden: hatalar birkaç kalıpta toplanmışken, ör. Artikel'de *-chen* ve *-heit*, konuyu odakta tutmak hattı fiilen durdurur; ön konu da K2'de tavan yapar.)
+### Yayılım: bitmiş konu genele yedirilir
+Konu bittikten sonraki **14 gün** (`yayilim` tarihine kadar) yapısı her gün alıştırmaların içinde geçer:
+- **Ölçülen:** tekrar bölümünde konu başına **2–3 soru** (K4: ipucusuz çeviri, dönüştürme, açık boşluklu mektup), `konu` ve `alt` alanıyla; önce `ilerleme.py alt` çıktısındaki kırmızı (takılan) alt beceriler, sonra kenar durumlar. Puanı tekrar gibi hesaplanır (≥ 85 → `adim +1`; < 60 → onarım; onarım hattı durdurmaz).
+- **Arka planda:** odak, kelime ve beceri sorularının, okuma ve dinleme metinlerinin ve Tempelhof günlüğünün cümlelerinde yapı doğal biçimde kullanılır (ayrılabilen fiil bittiyse *Kofi steht früh auf* her yerde geçer). Buradaki hatalar o sorunun konusuna yazılmaz, kendi etiketine yazılır (Başka konunun hatası): Fehlerlog, mini drill ve cümle kartı düzeltir.
+- 14 gün sonra konu normal aralıklı tekrara geçer; arka planda kullanılmaya devam eder.
 
-**Giriş** (hepsi birden, `ilerleme.py` karar verir):
-- Konu odakta **K4 ya da K5**'te (ön konu ve kısa gün değil).
-- Kayan pencere dolu (12 soru), en az **8 doğru**, en az **2 farklı gün**.
-- Penceredeki yapı hatalarının hepsi **en fazla 2 alt beceride** toplanmış ve her hatalı sorunun `alt` alanı var (alanı olmayan bir hata varsa betik karar vermez).
-- Kenar olmayan **diğer bütün alt becerilerin** K4–K5'te doğru kanıtı var (bitiş kapsamı, Kademe geçişi).
-- Hatta başka bir dar onarım konusu yok (aynı anda hat başına en fazla bir tane).
-
-**Ne olur:** konu `durum: zayif`, `dar: [hatalı alt beceriler]`, `kademe` aynı kalır; hattın sıradaki konusu odak olur (ön konu varsa o, kaldığı kademeden; ön konu bugün odak olduysa o günkü bölümünde K2 sınırı kalkar).
-
-**Her gün:** tekrar bölümünde, onarımdaki konulardan önce: her dar alt beceriye **2 soru** (en az 4), artı başka bir alt beceriden **1 kontrol sorusu**. K4 düzeyinde, üretim (çeviri, dönüştürme, hata, ipucusuz cümle), her gün farklı kelime.
-
-**Genişleme:** kontrol sorusunda ya da başka bir alt beceride yapı hatası çıkarsa o alt beceri de `dar` listesine eklenir; o gün çıkış olmaz.
-
-**Çıkış:** dar alt becerilere dar onarım başından beri sorulan **son 6 soruda en az 5 doğru**, en az **2 farklı gün**, **her dar alt becerinin en az bir doğru kanıtı** ve o gün genişleme yok → konu biter: `temiz`, `kademe: 5`, `adim: 1`, `bitis` = bugün, sonraki tekrar 3 gün sonra.
-
-- Dar onarım yarım bilinen konuyu atlatmaz: konunun bilinen kısmı K4–K5'te ipucusuz kanıtlanmış olmalı, bilinmeyen kısmı her gün sorulur ve kanıtlanmadan konu bitmez. Ertelenen tek şey, hattın o kalıp yüzünden beklemesidir.
-- Dar onarımdaki konunun yapıları üretim sınırındadır (sorularda ve metinlerde kullanılabilir).
-- Dashboard hattın altında "Dar onarım: …" satırını gösterir; `/analiz` onarımdaki konuları raporlarken dar onarımı ayrıca söyler.
+### Dar onarım (eski)
+Bitişin K3'e çekilmesiyle yeni dar onarım açılmaz; eski kayıtlarda `dar` alanı olan konu yayılıma çevrilir. Betik eski kayıtları okumaya devam eder (`dar` alanlı konu tekrar bölümünde dar alt becerilerden sorulur, son 6 soruda 5 doğru, 2 gün → biter).
 
 ### Alt beceriler
 Her gramer konusunun notunda `alt` listesi olur: konunun yoklamada ve tekrarda kapsanması gereken 4–6 alt beceri. `kenar:` ile başlayanlar seyrek kalıplardır.
@@ -136,11 +126,12 @@ Konu kaba bir birim; hatalar birkaç alt beceride toplanır. Tipik olarak bir ko
 
 ### Bitmiş konuların tekrarı ve onarım
 - Bitmiş konular aralıklı tekrarla gelir. **Aralıklar:** adim 0 → 1 gün · 1 → 3 · 2 → 7 · 3 → 14 · 4+ → 30.
-- Tekrar soruları K4 düzeyinde, konular karışık, konunun farklı alt becerilerinden. Puan kademe puanı gibi yapı doğruluğuyla hesaplanır. Seans ≥ 85 → `adim +1`. 60–84 → adim aynı, yarın tekrar. < 60 → **onarım**: durum `zayif`, `kademe: 3`, `seri: 0`.
-- **Onarım:** onarımdaki konu her gün **5–6 soruyla** tekrar bölümünde gelir (odak konusu değişmez); soruların yarısı kırmızı alt becerilerden (Alt beceri kanıtı). Çıkış kayan pencereyle: onarım başladığından beri sorulan **son 10 soruda en az 8 doğru**, en az **2 farklı gün** ve aynı alt beceride 2 hata yok → yeniden `temiz`, `adim: 1`. `onarim_bas` ve `pencere` alanlarını betik yazar. (Eskiden "iki seans üst üste ≥ 80" vardı: 5 soruda bu 4/5 demekti; düzensiz fiiller 60 · 80 · 80 · 60 ile çıkıp geri girdi.)
+- Tekrar soruları K4 düzeyinde, konular karışık, konunun farklı alt becerilerinden. Puan kademe puanı gibi yapı doğruluğuyla hesaplanır. Seans ≥ 85 → `adim +1`. 60–84 → adim aynı, yarın tekrar. < 60 → **onarım**: durum `zayif`, `kademe: 3`, `seri: 0`. O gün konuya **3'ten az** soru sorulduysa onarıma düşmez, yarın yine sorulur (2 soruda tek hata %50 demek).
+- **Tekrar bölümünün boyu:** en fazla ~12 soru. Önce onarımdaki konular (konu başına 3–6), sonra yayılımdaki konular (2–3), sonra vadesi gelenler; çok konu varsa her biri en az soruyla gelir, pencereler günler içinde dolar. Neden: yeni konular için süre kalsın.
+- **Onarım:** onarımdaki konu her gün **5–6 soruyla** (kalabalık günlerde 3–4) tekrar bölümünde gelir (odak konusu değişmez); soruların yarısı kırmızı alt becerilerden (Alt beceri kanıtı). Çıkış kayan pencereyle: onarım başladığından beri sorulan **son 10 soruda en az 8 doğru**, en az **2 farklı gün** ve aynı alt beceride 2 hata yok → yeniden `temiz`, `adim: 1`. `onarim_bas` ve `pencere` alanlarını betik yazar. (Eskiden "iki seans üst üste ≥ 80" vardı: 5 soruda bu 4/5 demekti; düzensiz fiiller 60 · 80 · 80 · 60 ile çıkıp geri girdi.)
 - **Hata etiketi kuralı (oranla):** bir hata etiketi bugün görüldüyse, son 7 günde bağlı konuyu ölçen sorularda bu etiketle **en az 3 hata** var **ve** hata oranı **≥ %25** ise bağlı konu **bitmişse onarıma girer**. Konu zaten odakta ya da onarımdaysa bir şey değişmez: geçişi pencere ölçer. Her gün sorulan konuda 3 hata tek başına yetmez; oran da yüksek olmalı.
   - Serbest yazmadaki (`yazma`, kağıda geçirilen günlük) hatalar etiket sayacına ve Fehlerlog'a yazılır, ama bu kuralı **tek başına tetiklemez** ve onarımı bozmaz (yoksa tekrarda 3/3 alıp onarımdan çıkan bir konu, aynı gün serbest yazmadaki tek bir *ich hilfe* ile geri döner).
-  - Genel etiketler (`yazim`, `kalip-ifade`, `kelime-eksik`, `ingilizce-kelime`, `artikel-kelime`) bu kurala girmez ve yoklamayı bozmaz.
+  - Genel etiketler (`yazim`, `kalip-ifade`, `kelime-eksik`, `ingilizce-kelime`, `artikel-kelime`, `plural-kelime`) bu kurala girmez ve yoklamayı bozmaz.
 - **Aynı açıklama üçüncü kez işe yaramaz:** bir yapı etiketi son 7 günde 3. kez görüldüyse `/kontrol` o hataya özel bir **mini drill** açar (Drill'ler → Mini drill) ve açıklamayı değiştirir: düz kural yerine karşılaştırma çifti (*Ich habe Hunger. ↔ Ich bin müde.*) ve kısa bir "neden" (Türkçede *yorgunum* fiilsiz, Almancada *sein* ister).
 
 ### Artikel: kural mı, kelime mi?
@@ -148,6 +139,12 @@ Konu kaba bir birim; hatalar birkaç alt beceride toplanır. Tipik olarak bir ko
 - **Kural** (konunun kendisi, `artikel-genus`): der/die/das ↔ ein/eine kullanımı ve artikeli ele veren kalıplar: insan isimleri, *-ung / -heit / -keit / -ion → die*, *-e → die*, *-chen / -lein → das*, günler, aylar ve mevsimler *→ der*. A1-04'ün alt becerileri bunlardır; odak, yoklama ve tekrar soruları **sadece bu kalıplara uyan isimlerle** kurulur. Kurallı bir isimde artikel hatası her yerde `artikel-genus` etiketi alır ve yapı hatasıdır.
 - **Kelime** (`artikel-kelime`, genel etiket): artikeli bir kuraldan çıkmayan isim (*der Tisch, das Buch, der Schlüssel*). Hangi soruda çıkarsa çıksın yapı hatası sayılmaz, yoklamayı bozmaz; ham puanda yarım puan düşer. `/kontrol` ismi artikeliyle "Yarın bağlamda" listesine yazar ve kartı varsa sözlükte işaretler: kuralsız isimlerin cinsiyeti **kartların işidir** (🇹🇷 → 🇩🇪 yönü artikeli ister, artikeller renklidir) ve sınava kadar kelimeyle birlikte öğrenilir.
 - *-e → die* bir eğilimdir (*der Name, der Käse, das Ende*): bu istisnalar sorulmaz, karşılaşılırsa `artikel-kelime` sayılır.
+
+### Çoğul: kural mı, kelime mi?
+Artikeldeki ayrımın aynısı (Neden: Almancada yüzlerce ismin çoğulu ayrı ayrı öğrenilir; her birini bir konunun kademesine bağlamak hattı aylarca durdurur, *zwei Häuser* bir kuraldan değil kelimeden gelir).
+- **Kural** ([[A1-05 Plural der Nomen]], `plural-endung` / `plural-artikel`): çoğulda artikel **hep die**; *-e* ile biten isim → **-n** (*Lampe → Lampen, Decke → Decken*); *-in* → **-innen**; *-ung / -heit / -keit / -ion* → **-en**; *-chen / -lein* ve *-er / -el* ile biten der/das isimleri → **değişmez** (*Mädchen, Lehrer*); ünlüyle biten yabancı isimler → **-s** (*Auto, Sofa*). Bu kalıplarda hata yapı hatasıdır.
+- **Kelime** (`plural-kelime`, genel etiket): çoğulu bir kuraldan çıkmayan isim (*der Tisch → Tische, das Haus → Häuser, der Stuhl → Stühle, das Jahr → Jahre*). Yapı hatası sayılmaz, hiçbir konuyu durdurmaz; ham puanda yarım puan düşer, `/kontrol` ismi çoğuluyla "Yarın bağlamda" listesine yazar.
+- **Konu kısa sürer, çoğul her yerde yaşar.** A1-05'in işi kullanımı oturtmaktır (çoğulda *die*, birkaç ana kalıp, sayıdan sonra çoğul). Kullanım oturunca konu biter; çoğul biçimleri ondan sonra **bütün alıştırmalara yayılır**: her antrenmanda en az 3 soruda (odak, tekrar, kelime, okuma) bir isim çoğul geçer, sözlük balonu çoğulunu gösterir (`kok`: *der Turm, die Türme*). Ayrı bir çoğul bölümü açılmaz.
 
 ### Üretim ve anlama sınırı
 Sorulan ile okunan aynı sınıra bağlı değildir. Üretim dar tutulur ki yarım bilinen yapı araya kaynamasın; anlama geniş tutulur ki metinler gerçek dile benzesin ve sıradaki konular kulağa önceden yerleşsin. (Neden: tek sınırla bütün metinler şimdiki zaman + der/die/das ile yazılır, aynı birkaç kelime ve kalıp (*müde*, *Mädchen*, "Das ist …") her gün döner, daha önce çalışılmış konular metinlerde bile görünmez.)
@@ -201,7 +198,7 @@ Süre `_kisisel/Profil.md` içindeki `gunluk_dakika` değerinden gelir. Bir soru
 |---|---|
 | ~%30 | 🔧 **Fiil hattı:** odak konusu kendi kademesinde (8–14 soru; dağılımı alt beceri kanıtı belirler), ya da yoklama; ön konu varsa onun 4–6 sorusu bu payın içinde |
 | ~%30 | 🧱 **İsim hattı:** aynı biçimde |
-| ~%10 | 🔁 **Tekrar:** onarımdaki konular önce (konu başına 5–6 soru), sonra vadesi gelen bitmiş konular (K4, karışık) |
+| ~%10–25 | 🔁 **Tekrar:** onarımdaki konular önce (konu başına 3–6 soru), sonra yayılımdaki konular (2–3 soru), sonra vadesi gelen bitmiş konular (K4, karışık); toplam en fazla ~12 |
 | ~%10 | 🔤 **Kelime:** sıradaki ya da zayıf kelime teması |
 | ~%20 | **Beceri** (günlere göre, aşağıda). Metinler üretim sınırında yazılır, anlama sınırından yapılar sözlüklü geçebilir (Üretim ve anlama sınırı) |
 | +10 dk | **Tempelhof günlüğü** (puanlanmaz) |
@@ -418,7 +415,7 @@ Beyana göre değişen diğer şeyler:
 - Her sorunun `konu` alanı (ölçtüğü konu) ve `kanit` listesi (doğru cevapta kullanıcının **kendisinin üretmesi gereken** diğer yapıların konuları, en fazla 3) olur. Soruda hazır verilen yapı kanıt sayılmaz.
 - Claude puanlarken konu konu karar verir ve `sonuc[id].kanit` nesnesine yazar: `1` yapı doğru · `0` dilbilgisi hatası · `null` yapı cevapta görünmüyor (kullanıcı başka yoldan söyledi). Tam puanlı soruda yazmak gerekmez (hepsi 1 sayılır); puanı 1'den küçük ve `kanit` listesi olan soruda **zorunludur**, yoksa betik durur. Boş ya da `?` cevap sorunun `konu`'sunda hatadır, yan kanıtlarda bir şey göstermez.
 - Sayım: `1` → doğru +1, soru +1 · `0` → konu **bozulur** (`yoklama: hata d/s`, başlangıç kademesi: doğruların oranı ≥ 2/3 ise K2, değilse K1) · `null` → sadece soru +1. Eşik **doğru kanıt** sayısına bakar.
-- Genel etiketler (`yazim`, `kelime-eksik`, `ingilizce-kelime`, `kalip-ifade`, `artikel-kelime`) hata sayılmaz (Kurallar → Yoklama).
+- Genel etiketler (`yazim`, `kelime-eksik`, `ingilizce-kelime`, `kalip-ifade`, `artikel-kelime`, `plural-kelime`) hata sayılmaz (Kurallar → Yoklama).
 - Serbest yazmada doğru kurulan her farklı yapı konusuna 1 kanıt (`sonuc[id].kanit`, metin başına konu başına en fazla 1), yanlış kurulan yapı hatadır. Metinde hiç kullanılmayan yapı bir şey göstermez.
 - Sayaçlar her `puan` çalıştırmasında bütün tur dosyalarından baştan hesaplanır; komutu iki kez çalıştırmak sonucu değiştirmez.
 
@@ -495,7 +492,7 @@ Sınav `Profil.md` → `sinav_tarihi`. B1 müfredatı **prova gününde** (sına
 ## Puanlama betiği
 Kademe, yoklama, tekrar, onarım, ön konu, kelime teması ve Teile geçişlerini **`python3 -I _sistem/ilerleme.py <gün>`** hesaplar (her `/kontrol`'de Claude'un elle yazdığı betik yerine). Claude önce `sonuc` nesnesini (puan, etiket, gerekirse `yapi`) soru dosyasına yazar, sonra betiği çalıştırır:
 - `--kuru` (varsayılan): ne değişeceğini tablo olarak yazar, dosyaya dokunmaz. `--yaz`: kişisel ilerlemeyi (`_kisisel/ilerleme.json`) günceller ve `_kisisel/ilerleme.log` dosyasına bir satır ekler.
-- `sonuc[id].yapi`: yapı doğruysa 1, değilse 0. Yazılmazsa betik puandan ve etiketten çıkarır (genel etiketli kısmi cevap → yapı doğru).
+- `sonuc[id].yapi`: ölçülen konunun yapısı doğruysa 1, değilse 0. Yazılmazsa betik etiketten ve puandan çıkarır: genel etiketli cevap puanı ne olursa olsun → yapı doğru; diğerleri tam puansa doğru. Etiketin bağlı konusu ölçülen konu değilse betik her zaman 1 sayar (Başka konunun hatası). `sonuc[id].etiketler`: aynı cevaptaki ek hata etiketleri; hata etiketi kuralına sayılır.
 - Betik kurallarla çelişen bir şey görürse (ör. bilinmeyen konu id'si) durur ve söyler; Claude elle karar verir ve nedenini sonuç notuna yazar.
 - `python3 -I _sistem/ilerleme.py alt`: alt beceri durumu, son yapı hataları ve dar onarımdaki konuların dar alt becerileri (Alt beceri kanıtı, Dar onarım). `python3 -I _sistem/ilerleme.py sinir`: üretim ve anlama sınırı.
 - `python3 -I _sistem/cesitlilik.py <gün>`: soru dosyasının çeşitlilik denetimi (Çeşitlilik). Hiçbir dosyayı değiştirmez.
